@@ -251,7 +251,7 @@ translations:
     - key: features.variables
       t: Variables CSS (Propriétés Custom)
     - key: features.containment
-      t: Endiguement CSS
+      t: Compartimentation CSS
     - key: features.will_change
       t: <code>will-change</code>
     - key: features.calc
