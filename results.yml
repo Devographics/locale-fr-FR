@@ -318,7 +318,7 @@ translations:
         satisfait avec l'état global de cette catégorie ?
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: Rester connecté.e
     - key: blocks.newsletter.description
       t: |
