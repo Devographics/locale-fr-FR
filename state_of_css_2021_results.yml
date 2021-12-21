@@ -63,20 +63,21 @@ translations:
 
     - key: sections.user_info.description
       t: |
-          This year's survey reached **8,714** developers throughout the world, and in order
-          to help highlight different voices and surface deeper insights, we made a special
-          effort to provide new ways to break our data down. 
+          L'enquête de cette année a touché **8 714** développeurs à travers le monde, et afin d'aider 
+          à mettre en évidence différentes voix et de faire émerger des informations plus approfondies, 
+          nous avons fait un effort particulier pour fournir de nouvelles façons de décomposer nos données.
 
     - key: sections.features.description
       t: |
-          CSS's dynamism shows no sign of stopping, as developers make an effort to adopt the current
-          crop of new features while looking forward to even more innovation in the next few years. 
+          Le CSS continue de se développer rapidement et ne va clairement pas s'arrêter là, les développeurs 
+          essaient d'adopter les nouvelles fonctionnalités mais s'attendent à l'arrivée d'une grande vague 
+          de nouvelles innovations dans les années à venir.
 
     - key: sections.technologies.description
       t: |
-          With nearly 50% of respondents happily using one or more CSS-in-JS library, it's safe to say that
-          the category has managed to carve out its niche. Maybe the two sides of the front-end world are 
-          not so far apart after all?
+          Avec près de 50% des personnes interrogées disant utiliser avec plaisir une ou plusieurs 
+          librairie CSS-in-JS, on peut dire avec certitude que la catégorie a réussi à se tailler 
+          une place. Peut-être que ces deux faces du monde du front-end ne sont pas si éloignés que ça après tout ?
 
     - key: sections.tools_others.description
       t: |
