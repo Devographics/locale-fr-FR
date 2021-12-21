@@ -106,22 +106,22 @@ translations:
 
     - key: blocks.gender.note
       t: |
-          If you're interested in learning more, we [wrote a blog post](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) that addresses the survey's gender dynamics.
+          Si vous voulez en savoir plus, nous avons écrit un [article de blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) qui aborde la dynamique de genre de l'enquête.
 
     - key: blocks.currently_missing_from_css.note
       t: |
-          You can explore the full dataset of answers to this question in [this side project](https://whatsmissingfromcss.com/).
+          Vous pouvez explorer l'ensemble des réponses à cette question dans [ce side project](https://whatsmissingfromcss.com/).
 
     - key: blocks.source.note
       t: >
       
-        This chart aggregates a mix of referrers, URL parameters, and freeform answers. 
+        Ce graphique regroupe un mélange de référents, de paramètres d'URL et de réponses libres.
 
         - State of JS: the [State of JS](https://stateofjs.com) mailing list.
 
-        - State of CSS: the State of CSS mailing list; also matches `email`, `by email`, etc.
+        - State of CSS: the State of CSS mailing list; correspond à `email`, `by email`, etc.
 
-        - Work: matches `work`, `colleagues`, `coworkers`, etc.
+        - Work: correspond à `work`, `colleagues`, `coworkers`, etc.
 
     ###########################################################################
     # Awards
