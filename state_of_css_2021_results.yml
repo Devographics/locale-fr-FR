@@ -81,23 +81,24 @@ translations:
 
     - key: sections.tools_others.description
       t: |
-          Picking a technology can often come down to a series of tough choices between 
-          competing priorities, and this year we tried to capture this process using a new bracket-style question format. 
+          Le choix d'une technologie particulière est souvent compliqué par des priorités 
+          concurrentes. Cette année, nous avons donc essayé de représenter ce processus en 
+          utilisant un nouveau format de questions sous la forme d'un tournoi. 
 
     - key: sections.environments.description
       t: |
-          Accessibility has long been an after-thought when it comes to web development, but many developers
-          are now realizing that it should in fact be the foundation on which everything else rests. 
+          L'accessibilité a longtemps été une réflexion après coup lorsqu'il s'agit de développement Web, mais 
+          de nombreux développeurs réalisent maintenant qu'elle devrait en fait être la base sur laquelle tout le reste repose. 
 
     - key: sections.resources.description
       t: |
-          Highlighting blogs, podcasts, and sites is fine, but this year we decided to go one step further
-          and actually feature the people who make up the CSS community themselves! 
+          Mettre en évidence les blogs, les podcasts et les sites, c'est bien, mais cette année, nous avons 
+          décidé d'aller plus loin et de présenter les personnes qui composent la communauté CSS elles-mêmes ! 
 
     - key: sections.opinions.description
       t: |
-          Whether it's pain points that hold you back today, or missing features that you hope to use
-          tomorrow, this was your chance to vent and share your gripes with CSS!
+          Qu'il s'agisse de problèmes qui vous retiennent aujourd'hui ou de fonctionnalités manquantes que 
+          vous espérez utiliser demain, c'était votre chance de vous exprimer et de partager vos reproches avec le CSS !
           
     ###########################################################################
     # Notes
