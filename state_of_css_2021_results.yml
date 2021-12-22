@@ -372,11 +372,11 @@ translations:
 ###########################################################################
 
     - key: partners.frontendmasters.description
-      t: Advance your skills with in-depth, modern front-end engineering courses.
+      t: Améliorez vos compétences avec des cours d'ingénierie front-end approfondis et modernes.
     - key: partners.polypane.description
-      t: The browser for ambitious devs. Build responsive, accessible and fast websites with ease.
+      t: Le navigateur pour les devs ambitieux. Créez facilement des sites Web réactifs, accessibles et rapides.
     - key: partners.google_chrome.description
-      t: Thanks to the Google Chrome team for supporting our work.
+      t: Merci à l'équipe Google Chrome de soutenir notre travail.
 
 ###########################################################################
 # FAQ/About
