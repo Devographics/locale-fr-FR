@@ -384,68 +384,68 @@ translations:
     
     - key: about.content
       t: >
-            The 2021 State of CSS survey ran from October 5 to November 2 2021, and collected 8714 responses. The survey is run by me, [Sacha Greif](https://sachagreif.com/), with help from a team of open-source contributors and consultants. 
+            Le sondage de State of CSS s'est déroulé du 5 octobre au 2 novembre 2021, et a collecté 8714 réponses. Ce sondage a été fait par moi, [Sacha Greif](https://sachagreif.com/), avec l'aide d'une équipe de contributeurs open-source et de consultants. 
 
 
-            This year's logo and t-shirt were designed and animated by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+            Le logo de cette année et le design des t-shirts ont été designés par [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
 
-            ### Survey Goals
+            ### Objectif
 
-            This survey, along with the [State of JavaScript](https://stateofjs.com/) survey, was created to identify upcoming trends in the web development ecosystem in order to help developers make technological choices. 
+            Cette enquête, ainsi que celle de [State of JavaScript](https://stateofjs.com/), ont été crées pour identifier les tendances à venir dans le développement web et pour aider les développeurs à faire des choix technologiques. 
 
 
-            As such, these surveys are focused on anticipating what's coming over the next few years rather than analyzing what's popular now, which is why the features or technologies that are currently most widespread are not always included. 
+            Aussi, cette enquête se concentre plus sur l'anticipation des technologies qui arriverons dans les prochaines années que l'analyse de celles en vogue actuellement, C'est pour cette raison que les fonctionnalités et technologies très utilisés aujourd'hui ne sont pas forcement inclus. 
 
-            ### Survey Design
+            ### Design
 
-            The survey was designed in part based on last year's survey, with an open feedback period where the survey outline was discussed [on GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8). 
+            Ce sondage a été en partie conçu en reprenant le modèle de l'enquête de l'année dernière, avec une période de rétroaction ouverte où le plan de l'enquête a été discuté [sur GitHub](https://github.com/StateOfJS/StateOfCSS-2020/issues/8). 
             
-            All survey questions were optional. 
+            Toutes les questions du sondage étaient facultatives. 
 
-            ### Survey Audience
+            ### Audience
 
-            The survey was openly accessible online and respondents were not filtered or selected in any way. Respondents were primarily a mix of respondents from past surveys (alerted through a dedicated mailing list) and social media traffic. 
+            L'enquête était accessible publiquement en ligne et les participants n'ont en aucune façon été filtrés. Les participants sont majoritairement un mix d'anciens participants (alertés via une mailling liste) et du traffic en provenance des réseaux sociaux. 
 
-            ### Representativeness & Inclusivity
+            ### Représentativité et inclusion
 
-            While we believe it's important to give a voice to every community, the reality is that an open survey like this one will always struggle to properly represent everybody, especially when operating through systems that already carry their own inherent biases. 
-
-
-            In order to counter-balance this, we are implementing three distinct strategies:
+            Bien que nous pensons qu'il est important de donner une voix à chaque communauté, la réalité est qu'une enquête ouverte comme celle-ci aura toujours du mal à représenter correctement tout le monde, en particulier lorsqu'elle fonctionne à travers des systèmes qui portent déjà leurs propres biais inhérents. 
 
 
-            - **Outreach**: this year, we reached out to 23 organizations representing BIPOC and LGBTQ developers in the hopes of partnering up. While very few of them replied, we will keep looking for ways to reach out beyond our current audience.
+            Afin de contrebalancer cela, nous mettons en œuvre trois stratégies distinctes :
+
+
+            - **Portée**: Cette année nous avons atteint 23 organisations représentant des développeurs BIPOC et LGBTQ dans l'espoir d'un partenariat. Bien que très peu d'entre eux aient répondu, nous continuerons de chercher des moyens d'atteindre un public plus large. 
             
-            - **Data Analysis**: through features like facets and variants, we're always trying to make it easier to surface the voices of any demographic segment, no matter how minoritized it might be in our data. 
+            - **Analyse des données**: Nous essayons de toujours donner la même voix à n'importe quel segment démographique, aussi minorisé soit-il dans nos données. 
             
-            - **Barrier Lowering**: making the survey too long, inaccessible, slow to load, English-only, etc. can all contribute to imposing an "effort tax" that cuts off the parts of the community that can't afford to pay it. Fixing these issues can lower the barrier to entry and in the process make our audience more diverse. 
+            - **Diminution des barrières**: En faisant un sondage trop long, inaccessible, trop long à charger, uniquement en anglais, etc, peut augmenter la barrière social qui empêche d'avoir une grande diversité dans les données. 
 
-            ### Project Funding
+            ### Financement du projet
 
-            Funding from this project comes from a variety of sources:
+            Le financement provient de plusieurs sources :
 
 
-            - **T-shirt sales**. 
+            - **Vente de T-shirt**. 
             
-            - **Sponsored links**: the links to recommended resources at the bottom of each page are provided by our partner [Frontend Masters](https://frontendmasters.com/).
+            - **Lien sponsorisé**: Les liens de recommandations de produits en bas de chaque page proviennent de notre partenaire [Frontend Masters](https://frontendmasters.com/).
             
-            - **Other Funding**: this year, the [Google Chrome](https://www.google.com/chrome/) team set aside a small budget to help hire an [accessibility consultant](https://fossheim.io/) to work on the survey.
+            - **Autre financement**: Cette année, l'équipe de [Google Chrome](https://www.google.com/chrome/) a mis de côté un petit budget pour aider à embaucher un [consultant en accessibilité](https://fossheim.io/) pour travailer sur ce projet.
 
 
-            Despite these funding sources, the surveys remains mostly a self-funded project overall and any contribution or sponsorship would be greatly appreciated. I would especially like to work closely with more browser vendors, since they play such a central role in the web ecosystem.  
+            Malgré ces sources de financement, les sondages restent principalement un projet autofinancé dans l'ensemble et toute contribution ou parrainage serait grandement apprécié. J'aimerais particulièrement travailler en étroite collaboration avec davantage de fournisseurs de navigateurs internet, car ils jouent un rôle central dans l'écosystème Web.  
 
-            ### Technical Overview
+            ### Aperçu technique
 
-            You can find a more in-depth technical overview of how the surveys are run [here](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+            Vous pouvez trouver un article approfondi sur comment ce site fonctionne [ici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
 
-            - **Data collection**: custom [Vulcan.js](http://vulcanjs.org/) app.
+            - **Collection de données**: Application custom avec [Vulcan.js](http://vulcanjs.org/).
 
-            - **Data storage/processing**: MongoDB & MongoDB Aggregations.
+            - **Stockage et traitement des données**: MongoDB & MongoDB Aggregations.
             
             - **Data API**: Node.js GraphQL API. 
             
-            - **Results Site**: [Gatsby](https://www.gatsbyjs.com/) React app.
+            - **Site web**: React avec [Gatsby](https://www.gatsbyjs.com/).
             
-            - **Data Visualizations**: [Nivo](https://nivo.rocks/) React dataviz library. 
+            - **Visualisation des données**: Librairie [Nivo](https://nivo.rocks/) React dataviz. 
             
-            - **Type**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) and [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+            - **Police**: [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) et [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
