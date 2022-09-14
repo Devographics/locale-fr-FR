@@ -371,11 +371,11 @@ translations:
 # Sponsors
 ###########################################################################
 
-    - key: partners.frontendmasters.description
+    - key: sponsors.frontendmasters.description
       t: Améliorez vos compétences avec des cours d'ingénierie front-end approfondis et modernes.
-    - key: partners.polypane.description
+    - key: sponsors.polypane.description
       t: Le navigateur pour les devs ambitieux. Créez facilement des sites Web réactifs, accessibles et rapides.
-    - key: partners.google_chrome.description
+    - key: sponsors.google_chrome.description
       t: Merci à l'équipe Google Chrome de soutenir notre travail.
 
 ###########################################################################
