@@ -39,7 +39,7 @@ translations:
     - key: general.preview_survey
       t: Prévisualiser le questionnaire »
     - key: general.finish_survey
-      t: Terminer le questionnaire »
+      t: Terminer le questionnaire
     - key: general.survey_closed
       t: Ce questionnaire est maintenant terminé.
     - key: general.survey_results
