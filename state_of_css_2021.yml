@@ -4,7 +4,7 @@ translations:
     # Introduction
     ###########################################################################
 
-    - key: sections.introduction.description
+    - key: introduction.css2021
       t: |
 
             <span class="first-letter">L</span>es menuisiers doivent-ils apprendre une nouvelle et meilleure façon de scier une planche tous les deux ans ? Les peintres se sentent-ils comme des fraudeurs parce qu'ils utilisent encore de la peinture à l'huile ? Ou est-ce juste nous, développeurs front-end, qui expérimentons cet état de changement constant ?

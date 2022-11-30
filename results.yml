@@ -352,7 +352,7 @@ translations:
       t: Désolé, l'export CSV n'est pas disponible pour ce jeu de données.
     - key: export.graphql
       t: >
-          Vous pouvez copier-coller cette requête dans notre <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/">API GraphQL publique</a>.
+          Vous pouvez copier-coller cette requête dans notre <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/">API GraphQL publique</a>.
 
     # Tools usage variations
     - key: blocks.tools_usage_variations
