@@ -40,8 +40,10 @@ translations:
     t: Commencer à répondre »
   - key: general.continue_survey
     t: Continuer à répondre »
-  - key: general.review_survey
+  - key: general.review_answers
     t: Revoir mes réponses »
+  - key: general.review_survey
+    t: Revoir les questions »
   - key: general.preview_survey
     t: Prévisualiser le questionnaire »
   - key: general.finish_survey
