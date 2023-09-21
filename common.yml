@@ -14,7 +14,7 @@ translations:
       - Vous donner accès à vos données
       - Enregistrer vos réponses en cours
       - Vous tenir au courant de la sortie des résultats
-  - key: general.survey_closed
+  - key: general.survey_closed_detailed
     t: >
       Désolé, le questionnaire est terminé ! Vous pouvez toujours voir vos réponses mais vous ne pourrez pas les modifier.
   - key: general.survey_read_only
