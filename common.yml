@@ -105,7 +105,7 @@ translations:
     t: Partager sur Twitter
   - key: thanks.share_score_message
     t: >
-      J'ai obtenu un score de connaissance de {score}% sur le questionnaire #{hashtag} de cette année! Pour y participer, rendez-vous ici: {shareUrl}
+      J'ai obtenu un score de connaissance de {score} points sur le questionnaire #{hashtag} de cette année! Pour y participer, rendez-vous ici: {shareUrl}
   # share
   - key: general.share_subject
     t: >
