@@ -16,7 +16,7 @@ translations:
 
       Cette année, [Lea Verou](https://lea.verou.me/) a entreprit la formidable tache de mener la conception de ce tout nouveau questionnaire, du contenu à l'expérience utilisateur et au delà.
 
-      Bâtit sur le succès du [L'État du JS](http://stateofjs.com/) and [L'État du CSS](https://stateofcss.com/), voici **L'État du HTML**;
+      Bâtit sur le succès du [L'État du JS](http://stateofjs.com/) et de [L'État du CSS](https://stateofcss.com/), voici **L'État du HTML**;
       la pièce manquante qui complète la trilogie, pour que nous puissions suivre l'évolution de la plateforme web dans son ensemble.
 
       Vos bénéfices:
@@ -133,7 +133,7 @@ translations:
   - key: features.dom_html_features
     t: Fonctionnalités HTML de gestion des chaines de caractères
   - key: features.dom_html_features.question
-    t: Parmi les fonctionnalités suivantes de traitement des chaines du DOM HTML, lesquelles avez vous utilisé ?
+    t: Parmi les fonctionnalités suivantes de traitement des chaines du DOM HTML, lesquelles avez vous utilisées ?
 
   - key: features.dom_methods
     t: Element reparenting DOM Methods
@@ -141,7 +141,7 @@ translations:
   - key: features.dom_moving_element_features
     t: Méthodes de déplacement des éléments du DOM
   - key: features.dom_moving_element_features.question
-    t: Lesquelles de ces méthodes de déplacement des éléments du DOM avez vous déjà utilisé ?
+    t: Lesquelles de ces méthodes de déplacement des éléments du DOM avez vous déjà utilisées ?
   # - key: options.dom_methods.element_innerhtml.description
   #   t: |
   #     `element.innerHTML = rawHTML`
@@ -182,9 +182,9 @@ translations:
     t: <span aria-hidden="true">🚫</span> Aucun des points ci dessus
 
   - key: features.interactivity_pain_points
-    t: Les points noirs de L'interactivité
+    t: Les points noirs de l'interactivité
   - key: features.interactivity_pain_points.question
-    t: Quel sont les points noir autour des changements dynamiques du HTML?
+    t: Quel sont les points noirs autour des changements dynamiques du HTML?
   - key: features.interactivity_pain_points.description
     t: |
       Les incompatibilités entre navigateurs ou le manque de support, les fonctionnalités manquantes et les autres problèmes que vous rencontrez
@@ -197,7 +197,7 @@ translations:
   - key: features.interactivity_techniques
     t: Méthode de l'interactivité
   - key: features.interactivity_techniques.question
-    t: Lesquelles de ces méthodes avez vous déjà utilisé pour ajouter de l'interactivité ou modifier dynamiquement du HTML?
+    t: Lesquelles de ces méthodes avez vous déjà utilisées pour ajouter de l'interactivité ou modifier dynamiquement du HTML?
   - key: options.interactivity_techniques.css_for_interactivity
     t: CSS l'interactivité (toggles, onglets, etc.)
   - key: options.interactivity_techniques.js_dom_libraries
@@ -216,7 +216,7 @@ translations:
   - key: features.machine_readable_features
     t: Données lisibles par la machine
   - key: features.machine_readable_features.question
-    t: Lesquelles de méthodes avez-vous déjà utilisé pour ajouter des données lisibles par la machine dans du HTML ?
+    t: Lesquelles de méthodes avez-vous déjà utilisées pour ajouter des données lisibles par la machine dans du HTML ?
   - key: options.machine_readable_features.rdfa.description
     t: |
       `property`, `typeof`, etc.
@@ -243,9 +243,9 @@ translations:
   - key: features.i18n_features
     t: Fonctionnalités d'internationalisation
   - key: features.i18n_features.question
-    t: Lesquelles de ces fonctionnalités d'internationalisation avez vous déjà utilisé?
+    t: Lesquelles de ces fonctionnalités d'internationalisation avez vous déjà utilisées ?
   - key: options.i18n_features.na
-    t: <span aria-hidden="true">🚫</span>Aucun des points ci dessus
+    t: <span aria-hidden="true">🚫</span> Aucun des points ci dessus
 
   # - key: options.i18n_features.intl_datetimeformat.description
   #   t:
@@ -276,14 +276,14 @@ translations:
       Les fonctionnalités manquantes, l'incompatibilités des navigateurs, et les autres problèmes auxquels vous êtes confrontés.
   - key: features.content_pain_points.placeholder
     t: |
-      Point noir#{index}…
+      Point noir #{index}…
 
   # Content
 
   - key: features.external_content_elements
     t: Éléments de contenu externe
   - key: features.external_content_elements.question
-    t: Lesquels des éléments suivants avez vous déjà utilisé ?
+    t: Lesquels des éléments suivants avez vous déjà utilisés ?
   - key: options.external_content_elements.na
     t: <span aria-hidden="true">🚫</span> Aucun des points ci dessus
 
@@ -292,7 +292,7 @@ translations:
       Fonctionnalités de sécurité et de confidentialité
   - key: features.privacy_security_features.question
     t: |
-      Lesquelles de ces fonctionnalités de sécurité et de confidentialité avez vous déjà utilisé?
+      Lesquelles de ces fonctionnalités de sécurité et de confidentialité avez vous déjà utilisées ?
   - key: options.privacy_security_features.na
     t: <span aria-hidden="true">🚫</span> Aucun des points ci dessus
 
@@ -300,7 +300,7 @@ translations:
     t: Indications pour les ressources
   - key: features.rel_attribute.question
     t: |
-      Lesquelles de ces valeurs avez vous déjà utilisé pour l'attribut `rel` de la balise`<link>` ?
+      Lesquelles de ces valeurs avez vous déjà utilisées  pour l'attribut `rel` de la balise`<link>` ?
 
   # - key: features.external_content_pain_points
   #   t: External Content Pain Points
@@ -323,7 +323,7 @@ translations:
   - key: features.web_components_features
     t: Autres fonctionnalités des Composants Web
   - key: features.web_components_features.question
-    t: Lesquelles de ces fonctionnalités des Composants Web avez vous déjà utilisé?
+    t: Lesquelles de ces fonctionnalités des Composants Web avez vous déjà utilisées ?
   - key: options.web_components_features.host_pseudos.description
     t: |
       `:host` , `:host()` , `:host-context()`
@@ -334,22 +334,22 @@ translations:
     t: <span aria-hidden="true">🚫</span> Aucun des points ci dessus
 
   - key: features.using_web_components_pain_points
-    t: Point noir de l'utilisation des Webs Components
+    t: Points noirs de l'utilisation des Webs Components
   - key: features.using_web_components_pain_points.question
     t: Quel est votre plus gros point noir lié à la l'utilisation de Webs Components
   - key: features.using_web_components_pain_points.description
-    t: Utilisation de Composants Web que vous ou d'autre on créé. Fonctionnalités manquantes , incompatibilité des navigateurs, etc.
+    t: Utilisation de Composants Web que vous ou d'autre ont créé. Fonctionnalités manquantes , incompatibilité des navigateurs, etc.
   - key: features.using_web_components_pain_points.placeholder
     t: |
       Point noir #{index}…
 
   - key: features.making_web_components_pain_points
-    t: Point noir de l'implémentation des Composants Web
+    t: Points noirs de l'implémentation des Composants Web
   - key: features.making_web_components_pain_points.question
     t: Quel est votre plus gros point noir lié à l'implémentation des composants web ?
   - key: features.making_web_components_pain_points.description
     t: |
-      Qu'est ce qui vous empêche de créer les composants géniaux que vous imaginer ? 
+      Qu'est ce qui vous empêche de créer les composants géniaux que vous imaginez ? 
       Fonctionnalités manquantes, incompatibilité des navigateurs, etc.
   - key: features.making_web_components_pain_points.placeholder
     t: |
@@ -358,19 +358,19 @@ translations:
   # Accessibility
 
   - key: features.accessibility_features
-    t: Fonctionnalités d'Accessibilité
+    t: Fonctionnalités d'accessibilité
   - key: features.accessibility_features.question
-    t: Lesquelles de ces fonctionnalités d'accessibilité avez vous déjà utilisé ?
+    t: Lesquelles de ces fonctionnalités d'accessibilité avez vous déjà utilisées ?
 
   - key: features.accessibility_tools
     t: Outils d'accessibilité
   - key: features.accessibility_tools.question
-    t:Quel outils utilisez vous pour tester l'accessibilité ?
+    t: Quel outils utilisez vous pour tester l'accessibilité ?
 
   - key: features.accessibility_pain_points
-    t: Points noirs de l' accessibilité
+    t: Points noirs de l'accessibilité
   - key: features.accessibility_pain_points.question
-    t: Quel est votre plus gros point noir concernant l'accessibilité?
+    t: Quel est votre plus gros point noir concernant l'accessibilité ?
   - key: features.accessibility_pain_points.placeholder
     t: |
       Point noir #{index}…
@@ -381,127 +381,126 @@ translations:
     t: Quel type de handicap de l'utilisateur prenez-vous en compte ?
 
   - key: options.accessibility_disabilities.hearing_impairments
-    t: Hearing impairments
+    t: Déficience auditive
   - key: options.accessibility_disabilities.hearing_impairments.description
-    t: Deafness, tinnitus, etc.
+    t: Surdité, acouphènes, etc.
 
   - key: options.accessibility_disabilities.mobility_impairments
-    t: Mobility impairments
+    t: Mobilité réduite
   - key: options.accessibility_disabilities.mobility_impairments.description
-    t: Arthritis, carpal tunnel, etc.
+    t: Arthrite, canal carpien, etc.
 
   - key: options.accessibility_disabilities.learning_disabilities
-    t: Learning disabilities
+    t: Troubles de l'apprentissage
   - key: options.accessibility_disabilities.learning_disabilities.description
-    t: Dyslexia, dyscalculia, etc.
+    t: Dyslexie, dyscalculie, etc.
 
   - key: options.accessibility_disabilities.cognitive_impairments
     t: |
-      Other cognitive impairments
+      Autres troubles cognitifs
   - key: options.accessibility_disabilities.cognitive_impairments.description
     t: |
-      Anxiety, Autism, OCD, ADHD, etc.
+      Anxiété, autisme, TOC, THADA, etc.
 
   - key: options.accessibility_disabilities.vestibular_disorders
-    t: Vestibular disorders
+    t: Troubles vestibulaires
   - key: options.accessibility_disabilities.vestibular_disorders.description
-    t: Epilepsy, vertigo, etc.
+    t: Épilepsie, vertiges, etc.
 
   - key: options.accessibility_disabilities.low_vision
-    t: Low vision
+    t: Vision faible
   - key: options.accessibility_disabilities.low_vision.description
-    t: Blindness, high myopia, etc.
+    t: Cécité, forte myopie, etc
 
   - key: options.accessibility_disabilities.atypical_vision
-    t: Atypical color vision
+    t: Vision des couleurs atypique
   - key: options.accessibility_disabilities.atypical_vision.description
-    t: Color blindness
+    t: Daltonisme
 
   - key: features.accessibility_screenreaders
-    t: Screen Readers
+    t: Lecteurs d'écran
   - key: features.accessibility_screenreaders.question
-    t: Which screen readers do you use for accessibility testing?
+    t: Quels lecteurs d'écran utilisez vous pour les test d'accessibilité ?
 
   - key: features.accessibility_techniques
-    t: Other Accessibility Techniques
+    t: Autres techniques d'accessibilités
   - key: features.accessibility_techniques.question
-    t: What other techniques are part of your regular accessibility strategy?
-
+    t: Quelles autres techniques font partie de votre stratégie d'accessibilité habituelle ?
   - key: options.accessibility_techniques.tabindex
     t: |
       Improving focus order with `tabindex`
   - key: options.accessibility_techniques.tabindex.description
     t: |
-      Roving `tabindex`, `tabindex="0"` to enable focus, etc.
+      Roving `tabindex`, `tabindex="0"` pour activer le focus, etc.
   - key: options.accessibility_techniques.keyboard_navigation
-    t: Intuitive keyboard navigation
+    t: Navigation intuitive au clavier
   - key: options.accessibility_techniques.keyboard_navigation.description
-    t: Other than tab order.
+    t: Autre que l'ordre des tabulations
   - key: options.accessibility_techniques.aria_attributes
-    t: ARIA attributes
+    t: attributs ARIA 
   - key: options.accessibility_techniques.aria_attributes.description
     t: |
-      `role` and `aria-*` attributes
+      attributs `role` et `aria-*` 
   - key: options.accessibility_techniques.descriptive_alt_text
     t: |
-      Descriptive `alt` text
+      Texte `alt` descriptif
   - key: options.accessibility_techniques.descriptive_alt_text.description
-    t: Providing alt text that describes the purpose or content of an image.
+    t: Fournir un texte alt décrivant l'objectif ou le contenu d'une image..
   - key: options.accessibility_techniques.skip_to_content
-    t: Skip-to-content link
+    t: Lien d'évitement "aller au contenu".
   - key: options.accessibility_techniques.skip_to_content.description
-    t: Letting users skip straight to the main content of a page.
+    t: Permettre aux utilisateurs de passer directement au contenu principal d'une page.
   - key: options.accessibility_techniques.fieldset_and_legend
     t: |
-      `<fieldset>` and `<legend>`
+      `<fieldset>` et `<legend>`
   - key: options.accessibility_techniques.fieldset_and_legend.description
     t: |
-      Using `<fieldset>` and `<legend>`  to group related form elements.
+      Utilisation des balises `<fieldset>` et  `<legend>` pour grouper des éléments de formulaire associés.
   - key: options.accessibility_techniques.headings_hierarchy
-    t: Information Hierarchy
+    t: Hiérarchie de l'information
   - key: options.accessibility_techniques.headings_hierarchy.description
     t: |
-      Using headings (`<h1>` - `<h6>`) that correctly represent a page's information hierarchy.
+      Utiliser des titres (`<h1>` - `<h6>`) qui représentent correctement la hiérarchie de l'information d'une page.
   - key: options.accessibility_techniques.meaningful_link_text
-    t: Meaningful Link Text
+    t: Texte de lien significatif
   - key: options.accessibility_techniques.meaningful_link_text.description
-    t: Ensuring that link text makes sense out of context
+    t: S'assurer que le contenu des liens est significatif hors contexte
   - key: options.accessibility_techniques.form_control_label
-    t: Form Control Labels
+    t: Étiquette de champs de formulaire
   - key: options.accessibility_techniques.form_control_label.description
     t: |
-      Ensuring every form control has a `<label>` (or `aria-label`, etc.).
+      Faire en sorte que chaque champ de formulaire possède un `<label>` (ou un `aria-label`, etc.).
   - key: options.accessibility_techniques.visible_focus
-    t: Visible Focus Ring
+    t: Hallo de focus visible
   - key: options.accessibility_techniques.visible_focus.description
-    t: Ensuring focus ring outline is clearly visible when needed.
+    t: S'assurer que le contour du halo de focus est clairement visible lorsque cela est nécessaire.
   - key: options.accessibility_techniques.pointer_alternative
-    t: Not Relying on Pointer Only
+    t: Ne pas se reposer uniquement sur le pointeur
   - key: options.accessibility_techniques.pointer_alternative.description
-    t: Ensuring pointer interactions (e.g. hover) have a keyboard alternative.
+    t: S'assurer que les interactions au pointeur (ex. hover) on une alternative dans la navigation au clavier.
   - key: options.accessibility_techniques.good_color_contrast
-    t: Sufficient Contrast
+    t: Contraste suffisant
   - key: options.accessibility_techniques.good_color_contrast.description
-    t: Using contrast checkers to ensure sufficient color contrast.
+    t: Utilisation d'outils de vérification de contraste pour garantir un contraste de couleurs suffisant.
   - key: options.accessibility_techniques.color_alternative
-    t: Not Relying on Color Only
+    t: Ne pas se fier uniquement aux couleurs
   - key: options.accessibility_techniques.color_alternative.description
-    t: Ensuring that no information is conveyed by color alone.
+    t: Veiller à ce qu'aucune information ne soit transmise uniquement par la couleur.
   - key: options.accessibility_techniques.prefers_reduced_motion
     t: |
       `prefers-reduced-motion` media query
   - key: options.accessibility_techniques.prefers_reduced_motion.description
-    t: Providing alternative CSS for users who prefer reduced motion.
+    t: Fournir une alternative CSS pour les utilisateur qui préfèrent minimiser la quantité d'animation ou de mouvement.
   - key: options.accessibility_techniques.prefers_contrast
     t: |
       `prefers-contrast` media query
   - key: options.accessibility_techniques.prefers_contrast.description
-    t: Providing alternative CSS for users who prefer increased contrast.
+    t: Fournir une alternative CSS pour les utilisateur qui préfèrent un contraste augmenté.
 
   # PWAs
 
   - key: features.pwa_features
-    t: PWA Features
+    t: Fonctionnalités PWA
   - key: features.pwa_features.question
     t: Have you used any of the following PWA technologies/APIs?
   - key: options.pwa_features.na
