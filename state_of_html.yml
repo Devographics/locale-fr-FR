@@ -502,67 +502,67 @@ translations:
   - key: features.pwa_features
     t: Fonctionnalités PWA
   - key: features.pwa_features.question
-    t: Have you used any of the following PWA technologies/APIs?
+    t: Avez vous déjà utiliser unes des technologies/APIs PWA suivantes?
   - key: options.pwa_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span>  Aucun des points ci dessus
 
   - key: features.local_storage_features
-    t: Local storage features
+    t: Fonctionnalité du Local storage 
   - key: features.local_storage_features.question
-    t: Have you used any of the following to store data client-side?
+    t: Avez vous déjà utilisé une des options suivantes pour stocker des données côté client ?
   - key: options.local_storage_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span>  Aucun des points ci dessus
 
   - key: features.pwa_app_manifest_fields
-    t: App Manifest Fields
+    t: Champs du manifeste de l'application
   - key: features.pwa_app_manifest_fields.question
     t: |
-      Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
+      Lesquels de ces champs du manifeste de l'application (`<link rel="manifest">`) avez vous déjà utilisés ?
 
   - key: features.native_apps_tools
-    t: Native Apps Tools
+    t: Outils pour les application natives
   - key: features.native_apps_tools.question
-    t: Have you used any of these tools to build native apps?
+    t: Avez vous déjà utiliser un de ces outils pour construire une application native?
   - key: features.native_apps_tools.description
-    t: Excluding scripts, command-line apps, server-side code, etc.
+    t: À l'exclusion des scripts, des applications en ligne de commande, du code côté serveur, etc.
   - key: options.native_apps_tools.na
-    t: <span aria-hidden="true">🚫</span> I haven't developed native apps
+    t: <span aria-hidden="true">🚫</span> Je n'ai pas développé d'applications natives
   - key: options.native_apps_tools.native_languages
-    t: Native technologies
+    t: Technologies natives
   - key: options.native_apps_tools.native_languages.description
     t: Objective-C, Swift, Kotlin, .NET, etc.
   - key: options.native_apps_tools.webviews
-    t: Web app loaded via Webviews
+    t: Web app chargée via des Webviews
   - key: options.native_apps_tools.js_frameworks
-    t: JavaScript-based frameworks
+    t: Frameworks basés sur javascript
   - key: options.native_apps_tools.js_frameworks.description
     t: React Native, Ionic, Electron, etc.
   - key: options.native_apps_tools.other_frameworks
-    t: Non-JavaScript frameworks
+    t: Frameworks non basés sur javascript
   - key: options.native_apps_tools.other_frameworks.description
     t: Tauri, Flutter, etc.
 
   - key: features.mobile_web_apps_pain_points
-    t: Native-like Web Apps Pain Points
+    t: Les points noirs des des applications web similaires à des applications natives. 
   - key: features.mobile_web_apps_pain_points.question
-    t: What are your biggest pain points around making web apps that feel native?
+    t: Quel est votre plus gros point noir pour développer des applications web qui ressemblent à des applications natives?
   - key: features.mobile_web_apps_pain_points.description
-    t: Capabilities the Web Platform doesn't yet have, browser differences in related APIs, etc.
+    t: Capacités que la plate-forme Web ne possède pas encore, différences entre les navigateurs dans les API connexes, etc.
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
-      Pain point #{index}
+      Point noir #{index}
 
   # Other Tools
 
   - key: other_tools.site_generators
-    t: Site Generators
+    t: Générateurs de site
   - key: other_tools.site_generators.question
-    t: Which of these static or dynamic site generators do you regularly use?
+    t: Lesquels de ces générateurs de site statique ou dynamique utilisez vous régulièrement ?
 
   - key: other_tools.ai_tools
-    t: AI Tools
+    t: Outils IA 
   - key: other_tools.ai_tools.question
-    t: Which of these AI tools do you regularly use to help you write code?
+    t: Lesquels des ces outils basés sur l'IA, utilisez vous régulièrement pour vous aider à écrire du code ?
 
   - key: other_tools.machine_readable_features
     aliasFor: features.machine_readable_features
@@ -570,7 +570,7 @@ translations:
     aliasFor: features.machine_readable_features.question
 
   - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Aucun des points ci dessus
 
   - key: other_tools.blast_from_the_past
     t: Blast from the Past!
@@ -579,7 +579,7 @@ translations:
   - key: other_tools.blast_from_the_past.description
     t: Blast from the past!
   - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Aucun des points ci dessus
 
   # Usage
 
@@ -595,37 +595,37 @@ translations:
   #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
 
   - key: usage.html_interoperability_features
-    t: Browser Interoperability
+    t: Interopérabilité des navigateurs
   - key: usage.html_interoperability_features.question
-    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
+    t: Lesquelles de ces fonctionnalités HTML existantes, ou API de navigateur, ne pouvez vous pas utiliser à cause des différences d'implémentation , ou le manque de support des navigateurs ?
   # - key: usage.html_interoperability_features.description
   #   t: |
   #     Any type of API the survey has asked about is within scope.
   - key: usage.html_interoperability_features.placeholder
     t: |
-      Feature #{index}
+      Fonctionnalité #{index}
 
   - key: usage.html_functionality_features
-    t: Limited Functionality
+    t: Fonctionnalité limité
   - key: usage.html_functionality_features.question
-    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
+    t: Quelles fonctionnalités HTML existantes, ou API de navigateur, ne pouvez vous pas utiliser pour d'autres raison (et pourquoi)  ?
   - key: usage.html_functionality_features.description
     t: |
-      Good candidates might be existing HTML features that you often have to recreate or augment using JS.
+      Par exemple des fonctionnalités HTML existantes que vous devez souvent recréer ou augmenter à l'aide de JS.
 
-      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+      Veuillez également préciser la raison, telle que le manque de fonctionnalité, la difficulté de la mise en forme, la mauvaise accessibilité, etc.
 
   - key: usage.html_functionality_features.placeholder.1
     t: |
-      Feature #1 (hard to style)
+      Fonctionnalité #1 (difficile à styler)
   - key: usage.html_functionality_features.placeholder.2
     t: |
-      Feature #2 (limited functionality, poor accessibility)
+      Fonctionnalité #2 (fonctionnalité limité, mauvaise accessibilité)
 
   - key: usage.what_do_you_use_html_for
-    t: HTML Usage
+    t: Utilisation du HTML
   - key: usage.what_do_you_use_html_for.question
-    t: What do you use HTML for?
+    t: A quoi vous sert le HTML ?
   - key: options.what_do_you_use_html_for.blogs
     aliasFor: options.what_do_you_use_css_for.blogs
   - key: options.what_do_you_use_html_for.design_systems
@@ -644,7 +644,7 @@ translations:
     aliasFor: options.what_do_you_use_css_for.web_apps
 
   - key: usage.tools_for_other_developers
-    t: Ecosystem Impact
+    t: Impact de l'écosystème
   - key: usage.tools_for_other_developers.question
     t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
   - key: usage.tools_for_other_developers.description
@@ -899,7 +899,6 @@ translations:
 
   - key: features.features_intro_html
     t: |
-      Welcome to the survey! These first couple sections are all about figuring out
-      which **features** of HTML (and related APIs) you know about.
+      Bienvenue dans l'enquête ! Ces deux premières sections ont pour but de déterminer les **fonctionnalité** du langage HTML (et des API associées) que vous connaissez.
 
-      By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
+      D'ailleurs, si vous souhaitez en savoir plus sur l'un des éléments de l'enquête, vous pouvez l'ajouter à votre liste de lecture en cliquant sur l'icône "+" !
