@@ -416,9 +416,9 @@ translations:
     - key: charts.ranges_multiple_diverging_lines.baseline
       t: Ligne de base
     - key: charts.ranges_multiple_diverging_lines.positive_offset
-      t: Ecart positif
+      t: Écart positif
     - key: charts.ranges_multiple_diverging_lines.negative_offset
-      t: Ecart négatif
+      t: Écart négatif
 
     ###########################################################################
     # Sharing

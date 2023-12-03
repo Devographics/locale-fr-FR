@@ -7,7 +7,7 @@ translations:
 
     - key: general.state_of_js.intro
       t: >
-          The JavaScript world could use a bit of classification.
+          Le monde JavaScript a besoin d'un peu de classification.
           Depuis 2016, ce questionnaire a collecté chaque année
           des données venant de plus de 20 000 développeurs pour identifier les tendances actuelles et à venir.
           Participez à ce questionnaire et aidez-nous à trouver les librairies qui
