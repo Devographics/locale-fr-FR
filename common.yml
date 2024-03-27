@@ -520,45 +520,45 @@ translations:
   # years of experience
   - key: user_info.years_of_experience
     t: Années d'expérience
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: Combien de temps avez-vous travaillé ou étudié dans ce domaine.
 
   # company size
   - key: user_info.company_size
     t: Taille de l'entreprise
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: Quelle est la taille de votre entreprise.
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Salaire annuel
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: En USD.
 
   # job title
   - key: user_info.job_title
     t: Intitulé du poste
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: Comment vous présentez-vous en soirée ?
 
   # javascript proficiency
 
   - key: user_info.javascript_proficiency
     t: Compétences en JavaScript
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: Quel est votre niveau de compétence en JavaScript ?
 
   # css proficiency
 
   - key: user_info.css_proficiency
     t: Compétences en CSS
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: Quel est votre niveau de compétence en CSS ?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Compétences en back-end
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: Quel est votre niveau de compétence en développement back-end ?
 
   # gender
