@@ -825,7 +825,7 @@ translations:
   - key: usage.html_pain_points_freeform
     t: Autres points sensibles
   - key: usage.html_pain_points_freeform.question
-    t: Avez-vous d'autres points sensibles concernant l'utilisation de HTML et des technologies associées ?
+    t: Avez-vous d'autres points sensibles concernant l'utilisation d'HTML et des technologies associées ?
 
   - key: usage.html_css_js_balance
     t: Équilibre HTML/CSS vs JavaScript/TypeScript
