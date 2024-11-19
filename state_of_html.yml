@@ -874,5 +874,5 @@ translations:
   - key: features.features_intro_html
     t: |
       Bienvenue dans le sondage ! Ces premières sections visent à déterminer
-      quelles **fonctionnalités** de HTML (et des APIs associées) vous connaissez.
+      quelles **fonctionnalités** d'HTML (et des APIs associées) vous connaissez.
       Au fait, si vous souhaitez en apprendre davantage sur un élément du sondage, vous pouvez l'ajouter à votre liste de lecture en cliquant sur sa petite icône "+" !
