@@ -729,7 +729,7 @@ translations:
     t: Parmi ces nouvelles fonctionnalités à venir, lesquelles vous enthousiasment le plus ?
 
   - key: usage.what_do_you_use_html_for
-    t: Utilisation de HTML
+    t: Utilisation d'HTML
   - key: usage.what_do_you_use_html_for.question
     t: Pour quoi utilisez-vous HTML ?
   - key: options.what_do_you_use_html_for.blogs
