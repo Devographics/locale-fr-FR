@@ -1,0 +1,878 @@
+locale: fr-FR
+namespace: html
+translations:
+  ###########################################################################
+  # Général
+  ###########################################################################
+  # Introduction pour stateofhtml.com
+  - key: general.state_of_html.intro
+    t: |
+      Bien que les développeurs web aient tendance à se concentrer sur JavaScript et CSS, rien de ce que nous faisons ne serait possible sans HTML qui agit comme fondation.
+      Il a longtemps semblé que HTML n'évoluait pas, mais les choses pourraient changer.
+      De nouveaux éléments comme `<selectlist>` sont à l'horizon, de nouvelles fonctionnalités intéressantes comme les popovers,
+      et tout un ensemble d'APIs navigateur associées (Web Components, PWAs, etc.).
+      S'appuyant sur le succès de [State of JS](http://stateofjs.com/) et [State of CSS](https://stateofcss.com/), nous présentons **State of HTML** ;
+      la dernière pièce manquante qui complète la trilogie, afin que nous puissions suivre l'évolution de la plateforme web dans son ensemble.
+  - key: general.state_of_html.description
+    t: L'enquête annuelle des développeurs sur la plateforme web
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+  - key: sections.forms.title
+    t: Formulaires
+  - key: sections.forms.description
+    t: Éléments et attributs liés aux formulaires
+  - key: sections.interactivity.title
+    t: Interactivité
+  - key: sections.interactivity.description
+    t: APIs permettant des interactions utilisateur plus riches.
+  - key: sections.web_components.title
+    t: Web Components
+  - key: sections.web_components.description
+    t: Création et utilisation des web components.
+  - key: sections.content.title
+    t: Contenu
+  - key: sections.content.description
+    t: Intégration, multimédia, données et autres fonctionnalités liées au contenu.
+  - key: sections.external_content.title
+    t: Contenu Externe
+  - key: sections.external_content.description
+    t: Intégration de ressources externes et autres APIs multimédia.
+  - key: sections.accessibility.title
+    t: Accessibilité
+  - key: sections.accessibility.description
+    t: Rendre les sites et applications accessibles à tous.
+  - key: sections.mobile_web_apps.title
+    t: Applications Web Native-like
+  - key: sections.mobile_web_apps.description
+    t: Création d'applications web optimisées pour mobile et bureau.
+  - key: sections.other_features.title
+    t: Autres Fonctionnalités
+  - key: sections.other_features.description
+    t: Autres éléments HTML et APIs navigateur.
+  - key: sections.other_tools.title
+    t: Autres Outils
+  - key: sections.other_tools.description
+    t: Autres outils que vous utilisez dans le cadre de votre travail.
+  - key: sections.usage.title
+    t: Utilisation
+  - key: sections.usage.description
+    t: Comment vous utilisez HTML.
+
+  ###########################################################################
+  # Fonctionnalités
+  ###########################################################################
+
+  # formulaires
+
+  - key: features.form_controls
+    t: Contrôles de formulaire
+  - key: features.form_controls.question
+    t: Quels contrôles de formulaire avez-vous utilisés ?
+
+  - key: features.form_input_types
+    t: Types de champs
+  - key: features.form_input_types.question
+    t: Quels types de champs avez-vous utilisés ?
+  - key: options.form_input_types.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+
+  - key: features.form_validation_features
+    t: Validation de formulaire
+  - key: features.form_validation_features.question
+    t: Lesquelles de ces fonctionnalités de validation de formulaire avez-vous utilisées ?
+  - key: options.form_validation_features.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+
+  - key: features.forms_pain_points
+    t: Points sensibles des formulaires
+  - key: features.forms_pain_points.question
+    t: Quels sont vos points sensibles concernant les formulaires HTML ?
+  - key: features.forms_pain_points.prompt
+    t: |
+      Pensez aux différents contrôles de formulaire (ex: `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
+      aux comportements (ex: validation, autocomplétion), à la gestion des formulaires via JS, aux APIs d'édition (ex: `contentEditable`) etc.
+      Tout ce qui vous dérange est pertinent — support navigateur, fonctionnalités manquantes, style, etc.
+  - key: features.forms_pain_points.placeholder
+    t: |
+      Point sensible #{index}…
+
+  # interactivité
+
+  - key: features.dom_attribute_features
+    t: Méthodes liées aux attributs DOM
+  - key: features.dom_attribute_features.question
+    t: Lesquelles de ces méthodes liées aux attributs DOM avez-vous utilisées ?
+
+  - key: features.dom_html_features
+    t: Fonctionnalités de gestion des chaînes HTML
+  - key: features.dom_html_features.question
+    t: Lesquelles de ces fonctionnalités de gestion des chaînes HTML du DOM avez-vous utilisées ?
+
+  - key: features.dom_methods
+    t: Méthodes DOM de réaffectation d'éléments
+
+  - key: features.dom_moving_element_features
+    t: Méthodes DOM de déplacement d'éléments
+  - key: features.dom_moving_element_features.question
+    t: Lesquelles de ces méthodes DOM de déplacement d'éléments avez-vous utilisées ?
+  - key: options.dom_methods.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+
+  - key: features.interactivity_pain_points
+    t: Points sensibles de l'interactivité
+  - key: features.interactivity_pain_points.question
+    t: Quels sont vos points sensibles concernant les changements HTML dynamiques ?
+  - key: features.interactivity_pain_points.prompt
+    t: |
+      Les incompatibilités entre navigateurs ou le manque de support, les fonctionnalités manquantes, et autres problèmes
+      que vous rencontrez avec les éléments et comportements interactifs (sauf les formulaires), la manipulation du DOM, les événements et les APIs associées.
+
+  - key: features.interactivity_pain_points.placeholder
+    t: |
+      Point sensible #{index}…
+
+  - key: features.interactivity_techniques
+    t: Méthodes d'interactivité
+  - key: features.interactivity_techniques.question
+    t: Lesquelles de ces méthodes avez-vous utilisées pour ajouter de l'interactivité ou modifier dynamiquement le HTML ?
+  - key: options.interactivity_techniques.css_for_interactivity
+    t: CSS pour l'interactivité (bascules, onglets, etc.)
+  - key: options.interactivity_techniques.js_dom_libraries
+    t: Bibliothèques JavaScript DOM (jQuery, etc.)
+  - key: options.interactivity_techniques.js_framework
+    t: Frameworks JavaScript (React, Vue, etc.)
+  - key: options.interactivity_techniques.vanilla_js
+    t: JavaScript pur (sans frameworks ni bibliothèques)
+  - key: options.interactivity_techniques.web_components
+    t: Web Components
+  - key: options.interactivity_techniques.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+
+  # contenu
+
+  - key: features.machine_readable_features
+    t: Données lisibles par machine
+  - key: features.machine_readable_features.question
+    t: Lesquels des suivants avez-vous utilisés pour inclure des données lisibles par machine en HTML ?
+  - key: options.machine_readable_features.rdfa.description
+    t: |
+      `property`, `typeof`, etc.
+  - key: options.machine_readable_features.json_ld.description
+    t: |
+      `<script type="application/ld+json">`
+  - key: options.machine_readable_features.microdata.description
+    t: |
+      `itemprop`, `itemscope`, etc.
+
+  - key: features.multiple_languages_support
+    t: Support multilingue
+  - key: features.multiple_languages_support.question
+    t: À quelle fréquence travaillez-vous sur des projets nécessitant le support de plusieurs langues ?
+  - key: options.multiple_languages_support.never
+    t: Jamais
+  - key: options.multiple_languages_support.infrequently
+    t: Rarement (moins d'une fois par an)
+  - key: options.multiple_languages_support.frequently
+    t: Fréquemment (plus d'une fois par an)
+  - key: options.multiple_languages_support.all_the_time
+    t: Tout le temps
+
+  - key: features.i18n_features
+    t: Fonctionnalités d'internationalisation
+  - key: features.i18n_features.question
+    t: Lesquelles de ces fonctionnalités d'internationalisation avez-vous utilisées ?
+  - key: options.i18n_features.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+
+  - key: features.content_pain_points
+    t: Points sensibles du contenu
+  - key: features.content_pain_points.question
+    t: Quels sont vos points sensibles concernant la gestion du contenu en HTML ?
+  - key: features.content_pain_points.prompt
+    t: |
+      Pensez à l'intégration (multimédia, iframes, SVG, etc.), aux données lisibles par machine, à l'internationalisation & localisation, à la sécurité & confidentialité, aux performances etc.
+      Les fonctionnalités manquantes, les incompatibilités entre navigateurs et autres problèmes que vous rencontrez sont tous pertinents.
+  - key: features.content_pain_points.placeholder
+    t: |
+      Point sensible #{index}…
+
+  # Contenu externe
+
+  - key: features.external_content_elements
+    t: Éléments de contenu externe
+  - key: features.external_content_elements.question
+    t: Lesquels de ces éléments avez-vous utilisés ?
+  - key: options.external_content_elements.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+
+  - key: features.privacy_security_features
+    t: |
+      Fonctionnalités de sécurité & confidentialité
+  - key: features.privacy_security_features.question
+    t: |
+      Lesquelles de ces fonctionnalités de sécurité & confidentialité avez-vous utilisées ?
+  - key: options.privacy_security_features.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+
+  - key: features.rel_attribute
+    t: Indices de ressources
+  - key: features.rel_attribute.question
+    t: |
+      Lesquelles de ces valeurs avez-vous utilisées pour l'attribut `rel` de `<link>` ?
+
+  # Web Components
+
+  - key: features.web_components_libraries
+    t: Bibliothèques Web Components
+  - key: features.web_components_libraries.question
+    t: Avez-vous utilisé des bibliothèques de Web Components ?
+
+  - key: features.web_components_features
+    t: Autres fonctionnalités Web Component
+  - key: features.web_components_features.question
+    t: Lesquelles de ces fonctionnalités web component avez-vous utilisées ?
+  - key: options.web_components_features.host_pseudos.description
+    t: |
+      `:host` , `:host()` , `:host-context()`
+  - key: options.web_components_features.is_attribute.description
+    t: |
+      `<button is="fancy-button">`
+  - key: options.web_components_features.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+
+  - key: features.using_web_components_pain_points
+    t: Points sensibles de l'utilisation des Web Components
+  - key: features.using_web_components_pain_points.question
+    t: Quels sont vos plus grands points sensibles concernant l'*utilisation* des web components ?
+  - key: features.using_web_components_pain_points.prompt
+    t: Utiliser des Web Components que vous ou d'autres avez créés. Fonctionnalités manquantes, incompatibilités entre navigateurs, etc.
+  - key: features.using_web_components_pain_points.placeholder
+    t: |
+      Point sensible #{index}…
+
+  - key: features.making_web_components_pain_points
+    t: Points sensibles de la création des Web Components
+  - key: features.making_web_components_pain_points.question
+    t: Quels sont vos plus grands points sensibles concernant la *création* de web components ?
+  - key: features.making_web_components_pain_points.prompt
+    t: |
+      Qu'est-ce qui vous empêche de créer les composants extraordinaires que vous imaginez ? Fonctionnalités manquantes, incompatibilités entre navigateurs, etc.
+  - key: features.making_web_components_pain_points.placeholder
+    t: |
+      Point sensible #{index}…
+
+  # Accessibilité
+
+  - key: features.accessibility_tools
+    t: Outils d'accessibilité
+  - key: features.accessibility_tools.question
+    t: Quels outils utilisez-vous pour tester l'accessibilité ?
+
+  - key: features.accessibility_pain_points
+    t: Points sensibles de l'accessibilité
+  - key: features.accessibility_pain_points.question
+    t: Quels sont vos plus grands points sensibles concernant l'accessibilité web ?
+  - key: features.accessibility_pain_points.placeholder
+    t: |
+      Point sensible #{index}…
+
+  - key: features.accessibility_disabilities
+    t: Handicaps des utilisateurs
+  - key: features.accessibility_disabilities.question
+    t: De quels types de handicaps tenez-vous compte lors de la création de sites web ?
+
+  - key: options.accessibility_disabilities.hearing_impairments
+    t: Déficiences auditives
+  - key: options.accessibility_disabilities.hearing_impairments.description
+    t: Surdité, acouphènes, etc.
+
+  - key: options.accessibility_disabilities.mobility_impairments
+    t: Déficiences motrices
+  - key: options.accessibility_disabilities.mobility_impairments.description
+    t: Arthrite, syndrome du canal carpien, etc.
+
+  - key: options.accessibility_disabilities.learning_disabilities
+    t: Troubles de l'apprentissage
+  - key: options.accessibility_disabilities.learning_disabilities.description
+    t: Dyslexie, dyscalculie, etc.
+
+  - key: options.accessibility_disabilities.cognitive_impairments
+    t: |
+      Autres troubles cognitifs
+  - key: options.accessibility_disabilities.cognitive_impairments.description
+    t: |
+      Anxiété, Autisme, TOC, TDAH, etc.
+
+  - key: options.accessibility_disabilities.vestibular_disorders
+    t: Troubles vestibulaires
+  - key: options.accessibility_disabilities.vestibular_disorders.description
+    t: Épilepsie, vertiges, etc.
+
+  - key: options.accessibility_disabilities.low_vision
+    t: Basse vision
+  - key: options.accessibility_disabilities.low_vision.description
+    t: Cécité, myopie sévère, etc.
+
+  - key: options.accessibility_disabilities.atypical_vision
+    t: Vision atypique des couleurs
+  - key: options.accessibility_disabilities.atypical_vision.description
+    t: Daltonisme
+
+  - key: features.accessibility_screenreaders
+    t: Lecteurs d'écran
+  - key: features.accessibility_screenreaders.question
+    t: Quels lecteurs d'écran utilisez-vous pour tester l'accessibilité ?
+
+  - key: features.accessibility_techniques
+    t: Autres techniques d'accessibilité
+  - key: features.accessibility_techniques.question
+    t: Quelles autres techniques font partie de votre stratégie régulière d'accessibilité ?
+
+  - key: options.accessibility_techniques.tabindex
+    t: |
+      Amélioration de l'ordre de focus avec `tabindex`
+  - key: options.accessibility_techniques.tabindex.description
+    t: |
+      `tabindex` rotatif, `tabindex="0"` pour activer le focus, etc.
+  - key: options.accessibility_techniques.keyboard_navigation
+    t: Navigation clavier intuitive
+  - key: options.accessibility_techniques.keyboard_navigation.description
+    t: Autre que l'ordre des tabulations.
+  - key: options.accessibility_techniques.aria_attributes
+    t: Attributs ARIA
+  - key: options.accessibility_techniques.aria_attributes.description
+    t: |
+      Attributs `role` et `aria-*`
+  - key: options.accessibility_techniques.descriptive_alt_text
+    t: |
+      Texte `alt` descriptif
+  - key: options.accessibility_techniques.descriptive_alt_text.description
+    t: Fournir un texte alternatif qui décrit le but ou le contenu d'une image.
+  - key: options.accessibility_techniques.skip_to_content
+    t: Lien "Aller au contenu"
+  - key: options.accessibility_techniques.skip_to_content.description
+    t: Permettre aux utilisateurs d'aller directement au contenu principal d'une page.
+  - key: options.accessibility_techniques.fieldset_and_legend
+    t: |
+      `<fieldset>` et `<legend>`
+  - key: options.accessibility_techniques.fieldset_and_legend.description
+    t: |
+      Utilisation de `<fieldset>` et `<legend>` pour regrouper les éléments de formulaire connexes.
+  - key: options.accessibility_techniques.headings_hierarchy
+    t: Hiérarchie d'information
+  - key: options.accessibility_techniques.headings_hierarchy.description
+    t: |
+      Utilisation des titres (`<h1>` - `<h6>`) qui représentent correctement la hiérarchie d'information d'une page.
+  - key: options.accessibility_techniques.meaningful_link_text
+    t: Texte de lien significatif
+  - key: options.accessibility_techniques.meaningful_link_text.description
+    t: S'assurer que le texte du lien a du sens hors contexte
+  - key: options.accessibility_techniques.form_control_label
+    t: Étiquettes des contrôles de formulaire
+  - key: options.accessibility_techniques.form_control_label.description
+    t: |
+      S'assurer que chaque contrôle de formulaire a une `<label>` (ou `aria-label`, etc.).
+  - key: options.accessibility_techniques.visible_focus
+    t: Contour de focus visible
+  - key: options.accessibility_techniques.visible_focus.description
+    t: S'assurer que le contour de focus est clairement visible quand nécessaire.
+  - key: options.accessibility_techniques.pointer_alternative
+    t: Ne pas dépendre uniquement du pointeur
+  - key: options.accessibility_techniques.pointer_alternative.description
+    t: "S'assurer que les interactions au pointeur (ex : survol) ont une alternative au clavier."
+  - key: options.accessibility_techniques.good_color_contrast
+    t: Contraste suffisant
+  - key: options.accessibility_techniques.good_color_contrast.description
+    t: Utiliser des vérificateurs de contraste pour assurer un contraste de couleur suffisant.
+  - key: options.accessibility_techniques.color_alternative
+    t: Ne pas dépendre uniquement de la couleur
+  - key: options.accessibility_techniques.color_alternative.description
+    t: S'assurer qu'aucune information n'est transmise uniquement par la couleur.
+  - key: options.accessibility_techniques.prefers_reduced_motion
+    t: |
+      Media query `prefers-reduced-motion`
+  - key: options.accessibility_techniques.prefers-reduced-motion.description
+    t: Fournir du CSS alternatif pour les utilisateurs qui préfèrent un mouvement réduit.
+  - key: options.accessibility_techniques.prefers_contrast
+    t: |
+      Media query `prefers-contrast`
+  - key: options.accessibility_techniques.prefers_contrast.description
+    t: Fournir du CSS alternatif pour les utilisateurs qui préfèrent un contraste accru.
+
+  # PWAs
+
+  - key: features.pwa_features
+    t: Fonctionnalités PWA
+  - key: features.pwa_features.question
+    t: Avez-vous utilisé l'une des technologies/APIs PWA suivantes ?
+  - key: options.pwa_features.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+
+  - key: features.local_storage_features
+    t: Fonctionnalités de stockage local
+  - key: features.local_storage_features.question
+    t: Avez-vous utilisé l'un des moyens suivants pour stocker des données côté client ?
+  - key: options.local_storage_features.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+
+  - key: features.pwa_app_manifest_fields
+    t: Champs du manifeste d'application
+  - key: features.pwa_app_manifest_fields.question
+    t: |
+      Lesquels de ces champs de manifeste d'application (`<link rel="manifest">`) avez-vous utilisés ?
+
+  - key: features.native_apps_tools
+    t: Outils d'applications natives
+  - key: features.native_apps_tools.question
+    t: Avez-vous utilisé l'un de ces outils pour créer des applications natives ?
+  - key: features.native_apps_tools.description
+    t: À l'exclusion des scripts, applications en ligne de commande, code côté serveur, etc.
+  - key: options.native_apps_tools.na
+    t: <span aria-hidden="true">🚫</span> Je n'ai pas développé d'applications natives
+  - key: options.native_apps_tools.native_languages
+    t: Technologies natives
+  - key: options.native_apps_tools.native_languages.description
+    t: Objective-C, Swift, Kotlin, .NET, etc.
+  - key: options.native_apps_tools.webviews
+    t: Application web chargée via Webviews
+  - key: options.native_apps_tools.js_frameworks
+    t: Frameworks basés sur JavaScript
+  - key: options.native_apps_tools.js_frameworks.description
+    t: React Native, Ionic, Electron, etc.
+  - key: options.native_apps_tools.other_frameworks
+    t: Frameworks non-JavaScript
+  - key: options.native_apps_tools.other_frameworks.description
+    t: Tauri, Flutter, etc.
+
+  - key: features.mobile_web_apps_pain_points
+    t: Points sensibles des applications web natives
+  - key: features.mobile_web_apps_pain_points.question
+    t: Quels sont vos plus grands points sensibles concernant la création d'applications web qui se comportent comme des applications natives ?
+  - key: features.mobile_web_apps_pain_points.description
+    t: Capacités que la plateforme Web n'a pas encore, différences entre navigateurs dans les APIs associées, etc.
+  - key: features.mobile_web_apps_pain_points.placeholder
+    t: |
+      Point sensible #{index}
+
+  # autres fonctionnalités
+
+  - key: features.foo_attribute
+    t: "Attribut `{id}`"
+
+  - key: features.slot_attribute
+    t: Affectation de slot nommé
+
+  - key: features.landmark_elements
+    t: Éléments de repère
+
+  - key: features.tabindex_attribute
+    t: "Attribut `tabindex`"
+
+  - key: features.respimg_attributes
+    t: "Attributs `srcset` et `sizes`"
+
+  - key: features.model_element
+    t: "`<model>` pour contenu AR/VR/3D"
+
+  - key: features.slot_def
+    t: Définition de slots (`<slot>` et `::slotted()`)
+
+  - key: features.controlslist_attribute
+    t: "Attribut `controlslist`"
+
+  - key: features.popover_api
+    t: API Popover
+
+  - key: features.lazy_loading
+    t: Chargement différé
+
+  - key: features.sandbox_attr
+    t: "Attribut `sandbox` pour les iframes"
+
+  - key: features.details_element
+    t: "`<details>` et `<summary>`"
+
+  - key: features.crossorigin
+    t: "Attribut `crossorigin`"
+
+  - key: features.host_css
+    t: Style du composant hôte (`:host`, `:host()`, `:host-context()`)
+
+  - key: features.element_internals
+    t: "API `ElementInternals`"
+
+  - key: features.cors
+    t: CORS
+
+  - key: features.content_security_policy
+    t: Politique de sécurité du contenu (CSP)
+
+  - key: features.structured_data
+    t: Données structurées (RDFa, Microdata, Microformats)
+
+  - key: features.extended_builtins
+    t: Extensions des éléments natifs
+
+  - key: features.html_modules
+    t: Modules HTML
+
+  - key: features.accordion_element
+    t: Accordéon exclusif
+
+  - key: features.imperative_slot
+    t: Affectation impérative de slot
+
+  - key: features.focusgroup_attribute
+    t: "Attribut `focusgroup`"
+
+  - key: features.form_validation
+    t: Validation de formulaire
+
+  - key: features.aria
+    t: ARIA
+
+  - key: features.rh_preconnect
+    t: "Indices de ressources : preconnect (`<link rel=preconnect>`)"
+
+  - key: features.rh_prerender
+    t: "Indices de ressources : prerender (`<link rel=prerender>`)"
+
+  - key: features.rh_preload
+    t: "Indices de ressources : preload (`<link rel=preload>`)"
+
+  - key: features.resource_hints
+    t: Indices de ressources (tous)
+
+  - key: features.rh_prefetch
+    t: "Indices de ressources : prefetch (`<link rel=prefetch>`)"
+
+  - key: features.shadow_dom
+    t: Shadow DOM
+
+  - key: features.declarative_shadow_dom
+    t: Shadow DOM déclaratif
+
+  - key: features.referrerpolicy
+    t: "Attribut `referrerpolicy`"
+
+  - key: features.integrity
+    t: Intégrité des sous-ressources (attribut `integrity`)
+
+  - key: features.pwa_manifest
+    t: Manifeste PWA
+
+  - key: features.part_attr
+    t: Exposition des parties de composants (attribut `part`)
+
+  - key: features.part_selector
+    t: Style des parties de composants (`::part()`)
+
+  - key: features.svg_element
+    t: SVG intégré (`<svg>`)
+
+  - key: features.math_element
+    t: MathML intégré (`<math>`)
+
+  - key: features.scoped_element_registries
+    t: Registres d'éléments personnalisés avec portée
+
+  - key: features.navigation_api
+    t: API de navigation
+
+  - key: features.custom_elements_defining
+    t: Définition d'éléments personnalisés
+
+  - key: features.decoding
+    t: "Attribut `decoding`"
+
+  - key: features.custom_elements_using
+    t: Utilisation d'éléments personnalisés
+
+  - key: features.fencedframe
+    t: Cadres cloisonnés
+
+  - key: features.credentialless
+    t: Iframes sans identifiants
+
+  - key: features.media_capture
+    t: Capture média HTML
+
+  - key: features.formdata
+    t: API FormData
+
+  - key: features.customizable_select
+    t: Select personnalisable
+
+  - key: features.contenteditable_plaintext
+    t: "Valeur `plaintext-only` pour `contenteditable`"
+
+  - key: features.dom_parts
+    t: Parties DOM
+
+  - key: features.fetchpriority_attribute
+    t: "Attribut `fetchpriority`"
+
+  - key: features.autocomplete_attribute
+    t: "Attribut `autocomplete`"
+
+  - key: features.inert_attribute
+    t: "Attribut `inert`"
+
+  - key: features.client_hints
+    t: Indices client HTTP
+
+  - key: features.clipboard_api
+    t: API Presse-papiers
+
+  - key: features.custom_highlight_api
+    t: API de surbrillance personnalisée CSS
+
+  - key: features.intl_segmenter
+    t: "API `Intl.Segmenter`"
+
+  - key: features.filesystem_access
+    t: API d'accès au système de fichiers
+
+  - key: features.badging_api
+    t: API de badge
+
+  - key: features.web_share_api
+    t: API de partage Web
+
+  - key: features.launch_handler_api
+    t: API de gestion du lancement
+
+  - key: features.file_handling_api
+    t: API de gestion des fichiers
+
+  - key: features.window_controls_overlay
+    t: API de superposition des contrôles de fenêtre
+
+  - key: features.isolated_webapps
+    t: Applications Web isolées
+
+  ###########################################################################
+  # Autres Outils
+  ###########################################################################
+  - key: other_tools.site_generators
+    t: Générateurs de sites
+  - key: other_tools.site_generators.question
+    t: Lesquels de ces générateurs de sites statiques ou dynamiques utilisez-vous régulièrement ?
+  - key: other_tools.browsers
+    aliasFor: tools_others.browsers
+  - key: other_tools.browsers.question
+    aliasFor: tools_others.browsers.question
+  - key: other_tools.validation_tools
+    t: Outils de validation
+  - key: other_tools.validation_tools.question
+    t: Lesquels de ces outils de validation utilisez-vous régulièrement ?
+  - key: other_tools.ai_tools
+    t: Outils d'IA
+  - key: other_tools.ai_tools.question
+    t: Lesquels de ces outils d'IA utilisez-vous régulièrement pour vous aider à écrire du code ?
+  - key: other_tools.machine_readable_features
+    aliasFor: features.machine_readable_features
+  - key: other_tools.machine_readable_features.question
+    aliasFor: features.machine_readable_features.question
+  - key: options.machine_readable_features.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+  - key: other_tools.blast_from_the_past
+    t: Retour vers le passé !
+  - key: other_tools.blast_from_the_past.question
+    t: Avez-vous déjà utilisé l'un de ces éléments de la vieille école ?
+  - key: other_tools.blast_from_the_past.description
+    t: Retour vers le passé !
+  - key: options.blast_from_the_past.na
+    t: <span aria-hidden="true">🚫</span> Aucun des choix ci-dessus
+  - key: other_tools.performance_tools
+    t: Outils de performance
+  - key: other_tools.performance_tools.question
+    t: Quels outils et services utilisez-vous pour suivre et améliorer la performance de vos sites web ?
+  - key: options.performance_tools.browser_devtools
+    t: Outils de développement du navigateur
+  - key: other_tools.analytics_tools
+    t: Outils d'analyse
+  - key: other_tools.analytics_tools.question
+    t: Quels outils et services d'analyse utilisez-vous pour surveiller vos sites web ?
+
+  ###########################################################################
+  # Utilisation
+  ###########################################################################
+
+  - key: usage.html_interoperability_features
+    t: Interopérabilité des navigateurs
+  - key: usage.html_interoperability_features.question
+    t: Quelles fonctionnalités HTML existantes ou APIs navigateur ne pouvez-vous pas utiliser en raison des différences entre navigateurs ou du manque de support ?
+  - key: usage.html_interoperability_features.placeholder
+    t: |
+      Fonctionnalité #{index}
+
+  - key: usage.html_functionality_features
+    t: Fonctionnalités limitées
+  - key: usage.html_functionality_features.question
+    t: Quelles fonctionnalités HTML existantes ou APIs navigateur ne pouvez-vous pas utiliser pour d'autres raisons (et pourquoi) ?
+  - key: usage.html_functionality_features.description
+    t: |
+      Fonctionnalités HTML existantes que vous devez souvent recréer ou augmenter en utilisant JS.
+  - key: usage.html_functionality_features.placeholder.1
+    t: |
+      Fonctionnalité #1 (difficile à styler)
+  - key: usage.html_functionality_features.placeholder.2
+    t: |
+      Fonctionnalité #2 (fonctionnalités limitées, faible accessibilité)
+
+  - key: usage.html_new_features
+    t: Nouvelles fonctionnalités
+  - key: usage.html_new_features.question
+    t: Parmi ces nouvelles fonctionnalités à venir, lesquelles vous enthousiasment le plus ?
+
+  - key: usage.what_do_you_use_html_for
+    t: Utilisation d'HTML
+  - key: usage.what_do_you_use_html_for.question
+    t: Pour quoi utilisez-vous HTML ?
+  - key: options.what_do_you_use_html_for.blogs
+    aliasFor: options.what_do_you_use_css_for.blogs
+  - key: options.what_do_you_use_html_for.design_systems
+    aliasFor: options.what_do_you_use_css_for.design_systems
+  - key: options.what_do_you_use_html_for.desktop_apps
+    aliasFor: options.what_do_you_use_css_for.desktop_apps
+  - key: options.what_do_you_use_html_for.emails
+    aliasFor: options.what_do_you_use_css_for.emails
+  - key: options.what_do_you_use_html_for.marketing_sites
+    aliasFor: options.what_do_you_use_css_for.marketing_sites
+  - key: options.what_do_you_use_html_for.mobile_apps
+    aliasFor: options.what_do_you_use_css_for.mobile_apps
+  - key: options.what_do_you_use_html_for.printed_documents
+    aliasFor: options.what_do_you_use_css_for.printed_documents
+  - key: options.what_do_you_use_html_for.web_apps
+    aliasFor: options.what_do_you_use_css_for.web_apps
+
+  - key: usage.tools_for_other_developers
+    t: Impact sur l'écosystème
+  - key: usage.tools_for_other_developers.question
+    t: En dehors de vous-même, combien de développeurs utilisent les bibliothèques, packages, composants, APIs, etc. que vous créez ou maintenez ?
+  - key: usage.tools_for_other_developers.description
+    t: |
+      Au total, si vous travaillez sur plusieurs projets utilisés par d'autres développeurs.
+      Si vous n'êtes pas sûr, choisissez l'option la plus proche de votre meilleure estimation.
+      Pour le code open source, les téléchargements npm peuvent offrir un point de données utile.
+  - key: options.tools_for_other_developers.na
+    t: 🚫 Aucun (Juste moi)
+  - key: options.tools_for_other_developers.a_few
+    t: "Quelques autres développeurs (ex : développeurs au sein d'une petite équipe)"
+  - key: options.tools_for_other_developers.less_than_100
+    t: Moins d'une centaine de développeurs
+  - key: options.tools_for_other_developers.less_than_1000
+    t: Moins d'un millier de développeurs
+  - key: options.tools_for_other_developers.more_than_100
+    t: Des centaines de développeurs
+  - key: options.tools_for_other_developers.more_than_1000
+    t: Des milliers de développeurs
+  - key: options.tools_for_other_developers.more_than_1000000
+    t: Des millions de développeurs
+
+  - key: usage.html_missing_elements
+    t: Éléments manquants
+  - key: usage.html_missing_elements.question
+    t: Si vous pouviez ajouter 3 éléments à HTML, quels seraient-ils ?
+  - key: options.html_missing_elements.accordion
+    t: Accordéon
+  - key: options.html_missing_elements.alert
+    t: Alerte
+  - key: options.html_missing_elements.calendar
+    t: Calendrier
+  - key: options.html_missing_elements.carousel
+    t: Carrousel
+  - key: options.html_missing_elements.combobox_autocomplete
+    t: Liste déroulante / Autocomplétion
+  - key: options.html_missing_elements.command_palette
+    t: Palette de commandes
+  - key: options.html_missing_elements.context_menu
+    t: Menu contextuel / Menu clic droit
+  - key: options.html_missing_elements.datatable
+    t: Table de données
+  - key: options.html_missing_elements.datatable.description
+    t: Table de données avec tri, filtrage, etc.
+  - key: options.html_missing_elements.dropdown_menu
+    t: Menu déroulant
+  - key: options.html_missing_elements.image_zoom
+    t: Zoom d'image
+  - key: options.html_missing_elements.progress_bar
+    t: Barre de progression
+  - key: options.html_missing_elements.skeleton_loading_placeholder
+    t: UI Squelette / Placeholder de chargement
+  - key: options.html_missing_elements.switch
+    t: Interrupteur / Bascule
+  - key: options.html_missing_elements.tabs
+    t: Onglets
+  - key: options.html_missing_elements.tooltip
+    t: Info-bulle
+  - key: options.html_missing_elements.offcanvas
+    t: Zone hors-canvas
+  - key: options.html_missing_elements.spinner
+    t: Indicateur de chargement
+  - key: options.html_missing_elements.segmented_button
+    t: Bouton segmenté
+  - key: options.html_missing_elements.scroll_area
+    t: Défilement infini
+  - key: options.html_missing_elements.icon
+    t: Icône
+  - key: options.html_missing_elements.star_rating
+    t: Notation par étoiles
+
+  - key: usage.html_pain_points_freeform
+    t: Autres points sensibles
+  - key: usage.html_pain_points_freeform.question
+    t: Avez-vous d'autres points sensibles concernant l'utilisation d'HTML et des technologies associées ?
+
+  - key: usage.html_css_js_balance
+    t: Équilibre HTML/CSS vs JavaScript/TypeScript
+  - key: usage.html_css_js_balance.question
+    t: Comment répartissez-vous votre temps entre l'écriture de code HTML/CSS et JavaScript (ou TypeScript) ?
+  - key: options.html_css_js_balance.0
+    t: 100% HTML/CSS
+  - key: options.html_css_js_balance.4
+    t: 50%–50%
+  - key: options.html_css_js_balance.8
+    t: 100% JS
+
+  ###########################################################################
+  # Ressources
+  ###########################################################################
+  - key: resources.web_platform_resources
+    t: Ressources de la plateforme Web
+  - key: resources.web_platform_resources.question
+    t: Lesquelles de ces ressources consultez-vous pour rester informé des fonctionnalités de la plateforme web ?
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+  - key: opinions.opinions_intro
+    t: Pour les questions suivantes, indiquez-nous à quel point vous êtes d'accord avec chaque affirmation.
+  - key: opinions.accessibility_is_valued
+    t: Accessibilité
+  - key: opinions.accessibility_is_valued.question
+    t: L'accessibilité est valorisée dans mon environnement professionnel
+  - key: opinions.keeping_informed_is_challenging
+    t: Se tenir informé
+  - key: opinions.keeping_informed_is_challenging.question
+    t: Se tenir informé des nouvelles fonctionnalités de la plateforme web est un défi
+  - key: opinions.browser_interoperability_is_obstacle
+    t: Interopérabilité des navigateurs
+  - key: opinions.browser_interoperability_is_obstacle.question
+    t: Le manque d'interopérabilité entre les navigateurs est un obstacle majeur au développement web
+  - key: opinions.web_platform_right_direction
+    t: Plateforme Web
+  - key: opinions.web_platform_right_direction.question
+    t: La plateforme web évolue globalement dans la bonne direction
+
+  ###########################################################################
+  # Aide au sondage
+  ###########################################################################
+  - key: features.features_intro_html
+    t: |
+      Bienvenue dans le sondage ! Ces premières sections visent à déterminer
+      quelles **fonctionnalités** d'HTML (et des APIs associées) vous connaissez.
+      Au fait, si vous souhaitez en apprendre davantage sur un élément du sondage, vous pouvez l'ajouter à votre liste de lecture en cliquant sur sa petite icône "+" !
