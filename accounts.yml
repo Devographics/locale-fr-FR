@@ -54,6 +54,10 @@ translations:
     t: S'inscrire
   - key: accounts.sign_in
     t: Se connecter
+  - key: accounts.switch_to_sign_up
+    t: Vous n'avez pas de compte ? Inscrivez-vous
+  - key: accounts.switch_to_sign_in
+    t: Vous avez déjà un compte ? Connectez-vous
   - key: accounts.sign_out
     t: Se déconnecter
   - key: accounts.cancel
@@ -68,8 +72,16 @@ translations:
     t: Merci de vous connecter ou de vous inscrire pour commencer.
   - key: accounts.logged_in_as
     t: Connecté en tant que {email}
+  - key: accounts.logged_in_as_guest
+    t: Connecté en tant qu'invité
   - key: accounts.questions
     t: >
         Si vous avez une question à propos de notre utilisation de vos données, ou si vous
         voulez être retiré de nos enregistrements,
         merci de <a href="mailto:hello@stateofjs.com">nous envoyer un message</a>.
+  
+  - key: accounts.token_verified
+    t: Jeton vérifié avec succès, redirection...
+  
+  - key: accounts.your_surveys
+    t: Vos questionnaires
