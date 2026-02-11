@@ -1,4 +1,12 @@
 id: fr-FR
 label: Français
-translators: ["arnauddrain", "AvocadoVenom", "dragonis41", "AugustinMauroy", "keltroth"]
+translators:
+  [
+    "arnauddrain",
+    "AvocadoVenom",
+    "dragonis41",
+    "AugustinMauroy",
+    "keltroth",
+    "dlapointegilbert",
+  ]
 active: false
