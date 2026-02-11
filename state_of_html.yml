@@ -41,6 +41,8 @@ translations:
     t: Intégration de ressources externes et autres APIs multimédia.
   - key: sections.accessibility.title
     t: Accessibilité
+  - key: sections.accessibility.prompt
+    t: Rendre les sites et applications accessibles à tous.
   - key: sections.accessibility.description
     t: Rendre les sites et applications accessibles à tous.
   - key: sections.mobile_web_apps.title
@@ -97,6 +99,83 @@ translations:
   - key: features.forms_pain_points.placeholder
     t: |
       Point sensible #{index}…
+
+  - key: features.graphics_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+  - key: features.performance_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+  - key: features.security_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+  - key: features.system_capabilities_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+  - key: features.web_components_other_pain_points.placeholder
+    aliasFor: features.forms_pain_points.placeholder
+
+  - key: features.all_features.description
+    t: |
+      Ce graphique récapitule toutes les questions sur les fonctionnalités du sondage. Les barres principales représentent l'expérience du répondant, puis sont subdivisées selon son sentiment. Vous pouvez changer le regroupement pour alterner entre les deux.
+
+
+      Vous trouverez aussi un détail plus fin des mêmes données dans chaque sous-section de fonctionnalités.
+  - key: features.accessibility_features
+    t: Accessibilité – Expérience et sentiment
+  - key: features.content_features
+    t: Contenu – Expérience et sentiment
+  - key: features.forms_features
+    t: Formulaires – Expérience et sentiment
+  - key: features.graphics_multimedia_features
+    t: Graphiques et multimédia – Expérience et sentiment
+  - key: features.graphics_multimedia_features.short
+    t: Graphiques – Expérience et sentiment
+  - key: features.graphics_pain_points
+    t: Graphiques et multimédia – Points sensibles
+  - key: features.graphics_pain_points.prompt
+    t: |
+      Pensez aux problèmes liés à Canvas, SVG, WebGL et autres APIs pour le rendu graphique, les animations, les perfs graphiques, les primitives ou APIs manquantes, etc.
+  - key: features.graphics_pain_points.question
+    t: Quels sont vos points sensibles concernant le rendu de graphiques, vidéos, animations et autres médias ?
+  - key: features.graphics_pain_points.short
+    t: Points sensibles graphiques
+  - key: features.interactivity_features
+    t: Interactivité – Expérience et sentiment
+  - key: features.mapviewer_element
+    t: "`<mapviewer>` (MapML inline)"
+  - key: features.performance_features
+    t: Performance – Expérience et sentiment
+  - key: features.performance_pain_points
+    t: Points sensibles performance
+  - key: features.performance_pain_points.prompt
+    t: |
+      Problèmes de métriques de performance, pages lentes, rendu retardé, animations ou défilement saccadés, etc.
+  - key: features.performance_pain_points.question
+    t: Quels sont vos points sensibles concernant la performance ?
+  - key: features.reasons_for_not_using_web_components
+    t: Raisons de ne pas utiliser
+  - key: features.reasons_for_not_using_web_components.question
+    t: Si vous n'utilisez *pas* les web components actuellement, pouvez-vous nous dire pourquoi ?
+  - key: features.security_pain_points
+    t: Points sensibles sécurité
+  - key: features.security_pain_points.prompt
+    t: À compléter
+  - key: features.security_pain_points.question
+    t: Quels sont vos points sensibles concernant la sécurité ?
+  - key: features.system_capabilities_features
+    t: Capacités système – Expérience et sentiment
+  - key: features.system_capabilities_pain_points
+    t: Points sensibles capacités système
+  - key: features.system_capabilities_pain_points.prompt
+    t: |
+      Problèmes d'accès aux capacités de l'appareil ou de l'OS, interaction avec le système de fichiers, correspondance avec les fonctionnalités des apps natives, etc.
+  - key: features.system_capabilities_pain_points.question
+    t: Quels sont vos points sensibles concernant l'accès aux capacités natives du système et de l'appareil ?
+  - key: features.web_components_common_pain_points
+    t: Points sensibles Web Components
+  - key: features.web_components_common_pain_points.question
+    t: Quels sont vos principaux points sensibles concernant la création et l'utilisation des web components ?
+  - key: features.web_components_other_pain_points
+    t: Autres points sensibles Web Components
+  - key: features.web_components_other_pain_points.question
+    t: D'autres points sensibles concernant la création et l'utilisation des web components ?
 
   # interactivité
 
@@ -867,6 +946,35 @@ translations:
     t: Plateforme Web
   - key: opinions.web_platform_right_direction.question
     t: La plateforme web évolue globalement dans la bonne direction
+  - key: opinions.browser_interoperability_pace
+    t: Rythme d'interopérabilité
+  - key: opinions.browser_interoperability_pace.question
+    t: Ces dernières années, les nouvelles fonctionnalités web sont devenues stables entre les navigateurs à un rythme plus rapide
+  - key: opinions.validation_is_important
+    t: Validation HTML
+  - key: opinions.validation_is_important.question
+    t: Il est important pour moi que mon code HTML passe la validation
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+  - key: faq.data_used_html
+    t: Comment ces données seront-elles utilisées ?
+  - key: faq.data_used_html.description
+    t: >
+      Toutes les données collectées seront publiées ouvertement pour que tout développeur ou entreprise puisse les consulter. Les éditeurs de navigateurs [utilisent aussi ces données](https://web.dev/blog/interop-2024) pour prioriser leurs axes de travail et alimenter leurs initiatives.
+  - key: faq.how_long_will_survey_take_html
+    t: Combien de temps faut-il pour remplir le sondage ?
+  - key: faq.how_long_will_survey_take_html.description
+    t: Selon le nombre de questions auxquelles vous répondez (toutes peuvent être ignorées), compter environ 10 à 15 minutes.
+  - key: faq.survey_goals_html
+    t: Quels sont les objectifs du sondage ?
+  - key: faq.survey_goals_html.description
+    t: Les objectifs du sondage sont de mesurer la notoriété des nouvelles fonctionnalités HTML et des APIs navigateur, et d'aider les développeurs à suivre l'évolution de leur utilisation.
+  - key: faq.who_should_take_survey_html
+    t: Qui devrait remplir ce sondage ?
+  - key: faq.who_should_take_survey_html.description
+    t: Ce sondage est ouvert à toute personne qui crée des sites ou des applications web, que ce soit régulièrement ou occasionnellement, dans le cadre du travail, en tant qu'étudiant ou pour le plaisir !
 
   ###########################################################################
   # Aide au sondage
@@ -876,3 +984,285 @@ translations:
       Bienvenue dans le sondage ! Ces premières sections visent à déterminer
       quelles **fonctionnalités** d'HTML (et des APIs associées) vous connaissez.
       Au fait, si vous souhaitez en apprendre davantage sur un élément du sondage, vous pouvez l'ajouter à votre liste de lecture en cliquant sur sa petite icône "+" !
+
+  # Alias pour options d'opinions
+  - key: options.accessibility_is_valued.0
+    aliasFor: options.opinions.0
+  - key: options.accessibility_is_valued.1
+    aliasFor: options.opinions.1
+  - key: options.accessibility_is_valued.2
+    aliasFor: options.opinions.2
+  - key: options.accessibility_is_valued.3
+    aliasFor: options.opinions.3
+  - key: options.accessibility_is_valued.4
+    aliasFor: options.opinions.4
+  - key: options.browser_interoperability_is_obstacle.0
+    aliasFor: options.opinions.0
+  - key: options.browser_interoperability_is_obstacle.1
+    aliasFor: options.opinions.1
+  - key: options.browser_interoperability_is_obstacle.2
+    aliasFor: options.opinions.2
+  - key: options.browser_interoperability_is_obstacle.3
+    aliasFor: options.opinions.3
+  - key: options.browser_interoperability_is_obstacle.4
+    aliasFor: options.opinions.4
+  - key: options.browser_interoperability_pace.0
+    aliasFor: options.opinions.0
+  - key: options.browser_interoperability_pace.1
+    aliasFor: options.opinions.1
+  - key: options.browser_interoperability_pace.2
+    aliasFor: options.opinions.2
+  - key: options.browser_interoperability_pace.3
+    aliasFor: options.opinions.3
+  - key: options.browser_interoperability_pace.4
+    aliasFor: options.opinions.4
+  - key: options.keeping_informed_is_challenging.0
+    aliasFor: options.opinions.0
+  - key: options.keeping_informed_is_challenging.1
+    aliasFor: options.opinions.1
+  - key: options.keeping_informed_is_challenging.2
+    aliasFor: options.opinions.2
+  - key: options.keeping_informed_is_challenging.3
+    aliasFor: options.opinions.3
+  - key: options.keeping_informed_is_challenging.4
+    aliasFor: options.opinions.4
+  - key: options.validation_is_important.0
+    aliasFor: options.opinions.0
+  - key: options.validation_is_important.1
+    aliasFor: options.opinions.1
+  - key: options.validation_is_important.2
+    aliasFor: options.opinions.2
+  - key: options.validation_is_important.3
+    aliasFor: options.opinions.3
+  - key: options.validation_is_important.4
+    aliasFor: options.opinions.4
+  - key: options.web_platform_right_direction.0
+    aliasFor: options.opinions.0
+  - key: options.web_platform_right_direction.1
+    aliasFor: options.opinions.1
+  - key: options.web_platform_right_direction.2
+    aliasFor: options.opinions.2
+  - key: options.web_platform_right_direction.3
+    aliasFor: options.opinions.3
+  - key: options.web_platform_right_direction.4
+    aliasFor: options.opinions.4
+
+  # Sections (prompts / titres)
+  - key: sections.forms.prompt
+    t: Éléments et attributs liés aux formulaires
+  - key: sections.content.prompt
+    t: Intégration, multimédia, données et autres fonctionnalités liées au contenu.
+  - key: sections.external_content.prompt
+    t: Intégration de ressources externes et autres APIs multimédia.
+  - key: sections.graphics_multimedia.title
+    t: Graphiques et multimédia
+  - key: sections.graphics_multimedia.title.short
+    t: Graphiques
+  - key: sections.graphics_multimedia.prompt
+    t: Rendu de graphiques et d'animations.
+  - key: sections.interactivity.prompt
+    t: APIs permettant des interactions utilisateur plus riches.
+  - key: sections.mobile_web_apps.prompt
+    t: Création d'applications web optimisées pour mobile et bureau.
+  - key: sections.other_features.prompt
+    t: Autres éléments HTML et APIs navigateur.
+  - key: sections.other_tools.prompt
+    t: Autres outils liés à la plateforme web.
+  - key: sections.performance.title
+    t: Performance
+  - key: sections.performance.prompt
+    t: Faire tourner votre site encore plus vite.
+  - key: sections.security.title
+    t: Sécurité
+  - key: sections.security.prompt
+    t: Sécuriser votre code face aux attaques.
+  - key: sections.system_capabilities.title
+    t: Capacités système
+  - key: sections.system_capabilities.prompt
+    t: Accès aux APIs appareil et système.
+  - key: sections.usage.prompt
+    t: Comment vous utilisez HTML.
+  - key: sections.web_components.prompt
+    t: Création et utilisation des web components.
+
+  # T-shirt
+  - key: sections.tshirt.title
+    t: T-shirt
+  - key: sections.tshirt.description
+    t: |
+      ## Soutenir le sondage avec le T-shirt State of HTML
+
+      Les cassettes VHS et les visuels rétro des années 90 vous manquent ? Vous ne pouvez pas remonter le temps, mais vous pouvez porter ce t-shirt rétro original, conçu par le talentueux Christopher Kirk-Nielsen.
+  - key: tshirt.about
+    t: À propos du T-shirt
+  - key: tshirt.description
+    t: |
+      Nous utilisons un t-shirt tri-blend de haute qualité, super doux, coupe slim, imprimé par nos partenaires chez Cotton Bureau.
+  - key: tshirt.getit
+    t: Obtenir
+  - key: tshirt.price
+    t: 32 USD + livraison
+  - key: tshirt.designer.heading
+    t: À propos du designer
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+  - key: tshirt.designer.bio
+    t: |
+      Originaire de France, installé aux États-Unis, Chris est non seulement un excellent développeur front-end mais aussi un illustrateur talentueux spécialisé dans le rétro. Découvrez ses [autres designs de t-shirt](https://chriskirknielsen.com/designs) !
+
+  # Usage – réutilisation HTML, design systems
+  - key: usage.component_strategies
+    t: Réutilisation HTML
+  - key: usage.component_strategies.question
+    t: Quelles stratégies utilisez-vous pour implémenter des composants ou réutiliser du code HTML ?
+  - key: usage.design_system_strategies
+    t: Stratégies de design system
+  - key: usage.design_system_strategies.question
+    t: Lesquelles de ces approches font partie de votre stratégie de design system ?
+  - key: usage.html_functionality_features.prompt
+    t: Fonctionnalités HTML que vous utilisez.
+  - key: usage.html_styling_issues
+    t: Problèmes de style HTML
+  - key: usage.html_styling_issues.question
+    t: Quels sont vos principaux problèmes concernant le style des éléments HTML ?
+
+  # Options – stratégies composants
+  - key: options.component_strategies.server_side_templating
+    t: Templating côté serveur
+  - key: options.component_strategies.server_side_templating.description
+    t: Templates générés côté serveur (PHP, Node.js, etc.)
+  - key: options.component_strategies.build_time_templating
+    t: Templating au build
+  - key: options.component_strategies.build_time_templating.description
+    t: Astro, Jekyll, autres générateurs de sites statiques, etc.
+  - key: options.component_strategies.client_side_templating
+    t: Templating côté client
+  - key: options.component_strategies.client_side_templating.description
+    t: Manipulation du DOM, jQuery, Handlebars, etc.
+  - key: options.component_strategies.component_based_frameworks
+    t: Frameworks JavaScript à composants
+  - key: options.component_strategies.component_based_frameworks.description
+    t: React, Vue.js, Angular, etc.
+  - key: options.component_strategies.web_components
+    t: Web Components
+  - key: options.component_strategies.web_components.description
+    t: Web components, avec ou sans librairie d'aide.
+  - key: options.component_strategies.web_components_frameworks
+    t: Librairies pour Web Components
+  - key: options.component_strategies.web_components_frameworks.description
+    t: Stencil, Lit, Polymer, etc.
+  - key: options.component_strategies.copy_paste
+    t: Copier-coller
+  - key: options.component_strategies.copy_paste.description
+    t: Copier-coller des extraits de sources internes ou externes.
+
+  # Options – design system
+  - key: options.design_system_strategies.design_tokens
+    t: Design tokens
+  - key: options.design_system_strategies.design_tokens.description
+    t: Variables atomiques (couleurs, espacements, typo), ex. `--color-accent-dark`, `--font-body`.
+  - key: options.design_system_strategies.elements_components
+    t: Éléments / composants
+  - key: options.design_system_strategies.elements_components.description
+    t: Bibliothèque de briques réutilisables (boutons, listes déroulantes, etc.), dans n'importe quelle techno.
+  - key: options.design_system_strategies.guidelines
+    t: Guidelines
+  - key: options.design_system_strategies.guidelines.description
+    t: Documentation, règles de nommage, bonnes pratiques.
+  - key: options.design_system_strategies.patterns
+    t: Patterns
+  - key: options.design_system_strategies.patterns.description
+    t: Patterns d'interface réutilisables (modales, cartes, etc.)
+  - key: options.design_system_strategies.utilities
+    t: Utilitaires
+  - key: options.design_system_strategies.utilities.description
+    t: Outils partagés (couleurs, espacements, typo) utilisables dans plusieurs contextes.
+
+  # Options – éléments HTML manquants
+  - key: options.html_missing_elements.callout
+    t: Callout
+  - key: options.html_missing_elements.callout.description
+    t: Élément pour mises en avant, avertissements, etc.
+  - key: options.html_missing_elements.charts
+    t: Graphiques
+  - key: options.html_missing_elements.footnotes
+    t: Notes de bas de page
+  - key: options.html_missing_elements.html_include
+    t: Include HTML
+  - key: options.html_missing_elements.html_include.description
+    t: Inclure un fichier HTML dans un autre.
+  - key: options.html_missing_elements.maps
+    t: Cartes
+  - key: options.html_missing_elements.range_slider
+    t: Slider (range)
+  - key: options.html_missing_elements.range_slider.description
+    t: Curseur pour choisir une valeur dans un intervalle.
+  - key: options.html_missing_elements.rich_code_block
+    t: Bloc de code riche
+  - key: options.html_missing_elements.rich_code_block.description
+    t: Affichage de code avec coloration syntaxique, numéros de ligne, etc.
+  - key: options.html_missing_elements.rich_text_editor
+    t: Éditeur de texte riche
+  - key: options.html_missing_elements.sortable_list
+    t: Liste triable
+
+  # Options – style HTML
+  - key: options.html_styling_issues.fieldset_and_legend
+    t: Fieldset et legend
+  - key: options.html_styling_issues.validation_errors
+    t: Messages d'erreur de validation
+
+  # Options – raisons de ne pas utiliser les web components
+  - key: options.reasons_for_not_using_web_components.not_interested
+    t: Pas intéressé ou pas besoin
+  - key: options.reasons_for_not_using_web_components.no_chance
+    t: Intéressé mais pas encore eu l'occasion
+  - key: options.reasons_for_not_using_web_components.negative_experience
+    t: Utilisés mais mauvaise expérience
+  - key: options.reasons_for_not_using_web_components.use_frameworks_instead
+    t: Je fais la même chose avec des frameworks JS
+  - key: options.reasons_for_not_using_web_components.compatibility_issues
+    t: Je voudrais mais problèmes de compatibilité ou de support
+
+  # Options – points sensibles Web Components
+  - key: options.web_components_common_pain_points.complex_apis
+    t: Complexité excessive
+  - key: options.web_components_common_pain_points.complex_apis.description
+    t: Les APIs Web Component sont pénibles / trop bas niveau / trop complexes.
+  - key: options.web_components_common_pain_points.a11y_issues
+    t: Problèmes d'accessibilité
+  - key: options.web_components_common_pain_points.a11y_issues.description
+    t: Gestion du focus, ARIA, etc. sont difficiles à mettre en œuvre.
+  - key: options.web_components_common_pain_points.i18n_issues
+    t: Problèmes de localisation / i18n
+  - key: options.web_components_common_pain_points.i18n_issues.description
+    t: Difficile de faire des web components qui s'adaptent à la locale ou dont le texte est personnalisable.
+  - key: options.web_components_common_pain_points.low_shadow_dom_specificity
+    t: Faible spécificité CSS dans le Shadow DOM
+  - key: options.web_components_common_pain_points.low_shadow_dom_specificity.description
+    t: |
+      Par ex. `* { margin: 0 }` écrase toute marge définie via `::slotted()`, `:host`, etc.
+  - key: options.web_components_common_pain_points.overly_strict_encapsulation
+    t: Encapsulation des styles trop stricte
+  - key: options.web_components_common_pain_points.overly_strict_encapsulation.description
+    t: Styliser le Shadow DOM depuis l'extérieur (ou l'inverse) est trop limité.
+  - key: options.web_components_common_pain_points.overreliance_on_js
+    t: Dépendance excessive au JS et problèmes de SSR
+  - key: options.web_components_common_pain_points.overreliance_on_js.description
+    t: Sans rendu côté serveur, les Web Components ont besoin de JS pour s'afficher même quand ils ne sont pas interactifs.
+  - key: options.web_components_common_pain_points.design_tokens_access
+    t: Accès aux design tokens
+  - key: options.web_components_common_pain_points.design_tokens_access.description
+    t: Couleurs, polices, espacements, etc. doivent être communiqués séparément à chaque composant.
+  - key: options.web_components_common_pain_points.native_element_extension
+    t: Extension des éléments natifs
+  - key: options.web_components_common_pain_points.native_element_extension.description
+    t: Il faut recréer entièrement un élément natif pour ajouter une fonctionnalité.
+  - key: options.web_components_common_pain_points.slotted_descendants_style
+    t: Style des descendants slottés
+  - key: options.web_components_common_pain_points.slotted_descendants_style.description
+    t: Les descendants slottés ne peuvent pas être stylés (ex. impossible de faire `::slotted(ul) > li`).
+
+  # Accessibilité
+  - key: options.accessibility_techniques.prefers_reduced_motion.description
+    t: Proposer du CSS alternatif pour les utilisateurs qui préfèrent un mouvement réduit.

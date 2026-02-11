@@ -1,0 +1,358 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: L'édition 2025 du sondage annuel sur les dernières tendances de l'écosystème HTML.
+
+  - key: general.html2025.survey_intro
+    t: |
+      En 2023, alors que les sondages State of JS et State of CSS existaient déjà depuis quelques années, nous avons réalisé qu'il manquait quelque chose : et la technologie qui fait le lien entre tout ça ?
+
+      Après tout, le HTML dépasse aujourd'hui les balises et attributs : il englobe des API pour les mises à jour dynamiques, les contenus riches, les indicateurs de performance, le templating et les composants, et plus encore.
+
+      Le premier State of HTML, piloté par la superstar du web [Lea Verou](https://lea.verou.me/), a battu tous les records pour un nouveau sondage avec 21 000 répondants, et a introduit de nouveaux paradigmes d'interface qui ont amélioré tous les sondages suivants.
+
+      Cette année, avec Lea de nouveau aux commandes, nous avons ajouté ✨35 nouvelles fonctionnalités✨ et deux nouvelles sections : **Graphiques et multimédia** et **Performance**.
+
+      De plus, comme les éditions précédentes, les résultats de cette année seront pris en compte par les éditeurs de navigateurs pour leurs feuilles de route : participer peut donc contribuer à façonner l'avenir du web !
+
+      Prêts ? À vos marques, partez !
+
+  - key: features.features_intro_html2025
+    aliasFor: features.features_intro_html2024
+
+  - key: introduction.html2025
+    t: |
+      Pour se faire une idée de ce dont la plateforme web est capable ces dernières années, il suffit de regarder la liste des catégories couvertes par ce sondage.
+
+      Formulaires, graphiques, fonctionnalités de performance, méthodes d'interaction avec les API système et appareil, accessibilité… C'est un miracle que quelqu'un arrive à tout suivre !
+
+      Heureusement au moins une personne y arrive : [Lea Verou](https://lea.verou.me/), qui après avoir conçu la version initiale du sondage en 2023, nous a rejoints cette année pour le mettre à jour.
+
+      Et ensemble, nous nous sommes notamment concentrés sur l'analyse de la grande quantité de réponses libres recueillies autour des différents points de frustration.
+
+      Vous pourrez désormais explorer des données catégorisées plus en détail, ainsi qu'accéder (et rechercher dans) les réponses brutes des répondants.
+
+      À tout le moins, cela devrait nous rappeler que nous sommes tous dans le même bateau, avec les mêmes frustrations – mais aussi les mêmes espoirs !
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  - key: faq.survey_design_html2025
+    t: Comment ce sondage a-t-il été conçu ?
+  - key: faq.survey_design_html2025.description
+    t: >
+      Ce sondage a été conçu à partir d'un [processus de conception ouvert](https://github.com/Devographics/surveys/issues/253) impliquant les éditeurs de navigateurs et la communauté du développement web.
+
+  - key: faq.results_released_html2025
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_html2025.description
+    t: Le sondage se déroulera du 15 juillet au 15 août 2025, et les résultats seront publiés vers le 15 septembre 2025.
+
+  ###########################################################################
+  # Figures
+  ###########################################################################
+
+  - key: figure.figure_lazy_loading_usage.html2025
+    t: Proportion de répondants ayant utilisé le **lazy loading**, la fonctionnalité la plus utilisée parmi celles au statut Baseline « Newly Available ».
+
+  - key: figure.figure_content_security_usage.html2025
+    t: "Plus forte progression d'utilisation d'une année sur l'autre : **Content-Security Policy**."
+
+  - key: figure.figure_forms_features.html2025
+    t: Nombre de commentaires sur la fonctionnalité la plus commentée, **datalist**.
+
+  ###########################################################################
+  # Highlights
+  ###########################################################################
+
+  - key: highlight.customizable_select.html2025
+    t: |
+      Le **Customizable Select** n'est peut-être pas encore largement pris en charge, mais c'est une fonctionnalité à connaître. Utilisé par seulement **7,1 %** des répondants, **89 %** des développeurs qui l'*ont* utilisé en ont une expérience positive.
+
+      Et comme l'élément `<select/>` a toujours été difficile à styliser, pouvoir enfin l'adapter à ses besoins sans recourir à des bidouilles JavaScript est une amélioration bienvenue !
+
+  - key: highlight.jpeg_xl.html2025
+    t: |
+      Après la prononciation « JIF/GIF » et le nom trompeur « PNG » (« pi-en-jé » ? « ping » ?), ceux qui baptisent les formats d'image ont décidé de faire simple : prendre le déjà populaire JPEG et lui ajouter un « XL » pour le rendre plus cool.
+
+      Mais pas plus gros : contrairement à son nom, les images JPEG XL sont en fait *plus petites* que le bon vieux JPEG – tout en restant rétrocompatibles. Ne me demandez pas comment.
+
+  - key: highlight.hidden_until_found.html2025
+    t: |
+      Saviez-vous que les navigateurs peuvent maintenant jouer à cache-cache ? L'attribut `hidden="until-found"` permet de masquer un élément jusqu'à ce que l'utilisateur le déclenche (par exemple en cliquant sur un lien d'ancre qui pointe vers lui).
+
+      Pour l'instant la fonctionnalité est bien dans son état « caché », avec **79,4 %** des répondants qui n'en avaient jamais entendu parler. Et la prise en charge navigateur reste limitée (Safari, on vous regarde !). Mais une fois l'interopérabilité améliorée, elle pourrait bien rejoindre votre boîte à outils.
+
+  - key: highlight.popover_api.html2025
+    t: |
+      L'**API Popover** est « Newly Available » cette année, c'est-à-dire prise en charge dans les quatre grands navigateurs. C'est donc le moment idéal pour apprendre comment elle peut vous débarrasser du JavaScript de contournement et le remplacer par une API déclarative !
+
+  - key: highlight.blocking_render.html2025
+    t: |
+      Ceux qui se soucient du FOUC (Flash of Unstyled Content) au chargement des sites seront contents d'apprendre l'existence de `blocking="render"`. Comme son nom l'indique, cet attribut peut faire en sorte qu'une balise `<link>`, `<script>` ou `<style>` bloque le rendu de la page jusqu'à son chargement complet.
+
+      La prise en charge navigateur n'y est pas encore – mais ce sera clairement un plus pour l'UX de chargement une fois qu'elle sera généralisée.
+
+  - key: highlight.element_internals.html2025
+    t: |
+      Si vous écrivez des web components, vous avez dû souvent avoir besoin de définir des pseudo-classes personnalisées, des paramètres ARIA par défaut, ou de faire se comporter un composant comme un élément de formulaire classique ?
+
+      **ElementInternals** fait tout ça et plus encore ! Le meilleur ? C'est Widely Available, supporté par tous les navigateurs depuis 2023 !
+
+  - key: highlight.payment_request_api.html2025
+    t: |
+      « Ma recette de carrot cake préférée ? Bien sûr ! Mais d'abord, un nouveau matelas ? Ou des chaussures ? »
+
+      Les pubs semblent indissociables du web, surtout quand on veut juste faire un gâteau. Mais l'**API Payment Request** pourrait être la première étape vers des micro-paiements intégrés au navigateur. Et ça suffit pour la garder à l'œil.
+
+  - key: highlight.search_element.html2025
+    t: |
+      L'élément `<search>` est une de ces victoires faciles à ajouter à vos bonnes pratiques. Étape 1 : l'utiliser pour toute zone de recherche dans vos apps. Étape 2 : c'est tout !
+
+      Maintenant qu'il est supporté dans les quatre grands navigateurs, il n'y a plus de raison de s'en priver.
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  - key: forms.forms_features.takeaway.html2025
+    t: |
+      Étonnamment, `<input type="color"/>` a été la fonctionnalité liée aux formulaires la plus utilisée cette année, avec **41,8 %** des répondants. 
+
+      Mais côté sentiment positif, les briques de base comme l'autocomplétion (`<datalist>`) et les listes déroulantes (Customizable Select) arrivent en tête, montrant que les développeurs valorisent les fonctionnalités personnalisables et adaptables à leurs besoins.
+
+  - key: forms.forms_pain_points.takeaway.html2025
+    t: |
+      Le **style et la personnalisation** des contrôles de formulaire par défaut restent un gros obstacle, avec près de la **moitié** des points sensibles qui les concernent.
+
+      La **validation de formulaire** pose aussi problème, notamment pour les cas avancés comme valider un champ en fonction d'un autre.
+
+  - key: graphics_multimedia.graphics_multimedia_features.takeaway.html2025
+    t: |
+      **JPEG XL** et **ctx.drawElement()** sont les deux nouvelles fonctionnalités qui ont recueilli le plus de sentiment positif, tandis que des domaines plus complexes comme les API de réalité augmentée ou étendue ont moins bien score – preuve que les devs s'intéressent d'abord aux primitives qui simplifient le quotidien.
+
+  - key: graphics_multimedia.graphics_pain_points.takeaway.html2025
+    t: |
+      Le SVG a toujours été le parent pauvre du Web, chroniquement négligé par les éditeurs de navigateurs tout en étant utilisé sur presque tous les sites. Pas étonnant qu'il domine ici, avec un quart des points sensibles qui le concernent.
+
+  - key: content.content_features.takeaway.html2025
+    t: |
+      Les fonctionnalités les plus aimées et les plus détestées concernaient la sécurité : l'**API Sanitizer** a recueilli le plus d'avis positifs, tandis que la **Content-Security Policy** arrivait en tête des frustrations.
+
+      Ce contraste souligne que les mécanismes de sécurité qui réduisent la friction et s'intègrent bien aux flux existants sont bien accueillis, alors que ceux qui imposent des politiques rigides, une configuration minutieuse ou qui cassent du code qui marchait génèrent du ressentiment.
+
+  - key: content.content_pain_points.takeaway.html2025
+    t: |
+      Les données sont claires : le point le plus pressant côté contenu est la **réutilisation HTML**, entre les pages et au sein d'une même page. Même si c'est déjà possible via des outils de build et des frameworks à composants, la demande pour une fonctionnalité native à la plateforme semble forte.
+
+  - key: interactivity.interactivity_features.takeaway.html2025
+    t: |
+      La demande est forte pour des primitives déclaratives simples mais personnalisables pour les cas courants, comme en témoigne la forte proportion de sentiment positif pour chaque fonctionnalité HTML de cette catégorie.
+
+  - key: interactivity.interactivity_pain_points.takeaway.html2025
+    t: |
+      La forte proportion de problèmes de compatibilité navigateur mentionnés envoie un message clair : « on adore toutes ces nouvelles fonctionnalités – maintenant faites-les marcher partout pour qu'on puisse vraiment les utiliser ! ».
+
+  - key: performance.performance_features.takeaway.html2025
+    t: |
+      C'est net : la DX de `srcset` et `sizes` pourrait être améliorée ! Les deux extrémités du spectre les concernent : `srcset`/`sizes` en tête des frustrations, et `sizes="auto"` comme fonctionnalité la plus appréciée – parce qu'elle atténue une partie de la douleur.
+
+  - key: performance.performance_pain_points.takeaway.html2025
+    t: |
+      L'objet du web est de donner accès à du contenu lointain. Du coup, c'est un peu étrange que le **chargement** de ces données soit si souvent laissé pour compte, avec peu de progrès en 30 ans à part des spinners un peu plus jolis.
+
+  - key: web_components.web_components_features.takeaway.html2025
+    t: |
+      Encore une fois les solutions déclaratives l'emportent, avec les **custom elements déclaratifs** en tête du classement sentiment.
+
+  - key: web_components.web_components_pain_points.takeaway.html2025
+    t: |
+      **L'extension des éléments natifs** est une fonctionnalité demandée depuis longtemps, et ces résultats le confirment : c'est le premier sujet concret de points sensibles (après les thèmes plus abstraits sur la complexité, la dépendance au JS et l'accessibilité).
+
+  - key: web_components.web_components_other_pain_points.takeaway.html2025
+    t: |
+      Par rapport aux années précédentes, les mêmes thèmes reviennent : charge cognitive élevée, comparaison défavorable aux composants des frameworks, et le Shadow DOM qui pose plus de problèmes qu'il n'en résout.
+
+  - key: system_capabilities.system_capabilities_features.takeaway.html2025
+    t: |
+      Ouvrir et enregistrer un fichier est une des capacités de base d'une app, et pourtant c'était hors de portée des applications web jusqu'à l'**API File System Access**. Pas étonnant qu'elle arrive en tête du sentiment positif.
+
+      En revanche, les API appareil comme **WebUSB**, **Web Bluetooth** ou **WebNFC** ont recueilli le moins d'intérêt, confirmant que ce qui attire le plus sont les fonctionnalités qui résolvent des problèmes de base et courants.
+
+  - key: system_capabilities.system_capabilities_pain_points.takeaway.html2025
+    t: |
+      Les données sont très claires : le premier point sensible ici n'est ni l'ergonomie ni les limites, mais la **compatibilité des navigateurs**, et en particulier un éditeur que beaucoup de développeurs voient comme un frein aux progrès de la plateforme web.
+
+  # a11y
+
+  - key: accessibility.accessibility_features.takeaway.html2025
+    t: |
+      Les **éléments de repère** (`<main>`, `<nav>`, etc.) ne sont pas très nouveaux ni excitants, mais ils restent une base de l'accessibilité web.
+
+  - key: accessibility.accessibility_pain_points.takeaway.html2025
+    t: |
+      S'il existe des lacunes techniques (ex. ARIA cross-root), un thème récurrent quand on pose la question est que les principaux points sensibles concernent les *humains* : priorités au travail, formation et charge cognitive arrivent en tête.
+
+  - key: accessibility.accessibility_techniques.takeaway.html2025
+    t: |
+      Si des choses comme le texte alternatif ou une hiérarchie de titres correcte sont devenues une évidence pour la plupart des devs front-end, des outils plus récents comme les media queries `prefers-` n'ont pas encore vraiment atteint le grand public.
+
+  - key: accessibility.accessibility_disabilities.takeaway.html2025
+    t: |
+      Il est encourageant de voir qu'au-delà des déficiences visuelles, plus de développeurs prennent en compte la vision des couleurs atypique et les déficiences motrices par rapport à l'année dernière.
+
+  - key: accessibility.accessibility_screenreaders.takeaway.html2025
+    t: |
+      Encore une fois, les outils facilement accessibles comme VoiceOver ou les DevTools Chrome l'emportent sur les options plus spécialisées. Beaucoup de développeurs n'utilisent toutefois encore aucun lecteur d'écran (39 % des répondants ont en outre ignoré la question).
+
+  - key: accessibility.accessibility_tools.takeaway.html2025
+    t: |
+      Les devtools des navigateurs ont connu une forte hausse d'utilisation par rapport à l'année dernière, au point de dépasser Lighthouse et devenir l'outil principal de test d'accessibilité.
+
+  # usage
+  - key: usage.html_interoperability_features.takeaway.html2025
+    t: |
+      Il y a toujours un décalage entre l'état de la plateforme web et l'adoption réelle, donc pas de surprise si l'**API Popover** reste en tête. Mais attention : cette fonctionnalité a maintenant officiellement le statut Baseline « Newly Available », donc l'utiliser partout devrait poser bien moins de problèmes à l'avenir.
+
+  - key: usage.html_functionality_features.takeaway.html2025
+    t: |
+      Les contrôles de formulaire et autres éléments interactifs sont encore perçus comme les plus limitants. Avec le select personnalisable en passe d'être réglé, les sélecteurs de date semblent être la prochaine cible.
+
+  - key: usage.html_missing_elements.takeaway.html2025
+    t: |
+      Cette année encore **datatable** est l'élément le plus demandé. Avoir nativement filtrage, tri, recherche, etc. serait bien, mais ça ne semble pas pour tout de suite.
+
+      En revanche, des progrès sont faits sur d'autres fonctionnalités attendues comme un élément **switch** natif, ce qui explique sa baisse dans le classement.
+
+  - key: usage.html_styling_issues.takeaway.html2025
+    t: |
+      Sans surprise, les champs de formulaire arrivent en tête des éléments les plus difficiles à styliser. Heureusement, les [éléments select personnalisables](https://developer.chrome.com/blog/a-customizable-select) sont en cours, même si la [prise en charge navigateur](https://web-platform-dx.github.io/web-features-explorer/features/customizable-select/) tarde encore.
+
+  - key: usage.component_strategies.takeaway.html2025
+    t: |
+      Difficile de contester que les composants JavaScript sont devenus le paradigme dominant pour construire des interfaces sur le web. Oui, gérer tous ces frameworks front-end en concurrence peut être le bazar – mais c'est un bazar qu'on connaît (et qu'on aime peut-être ?), ce qui rend difficile pour les web components de dépasser la quatrième place.
+
+  - key: usage.design_system_strategies.takeaway.html2025
+    t: |
+      Les design systems sont devenus une nécessité pour la plupart des projets d'envergure, et ça se reflète dans la popularité de toutes ces approches.
+
+  - key: usage.html_css_js_balance.takeaway.html2025
+    t: |
+      Comme le montre le graphique « Stratégies composants » ci-dessus, JavaScript est le véhicule de fait pour une grande partie du code HTML que nous produisons. D'où le temps qu'on passe à l'écrire !
+
+  - key: usage.what_do_you_use_html_for.takeaway.html2025
+    t: |
+      Si le répondant moyen travaille surtout sur des applications web dynamiques, beaucoup d'entre nous passent aussi du temps à créer des blogs ou des sites à fort contenu texte – un retour aux racines du HTML comme langage orienté document.
+
+  - key: usage.html_pain_points_freeform.takeaway.html2025
+    t: |
+      En regardant les points sensibles de la plateforme web de façon plus générale, la compatibilité des navigateurs ressort – surtout côté écosystème Apple.
+
+      D'où des initiatives communautaires comme le hashtag [#AppleBrowserBan](https://open-web-advocacy.org/apple-browser-ban/) qui prennent de l'ampleur, tandis que côté éditeurs [Interop](https://web.dev/blog/interop-2025) fait bouger les lignes dans la bonne direction chaque année.
+
+  # opinions
+
+  - key: opinions.accessibility_is_valued.takeaway.html2025
+    t: |
+      Le manque d'adhésion au travail étant souvent cité comme obstacle à de bonnes pratiques d'accessibilité, il est encourageant de voir qu'au moins parmi les répondants les choses s'améliorent, avec une hausse des deux barres « d'accord » par rapport à l'année dernière.
+
+  - key: opinions.validation_is_important.takeaway.html2025
+    t: |
+      Il est facile d'oublier la validation HTML dans le chaos du développement web moderne. Mais les répondants s'accordent à dire qu'elle reste une partie importante du processus.
+
+  - key: opinions.keeping_informed_is_challenging.takeaway.html2025
+    t: |
+      Malgré d'excellentes initiatives comme [Baseline](https://web-platform-dx.github.io/web-features/), [rester à jour sur la plateforme web](https://css-tricks.com/how-to-keep-up-with-new-css-features/) reste un défi. Espérons que ce sondage aide un peu !
+
+  - key: opinions.browser_interoperability_is_obstacle.takeaway.html2025
+    t: |
+      Ce n'est pas facile d'être un éditeur de navigateur en 2025. Les développeurs se plaignent de la stagnation de la plateforme, alors vous introduisez de nouvelles fonctionnalités et API… pour que les développeurs se plaignent maintenant du manque de support cross-browser !
+
+      C'est pourquoi [Interop](https://web.dev/blog/interop-2025) est devenu un maillon clé du processus ces dernières années : il permet aux éditeurs de se coordonner sur la compatibilité et d'éviter que tout leur travail soit gâché par une mauvaise interopérabilité.
+
+  - key: opinions.browser_interoperability_pace.takeaway.html2025
+    t: |
+      Les résultats de ces efforts d'interopérabilité se reflètent dans ce graphique : **75 %** des répondants sont d'accord pour dire que les choses avancent plus vite qu'avant.
+
+  - key: opinions.web_platform_right_direction.takeaway.html2025
+    t: |
+      De même, **77 %** des répondants ont une opinion positive sur la direction globale de la plateforme web.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.html2025.lea_verou.name
+    t: Dr Lea Verou
+  - key: conclusion.html2025.lea_verou.bio
+    t: Conférencière, auteure, consultante en architecture web primée
+  - key: conclusion.html2025.lea_verou
+    t: >
+      On s'attend souvent à ce que les fonctionnalités les plus tape-à-l'œil attirent le plus l'intérêt des développeurs. Les API dopées à l'IA, le 3D/XR/AR, les API appareil. Pourtant année après année, ce qui arrive en tête n'a rien de fancy. Presque… trivial : listes déroulantes, comboboxes, popovers, dialogues, validation de formulaires, chargement et enregistrement de fichiers, templating, affichage sécurisé de contenu utilisateur, icônes.
+
+      ### Rendre les API utilisables
+
+      « Mais — beaucoup existent déjà ! » objecterez-vous. Oui — mais quand l'UI native ne peut pas être personnalisée ou stylée, elle est en pratique inutilisable. Les développeurs sont obligés de la recréer quand même.
+
+      Une fois qu'on a compris ça, ça explique la plupart des résultats du sondage. Pourquoi le **Customizable Select** arrive en tête. Pourquoi des primitives bas niveau comme les popovers et invokers sont si bien accueillies. Pourquoi le **SVG** et le **dessin de HTML sur canvas** sont bien au-dessus d'AR/VR. Même pourquoi **l'extension des éléments natifs** ressort comme un point sensible majeur des Web Components.
+
+      Combien de fois peut-on recréer un bouton ou une liste déroulante avant de craquer ? Et avec quelle confiance qu'on l'a bien fait ?
+
+      Résultat : construire des UIs interactives professionnelles demande encore d'assembler de nombreuses solutions tierces, même pour des choses routinières sur les plateformes propriétaires.
+
+      ### Un changement en retard
+
+      Ce constat n'est pas nouveau. Dès [le premier State of HTML](https://2023.stateofhtml.com/), le style et la personnalisation apparaissaient comme critiques, surtout pour les formulaires. L'analyse plus poussée de cette année confirme que ça n'a pas changé — le signal est même plus net.
+
+      Mais les choses *ont* changé en mieux ! Des fonctionnalités discutées en 2023 sont maintenant livrées dans les grands navigateurs. D'autres qui étaient impraticables à l'époque — comme l'**API Popover** — sont maintenant supportées partout.
+
+      Pourtant Popover reste en tête des plaintes sur la compatibilité. Pourquoi ? Si le rythme d'implémentation s'est accéléré, la perception collective reste en retard. Il faut maintenant plus de temps aux développeurs pour faire confiance au support qu'aux navigateurs pour le livrer !
+
+      ### L'impact des LLM
+
+      L'essor du code généré par l'IA joue un rôle. Les LLM connaissent étonnamment bien les fonctionnalités récentes de la plateforme web et *pourraient* avoir fait avancer la communauté, mais ils restent trop conservateurs dans leurs recommandations. En pratique, ça peut même *ralentir* l'adoption ! Comment corriger ça à grande échelle reste une question ouverte. En attendant, des instructions explicites sur le support navigateur aident, et si assez de devs le font, le problème pourrait un jour se résoudre tout seul.
+
+      ### Perspectives
+
+      L'avenir semble prometteur. Beaucoup des points sensibles soulignés font l'objet de travaux actifs, et dans certains cas sont déjà livrés. Même les built-ins extensibles, longtemps considérés comme une impasse, pourraient progresser grâce aux travaux précoces sur les attributs personnalisés.
+
+      Toutes ces primitives vont dans le même sens : une plateforme web qui devient progressivement plus flexible, plus expressive et plus alignée avec la façon dont les développeurs construisent vraiment des UIs.
+
+      Les progrès sur le Web sont rarement spectaculaires, mais ils s'accumulent. Chaque nouvelle primitive réduit le besoin de contournements, de librairies et de bidouilles fragiles. Et quand ces fondamentaux seront en place, l'impact se fera sentir partout.
+
+  - key: about.content.html2025
+    t: |
+      Le sondage State of HTML 2025 s'est déroulé du 19 juillet au 1er septembre 2025 et a recueilli 6 223 réponses.
+
+      Le sondage a été principalement conçu par [Lea Verou](https://lea.verou.me/), ainsi qu'en collaboration via [un fil GitHub ouvert](https://github.com/Devographics/surveys/issues/253).
+
+      L'infrastructure du sondage est gérée par [Sacha Greif](https://sachagreif.com/), avec l'aide d'une équipe de contributeurs et consultants open source.
+
+      Le logo et le t-shirt de cette année ont été conçus par [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Objectifs du sondage
+
+      Ce sondage a été créé pour identifier les tendances émergentes dans l'écosystème du développement web afin d'aider les développeurs à faire des choix technologiques.
+
+      En tant que tel, il se concentre sur ce qui arrive dans les prochaines années plutôt que sur ce qui est populaire aujourd'hui, c'est pourquoi les fonctionnalités ou technologies déjà très répandues ne sont pas toujours incluses.
+
+      Il doit être considéré comme un **instantané d'un sous-ensemble précis de développeurs**, et ne prétend pas représenter l'écosystème entier.
+
+      Le sondage était librement accessible en ligne et les répondants n'ont été ni filtrés ni sélectionnés.
+
+      ### Financement du projet
+
+      Le financement provient de plusieurs sources :
+
+      - **Vente de t-shirts**.
+
+      - **Liens sponsorisés** : les liens vers des ressources recommandées en bas de chaque page sont fournis par notre partenaire [Frontend Masters](https://frontendmasters.com/).
+
+      - **Autres financements** : [Google](https://www.google.com/) et [TokyoDev](https://www.tokyodev.com/) ont également financé des travaux sur le sondage.
+
+      ### Aperçu technique
+
+      Un aperçu technique plus détaillé du fonctionnement des sondages est disponible [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).

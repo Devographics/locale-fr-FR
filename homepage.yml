@@ -31,15 +31,123 @@ translations:
     t: Remplir le questionnaire
 
   - key: homepage.view_results
-    t: Voir les résultats de 2019
+    t: Voir les résultats
+
+  - key: homepage.results_coming_soon
+    t: Résultats bientôt disponibles…
 
   - key: share.help_spread
     t: Aidez-nous à partager l'info !
 
+  - key: homepage.other_surveys
+    t: "Autres sondages :"
+
+  - key: homepage.survey_open_now
+    t: Actuellement ouvert
+
+  - key: homepage.survey_preview
+    t: Aperçu du sondage
+
+  - key: homepage.most_recent_survey
+    t: Plus récent
+
+  - key: homepage.current_survey
+    t: Sondage en cours
+
+  - key: homepage.past_surveys
+    t: Sondages passés
+
+  - key: homepage.view_questions
+    t: Voir les questions
+
+  - key: homepage.preview_questions
+    t: Aperçu des questions
+
+  # newsletter
   - key: newsletter.stay_tuned
-    t: Stay Tuned
+    t: Ne manquez pas le prochain sondage
   - key: newsletter.leave_your_email
-    t: Rentrez votre email pour être tenu au courant du lancement du prochain questionnaire.
+    t: Laissez-nous votre email et nous vous préviendrons du prochain sondage.
+  - key: newsletter.email
+    t: Votre email
+  - key: newsletter.submit
+    t: Me notifier
+  - key: newsletter.thanks
+    t: Merci pour votre inscription !
+
+  # languages
+  - key: languages.available_languages
+    t: "Langues disponibles :"
+  - key: languages.help_us_translate
+    t: Aidez-nous à traduire le sondage dans votre langue →
+
+  # partners
+  - key: homepage.with_support_from
+    aliasFor: sponsors.with_support_from
+
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: Propulsé par [Astro](https://astro.build/)
+
+  # creators
+  - key: creators.heading
+    t: Créateurs que nous soutenons
+
+  - key: creators.description
+    t: |
+      Nos sondages ne sont possibles que grâce au soutien continu de la communauté de développeurs, et il est naturel que nous rendions la pareille quand nous le pouvons.
+
+
+      Voici quelques créateurs de contenu et organisations que nous soutenons financièrement, en échange de faire connaître les sondages.
+
+  - key: creators.stephanie_walter.description
+    t: |
+      Stéphanie Walter est une chercheuse UX, designer et auteure accomplie, installée au Luxembourg, qui a le don de rendre clairs des sujets par ailleurs complexes.
+
+  - key: creators.afor_digital.description
+    t: |
+      Afor est une figure clé de la communauté de streaming hispanophone en développement web, et son talent pour rendre le contenu programmation captivant lui vaut un succès mérité.
+
+  - key: creators.shruti_kapoor.description
+    t: |
+      Entre le blog, les vidéos YouTube, les conférences et le fait d'être une personne formidable, Shruti est depuis longtemps un pilier de l'écosystème React.
+
+  - key: creators.codebar.description
+    t: |
+      Codebar est une association qui organise des ateliers qui coûteraient normalement des milliers de dollars, et les propose gratuitement en ligne pour construire une communauté de développeurs plus inclusive.
+
+  # calendar
+  - key: calendar.heading
+    t: |
+      Sondages {currentYear}
+  - key: calendar.feedbackAt
+    t: Début des retours
+  - key: calendar.startedAt
+    t: Début du sondage
+  - key: calendar.endedAt
+    t: Fin du sondage
+  - key: calendar.releasedAt
+    t: Publication des résultats
+  - key: calendar.past_editions
+    t: Sondages passés
+  - key: calendar.ongoing_editions
+    t: Sondages en cours
+  - key: calendar.upcoming_editions
+    t: Sondages à venir
+  - key: calendar.no_editions
+    t: Aucun sondage.
+  - key: calendar.give_feedback
+    t: Suggérer des questions →
+  - key: calendar.take_survey
+    t: Remplir le sondage →
+  - key: calendar.view_results
+    t: Voir les résultats →
 
   - key: author.sacha.bio
     t: >
