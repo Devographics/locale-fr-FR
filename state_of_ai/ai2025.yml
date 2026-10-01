@@ -1,0 +1,324 @@
+locale: fr-FR
+translations:
+  - key: general.ai2025.devs2025_banner
+    t: >
+      Annonce d'un nouveau sondage destiné aux développeurs sur tout ce qui n'est *pas* du code : santé, loisirs, carrière et bien plus encore ! →
+
+  - key: general.ai2025.survey_intro
+    t: |
+
+      J'ai demandé à ChatGPT de rédiger une introduction pour ce sondage — pas pour l'utiliser telle quelle, bien sûr, mais simplement pour m'inspirer.
+
+      Cette introduction était excellente — concise, cohérente, bien pensée. Et maintenant, le problème est que j'ai du mal à trouver quelque chose d'aussi réussi avec mon pauvre petit cerveau humain.
+
+      D'une manière ou d'une autre, j'ai résisté à l'envie de faire un copier-coller cette fois-ci. Cependant, en ce qui concerne le développement web, beaucoup d'entre nous ont déjà adopté nos nouveaux maîtres de l'IA et génèrent régulièrement des applications entières avant même le petit-déjeuner — du moins si l'on en croit mes fils d'actualité sur les réseaux sociaux.
+
+      Mais aujourd'hui, j'aimerais savoir ce qui se passe *réellement*. Comment utilisez-vous l'IA ? Quels outils avez-vous essayés ? Et le soulèvement des robots aura-t-il lieu avant la sortie de GTA 6 ?
+
+      Nous vous remercions pour votre temps et votre participation, et nous avons hâte de partager les résultats avec la communauté. Explorons ensemble comment l'IA façonne l'avenir du développement web !
+
+      *P.-S. L'un des paragraphes ci-dessus a en fait été écrit par une IA. Saurez-vous deviner lequel ?*
+
+  - key: introduction.ai2025
+    t: |
+
+      Faire une sieste aide-t-il à lutter contre le décalage horaire ? Quel fer à souder devrais-je acheter ? Où devrais-je manger ce soir ?
+
+      Comme beaucoup d'entre vous, j'ai commencé à confier à l'IA les petites questions de la vie — et parfois les moins petites. Mais qu'en est-il de *l'écriture de code* ? L'IA est-elle prête à prendre le relais, ou devrions-nous garder nos claviers encore un petit peu ?
+
+      Il vous suffit maintenant d'ouvrir votre application de réseaux sociaux préférée pour trouver une foule de développeurs prêts à vous expliquer comment ils « codent au feeling » régulièrement des applications entières avant même le petit-déjeuner.
+
+      Pourtant, de nombreuses questions restent encore sans réponse :
+
+
+      - Combien les développeurs dépensent-ils pour l'IA ?
+      - Quels sont les outils les plus utiles ?
+      - Et quels sont les principaux problèmes rencontrés par les développeurs lorsqu'il s'agit réellement d'exploiter l'IA pour développer des applications web ?
+
+
+      Ce tout premier sondage **State of Web Dev AI** répond à toutes ces questions et à bien d'autres encore. De plus, nous avons également essayé d'interroger des développeurs qui restent sceptiques vis-à-vis de l'IA, afin de dresser un tableau plus fidèle de l'état actuel de l'écosystème de l'IA.
+
+      Nous espérons que vous trouverez le rapport qui en résulte aussi intéressant que nous l'avons trouvé !
+
+      *Notez que ce sondage n'est affilié ni à [The State of AI Report](https://www.stateof.ai/) ni au [sondage Vercel State of AI](https://vercel.com/state-of-ai).*
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  # FAQ
+
+  - key: faq.results_released_ai2025
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_ai2025.description
+    t: Le sondage se déroulera du 10 février au 10 mars 2025, et les résultats seront publiés peu après.
+
+  - key: faq.survey_design_ai2025
+    t: Comment ce sondage a-t-il été conçu ?
+  - key: faq.survey_design_ai2025.description
+    t: >
+      Ce sondage a été conçu dans le cadre d'un [processus de conception ouvert](https://github.com/Devographics/surveys/issues/278)
+      impliquant des entreprises spécialisées dans l'IA, des fournisseurs de navigateurs et la communauté du développement web.
+
+  ###########################################################################
+  # Content
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description.ai2025
+    t: |
+      **4,181** répondants ont pris part à l'enquête de la première édition du State of Web Dev AI.
+
+  # models
+
+  - key: sections.models.description.ai2025
+    t: |
+      La fondation sur laquelle l'écosystème complet est construit.
+
+  - key: tools.models_experience.takeaway.ai2025
+    t: |
+      Ce n'est pas surprenant que  **ChatGPT** d'OpenAI  bénéficie encore de son avantage de pionnier et de sa forte notoriété, ce qui en fait à la fois le fournisseur de modèles le plus utilisé (91,2%) et le plus apprécié (53,1%)
+
+      Mais bien qu'il dispose d'une large avance en termes d'utilisation, le deuxième, **Claude**, n'est pas très loin derrière en termes de sentiment positif, avec 45,9 %.
+
+  - key: ai_pain_points.models_pain_points.takeaway.ai2025
+    t: |
+      **Les hallucinations et les inexactitudes** constituaient de loin le principal point faible des modèles d'IA signalé par les personnes interrogées, ce qui est logique dans la mesure où ces outils perdent toute utilité si l'on ne peut pas se fier à leurs résultats. 
+
+      L'incapacité à **gérer des contextes plus vastes** et à conserver les données en mémoire constituait également un problème majeur, notamment lorsqu'il s'agissait de traiter des bases de code volumineuses issues du monde réel.
+
+  # ides
+
+  - key: sections.ides.description.ai2025
+    t: |
+      Les éditeurs de texte basé sur l'IA de demain.
+
+  - key: tools.ides_experience.takeaway.ai2025
+    t: |
+      **Cursor** dispose d'une avance significative en termes de notoriété, puisque 82,2 % des personnes interrogées l'ont déjà utilisé ou en ont entendu parler, contre seulement 54,1 % pour son concurrent direct, Zed.
+
+      À la lecture des commentaires spontanés laissés au sujet de Cursor, il semble que le principal problème soit en réalité son prix, ce qui laisse penser qu'il pourrait y avoir une place sur le marché pour une alternative moins chère.
+
+  - key: ai_pain_points.ides_pain_points.takeaway.ai2025
+    t: |
+      **Les contraintes liées au contexte et à la mémoire** constituent actuellement le principal obstacle empêchant les développeurs web d'utiliser des IDE dédiés pour coder, suivies par un nombre trop important de **suggestions intrusives** ainsi que par le **coût élevé** associé aux IDE basés sur l'IA.
+
+  # coding_assistants
+
+  - key: sections.coding_assistants.description.ai2025
+    t: |
+      Ton partenaire de programmation personnel.
+
+  - key: tools.coding_assistants_experience.takeaway.ai2025
+    t: |
+      S'il n'est pas surprenant de voir **GitHub Copilot** en tête des classements en termes d'utilisation et de sentiment positif, il convient de noter que **Supermaven** affiche le deuxième plus haut niveau de sentiment positif, bien qu'il n'occupe que la 4e place en termes d'utilisation. Ce genre d'écart est souvent le signe d'une nouvelle étoile montante qui pourrait faire parler d'elle au cours de l'année à venir.
+
+  - key: ai_pain_points.coding_assistants_pain_points.takeaway.ai2025
+    t: |
+      Une fois de plus, les **hallucinations et les inexactitudes** s'avèrent être un obstacle majeur à une adoption plus large.
+
+      Et tout comme pour les IDE, le fait que les assistants de codage disposent d'une **fenêtre contextuelle limitée** constituait également un problème majeur.
+
+  # code_generation
+
+  - key: sections.code_generation.description.ai2025
+    aliasFor: sections.code_generation.prompt
+
+  - key: tools.code_generation_experience.takeaway.ai2025
+    t: |
+      Fort du soutien de Vercel, **v0** s'est rapidement imposé comme le leader de ce nouveau secteur en plein essor. Mais **Bolt**, de StackBlitz, n'est pas loin derrière et mérite certainement qu'on le suive de près.
+
+  - key: ai_pain_points.code_generation_pain_points.takeaway.ai2025
+    t: |
+      Les outils de génération de code semblent produire **du code de mauvaise qualité** qui, bien souvent, ne fonctionne pas comme prévu, voire pas du tout.
+
+  # other_tools
+
+  - key: sections.other_tools.description.ai2025
+    t: Other AI Tools
+
+  - key: other_tools.ai_programming_languages.takeaway.ai2025
+    t: |
+      Comme on pouvait s'y attendre pour une enquête axée sur le développement web, les outils d'IA étaient le plus souvent utilisés en association avec JavaScript et TypeScript.
+
+  - key: other_tools.image_generation.takeaway.ai2025
+    t: |
+      Le fait d'être intégré à ChatGPT s'est avéré être un atout majeur pour **Dall-E**, qui prend ainsi l'avantage sur des concurrents bien établis tels que **Stable Diffusion** et **Midjourney**.
+
+  - key: other_tools.ai_libraries_sdks.takeaway.ai2025
+    t: |
+      Entre la version v0 et le **Vercel AI SDK**, Vercel a réussi à obtenir de très bons résultats dans le domaine de l'IA, bien que ce ne soit pas son domaine d'activité principal.
+
+  - key: other_tools.ai_browser_apis.takeaway.ai2025
+    t: |
+      À l'avenir, les modèles d'IA pourraient très bien être intégrés à nos navigateurs web – et si cela se produit, des fonctionnalités telles que la traduction ou la synthèse de contenu à la volée pourraient être accessibles d'un simple appel d'API.
+
+  # usage
+
+  - key: sections.usage.description.ai2025
+    t: |
+      Comment les développeurs utilisent l'IA.
+
+  - key: usage.ai_uses.takeaway.ai2025
+    t: Comme on pouvait s'y attendre dans une enquête auprès des développeurs, la **génération de code** est apparue comme l'utilisation la plus courante de l'IA. En revanche, bien que la **génération d'images** ait été le cas d'utilisation initial de l'IA générative, seuls 38 % des personnes interrogées ont déclaré l'utiliser.
+
+  - key: usage.ai_generated_code_balance.takeaway.ai2025
+    t: La plupart d’entre nous ne sont pas encore tout à fait passés au « vibe coding », la majorité des personnes interrogées (69 %) génèrent moins de 25 % de leur code grâce à l’IA, et seule une petite minorité (8 %) en génère plus de 75 %.
+
+  - key: usage.ai_generated_code_refactoring.takeaway.ai2025
+    t: Même lorsque l'IA est utilisée pour générer du code, une grande majorité (76 %) des développeurs ont déclaré devoir refactoriser au moins la moitié du code généré avant qu'il ne soit prêt à être utilisé.
+
+  - key: usage.ai_code_refactoring_reasons.takeaway.ai2025
+    t: |
+      Les principales raisons invoquées pour procéder à une refactorisation étaient des problèmes d'ordre esthétique, tels qu'une mauvaise lisibilité, le changement de nom de variables et des répétitions excessives.
+
+      De nombreux participants ont également utilisé le champ libre « Autre réponse » pour indiquer que le code généré ne fonctionnait souvent tout simplement pas comme prévu.
+
+  - key: usage.ai_code_generation_frequency.takeaway.ai2025
+    t: |
+      Ce graphique montre à quel point l'IA est désormais intégrée à nos processus de travail quotidiens : 46 % des personnes interrogées utilisent l'IA pour générer du code plusieurs fois par jour, voire plus.
+
+  - key: usage.ai_other_tasks_frequency.takeaway.ai2025
+    t: |
+      Par rapport à la génération de code, l'IA est utilisée relativement moins souvent pour d'autres tâches (recherche, synthèse, traduction, etc.) – ce qui est logique, étant donné que c'est encore à la programmation que nous consacrons le plus de temps.
+
+  - key: usage.ai_generated_code_type.takeaway.ai2025
+    t: |
+      Il s'est avéré que les fonctions d'aide constituaient le type de code le plus fréquemment généré, suivies par les composants front-end ; ces deux types de code sont relativement autonomes, ce qui en fait de bons candidats pour la génération de code.
+
+      Beaucoup utilisent également l'IA pour ajouter de la documentation ou des commentaires au code existant, ce qui constitue un cas d'utilisation inattendu.
+
+  - key: usage.ai_personal_expenses.takeaway.ai2025
+    t: |
+      Je ne sais pas exactement d'où les entreprises spécialisées dans l'IA tirent les fonds nécessaires au fonctionnement de leurs parcs de serveurs, mais une chose est sûre : ce n'est pas auprès des développeurs individuels, puisque la majorité des personnes interrogées ne dépensent actuellement pas d'argent de leur poche pour des outils et services d'IA.
+
+  - key: usage.ai_company_expenses.takeaway.ai2025
+    t: |
+      Il est intéressant de noter que les dépenses des entreprises suivent une courbe en fer à cheval : celles-ci ne dépensent rien en IA… sauf si elles dépensent plus de 5 000 dollars ! Reste à voir si ce modèle tarifaire s'avérera viable pour les entreprises du secteur de l'IA.
+
+      Il convient de noter que les personnes interrogées ont également indiqué, dans leurs commentaires libres, qu'elles n'avaient pas toujours accès à ces informations.
+
+  - key: usage.industry_sector.takeaway.ai2025
+    t: |
+      N'hésitez pas à utiliser notre **Query Builder** intégré sur n'importe quel *autre* graphique pour filtrer ces résultats d'enquête en fonction d'un secteur d'activité spécifique.
+
+  - key: usage.ai_running_locally.takeaway.ai2025
+    t: |
+      De nombreux participants ont déjà essayé d'exécuter leurs propres modèles d'IA en local, malgré les difficultés que cela implique, et beaucoup d'autres souhaitent s'y essayer.
+
+      Cela pourrait devenir un facteur clé de différenciation pour les nouveaux modèles, car cela témoigne d'une forte demande pour un meilleur contrôle des outils d'IA.
+
+  - key: usage.ai_pain_points.takeaway.ai2025
+    t: |
+      La mauvaise qualité globale du code arrive en tête des points faibles liés à l'IA.
+
+  - key: usage.ai_missing_features.takeaway.ai2025
+    t: |
+      Ce qui manque principalement aux modèles actuels, c'est la capacité à conserver des bases de code entières en mémoire, une fonctionnalité qui s'avérera essentielle si les outils d'IA sont censés nous aider à maintenir des applications, et pas seulement à en créer des prototypes.
+
+  - key: usage.ai_happiness.takeaway.ai2025
+    t: |
+      Malgré les différents points faibles mis en évidence par l'enquête, les personnes interrogées se sont montrées globalement assez optimistes quant à l'état de l'IA dans le domaine du développement web en 2025.
+    aliases:
+      - happiness.ai_happiness.takeaway.ai2025
+
+  # resources
+
+  - key: sections.resources.description.ai2025
+    t: Comment les développeurs se familiarisent avec l'IA
+
+  # opinions
+
+  - key: sections.opinions.description.ai2025
+    t: Poser des questions plus approfondies
+
+  - key: opinions.integral_workflow.takeaway.ai2025
+    t: |
+      Même si les outils d'IA sont loin d'être parfaits, les personnes interrogées s'accordent largement à dire qu'ils font désormais partie intégrante de leur processus quotidien de programmation.
+
+  - key: opinions.more_productive.takeaway.ai2025
+    t: |
+      De même, une majorité des personnes interrogées s'accordent à dire que les outils d'IA leur ont permis d'améliorer leur productivité.
+
+  - key: opinions.ai_reliance_worse_developers.takeaway.ai2025
+    t: |
+      Pourtant, ce gain de productivité d'aujourd'hui pourrait bien avoir un coût demain : un recours excessif aux outils d'IA pourrait bien finir par faire baisser le niveau de compétence global de l'ensemble du secteur !
+
+  - key: opinions.job_security_threat.takeaway.ai2025
+    t: |
+      Quoi qu'il en soit, le répondant moyen ne craint pas que l'IA vienne lui prendre son emploi – seul le temps nous dira s'il s'agit là de confiance ou d'orgueil.
+
+  - key: opinions.existential_risk.takeaway.ai2025
+    t: |
+      Les personnes interrogées étaient partagées sur la question de la sécurité de l'IA, beaucoup d'entre elles (moi y compris) ne sachant pas encore vraiment si l'IA représente réellement un risque pour l'humanité ou non.
+
+  - key: opinions.reach_agi.takeaway.ai2025
+    t: |
+      L’« AGI » est un objectif vague dont on vante souvent l’arrivée « imminente ». Mais dans l’ensemble, les personnes interrogées sont restées quelque peu sceptiques quant à la possibilité de l’atteindre dans un avenir proche.
+
+  # conclusion
+
+  - key: conclusion.ai2025.ashok_gelal.bio
+    t: Développeur et fondateur, [Msty](https://msty.app/)
+
+  - key: conclusion.ai2025.ashok_gelal
+    t: |
+      Comme beaucoup d’entre nous, j’étais très sceptique vis-à-vis de l’IA au début. L’IA allait-elle vraiment changer la donne, ou s’agissait-il simplement d’une nouvelle mode, comme les NFT, les cryptomonnaies, le Web3 et tant d’autres ?
+
+      Puis OpenAI a lancé ChatGPT. Et lorsque, peu après, ma nièce, élève en 5e, m’a dit que son professeur prévoyait de l’utiliser en classe, j’ai compris que cette fois-ci, c’était différent.
+
+      Pendant un moment, j’ai même pensé qu’OpenAI allait s’accaparer tout le marché… mais bon sang, je suis ravi de m’être trompé !
+
+      Les récents modèles de raisonnement de DeepSeek, les capacités époustouflantes de génération d’images de Google Gemini, les outils MCP d’Anthropic, etc., montrent que ce n’est qu’un début et que l’innovation en matière d’IA progresse à un rythme sans précédent.
+
+      En tant que développeur d’une application s’appuyant sur ces modèles, je suis extrêmement impatient de voir où tout cela va nous mener. L’IA va-t-elle nous remplacer ? Je n’en suis pas sûr. Mais je suis convaincu que ceux d’entre nous qui apprendront à s’en servir auront sans aucun doute un avantage.
+
+      Je n’ai pas connu le premier boom d’Internet, alors je ne vais pas rester les bras croisés cette fois-ci. Maintenant, excusez-moi, je dois aller découvrir un nouveau modèle qui vient d’être annoncé et qui est censé être plus rapide, moins cher et plus performant que tout ce qui existe actuellement !
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.google_chrome.description
+    t: Nous remercions l'équipe de Google Chrome pour son soutien à notre travail.
+
+  - key: sponsors.tokyodev.description
+    t: Trouvez dès aujourd'hui l'emploi de développeur de vos rêves au Japon.
+
+  - key: sponsors.neon.description
+    t: Exploitez des applications d'IA de pointe avec Postgres.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.ai2025
+    t: |
+      L'enquête « State of Web Dev AI » 2025 s'est déroulée du 10 février au 10 mars 2025 et a recueilli 4 181 réponses. Les résultats ont été publiés le 15 avril 2025. Cette enquête est menée par [Devographics](https://devographics.com/), avec le concours d'experts du domaine et de contributeurs open source invités.
+
+      ### Objectifs de l'enquête
+
+      Cette enquête a été conçue pour identifier les tendances à venir en matière d’utilisation de l’IA dans le développement web, afin d’aider les développeurs à faire de meilleurs choix technologiques.
+
+      ### Conception de l’enquête
+
+      L’enquête a été conçue en collaboration avec la communauté, avec une période de consultation ouverte au cours de laquelle le plan de l’enquête a été discuté [sur GitHub](https://github.com/Devographics/surveys/issues/278).
+
+      Toutes les questions de l’enquête étaient facultatives.
+
+      ### Public cible de l’enquête
+
+      L’enquête était librement accessible en ligne et les participants n’ont fait l’objet d’aucun filtrage ni d’aucune sélection. Le public était principalement composé d’un mélange de participants aux précédentes enquêtes Devographics, telles que [State of JS](https://stateofjs.com/), [State of CSS](https://stateofcss.com/), etc. (informés via une liste de diffusion dédiée) et de personnes provenant des réseaux sociaux.
+
+      Bien que l’enquête ait été ouverte à tous les développeurs, qu’ils utilisent ou non l’IA, le thème de l’enquête en lui-même a probablement orienté l’échantillon des répondants vers des développeurs qui s’intéressent à l’IA.
+
+      Elle doit également être considérée comme un **instantané d’un sous-ensemble spécifique de développeurs** et ne prétend pas représenter l’ensemble de l’écosystème.
+
+      ### Financement du projet
+
+      Le financement de ce projet provient des parrainages de nos partenaires.
+
+      Toute contribution ou tout parrainage est vivement apprécié. Nous souhaiterions tout particulièrement collaborer étroitement avec davantage de fournisseurs de navigateurs, car ils jouent un rôle central dans l'écosystème du Web.
+
+      ### Présentation technique
+
+      Vous trouverez une présentation technique plus détaillée du fonctionnement des enquêtes [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).
