@@ -1,0 +1,590 @@
+locale: fr-FR
+translations:
+  - key: general.devs2025.survey_intro
+    t: |
+
+      2025 est une période étrange pour être développeur. L'IA transforme notre façon de travailler, nous faisons face à des vagues de licenciements et le climat politique évolue dans certains pans de la communauté tech.
+
+      Alors, même s'il est toujours intéressant de vous demander quel est votre framework JavaScript préféré, nous avons pensé qu'il était temps d'aborder les grandes questions pour mieux comprendre notre époque : qui êtes-vous ? Que faites-vous en dehors du code ? En quoi croyez-vous et qu'espérez-vous ?
+
+      Bienvenue dans la toute première enquête State of Devs, où nous nous intéressons à tout ce qui n'est *pas* du code.
+
+      Comme toujours, toutes les questions sont facultatives : n'hésitez pas à passer celles auxquelles vous ne souhaitez pas répondre. Veuillez également noter que le jeu de données obtenu sera rendu public. Nous espérons que cette enquête vous sera utile et avons hâte d'en apprendre davantage sur vous !
+
+  - key: introduction.devs2025
+    t: |
+
+      « Ces questions sont vraiment personnelles » ; « Cela va être trop controversé » ; « Vous devriez vous en tenir aux enquêtes sur la programmation ».
+
+      Voilà quelques-unes des premières réactions que j'ai reçues lorsque j'ai évoqué l'idée d'une enquête auprès des développeurs entièrement consacrée aux problèmes au travail, à la santé, aux loisirs et à d'autres sujets sans rapport avec le code.
+
+      Je suis pourtant heureux d'être allé au bout de cette idée. Les 8 717 réponses à cette enquête montrent qu'elle a trouvé un écho dans la communauté des développeurs. La participation nettement plus élevée des femmes, en particulier par rapport aux enquêtes précédentes, montre qu'il existait une demande pour aborder ces sujets moins souvent évoqués.
+
+      En parcourant les données, pensez aussi à consulter les nombreux commentaires laissés par les répondants pendant l'enquête (icône <span class="icon-inline icon-inline-comment">commentaire</span>) : ils y racontent leur expérience et développent leurs réflexions.
+
+      Ceci étant dit, bonne découverte des résultats de la toute première enquête State of Devs !
+
+      *Remarque : compte tenu du volume de données, les résultats seront publiés en deux parties. Voici pour l'instant la première !*
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  - key: general.devs2025.css2025_banner
+    t: |
+      Répondez à l'enquête State of CSS et testez vos connaissances en CSS ! →
+
+  # FAQ
+
+  - key: faq.how_long_will_survey_take_devs2025
+    t: Combien de temps faut-il pour répondre à cette enquête ?
+  - key: faq.how_long_will_survey_take_devs2025.description
+    t: >
+      Il faut environ 15 minutes pour répondre à cette enquête. Toutes les questions sont facultatives.
+
+  - key: faq.results_released_devs2025
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_devs2025.description
+    t: L'enquête se déroulera du 15 avril au 15 mai 2025, et ses résultats seront publiés peu après.
+
+  - key: faq.survey_design_devs2025
+    t: Comment cette enquête a-t-elle été conçue ?
+  - key: faq.survey_design_devs2025.description
+    t: >
+      Cette enquête a été conçue à l'issue d'un [processus de conception ouvert](https://github.com/Devographics/surveys/issues/279) auquel la communauté du développement web a participé.
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description.devs2025
+    t: 8 717 développeurs ont participé à la toute première enquête State of Devs.
+
+  - key: user_info.country.takeaway.devs2025
+    t: |
+      L'écart de revenu médian entre les développeurs des États-Unis et ceux des autres pays reste important, en partie sous l'effet des salaires élevés et du coût de la vie dans la Silicon Valley.
+
+  - key: user_info.gender.takeaway.devs2025
+    t: |
+      La part de 15 % de participantes peut sembler faible, mais elle est nettement supérieure à celle d'[autres enquêtes](https://2024.stateofjs.com/en-US/demographics/#gender), où elle tourne autour de 6 %.
+
+      Les données révèlent également un écart de revenus lié au genre, mais des recherches supplémentaires seraient nécessaires pour déterminer s'il est dû à une discrimination fondée sur le genre ou à d'autres facteurs corrélés.
+
+  - key: user_info.race_ethnicity.takeaway.devs2025
+    t: |
+      Les données sur l'origine raciale et l'appartenance ethnique montrent que les groupes non blancs sont généralement plus jeunes. Cette tendance se retrouve dans [d'autres enquêtes](https://2024.stateofjs.com/en-US/demographics/#race_ethnicity).
+
+      Elles montrent également que la répartition par genre peut varier fortement d'un groupe racial à l'autre.
+
+  - key: user_info.relationship_status.takeaway.devs2025
+    t: |
+      La plupart des répondants trouvent un partenaire de vie avant la fin de la trentaine, même si cela semble bien plus difficile dans certains pays que dans d'autres.
+
+      Par ailleurs, les personnes non binaires sont célibataires dans une proportion bien plus élevée que les hommes ou les femmes.
+
+  - key: user_info.number_of_kids.takeaway.devs2025
+    t: |
+      La majorité des répondants n'ont pas d'enfants, et ceux qui en ont deviennent parents relativement tard.
+
+      En moyenne, les femmes et les personnes non binaires ont également moins d'enfants que les hommes.
+
+  # career
+
+  - key: sections.career.description.devs2025
+    t: Votre carrière et votre expérience professionnelle jusqu'à présent.
+
+  - key: career.years_of_experience.takeaway.devs2025
+    t: |
+      Une plus grande expérience est corrélée à un salaire plus élevé, jusqu'à un certain point. Au-delà de 15 ans d'expérience, les gains deviennent relativement faibles.
+
+  - key: career.higher_education_degree.takeaway.devs2025
+    t: |
+      Un diplôme est associé à des revenus plus élevés, mais, fait intéressant, il n'est pas nécessaire qu'il soit lié à la programmation.
+
+  - key: career.how_many_jobs.takeaway.devs2025
+    t: |
+      Les répondants ont travaillé pour 4,2 employeurs en moyenne. Avoir travaillé pour davantage d'employeurs est associé à des revenus plus élevés, mais cette corrélation s'affaiblit lorsqu'on tient compte des années d'expérience.
+
+  - key: career.employment_status.takeaway.devs2025
+    t: |
+      Les freelances et les travailleurs indépendants gagnent moins que les salariés à temps plein. Il est toutefois surprenant de constater que devenir fondateur ou entrepreneur n'entraîne pas d'augmentation significative des revenus.
+
+      Les salariés d'entreprise sont aussi le groupe le plus susceptible d'avoir vu ses revenus augmenter au cours de l'année écoulée.
+
+  - key: career.career_issues.takeaway.devs2025
+    t: |
+      Les trois problèmes les plus fréquemment signalés sont clairement liés : un mauvais management nuit à l'équilibre entre vie professionnelle et vie personnelle, ce qui peut conduire à l'épuisement professionnel.
+
+      Le genre semble influer sur les problèmes rencontrés au travail : les femmes et les personnes non binaires signalent davantage chacun de ces problèmes, en particulier la **discrimination** (35 %) et les **problèmes de santé mentale** (62 %).
+
+  - key: career.discrimination_issues.takeaway.devs2025
+    t: |
+      On associe souvent la discrimination au genre ou à l'origine raciale, mais le facteur le plus souvent signalé est en réalité l'âge, qui finit par nous concerner toutes et tous.
+
+      Le classement des cinq principales causes de discrimination par tranche d'âge montre que la discrimination liée à l'âge devient particulièrement fréquente après 50 ans.
+
+  - key: career.negative_impacts.takeaway.devs2025
+    t: |
+      Parmi l'ensemble des répondants, les stratégies les plus courantes pour faire face aux problèmes au travail sont non conflictuelles : éviter ses collègues, modifier son comportement, voire démissionner.
+
+      Les données montrent également clairement l'influence du genre : les femmes et les personnes non binaires subissent chacune de ces conséquences négatives plus souvent que les hommes.
+
+      En revanche, l'origine raciale et l'appartenance ethnique ne semblent pas avoir une influence aussi nette. Les répondants non blancs sont même légèrement *moins nombreux* à déclarer avoir démissionné ou suivi une thérapie à cause de problèmes au travail. Des recherches supplémentaires seraient nécessaires pour savoir s'ils en ressentaient moins le besoin ou s'ils n'étaient pas en mesure d'agir.
+
+  - key: career.laid_off.takeaway.devs2025
+    t: |
+      Malgré les discours sur le ralentissement du secteur tech, la majorité des répondants n'ont jamais été licenciés.
+
+      Parmi les pays où les licenciements sont les plus fréquents, les États-Unis arrivent en tête, avec leur droit du travail favorable aux employeurs. La France et le Japon figurent plutôt en bas du classement.
+
+  # workplace
+
+  - key: sections.workplace.description.devs2025
+    t: Votre environnement de travail actuel.
+
+  - key: workplace.company_size.takeaway.devs2025
+    t: |
+      Il n'est pas surprenant que les grandes entreprises aient les moyens de verser des salaires plus élevés. Les revenus des répondants ont aussi bien plus souvent augmenté au cours de l'année écoulée lorsqu'ils travaillaient pour une grande entreprise.
+
+  - key: workplace.job_title.takeaway.devs2025
+    t: |
+      Comme le montrent [d'autres enquêtes](https://2024.stateofjs.com/en-US/demographics/#job_title), le titre d'ingénieur est associé à des revenus plus élevés que celui de simple développeur.
+
+      Autre point à noter : dans l'ensemble, les postes de développement front-end présentent une plus grande diversité de genre que les autres.
+
+  - key: workplace.yearly_income.takeaway.devs2025
+    t: |
+      Les États-Unis continuent d'offrir des salaires bien plus élevés que le reste du monde.
+
+  - key: workplace.income_evolution.takeaway.devs2025
+    t: |
+      Malgré les craintes d'un ralentissement du secteur, seuls 9 % des répondants déclarent que leurs revenus ont diminué au cours de l'année écoulée.
+
+      Les répondants vivant en Norvège, en Irlande et en Afrique du Sud sont ceux qui ont le plus souvent vu leurs revenus augmenter.
+
+  - key: workplace.job_finding_application_count.takeaway.devs2025
+    t: |
+      Dans l'ensemble, les répondants ont envoyé un nombre médian de 4 candidatures pour trouver leur emploi actuel. Ce nombre diminue avec les années d'expérience.
+
+      On observe toutefois une légère hausse chez les personnes les plus expérimentées. Elle pourrait s'expliquer par la discrimination liée à l'âge ou par des compétences devenues obsolètes qui compliquent la recherche d'emploi.
+
+  - key: workplace.job_finding_methods.takeaway.devs2025
+    t: |
+      Avoir un lien plus personnel avec l'entreprise au moment de postuler, plutôt que de passer par un site d'offres d'emploi ou les réseaux sociaux, est associé à des revenus plus élevés.
+
+      La seule exception est le recrutement grâce à une contribution à l'open source, associé aux mêmes niveaux de revenus que des moyens plus directs comme les recruteurs ou les recommandations.
+
+  - key: workplace.remote_work_policy.takeaway.devs2025
+    t: |
+      L'absence de télétravail est corrélée à un revenu médian et à une satisfaction professionnelle plus faibles (mesurée sur une échelle de 1 à 5).
+
+  - key: workplace.work_hours_per_week.takeaway.devs2025
+    t: |
+      Plus on travaille, plus on gagne, du moins jusqu'à un certain point. L'Inde est le pays où l'on travaille le plus, avec une médiane de 45 heures par semaine, tandis que la plupart des autres pays se situent autour de 40 heures.
+
+  - key: workplace.job_happiness.takeaway.devs2025
+    t: |
+      Dans l'ensemble, les développeurs sont plutôt satisfaits de leur travail, à condition de tenir le coup pendant les dix premières années.
+
+  - key: workplace.workplace_perks.takeaway.devs2025
+    t: |
+      Contrairement au cliché du passionné d'informatique asocial, il apparaît que ce que nous apprécions le plus, ce sont les autres : les relations avec les collègues arrivent en tête des aspects du travail préférés des développeurs.
+
+  - key: workplace.workplace_difficulties.takeaway.devs2025
+    t: |
+      Au bout du compte, nous devons tous gagner notre vie, et la rémunération insuffisante arrive en tête des problèmes auxquels les développeurs sont confrontés au travail aujourd'hui.
+
+  # technology
+
+  - key: sections.technology.description.devs2025
+    t: Les applications, langages et plateformes que vous utilisez.
+
+  # - key: technology.mobile_os.takeaway.devs2025
+  #   t: |
+  #     xxx
+
+  # - key: technology.desktop_os.takeaway.devs2025
+  #   t: |
+  #     xxx
+
+  - key: technology.programming_languages.takeaway.devs2025
+    t: |
+      Il peut être tentant d'apprendre Clojure, Elm, Ruby ou Scala au vu des revenus supérieurs associés à ces langages. Il faut toutefois garder à l'esprit qu'ils sont généralement pratiqués par des développeurs plus expérimentés, ce qui pourrait expliquer cet écart.
+
+  - key: technology.productivity_apps.takeaway.devs2025
+    t: |
+      Parmi les applications de productivité, **Obsidian** réalise une performance remarquable en arrivant 6e au classement général, alors qu'elle ne faisait même pas partie des choix proposés dans la question.
+
+      Certains outils, comme **Azure DevOps** et **Jira**, sont davantage utilisés dans les grandes entreprises, tandis que **Linear** et **Trello** sont plus populaires dans les petites organisations.
+
+  - key: technology.chat_apps.takeaway.devs2025
+    t: |
+      Je suis aussi surpris que vous d'apprendre que **Google Chat** existe toujours. Il arrive pourtant en 9e position, uniquement grâce aux réponses libres.
+
+  - key: technology.social_media.takeaway.devs2025
+    t: |
+      Le classement des réseaux sociaux par âge suggère que les utilisateurs de Bluesky et de Mastodon devraient peut-être s'étirer chaque fois qu'ils se lèvent de leur chaise, ou qu'ils aiment se souvenir de l'époque du modem et des cassettes.
+
+      TikTok attire en revanche un public plus jeune, ce qui se comprend : il faut être en meilleure forme pour seulement *essayer* certaines de ces chorégraphies.
+
+  - key: technology.community_involvement.takeaway.devs2025
+    t: |
+      Rien de surprenant ici : la vidéo est le principal moyen utilisé par les répondants pour suivre la communauté. Les événements en présentiel restent malheureusement assez rares.
+
+      Les flux RSS ont souvent été cités dans les réponses libres, mais l'âge médian de ces répondants ne laisse pas présager un avenir radieux pour cette technologie.
+
+      Du point de vue du genre, les femmes et les personnes non binaires s'appuient bien moins souvent sur les vidéos et les plateformes publiques en ligne, mais participent davantage à des salons de discussion et à des rencontres plus restreints.
+
+  - key: technology.community_contributions.takeaway.devs2025
+    t: |
+      La comparaison entre participation communautaire et genre suggère que les femmes et les personnes non binaires s'impliquent moins dans les espaces en ligne, mais assistent davantage aux événements en personne. Cela pourrait révéler un manque d'inclusivité dans les communautés en ligne.
+
+  - key: technology.open_source_involvement.takeaway.devs2025
+    t: |
+      Près de la moitié des répondants ont contribué au code de projets open source, mais ce chiffre masque un véritable écart de genre : **51 %** des hommes ont contribué du code, contre seulement **36 %** des personnes qui ne sont pas des hommes.
+
+  # health
+
+  - key: sections.health.description.devs2025
+    t: Santé et forme physique.
+
+  - key: health.age.takeaway.devs2025
+    t: |
+      L'âge médian des femmes et des personnes non binaires est légèrement inférieur à celui des hommes.
+
+  - key: health.disability_status.takeaway.devs2025
+    t: |
+      L'étude des handicaps selon l'âge montre que les problèmes de santé mentale et la neurodivergence sont les plus fréquents, tandis que les troubles de l'audition augmentent après 60 ans.
+
+      Certains handicaps, comme les troubles de la vision, sont également plus fréquents chez les hommes, tandis que les problèmes de santé mentale et les maladies chroniques sont surreprésentés chez les femmes.
+
+  - key: health.health_issues.takeaway.devs2025
+    t: |
+      Le mauvais sommeil est le problème de santé le plus souvent signalé par les répondants, peut-être en raison de la place importante qu'occupent les écrans dans nos vies.
+
+      Parmi les six problèmes de santé les plus fréquents selon le genre, certains, comme les troubles de santé mentale et les migraines, touchent également les femmes et les personnes non binaires plus souvent que l'ensemble de la population.
+
+  - key: health.sleep_quantity.takeaway.devs2025
+    t: |
+      Comme on pouvait s'y attendre, avoir des enfants influe sur la durée moyenne du sommeil, mais moins qu'on ne pourrait le croire.
+
+      L'âge joue également un rôle : les répondants plus âgés ont tendance à dormir un peu moins.
+
+  - key: health.sleep_measures.takeaway.devs2025
+    t: |
+      Les répondants essaient différentes stratégies pour améliorer leur sommeil (ce qui concorde avec le fait que le « mauvais sommeil » soit le problème de santé le plus cité), mais ces efforts ne semblent pas modifier la durée médiane du sommeil nocturne.
+
+      Puisqu'il est si difficile d'influer sur la durée du sommeil, il serait peut-être plus efficace de se concentrer sur sa *qualité*, même si celle-ci est bien plus difficile à mesurer avec précision.
+
+  # worldview
+
+  - key: sections.worldview.description.devs2025
+    t: Vision du monde, politique et actualité.
+
+  - key: worldview.global_issues.takeaway.devs2025
+    t: |
+      Le **changement climatique** est une préoccupation majeure à l'échelle mondiale. Les répondants américains ont également mis en avant la **montée de l'autoritarisme**, tandis que la Pologne, voisine de l'Ukraine, s'inquiète naturellement des **tensions géopolitiques**.
+
+      On pourrait penser que les jeunes générations sont plus progressistes, mais il est frappant de constater que ce n'est pas forcément le cas ici, du moins sur quelques questions clés.
+
+      Les répondants de moins de 20 ans sont les plus susceptibles de considérer les **atteintes à la liberté d'expression** et l'**érosion des valeurs traditionnelles** comme des problèmes majeurs, et les *moins* susceptibles d'en dire autant de la **montée de l'intolérance**. Ces positions correspondent généralement aux courants conservateurs actuels.
+
+      Les répondants plus âgés sont également davantage préoccupés par la **montée de l'autoritarisme** ; les plus de 40 ans en font leur principale préoccupation.
+
+      Enfin, les femmes sont surreprésentées parmi les répondants qui citent l'**accès aux soins de santé** comme l'une de leurs principales priorités, ce qui fait écho aux débats politiques actuels, notamment aux États-Unis.
+
+  - key: worldview.happiness_factors.takeaway.devs2025
+    t: |
+      La **bonne santé** est peut-être le principal facteur de bonheur dans le monde, mais l'Inde et la Russie se distinguent également par l'importance accordée à l'**évolution professionnelle**. En Russie, la **richesse et les biens matériels** comptent aussi beaucoup.
+
+      Parmi les facteurs démographiques, les personnes non binaires placent les **loisirs** en premier et la **famille** bien plus bas que les hommes et les femmes. La comparaison des sources de bonheur selon l'âge montre également que les **amitiés** et les **loisirs** cèdent souvent la place à la **famille** avec le temps.
+
+  - key: worldview.relocation.takeaway.devs2025
+    t: |
+      Le **Japon** arrive en tête des destinations où les développeurs aimeraient le plus s'installer. Toutefois, l'analyse par pays révèle que les répondants privilégient aussi les destinations proches géographiquement ou les pays dont ils parlent la langue.
+
+  - key: worldview.overall_happiness.takeaway.devs2025
+    t: |
+      Dans l'ensemble, les répondants sont plutôt heureux, mais le bonheur médian diminue lorsqu'ils ne dorment pas assez (ou dorment *trop*).
+
+      Le niveau de revenu en lui-même ne semble pas influer sur le bonheur, mais une *baisse* de revenu, oui. Le fait de ne pas être en couple joue également un rôle.
+
+    aliases:
+      - happiness.overall_happiness.takeaway.devs2025
+
+  # hobbies
+
+  - key: sections.worldview.description.devs2025
+    t: Vision du monde, politique et actualité.
+
+  - key: hobbies.hobbies.takeaway.devs2025
+    t: |
+      Sans surprise, les **jeux vidéo** dominent le classement d'une enquête auprès de développeurs ; quelques répondants ont même cité la **programmation** comme loisir préféré.
+
+      Les répondants plus âgés choisissent plus souvent les **films et séries** que les jeux vidéo ; chez les plus de 60 ans, c'est même la **lecture** qui arrive en tête.
+
+      Les données montrent également que les loisirs restent genrés : par rapport aux hommes, les femmes citent bien plus souvent les **arts et activités manuelles**, et moins souvent les **jeux vidéo**.
+
+  - key: hobbies.physical_activity.takeaway.devs2025
+    t: |
+      La **randonnée ou la marche** et la **musculation** sont populaires dans l'ensemble. Mais, en comparant les activités physiques selon le genre, le **yoga** ressort comme une pratique bien plus fréquente chez les femmes que chez les hommes.
+
+  - key: hobbies.favorite_musical_artists.takeaway.devs2025
+    t: |
+      Qui aurait cru que **Linkin Park** serait toujours aussi populaire en 2025 ?
+
+      Le classement des artistes selon l'âge médian des répondants nous indique quoi écouter pour nous fondre parmi les jeunes (**Charli XCX**, **Twenty One Pilots**) et quoi éviter à tout prix (**Pink Floyd**).
+
+      On observe également des différences selon le genre : les femmes et les personnes non binaires préfèrent notamment **Chappell Roan** et **Taylor Swift**.
+
+  - key: hobbies.favorite_movies.takeaway.devs2025
+    t: |
+      **Dune** arrive en tête, confirmant le statut de chef-d'œuvre cinématographique du film.
+
+      Dans les classements par genre, **Wicked** arrive en première place chez les femmes et les personnes non binaires.
+
+  - key: hobbies.favorite_tv.takeaway.devs2025
+    t: |
+      **Severance** restera un sommet de la fiction télévisée. Ses thèmes liés à l'équilibre entre vie professionnelle et vie personnelle et à l'aliénation au travail ont manifestement trouvé un écho auprès des répondants.
+
+      Les jeunes répondants apprécient les séries d'animation, notamment japonaises, comme **Frieren** et **Solo Leveling**, mais aussi des classiques plus anciens comme **Friends** et **The Office**.
+
+      Les classements par genre sont assez similaires, sauf à la neuvième place, où figurent deux séries aux antipodes : **Reacher** et **The Handmaid's Tale**.
+
+  - key: hobbies.favorite_video_games.takeaway.devs2025
+    t: |
+      **Baldur's Gate 3** est réputé pour son contenu colossal, comme le confirme sa première place malgré sa sortie en 2023.
+
+      **Stardew Valley** est également très apprécié des femmes et des personnes non binaires : il arrive en deuxième position chez elles, alors qu'il ne figure pas dans le top 20 chez les hommes.
+
+  - key: hobbies.video_game_platforms.takeaway.devs2025
+    t: |
+      Même si macOS est [plus répandu](/en-US/technology/#desktop_os) comme système de bureau principal chez les répondants, **Windows** reste la plateforme dominante pour les jeux vidéo.
+
+      Les jeunes générations jouent plus souvent sur PC, tandis que les répondants plus âgés préfèrent généralement la simplicité des consoles.
+
+  # metadata
+
+  - key: _user.metadata.source.takeaway.devs2025
+    t: |
+      Si la majorité des répondants provenaient de notre public habituel et de notre liste de diffusion, la mention de l'enquête par **Josh Comeau** dans sa newsletter lui a également donné un bel élan.
+
+      En étudiant la répartition par genre selon chaque source, la [méthode boule de neige](https://github.com/Devographics/surveys/issues/258) s'est révélée efficace pour encourager davantage de femmes à participer. Le parrainage de créateurs comme [Cassidy Williams](https://cassidoo.co/), qui a présenté l'enquête dans sa newsletter hebdomadaire, a également contribué à cette participation.
+    aliases:
+      - user.metadata.source.takeaway.devs2025
+
+  # figures
+
+  - key: figure.figure_gender.devs2025
+    t: Pourcentage de femmes et de personnes non binaires parmi les répondants ayant indiqué leur genre.
+
+  - key: figure.figure_career_issues_discrimination.devs2025
+    t: Écart entre la proportion d'hommes et celle de femmes ou de personnes non binaires ayant déclaré avoir subi des discriminations au cours de leur carrière.
+
+  - key: figure.figure_discrimination_therapy.devs2025
+    t: Écart entre la proportion d'hommes et celle de femmes ou de personnes non binaires ayant déclaré avoir suivi une thérapie à cause de problèmes au travail.
+
+  - key: figure.figure_company_size_income_evolution.devs2025
+    t: Pourcentage de répondants travaillant dans une grande entreprise (plus de 1 000 employés) dont les revenus ont augmenté au cours de l'année écoulée.
+
+  - key: figure.figure_job_title_income.devs2025
+    t: Écart de salaire moyen entre les intitulés de poste contenant « ingénieur » et ceux contenant « développeur ».
+
+  - key: figure.figure_yearly_salary_usa_world.devs2025
+    t: Écart entre le salaire moyen aux États-Unis et celui du reste du monde.
+
+  - key: figure.figure_job_finding_application_count.devs2025
+    t: Nombre médian de candidatures envoyées par les répondants pour trouver leur emploi actuel.
+
+  - key: figure.figure_remote_work_policy_happiness.devs2025
+    t: Écart de satisfaction professionnelle moyenne des répondants (sur une échelle de 5 points) entre les entreprises qui autorisent le télétravail et celles qui ne l'autorisent pas.
+
+  - key: figure.figure_community_involvement.devs2025
+    t: Âge médian des utilisateurs de flux RSS (contre 35 ans pour l'ensemble des répondants).
+
+  - key: figure.figure_open_source_involvement.devs2025
+    t: Écart entre la proportion d'hommes et celle de femmes ou de personnes non binaires contribuant à du code open source.
+
+  - key: figure.figure_sleep_quantity.devs2025
+    t: Nombre moyen d'heures de sommeil par nuit des répondants.
+
+  - key: figure.figure_global_issues.devs2025
+    t: Pourcentage de répondants américains ayant cité la montée de l'autoritarisme parmi leurs préoccupations.
+
+  - key: figure.figure_relocation_japan.devs2025
+    t: Nombre de répondants ayant cité le Japon comme destination potentielle pour s'installer.
+
+  - key: figure.figure_favorite_musical_artists_pink_floyd.devs2025
+    t: Âge médian des répondants qui écoutent Pink Floyd.
+
+  - key: figure.xxx.devs2025
+    t:
+
+  - key: figure.xxx.devs2025
+    t:
+
+  # midpage sponsors blocks
+
+  - key: tokyodev.relocation
+    t: |
+      Trouver un emploi au Japon
+
+  - key: tokyodev.relocation.description
+    t: |
+      S'installer au Japon n'est pas forcément un rêve inaccessible. Le guide pratique de TokyoDev pour les développeurs souhaitant venir au Japon aborde le travail dans une entreprise japonaise, les salaires auxquels s'attendre, les visas disponibles et les démarches pour les obtenir.
+
+  - key: frontendmasters.learning_path
+    t: |
+      Votre parcours pour devenir développeur web senior
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      Envie de faire évoluer votre carrière ? Approfondissez JavaScript, React, les performances Web, CSS, le déploiement de sites, TypeScript et la programmation fonctionnelle pour passer dès aujourd'hui de junior à senior.
+
+  - key: storyblok.technologies
+    t: React ? Vue ? Astro ? JS ?
+
+  - key: storyblok.technologies.description
+    t: |
+      Peu importe, nous parlons JSON. Storyblok est un CMS headless compatible avec tous les frameworks et plateformes modernes : vous êtes libre de choisir la solution qui convient le mieux à votre projet. Lancez-vous en quelques minutes !
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: sections.lola_odelola.title
+    t: « Redistribuer le pouvoir et les profits »
+  - key: sections.lola_odelola.title.short
+    t: Lola Odelola
+  - key: sections.declan_chidlow.title
+    t: « Pas d'avenir sans sang neuf »
+  - key: sections.declan_chidlow.title.short
+    t: Declan Chidlow
+  - key: sections.josh_comeau.title
+    t: « La situation n'est pas aussi grave qu'elle en a l'air »
+  - key: sections.josh_comeau.title.short
+    t: Josh Comeau
+  - key: sections.anjana_vakil.title
+    t: « Le logiciel, c'est avant tout une affaire humaine »
+  - key: sections.anjana_vakil.title.short
+    t: Anjana Vakil
+
+  - key: sections.to_be_continued.title
+    t: À suivre…
+
+  - key: conclusion.devs2025.sacha_greif.bio
+    t: Mixologue des données chez Devographics
+
+  - key: conclusion.devs2025.sacha_greif
+    t: |
+      Si je vous disais que nous avons à peine exploré la *moitié* des données recueillies dans cette enquête, vous comprendriez pourquoi j'ai dû diviser ce rapport en deux parties.
+
+      Il reste à découvrir les sections consacrées à la **santé** (combien d'heures dort un développeur en moyenne ?), aux **loisirs** (quel est le jeu vidéo le plus populaire ?) et à la **vision du monde** (où vous installeriez-vous si vous pouviez choisir n'importe quelle destination ?).
+
+      Mais rassurez-vous : vous n'aurez pas longtemps à attendre avant de découvrir la deuxième partie de ce rapport. Pour être sûr de ne pas la manquer, indiquez votre adresse e-mail ci-dessous et nous vous préviendrons dès sa publication !
+
+  - key: conclusion.devs2025.anjana_vakil.bio
+    t: Ingénieure indépendante, enseignante et consultante en relations avec les développeurs
+
+  - key: conclusion.devs2025.anjana_vakil
+    t: |
+      En tant que développeurs logiciels, nous avons tendance à penser que notre métier tourne autour de la programmation, des performances et des pull requests. Mais, au fond, le logiciel concerne avant tout les **gens**. Et les gens sont complexes.
+
+      La plupart des répondants se disent heureux dans leur [vie](../worldview/#overall_happiness) et au [travail](../workplace/#job_happiness), mais tout n'est pas rose pour autant. La plupart ont aussi connu l'[épuisement professionnel](../career/#career_issues), des difficultés à concilier vie professionnelle et vie personnelle ou des problèmes de santé mentale. Beaucoup incriminent une culture professionnelle toxique et un mauvais management. Nombreux sont ceux qui subissent une forte pression, interne comme externe, pour travailler trop, ainsi qu'un manque de contrôle sur leurs conditions de travail.
+
+      De nombreux développeurs, moi y compris, ont également subi des [discriminations](../career/#discrimination_issues) fondées sur l'âge, le genre, l'orientation sexuelle ou le handicap. Dans l'ensemble, et particulièrement chez les personnes marginalisées, l'anxiété, le sentiment d'impuissance et l'isolement semblent gagner du terrain dans notre communauté professionnelle.
+
+      Il m'arrive, surtout ces derniers temps, de me demander s'il y a encore de l'espoir. Les résultats de cette enquête semblent confirmer une leçon que j'ai apprise maintes fois au cours de mes dix années dans la tech : nous ne pouvons combattre ensemble ces nombreux problèmes et bâtir un meilleur secteur du logiciel que d'une seule manière : **ensemble**.
+
+      Dans la conjoncture économique actuelle, de nombreux développeurs (et travailleurs en général) ont le sentiment que leurs employeurs les considèrent comme des « ressources » exploitables et remplaçables, plutôt que comme des collègues ayant une valeur propre. L'**action collective** permet aux travailleurs de rééquilibrer ce rapport de force. Qu'il s'agisse de moyens formels, comme les syndicats et les recours collectifs, ou informels, comme parler de nos salaires, prendre la parole sur les réseaux sociaux ou répondre à cette enquête, nous devons **nous rapprocher** pour mettre ces problèmes en lumière et faire avancer les choses.
+
+      Il n'existe pas de solution facile pour le secteur, ni pour le monde, mais la nécessité de **remettre l'humain au premier plan** semble plus urgente que jamais. À nous, individuellement et collectivement, de décupler notre empathie, notre capacité à communiquer, notre tolérance et notre bienveillance. La programmation, c'est la partie facile.
+
+  - key: conclusion.devs2025.josh_comeau.bio
+    t: Entrepreneur indépendant
+
+  - key: conclusion.devs2025.josh_comeau
+    t: |
+      Ce n'est un secret pour personne : le secteur technologique traverse une période difficile depuis quelques années. Il n'a jamais été facile de débuter comme développeur logiciel, mais cela peut aujourd'hui sembler impossible ; même des développeurs expérimentés disent avoir du mal à trouver un emploi.
+
+      Pourtant, les résultats de cette enquête suggèrent que la situation n'est pas aussi grave qu'elle en a l'air. Nous avons tous vu les gros titres sur les vagues de licenciements dans la tech, mais seule une [petite minorité de développeurs](../career/#laid_off) déclare avoir été licenciée au cours de l'année écoulée (et cela vaut même pour les développeurs juniors !).
+
+      La majorité des développeurs déclarent que [leur salaire a augmenté au cours de l'année écoulée](../workplace/#income_evolution), et seuls 9 % signalent une baisse de rémunération. Le développeur junior médian n'a envoyé que [10 candidatures](../workplace/#job_finding_application_count) pour obtenir son poste actuel. Enfin, seuls [14 % des répondants](../workplace/#job_happiness) se disent insatisfaits ou très insatisfaits de leur travail.
+
+      Le secteur technologique reste confronté à de graves problèmes (par exemple, près de la moitié des femmes et des personnes non binaires déclarent subir des [discriminations](../career/#discrimination_issues) liées à leur genre ou à leur identité de genre) ; je ne prétends donc pas que tout va bien.
+
+      Pourtant, le discours dominant en ligne affirme que le développement logiciel est menacé d'extinction par l'IA et que nous sommes en train d'être remplacés par des grands modèles de langage. Si c'était vrai, je pense que les résultats de cette enquête seraient bien différents.
+
+  - key: conclusion.devs2025.declan_chidlow.bio
+    t: Développeur front-end, designer et rédacteur
+
+  - key: conclusion.devs2025.declan_chidlow
+    t: |
+      Un secteur peut facilement être défini par les personnes déjà en place, mais il n'y a pas d'avenir sans sang neuf.
+
+      Entrer dans le secteur est difficile. Une candidature de plus. Une journée de plus. Plus de 1 000 candidats. Des « entretiens » vidéo menés par l'IA. Les sites d'offres d'emploi ressemblent manifestement à une loterie, et c'est le [réseau qui compte](../workplace/#job_finding_methods). Le [nombre de candidatures](../workplace/#job_finding_application_count) nécessaires pour décrocher un poste est le plus élevé chez les moins expérimentés. Je me demande s'il va encore augmenter, tandis que les entreprises s'obstinent maladroitement à remplacer les juniors par l'IA.
+
+      On dit que la bonne santé est gâchée par la jeunesse. À propos des juniors, cela [semble effectivement se vérifier](../worldview/#happiness_factors) : les moins de 20 ans sont les seuls à ne pas citer la « bonne santé » comme principale source de bonheur. Les développeurs semblent également consciencieux : notre [vision du monde](../worldview/) montre que les enjeux mondiaux nous préoccupent.
+
+      Les métadonnées des réponses montrent que les développeurs utilisent des [navigateurs](../metadata/#browser) bien plus variés que la population générale. Chrome arrive à 36 %, Firefox à 14 %, Safari à 13 % et Edge à 2 %. En comparaison, [Statcounter](https://gs.statcounter.com/browser-market-share/) estime leur part mondiale à 68 % pour Chrome, 16 % pour Safari, 5 % pour Edge et 2 % pour Firefox. La diversité se retrouve dans les [systèmes d'exploitation de bureau](../technology/#desktop_os), macOS et Linux grignotant les parts habituelles de Windows.
+
+      Dans les prochaines enquêtes, j'aimerais recueillir les réponses d'un échantillon plus diversifié et entendre les expériences des groupes moins représentés, notamment pour pouvoir en tirer des enseignements. J'aimerais aussi voir une plus grande diversité géographique, car les États-Unis dominent souvent les discussions sur le développement.
+
+      Enfin, j'espère que les organisations du secteur considéreront ces enquêtes comme une liste de choses à faire et s'attaqueront aux problèmes qu'elles mettent en évidence.
+
+  - key: conclusion.devs2025.lola_odelola.bio
+    t: Ingénieure logiciel, fondatrice de [Blackgirl.tech](https://blackgirl.tech/)
+
+  - key: conclusion.devs2025.lola_odelola
+    t: |
+      En examinant les données de l'enquête State of Devs 2025, plusieurs éléments m'ont interpellée. Je suis une femme cis noire, britanno-nigériane et indépendante, atteinte de TDAH et d'algie vasculaire de la face : mon parcours se situe au croisement de plusieurs réalités. C'est dans ce contexte que je lis et interprète ces données.
+
+      Certaines de mes expériences trouvent un écho dans les données. Par exemple, 21 % des répondants noirs ou africains ont déclaré avoir subi des [discriminations au travail](../career/#discrimination_issues), quel que soit leur genre. J'ai moi-même vécu cela dans des entreprises britanniques et américaines, y compris au sein d'équipes qui semblaient diversifiées en apparence.
+
+      Cela dit, recueillir des données sur l'origine raciale et l'appartenance ethnique à l'échelle mondiale est délicat, car ces notions sont comprises de différentes façons. Je suis une femme cis noire, mais le terme « noire » perd de sa pertinence si je vis au Nigeria et travaille pour une entreprise nigériane.
+
+      En raison des discriminations que j'ai subies, je considère le travail indépendant comme un aménagement qui me permet de continuer à faire un travail qui me tient à cœur dans l'environnement le plus sûr possible.
+
+      Cette situation comporte toutefois ses propres difficultés : 15 % des répondants indépendants ont [déclaré une baisse de revenus](../career/#employment_status) au cours de l'année écoulée, et j'en fais moi aussi partie.
+
+      Tout cela se produit alors que les droits des travailleurs sont attaqués partout dans le monde : tandis que les gouvernements occidentaux cherchent à supprimer des protections au travail (en particulier pour les personnes handicapées), les travailleurs de la tech dans les pays du Sud sont exploités et sous-payés par les grandes entreprises technologiques.
+
+      J'espère que l'action collective et les alliances entre travailleurs permettront de faire évoluer la situation. Les travailleurs de tous les métiers doivent pouvoir façonner leurs conditions de travail et les produits qu'ils conçoivent, afin de redistribuer le pouvoir et les profits de manière plus juste.
+
+      À l'avenir, recueillir des données supplémentaires sur la nationalité pourrait apporter un éclairage complémentaire à celui de l'origine raciale. Il faudrait également mieux représenter les pays africains et sud-asiatiques dans l'enquête. Tout cela nous aiderait à comprendre qui détient le pouvoir dans le secteur technologique mondial.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.devs2025
+    t: |
+      L'enquête State of Devs 2025 s'est déroulée du 15 avril au 15 mai 2025 et a recueilli 8 717 réponses. Les résultats ont été publiés le 20 juin 2025. L'enquête est menée par [Devographics](https://devographics.com/).
+
+      ### Objectifs de l'enquête
+
+      Cette enquête vise à mieux connaître les aspects non techniques de la vie des développeurs.
+
+      ### Conception de l'enquête
+
+      L'enquête a été conçue en collaboration avec la communauté, lors d'une période de consultation ouverte au cours de laquelle son plan a été discuté [sur GitHub](https://github.com/Devographics/surveys/issues/279).
+
+      Toutes les questions de l'enquête étaient facultatives.
+
+      ### Public de l'enquête
+
+      L'enquête était librement accessible en ligne, sans filtrage ni sélection des répondants. Ceux-ci étaient principalement issus d'anciennes enquêtes Devographics comme [State of JS](https://stateofjs.com/) ou [State of CSS](https://stateofcss.com/) (informés par une liste de diffusion dédiée), ainsi que des réseaux sociaux.
+
+      Cette enquête doit également être considérée comme un **instantané d'un sous-ensemble particulier de développeurs** et ne prétend pas représenter l'ensemble de l'écosystème.
+
+      ### Financement du projet
+
+      Le projet est financé par nos partenaires, répertoriés sur la page d'accueil de l'enquête.
+
+      ### Aperçu technique
+
+      Vous trouverez [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) un aperçu technique détaillé du fonctionnement des enquêtes.
+
+      ### Contact
+
+      Le meilleur moyen de nous contacter est de [rejoindre notre serveur Discord public](https://discord.com/invite/zRDb35jfrt). Vous pouvez également [me retrouver sur Bluesky](https://bsky.app/profile/sachagreif.com).
