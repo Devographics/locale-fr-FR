@@ -1,0 +1,1088 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_react.intro
+    t: |
+      React existe depuis un certain temps déjà et il est clair qu'il est devenu l'un des principaux frameworks front-end.
+
+      Pourtant, React continue d'évoluer rapidement et la communauté fait de son mieux pour suivre le rythme.
+
+      Avec l'enquête State of React, nous espérons mieux comprendre cette évolution et aider les développeurs à s'orienter dans le vaste écosystème React.
+
+  - key: general.state_of_react.description
+    t: L'enquête annuelle auprès des développeurs sur l'écosystème React
+
+  - key: features.features_intro_react
+    t: |
+      Bienvenue dans l'enquête ! Cette première partie vise à découvrir quelles API officielles de React vous connaissez et utilisez.
+
+      Au fait, si vous souhaitez nous en dire plus sur l'un de vos choix, cliquez simplement sur la petite icône de commentaire !
+
+  - key: tools.tools_intro_react
+    t: |
+      Les sections suivantes portent sur les **bibliothèques** et les **frameworks** qui composent l'écosystème React. Dites-nous ce qui vous enthousiasme !
+
+  # sections
+  - key: sections.main_apis.title
+    t: API principales
+    aliases:
+      - features.main_apis
+  - key: sections.main_apis.description
+    t: Fonctionnalités React stables et éprouvées
+
+  - key: sections.hooks.title
+    t: Hooks
+    aliases:
+      - features.hooks
+  - key: sections.hooks.description
+    t: Les hooks intégrés à React
+
+  - key: sections.new_apis.title
+    t: Nouvelles fonctionnalités
+    aliases:
+      - features.new_apis
+  - key: sections.new_apis.description
+    t: API et fonctionnalités récemment introduites ou expérimentales
+
+  - key: sections.component_libraries.title
+    t: Bibliothèques d'interface utilisateur
+    aliases:
+      - tools.component_libraries
+  - key: sections.component_libraries.description
+    t: Les briques de base de votre interface
+
+  # - key: sections.data_management.title
+  #   t: Data Management
+  # - key: sections.data_management.description
+  #   t: Loading and managing application data
+
+  - key: sections.state_management.title
+    t: Gestion d'état
+    aliases:
+      - tools.state_management
+  - key: sections.state_management.description
+    t: Bibliothèques de gestion de l'état des applications
+
+  - key: sections.data_loading.title
+    t: Chargement des données
+    aliases:
+      - tools.data_loading
+  - key: sections.data_loading.description
+    t: Outils pour charger et gérer les données
+
+  - key: sections.back_end_infrastructure.title
+    t: Back-end et infrastructure
+    aliases:
+      - tools.back_end_infrastructure
+  - key: sections.back_end_infrastructure.title.short
+    t: Back-end
+    aliases:
+      - tools.back_end_infrastructure.short
+  - key: sections.back_end_infrastructure.description
+    t: Regroupement et mise en ligne de votre application
+
+  # - key: sections.usage.title
+  #   t: Back-End & Infrastructure
+  # - key: sections.usage.description
+  #   t: Bundling & serving your app
+
+  # old sections
+
+  # - key: sections.ui_libraries.title
+  #   t: UI Libraries
+  # - key: sections.ui_libraries.description
+  #   t: Component libraries and other UI toolkits.
+
+  # - key: sections.meta_frameworks.title
+  #   t: Meta Frameworks
+  # - key: sections.meta_frameworks.description
+  #   t: Frameworks that help render and serve your React app
+
+  # - key: sections.testing.title
+  #   t: Testing
+  # - key: sections.testing.description
+  #   t: Testing utilities and libraries
+
+  - key: sections.tools.title
+    t: Autres outils
+  - key: sections.tools.description
+    t: Autres outils et bibliothèques pour React
+
+  - key: sections.usage_react.title
+    t: Utilisation
+  - key: sections.usage_react.description
+    t: Votre utilisation quotidienne de React
+
+  - key: tools.data_loading_heading
+    t: Bibliothèques de chargement des données
+
+  - key: tools.state_management_heading
+    t: Bibliothèques de gestion d'état
+
+  # features
+
+  - key: features.main_apis_ratios
+    t: Évolution des API principales
+
+  - key: features.hooks_ratios
+    t: Évolution des hooks
+
+  - key: features.new_apis_ratios
+    t: Évolution des nouvelles API
+
+  - key: features.main_apis_pain_points
+    t: Difficultés liées aux API principales
+    aliases:
+      - react_pain_points.main_apis_pain_points
+  - key: features.main_apis_pain_points.question
+    t: Quelles difficultés avez-vous rencontrées avec les API mentionnées ci-dessus ?
+    aliases:
+      - react_pain_points.main_apis_pain_points.question
+
+  - key: features.hooks_pain_points
+    t: Difficultés liées aux hooks
+    aliases:
+      - react_pain_points.hooks_pain_points
+  - key: features.hooks_pain_points.question
+    t: Quelles difficultés avez-vous rencontrées avec les hooks ?
+    aliases:
+      - react_pain_points.hooks_pain_points.question
+
+  - key: features.new_apis_pain_points
+    t: Difficultés liées aux nouvelles API
+    aliases:
+      - react_pain_points.new_apis_pain_points
+  - key: features.new_apis_pain_points.question
+    t: Quelles difficultés avez-vous rencontrées avec les nouvelles API ?
+    aliases:
+      - react_pain_points.new_apis_pain_points.question
+
+  # main features
+  - key: features.fragment.description
+    t: >
+      `<Fragment>`, souvent utilisé avec la syntaxe `<>...</>`, permet de regrouper des éléments sans nœud conteneur.
+  - key: features.profiler.description
+    t: >
+      `<Profiler>` permet de mesurer par programmation les performances de rendu d'un arbre React.
+  - key: features.strictmode.description
+    t: >
+      `<StrictMode>` permet de détecter tôt, pendant le développement, les problèmes courants de vos composants.
+
+  - key: features.createportal.description
+    t: >
+      `createPortal` permet de rendre certains éléments enfants dans une autre partie du DOM.
+
+  - key: features.createcontext.description
+    t: >
+      `createContext` permet de créer un contexte que les composants peuvent fournir ou lire.
+
+  - key: features.forwardref.description
+    t: >
+      `forwardRef` permet à votre composant d'exposer un nœud DOM au composant parent à l'aide d'une ref.
+
+  - key: features.lazy.description
+    t: >
+      `lazy` permet de différer le chargement du code d'un composant jusqu'à son premier rendu.
+
+  - key: features.memo.description
+    t: >
+      `memo` permet d'éviter de rendre à nouveau un composant lorsque ses props n'ont pas changé.
+
+  - key: features.createroot.description
+    t: >
+      `createRoot` permet de créer une racine pour afficher des composants React dans un nœud DOM du navigateur.
+
+  - key: features.hydrateroot.description
+    t: >
+      `hydrateRoot` permet d'afficher des composants React dans un nœud DOM du navigateur dont le contenu HTML a été généré auparavant par `react-dom/server`.
+
+  # hooks
+
+  - key: features.usecallback.description
+    t: >
+      `useCallback` est un hook React qui permet de mettre en cache une définition de fonction entre les rendus.
+
+  - key: features.usecontext.description
+    t: >
+      `useContext` est un hook React qui permet de lire le contexte depuis votre composant et de s'y abonner.
+
+  - key: features.usedebugvalue.description
+    t: >
+      `useDebugValue` est un hook React qui permet d'ajouter un libellé à un hook personnalisé dans les React DevTools.
+
+  - key: features.usedeferredvalue.description
+    t: >
+      `useDeferredValue` est un hook React qui permet de différer la mise à jour d'une partie de l'interface.
+
+  - key: features.useeffect.description
+    t: >
+      `useEffect` est un hook React qui permet de synchroniser un composant avec un système externe.
+
+  - key: features.useid.description
+    t: >
+      `useId` est un hook React qui génère des identifiants uniques pouvant être transmis aux attributs d'accessibilité.
+
+  - key: features.usememo.description
+    t: >
+      `useMemo` est un hook React qui permet de mettre en cache le résultat d'un calcul entre les rendus.
+
+  - key: features.usereducer.description
+    t: >
+      `useReducer` est un hook React qui permet d'ajouter un réducteur à votre composant.
+
+  - key: features.useref.description
+    t: >
+      `useRef` est un hook React qui permet de référencer une valeur qui n'est pas nécessaire au rendu.
+
+  - key: features.usestate.description
+    t: >
+      `useState` est un hook React qui permet d'ajouter une variable d'état à votre composant.
+
+  - key: features.usesyncexternalstore.description
+    t: >
+      `useSyncExternalStore` est un hook React qui permet de s'abonner à un magasin externe.
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition` est un hook React qui permet de mettre à jour l'état sans bloquer l'interface.
+
+  # new features
+
+  - key: features.suspense.description
+    t: >
+      `<Suspense>` permet d'afficher un contenu de remplacement jusqu'à ce que ses enfants aient fini de charger.
+
+  - key: features.use_hook.description
+    t: >
+      `use` est une API React qui permet de lire la valeur d'une ressource telle qu'une Promise ou un contexte.
+
+  - key: features.starttransition.description
+    t: >
+      `startTransition` permet de mettre à jour l'état sans bloquer l'interface.
+
+  - key: features.react_server_components.description
+    t: >
+      Composants exécutés exclusivement sur le serveur.
+
+  - key: features.use_client.description
+    t: >
+      `'use client'` marque les fichiers source dont les composants s'exécutent côté client.
+
+  - key: features.use_server.description
+    t: >
+      `'use server'` marque les fonctions côté serveur qui peuvent être appelées depuis le code côté client.
+
+  - key: features.server_actions.description
+    t: >
+      La solution intégrée à React pour les mutations côté serveur.
+
+  - key: features.taint_api.description
+    t: >
+      Empêcher qu'un objet ou une valeur spécifique soit transmis à un composant client.
+
+  - key: features.cache.description
+    t: >
+      `cache` permet de mettre en cache le résultat d'une récupération de données ou d'un calcul.
+
+  - key: features.useformstatus.description
+    t: >
+      `useFormStatus` est un hook qui fournit des informations sur l'état de la dernière soumission du formulaire.
+
+  - key: features.useformstate.description
+    t: >
+      `useFormState` est un hook qui permet de mettre à jour l'état en fonction du résultat d'une action de formulaire.
+
+  # libraries
+
+  - key: tools.all_tools_experience
+    t: Expérience et appréciation des bibliothèques
+    aliases:
+      - libraries.all_tools_experience
+      - libraries.all_libraries
+
+  # component_libraries
+
+  - key: tools.component_libraries_others
+    t: Autres bibliothèques d'interface utilisateur
+    aliases:
+      - component_libraries.component_libraries_others
+  - key: tools.component_libraries_others.question
+    t: Quelles autres bibliothèques de composants avez-vous utilisées ?
+    aliases:
+      - component_libraries.component_libraries_others.question
+
+  - key: tools.component_libraries_experience
+    t: Expérience et appréciation des bibliothèques d'interface utilisateur
+    aliases:
+      - component_libraries.component_libraries_experience
+
+  - key: tools.component_libraries_ratios
+    t: Évolution des proportions pour les bibliothèques d'interface utilisateur
+    aliases:
+      - component_libraries.component_libraries_ratios
+
+  - key: tools.component_libraries_pain_points
+    t: Difficultés liées aux composants
+    aliases:
+      - react_pain_points.component_libraries_pain_points
+      - component_libraries.component_libraries_pain_points
+  - key: tools.component_libraries_pain_points.question
+    t: Quelles difficultés avez-vous rencontrées lors de l'utilisation de composants ?
+    aliases:
+      - react_pain_points.component_libraries_pain_points.question
+      - component_libraries.component_libraries_pain_points.question
+
+  # - key: tools.ui_libraries_happiness
+  #   t: Happiness
+  # - key: tools.ui_libraries_happiness.description
+  #   t: How happy are you with the state of UI libraries?
+
+  # state_management
+
+  - key: tools.state_management_ratios
+    t: Évolution des proportions pour les outils de gestion d'état
+    aliases:
+      - state_management.state_management_ratios
+
+  - key: tools.state_management_others
+    t: Autres bibliothèques de gestion d'état
+    aliases:
+      - state_management.state_management_others
+  - key: tools.state_management_others.question
+    t: Quelles autres bibliothèques avez-vous utilisées pour gérer l'état de vos applications ?
+    aliases:
+      - state_management.state_management_others.question
+
+  - key: tools.state_management_pain_points
+    t: Difficultés liées à la gestion d'état
+    aliases:
+      - react_pain_points.state_management_pain_points
+      - state_management.state_management_pain_points
+  - key: tools.state_management_pain_points.question
+    t: Quelles difficultés avez-vous rencontrées concernant la gestion d'état ?
+    aliases:
+      - react_pain_points.state_management_pain_points.question
+      -
+      - state_management.state_management_pain_points.question
+
+  # - key: tools.state_management_happiness
+  #   t: Happiness
+  # - key: tools.state_management_happiness.description
+  #   t: How happy are you with the available state management libraries?
+
+  # data_loading
+
+  - key: tools.data_loading_ratios
+    t: Évolution des proportions pour le chargement des données
+    aliases:
+      - data_loading.data_loading_ratios
+
+  - key: tools.data_loading_others
+    t: Autres bibliothèques de chargement des données
+    aliases:
+      - data_loading.data_loading_others
+  - key: tools.data_loading_others.question
+    t: Quelles autres bibliothèques avez-vous utilisées pour charger des données ?
+    aliases:
+      - data_loading.data_loading_others.question
+
+  - key: tools.data_loading_pain_points
+    t: Difficultés liées au chargement des données
+    aliases:
+      - react_pain_points.data_loading_pain_points
+      - data_loading.data_loading_pain_points
+  - key: tools.data_loading_pain_points.question
+    t: Quelles difficultés avez-vous rencontrées concernant le chargement des données ?
+    aliases:
+      - react_pain_points.data_loading_pain_points.question
+      - data_loading.data_loading_pain_points.question
+
+  # - key: tools.data_loading_happiness
+  #   t: Happiness
+  # - key: tools.data_loading_happiness.description
+  #   t: How happy are you with the state of data loading libraries?
+
+  # back_end_infrastructure
+
+  - key: tools.meta_frameworks_ratios
+    t: Évolution des proportions pour les méta-frameworks
+    aliases:
+      - back_end_infrastructure.meta_frameworks_ratios
+
+  - key: tools.meta_frameworks_others
+    t: Autres méta-frameworks
+    aliases:
+      - back_end_infrastructure.meta_frameworks_others
+
+  # - key: tools.meta_frameworks_happiness
+  #   t: Happiness
+  # - key: tools.meta_frameworks_happiness.description
+  #   t: How happy are you with the current state of meta-frameworks?
+
+  - key: tools.meta_frameworks_heading
+    t: Méta-frameworks
+
+  - key: tools.other_back_end_tools_heading
+    t: Autres outils et services back-end
+
+  - key: tools.back_end_infrastructure_pain_points
+    t: Difficultés liées au back-end
+    aliases:
+      - react_pain_points.back_end_infrastructure_pain_points
+      - back_end_infrastructure.back_end_infrastructure_pain_points
+
+  - key: tools.back_end_infrastructure_pain_points.question
+    t: Quelles difficultés avez-vous rencontrées concernant le back-end et l'infrastructure ?
+    aliases:
+      - react_pain_points.back_end_infrastructure_pain_points.question
+      - back_end_infrastructure.back_end_infrastructure_pain_points.question
+
+  - key: tools.testing
+    t: Bibliothèques de test
+    aliases:
+      - other_tools.testing
+  - key: tools.testing.question
+    t: Quelles bibliothèques utilisez-vous pour tester vos applications React ?
+    aliases:
+      - other_tools.testing.question
+
+  # - key: tools.testing_happiness
+  #   t: Happiness
+  # - key: tools.testing_happiness.description
+  #   t: How happy are you with the current state of testing libraries?
+
+  - key: tools.mobile_development
+    t: Développement mobile
+    aliases:
+      - other_tools.mobile_development
+
+  - key: tools.mobile_development.question
+    t: Quels frameworks ou bibliothèques avez-vous utilisés pour le développement mobile ?
+    aliases:
+      - other_tools.mobile_development.question
+
+  # - key: tools.mobile_development_others
+  #   t: Other Mobile Development Tools
+  # - key: tools.mobile_development_happiness
+  #   t: Happiness
+  # - key: tools.mobile_development_happiness.description
+  #   t: How happy are you with the current state of mobile development?
+
+  # other tools
+  - key: tools.form_libraries
+    t: Bibliothèques de formulaires
+    aliases:
+      - component_libraries.form_libraries
+  # - key: tools.form_libraries.description
+  #   t: Libraries for generating and validating forms.
+  - key: tools.form_libraries.question
+    t: Quelles bibliothèques avez-vous utilisées pour gérer les formulaires ?
+    aliases:
+      - component_libraries.form_libraries.question
+  - key: options.form_libraries.na
+    t: Aucune
+
+  - key: tools.react_form_patterns
+    t: Modèles de formulaires
+  - key: tools.react_form_patterns.question
+    t: Quel modèle de formulaire préférez-vous généralement utiliser ?
+  - key: options.react_form_patterns.form_patterns_controlled
+    t: Composants de formulaire contrôlés
+  - key: options.react_form_patterns.form_patterns_uncontrolled
+    t: Composants de formulaire non contrôlés
+  - key: options.react_form_patterns.form_patterns_both
+    t: Les deux, selon la situation
+
+  - key: tools.build_tools
+    t: Outils de compilation
+    aliases:
+      - back_end_infrastructure.build_tools
+
+  # - key: tools.build_tools.description
+  #   t: Build tools and bundlers.
+  - key: tools.build_tools.question
+    t: Quels outils de compilation et bundlers avez-vous utilisés ?
+    aliases:
+      - back_end_infrastructure.build_tools.question
+
+  - key: tools.animation_libraries
+    t: Animations
+    aliases:
+      - component_libraries.animation_libraries
+  # - key: tools.animation.description
+  #   t: Libraries to help manage animations and transitions.
+  - key: tools.animation_libraries.question
+    t: Quelles bibliothèques d'animation avez-vous utilisées ?
+    aliases:
+      - component_libraries.animation_libraries.question
+
+  - key: tools.auth
+    t: Authentification
+    aliases:
+      - other_tools.auth
+  # - key: tools.auth.description
+  #   t: Libraries and services for managing authentication and accounts.
+  - key: tools.auth.question
+    t: Quelles bibliothèques et quels services avez-vous utilisés pour gérer l'authentification ?
+    aliases:
+      - other_tools.auth.question
+
+  - key: tools.data_visualization_libraries
+    t: Visualisation de données
+    aliases:
+      - component_libraries.data_visualization_libraries
+  # - key: tools.data_visualization.description
+  #   t: Data visualization and graphics libraries.
+  - key: tools.data_visualization_libraries.question
+    t: Quelles bibliothèques de visualisation de données et de graphisme avez-vous utilisées ?
+    aliases:
+      - component_libraries.data_visualization_libraries.question
+
+  - key: tools.css_tools
+    t: Outils et bibliothèques CSS
+    aliases:
+      - component_libraries.css_tools
+  # - key: tools.css_tools.description
+  #   t: CSS libraries, frameworks, and utilities you use to style your React app.
+  - key: tools.css_tools.question
+    t: Quelles bibliothèques ou quels frameworks avez-vous utilisés pour mettre en forme vos applications React ?
+    aliases:
+      - component_libraries.css_tools.question
+
+  - key: tools.other_frontend_frameworks
+    t: Autres frameworks front-end
+  # - key: tools.other_frontend_frameworks.description
+  #   t: >
+  #     Other front-end frameworks
+  - key: tools.other_frontend_frameworks.question
+    t: >
+      Quels autres frameworks front-end avez-vous utilisés ?
+
+  - key: tools.hosting
+    t: Services d'hébergement
+    aliases:
+      - back_end_infrastructure.hosting
+
+  # - key: tools.hosting.description
+  #   t: Services you use to host your React apps.
+  - key: tools.hosting.question
+    t: Lesquels de ces services avez-vous utilisés pour héberger vos applications React ?
+    aliases:
+      - back_end_infrastructure.hosting.question
+
+  - key: tools.backend_language
+    t: Langages back-end
+    aliases:
+      - back_end_infrastructure.backend_language
+
+  - key: tools.backend_language.question
+    t: Dans quel(s) langage(s) vos applications back-end sont-elles écrites ?
+    aliases:
+      - back_end_infrastructure.backend_language.question
+
+  - key: tools.other_services
+    t: Autres services
+    aliases:
+      - back_end_infrastructure.other_services
+
+  - key: tools.other_services.question
+    t: Quels autres services avez-vous utilisés avec vos applications React ?
+    aliases:
+      - back_end_infrastructure.other_services.question
+
+  - key: tools.validation
+    t: Bibliothèques de schémas et de validation
+    aliases:
+      - other_tools.validation
+  - key: tools.validation.question
+    t: Quelles bibliothèques avez-vous utilisées pour valider des données selon un schéma ?
+    aliases:
+      - other_tools.validation.question
+
+  - key: tools.ai_tools
+    t: Outils d'IA
+  - key: tools.ai_tools.question
+    t: Quels outils ou services d'IA avez-vous utilisés pour vous aider à écrire du code React ?
+
+  - key: tools.renderers
+    t: Moteurs de rendu React
+    aliases:
+      - other_tools.renderers
+
+  - key: tools.renderers.question
+    t: Quelles bibliothèques avez-vous utilisées pour rendre React sur différentes plateformes ou dans différents environnements ?
+    aliases:
+      - other_tools.renderers.question
+
+  - key: tools.other_tools
+    t: Autres outils
+  - key: tools.tools.question
+    t: Quels autres outils avez-vous utilisés pour développer des applications React ?
+
+  # CSS
+  - key: options.css_tools.plain_css
+    t: CSS (CSS classique, « vanilla »)
+
+  # react pain points
+
+  - key: options.react_pain_points.rerenders
+    t: Gestion des nouveaux rendus des composants
+  - key: options.react_pain_points.testing
+    t: Tests
+  - key: options.react_pain_points.data_loading
+    t: Chargement des données et opérations asynchrones
+  - key: options.react_pain_points.state_management
+    t: Gestion d'état (`useState`, Redux, Context, etc.)
+  - key: options.react_pain_points.bundle_sizes
+    t: Réduction de la taille des bundles côté client
+  - key: options.react_pain_points.server_rendering
+    t: Rendu côté serveur et composants serveur
+  - key: options.react_pain_points.css_styling
+    t: CSS et styles
+  - key: options.react_pain_points.attribute_names
+    t: Noms d'attributs « incorrects » tels que `className`, `htmlFor`, etc.
+  - key: options.react_pain_points.synthetic_events
+    t: Événements synthétiques
+  - key: options.react_pain_points.ref_management
+    t: Gestion des refs
+  - key: options.react_pain_points.memoization
+    t: Mémoïsation
+  - key: options.react_pain_points.animations
+    t: Animations et transitions
+  - key: options.react_pain_points.forms
+    t: Formulaires
+  - key: options.react_pain_points.typescript
+    t: Absence de prise en charge native officielle de TypeScript
+
+  # usage type
+  - key: usage.react_usage_type
+    t: Utilisation de React
+  - key: usage.react_usage_type.question
+    t: Dans quel contexte utilisez-vous principalement React ?
+
+  # react version
+
+  - key: usage.react_version
+    t: Version de React
+  - key: usage.react_version.question
+    t: Quelle version de React utilisez-vous le plus au quotidien ?
+
+  - key: options.react_version.react_v16x
+    t: 16.x
+  - key: options.react_version.react_v17x
+    t: 17.x
+  - key: options.react_version.react_v18x
+    t: 18.x
+  - key: options.react_version.react_v19x
+    t: 19.x
+  - key: options.react_version.react_canary
+    t: Canary
+  - key: options.react_version.not_sure
+    t: Je ne sais pas
+
+  # JS App Patterns
+
+  - key: usage.js_app_patterns
+    t: Modèles d'application
+  - key: usage.js_app_patterns.question
+    t: Parmi les modèles d'architecture et de rendu suivants, lesquels avez-vous utilisés **au cours de l'année écoulée** ?
+
+  - key: options.js_app_patterns.single_page_app
+    t: Application monopage (SPA)
+  - key: options.js_app_patterns.single_page_app.description
+    t: Applications qui s'exécutent entièrement dans le navigateur
+  - key: options.js_app_patterns.multiple_page_app
+    t: Application multipage (MPA)
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: Applications qui s'exécutent entièrement sur le serveur, avec un minimum de comportements dynamiques côté client
+  - key: options.js_app_patterns.static_site_generation
+    t: Génération de site statique (SSG)
+  - key: options.js_app_patterns.static_site_generation.description
+    t: Contenu statique pré-rendu, avec ou sans élément dynamique côté client
+  - key: options.js_app_patterns.server_side_rendering
+    t: Rendu côté serveur (SSR)
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: Rendu dynamique du contenu HTML sur le serveur avant sa réhydratation côté client
+  - key: options.js_app_patterns.partial_hydration
+    t: Hydratation partielle
+  - key: options.js_app_patterns.partial_hydration.description
+    t: Hydratation côté client de certains composants seulement (par exemple les composants serveur React)
+  - key: options.js_app_patterns.progressive_rehydration
+    t: Hydratation progressive
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: Contrôle de l'ordre d'hydratation des composants côté client
+  - key: options.js_app_patterns.islands_architecture
+    t: Architecture en îlots
+  - key: options.js_app_patterns.islands_architecture.description
+    t: Îlots isolés de comportements dynamiques avec plusieurs points d'entrée dans un site autrement statique (Astro, Eleventy)
+  - key: options.js_app_patterns.progressive_enhancement
+    t: Amélioration progressive
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: S'assurer qu'une application reste fonctionnelle même sans JavaScript
+  - key: options.js_app_patterns.incremental_static_generation
+    t: Génération statique incrémentale
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: Possibilité d'enrichir ou de modifier dynamiquement un site statique après sa compilation initiale (Next.js ISR, Gatsby DSG)
+  - key: options.js_app_patterns.streaming_ssr
+    t: SSR en streaming
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: Découpage du contenu rendu côté serveur en fragments transmis en streaming
+  - key: options.js_app_patterns.resumability
+    t: Reprise d'exécution
+  - key: options.js_app_patterns.resumability.description
+    t: Sérialisation de l'état du framework sur le serveur afin que le client puisse reprendre l'exécution sans exécuter le code en double.
+  - key: options.js_app_patterns.edge_rendering
+    t: Rendu en périphérie
+  - key: options.js_app_patterns.edge_rendering.description
+    t: Modification du HTML rendu en périphérie avant son envoi au client
+
+  - key: options.js_app_patterns.micro_frontend
+    t: Microfrontend
+  - key: options.js_app_patterns.domain_driven_design
+    t: Conception pilotée par le domaine
+  - key: options.js_app_patterns.serverless
+    t: Serverless
+  - key: options.js_app_patterns.pespa
+    t: PESPA
+
+  - key: usage.what_do_you_use_react_for
+    t: Utilisation de React
+  - key: usage.what_do_you_use_react_for.question
+    t: À quoi vous sert React ?
+
+  - key: usage.react_pain_points
+    t: Difficultés liées à React
+
+  - key: usage.state_of_react
+    t: Satisfaction
+  - key: usage.state_of_react.question
+    t: Quel est votre niveau de satisfaction vis-à-vis de l'état actuel de React ?
+
+  - key: usage.usage_pain_points
+    t: Autres difficultés
+    aliases:
+      - react_pain_points.usage_pain_points
+  - key: usage.usage_pain_points.question
+    t: Souhaitez-vous mentionner d'autres difficultés liées à React ?
+    aliases:
+      - react_pain_points.usage_pain_points.question
+
+  - key: usage.meta_involvement_opinion
+    t: Implication de Meta
+  - key: usage.meta_involvement_opinion.question
+    t: Que pensez-vous de l'implication de Meta dans React ?
+
+  - key: options.meta_involvement_opinion.0
+    t: Très négatif
+  - key: options.meta_involvement_opinion.1
+    t: Négatif
+  - key: options.meta_involvement_opinion.2
+    t: Neutre
+  - key: options.meta_involvement_opinion.3
+    t: Positif
+  - key: options.meta_involvement_opinion.4
+    t: Très positif
+
+  - key: usage.vercel_involvement_opinion
+    t: Implication de Vercel
+  - key: usage.vercel_involvement_opinion.question
+    t: Que pensez-vous de l'implication de Vercel dans React ?
+
+  - key: options.vercel_involvement_opinion.0
+    aliasFor: options.meta_involvement_opinion.0
+  - key: options.vercel_involvement_opinion.1
+    aliasFor: options.meta_involvement_opinion.1
+  - key: options.vercel_involvement_opinion.2
+    aliasFor: options.meta_involvement_opinion.2
+  - key: options.vercel_involvement_opinion.3
+    aliasFor: options.meta_involvement_opinion.3
+  - key: options.vercel_involvement_opinion.4
+    aliasFor: options.meta_involvement_opinion.4
+
+  - key: usage.react_foundation_involvement_opinion
+    t: Implication de la React Foundation
+  - key: usage.react_foundation_involvement_opinion.question
+    t: Que pensez-vous de l'implication de la React Foundation dans React ?
+
+  - key: options.react_foundation_involvement_opinion.0
+    aliasFor: options.meta_involvement_opinion.0
+  - key: options.react_foundation_involvement_opinion.1
+    aliasFor: options.meta_involvement_opinion.1
+  - key: options.react_foundation_involvement_opinion.2
+    aliasFor: options.meta_involvement_opinion.2
+  - key: options.react_foundation_involvement_opinion.3
+    aliasFor: options.meta_involvement_opinion.3
+  - key: options.react_foundation_involvement_opinion.4
+    aliasFor: options.meta_involvement_opinion.4
+
+  # new features
+  - key: usage.new_features
+    t: Nouvelles fonctionnalités
+  - key: usage.new_features.question
+    t: Laquelle de ces nouvelles fonctionnalités récentes ou à venir vous enthousiasme le plus ?
+
+  - key: options.new_features.asset_loading
+    t: Chargement des ressources
+  - key: options.new_features.asset_loading.description
+    t: Intégrer pleinement Suspense au cycle de chargement des feuilles de style, polices et images
+  - key: options.new_features.cache.description
+    t: Une API facilitant la mise en cache des données.
+  - key: options.new_features_react_forget.description
+    t: Un compilateur de réactivité automatique pour React
+  - key: options.new_features.new_docs
+    t: Nouvelle documentation
+  - key: options.new_features.new_docs.description
+    t: Le site de documentation mis à jour de React.
+  - key: options.new_features.offscreen_rendering
+    t: Rendu hors écran
+  - key: options.new_features_offscreen_rendering.description
+    t: Rendu d'écrans en arrière-plan sans surcoût supplémentaire sur les performances.
+  - key: options.new_features.use_hook
+    t: >
+      Hook `use`
+  - key: options.new_features.use_hook.description
+    t: >
+      `use` extrait la valeur d'une promesse, mais peut être utilisé dans des composants et hooks classiques, y compris côté client.
+
+  - key: options.new_features.transition_tracing
+    t: Suivi des transitions
+  - key: options.new_features.transition_tracing.description
+    t: Détecter le ralentissement des transitions React et en rechercher les causes.
+
+  # what do you use React for?
+  - key: options.what_do_you_use_react_for.static_sites
+    t: Sites statiques
+  - key: options.what_do_you_use_react_for.static_sites.description
+    t: Sites pré-générés nécessitant peu d'interactions avec le serveur
+
+  - key: options.what_do_you_use_react_for.design_systems
+    t: Systèmes de conception
+  - key: options.what_do_you_use_react_for.design_systems.description
+    t: Bibliothèques personnalisées de composants React
+
+  - key: options.what_do_you_use_react_for.web_apps
+    t: Applications web
+  - key: options.what_do_you_use_react_for.web_apps.description
+    t: Applications web avec des interactions complexes, de la gestion d'état, du routage, etc.
+
+  - key: options.what_do_you_use_react_for.mobile_apps
+    t: Applications mobiles
+  - key: options.what_do_you_use_react_for.mobile_apps.description
+    t: Applications mobiles utilisant React ou React Native
+
+  - key: options.what_do_you_use_react_for.desktop_apps
+    t: Applications de bureau
+  - key: options.what_do_you_use_react_for.desktop_apps.description
+    t: Applications qui s'exécutent localement sur un ordinateur
+
+  - key: options.what_do_you_use_react_for.hybrid_sites
+    t: Sites hybrides
+  - key: options.what_do_you_use_react_for.hybrid_sites.description
+    t: Sites traditionnels avec des composants dynamiques côté client (par exemple les sites de commerce en ligne)
+
+  # resources
+  - key: resources.learning_methods_react
+    t: Méthodes d'apprentissage
+  - key: resources.learning_methods_react.question
+    t: Quels types de ressources avez-vous utilisés pour apprendre React ?
+
+  - key: resources.blogs_news_magazines_react
+    t: Blogs et newsletters
+  - key: resources.blogs_news_magazines_react.question
+    t: Quels blogs, magazines ou newsletters consultez-vous pour suivre l'actualité de React ?
+
+  - key: resources.sites_courses_react
+    t: Cours et supports de formation
+  - key: resources.sites_courses_react.question
+    t: Quels cours ou autres supports (vidéos, livres, etc.) avez-vous utilisés pour apprendre React ?
+
+  - key: resources.podcasts_react
+    t: Podcasts
+  - key: resources.podcasts_react.question
+    t: Quels podcasts sur React ou le développement web écoutez-vous ?
+
+  - key: resources.video_creators_react
+    t: Créateurs de vidéos
+  - key: resources.video_creators_react.question
+    t: Quels créateurs de vidéos sur React ou le développement web regardez-vous sur YouTube, Twitch, etc. ?
+
+  - key: resources.people_react
+    t: Personnalités
+  - key: resources.people_react.question
+    t: Qui lisez-vous, suivez-vous ou souhaitez-vous mettre en avant dans la communauté React ?
+
+  # pain points
+
+  - key: react_pain_points.end_to_end_type_safety
+    t: Sécurité des types de bout en bout
+  - key: react_pain_points.create_react_app_issues
+    t: Problèmes liés à Create React App
+
+  - key: react_pain_points.webpack_issues
+    t: Problèmes liés à Webpack
+
+  - key: react_pain_points.firebase_issues
+    t: Problèmes liés à Firebase
+
+  - key: react_pain_points.pricing_issues
+    t: Coûts élevés
+
+  - key: react_pain_points.aws_issues
+    t: Problèmes liés à AWS
+
+  - key: react_pain_points.graphql_issues
+    t: Problèmes liés à GraphQL
+
+  - key: react_pain_points.css_in_js_issues
+    t: Problèmes liés au CSS-in-JS
+
+  - key: react_pain_points.tailwind_issues
+    t: Problèmes liés à Tailwind
+
+  - key: react_pain_points.mui_issues
+    t: Problèmes liés à MUI
+
+  - key: react_pain_points.styled_components_issues
+    t: Problèmes liés à Styled Components
+
+  - key: react_pain_points.prop_drilling
+    t: Prop drilling
+
+  - key: react_pain_points.caching
+    t: Mise en cache
+
+  - key: react_pain_points.graphql_issues
+    t: Problèmes liés à GraphQL
+
+  - key: react_pain_points.apollo_issues
+    t: Problèmes liés à Apollo
+
+  - key: react_pain_points.optimistic_updates
+    t: Mises à jour optimistes
+
+  - key: react_pain_points.cancelling_requests
+    t: Impossibilité d'annuler des requêtes
+
+  - key: react_pain_points.rules_of_hooks
+    t: Règles des hooks
+
+  - key: react_pain_points.hooks_disallowed_conditional_logic
+    t: Logique conditionnelle interdite
+
+  - key: react_pain_points.excessive_rerendering
+    t: Rendus trop fréquents
+
+  - key: react_pain_points.dependency_arrays
+    t: Tableaux de dépendances
+
+  - key: react_pain_points.context_api
+    t: API Context
+
+  - key: react_pain_points.context_api_rerendering
+    t: Rendus excessifs dus au contexte
+
+  - key: react_pain_points.react_lack_of_signals
+    t: Absence de signaux
+
+  - key: react_pain_points.excessive_rerendering
+    t: Rendus trop fréquents
+    aliases:
+      - react_pain_points.excesssive_rerendering
+
+  - key: react_pain_points.nextjs_issues
+    t: Problèmes liés à Next.js
+
+  - key: react_pain_points.vercel_issues
+    t: Problèmes liés à Vercel
+
+  - key: react_pain_points.hooks_issues
+    t: Problèmes liés aux hooks
+
+  - key: react_pain_points.redux_issues
+    t: Problèmes liés à Redux
+
+  - key: react_pain_points.mobx_issues
+    t: Problèmes liés à MobX
+
+  - key: react_pain_points.global_state_management
+    t: Gestion de l'état global
+
+  - key: react_pain_points.synchronization_issues
+    t: Problèmes de synchronisation
+
+  - key: react_pain_points.reactivity_issues
+    t: Problèmes de réactivité
+
+  - key: react_pain_points.side_effects_issues
+    t: Problèmes liés aux effets de bord
+
+  - key: react_pain_points.cache_issues
+    t: Problèmes liés au cache
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.data_used_react
+    t: Comment ces données seront-elles utilisées ?
+  - key: faq.data_used_react.description
+    t: >
+      Toutes les données recueillies seront publiées librement et accessibles à tous. Les développeurs et les entreprises pourront s'en servir pour définir leurs priorités et orienter leurs feuilles de route.
+
+  - key: faq.survey_goals_react
+    t: Quels sont les objectifs de l'enquête ?
+  - key: faq.survey_goals_react.description
+    t: >
+      Cette enquête vise à mesurer la notoriété et la popularité des API React, ainsi que des bibliothèques de son écosystème.
+
+  - key: faq.who_should_take_survey_react
+    t: Qui devrait répondre à cette enquête ?
+  - key: faq.who_should_take_survey_react.description
+    t: >
+      Cette enquête est ouverte à toute personne qui utilise React, régulièrement ou occasionnellement, dans le cadre de son travail, de ses études ou simplement par plaisir !
+
+  - key: faq.how_long_will_survey_take_react
+    t: Combien de temps faut-il pour répondre à l'enquête ?
+  - key: faq.how_long_will_survey_take_react.description
+    t: >
+      Depending on how many questions you answer (all questions are optional),
+      répondre à l'enquête devrait prendre environ 15 à 20 minutes.
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Soutenez l'enquête avec le t-shirt officiel State of React
+
+      Est-ce une bibliothèque ? Un framework ? Une entité inconnue sur le point de se transformer en créature dangereuse et instable ? Quels que soient vos sentiments à l'égard de React, vous les retrouverez dans ce design aux accents d'anime et de science-fiction.
+
+  - key: tshirt.about
+    t: À propos du t-shirt
+
+  - key: tshirt.description
+    t: |
+      Nous avons choisi un t-shirt de grande qualité, imprimé par nos partenaires de Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Le commander
+
+  - key: tshirt.price
+    t: 32 $ US + frais de livraison
+
+  - key: tshirt.designer.heading
+    t: À propos du créateur
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originaire de France et désormais installé aux États-Unis, Chris est un excellent développeur front-end, mais aussi un illustrateur talentueux spécialisé dans les visuels rétro. N'hésitez pas à découvrir ses [autres créations de t-shirts](https://chriskirknielsen.com/designs) !

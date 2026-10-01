@@ -1,0 +1,528 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: L'édition 2023 de l'enquête annuelle sur les dernières tendances de l'écosystème React.
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.react2023
+    t: |
+
+      <span class="first-letter">R</span>eact existe depuis 11 ans, ce qui semble difficile à concevoir au vu du rythme actuel du développement web.
+
+      Si nous parlons encore de React aujourd'hui, c'est qu'il a su suivre le rythme et évoluer constamment pour relever les défis que lui posent ses utilisateurs.
+
+      En fait, React ne se contente pas de suivre le mouvement : il ouvre aussi la voie à de nouveaux modèles innovants comme les composants serveur et le compilateur à venir.
+
+      Cela dit, veuillez noter que ces données ont été recueillies entre le **27 octobre** et le **15 novembre 2023**. React 19, ainsi que toute évolution survenue après cette période, n'est donc pas couvert.
+
+      Il reste néanmoins beaucoup à explorer : des bibliothèques de composants aux techniques de gestion d'état, en passant par les modèles d'application. Découvrons ensemble les résultats de la toute première enquête communautaire State of React !
+
+      *Cette enquête n'est pas officielle et n'est affiliée ni à Meta, ni à Vercel, ni à l'équipe React.*
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Soutenez l'enquête avec le t-shirt officiel State of React
+
+      Est-ce une bibliothèque ? Un framework ? Une entité inconnue sur le point de se transformer en créature dangereuse et instable ? Quels que soient vos sentiments à l'égard de React, vous les retrouverez dans ce design aux accents d'anime et de science-fiction.
+
+  - key: tshirt.about
+    t: À propos du t-shirt
+
+  - key: tshirt.description
+    t: |
+      Nous avons choisi un t-shirt de grande qualité, imprimé par nos partenaires de Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Le commander
+
+  - key: tshirt.price
+    t: 32 $ US + frais de livraison
+
+  - key: tshirt.designer.heading
+    t: À propos du créateur
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originaire de France et désormais installé aux États-Unis, Chris est un excellent développeur front-end, mais aussi un illustrateur talentueux spécialisé dans les visuels rétro. N'hésitez pas à découvrir ses [autres créations de t-shirts](https://chriskirknielsen.com/designs) !
+
+  ###########################################################################
+  # Content
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description.react2023
+    t: |
+      **13 003** personnes ont répondu à la toute première enquête State of React. C'est certes un petit échantillon de l'ensemble de la communauté, mais il est suffisamment important pour nous fournir des données précieuses !
+
+  - key: user_info.country.takeaway
+    t: |
+      La majorité des personnes ayant répondu viennent des **États-Unis** et d'**Europe**.
+
+  - key: user_info.locale.takeaway
+    aliasFor: user_info.locale.description
+
+  - key: user_info.completion_stats.takeaway
+    aliasFor: user_info.completion_stats.description
+
+  # features
+
+  - key: sections.features.description.react2023
+    t: |
+      Nous avons interrogé les participants sur **28** fonctionnalités, des hooks incontournables comme `useState` aux API plus spécialisées comme `useDeferredValue`. N'hésitez pas à trier les résultats par « appréciation » !
+
+  - key: features.all_features
+    t: Toutes les fonctionnalités
+
+  - key: features.all_features.takeaway
+    t: |
+      Ce graphique récapitule toutes les questions de l'enquête sur les fonctionnalités. Les barres principales représentent l'expérience des participants et sont subdivisées selon leur appréciation. Vous pouvez modifier le regroupement pour passer de l'une à l'autre.
+
+  - key: features.reading_list.takeaway
+    t: >
+      **30 %** des participants ont ajouté au moins un élément à leur liste de lecture pendant l'enquête afin d'en apprendre davantage plus tard. Voici le détail de leurs choix.
+
+  - key: features.main_apis_items
+    t: Expérience et appréciation des API principales
+  - key: features.main_apis_pain_points.takeaway
+    t: >
+      Parmi les API React les plus courantes, `forwardRef` est de loin celle qui pose le plus de difficultés aux développeurs, suivie de près par `memo`. Heureusement, l'équipe React déploie actuellement de meilleures solutions pour les deux.
+
+  - key: features.hooks_items
+    t: Expérience et appréciation des hooks
+  - key: features.hooks_pain_points.takeaway
+    t: >
+      Sans surprise, `useEffect` et `useCallback` sont les hooks React jugés les plus problématiques, en grande partie à cause de la gestion des tableaux de dépendances.
+
+  - key: features.new_apis_items
+    t: Expérience et appréciation des nouvelles API
+  - key: features.new_apis_pain_points.takeaway
+    t: >
+      La capacité de React à évoluer et à rester pertinent au fil du temps est l'un de ses principaux atouts, mais elle a aussi un coût : les nouvelles API comme les **composants serveur** peuvent être difficiles à adopter.
+
+  # libraries
+
+  - key: sections.libraries.description.react2023
+    t: |
+      Nous avons remanié nos graphiques pour mettre en lumière non seulement l'expérience des développeurs, mais aussi leur *appréciation*. Explorez les nouvelles options de regroupement et de tri pour découvrir quelles bibliothèques sont les plus… ou les moins appréciées !
+
+  - key: tools.all_tools_experience
+    t: Expérience et appréciation des bibliothèques
+  - key: tools.all_tools_experience.takeaway
+    t: >
+      Parmi les bibliothèques et frameworks React, **Next.js** et **TanStack Query** obtiennent les appréciations globales les plus positives.
+
+      Certains éléments, comme `useState` et `fetch`, ont également été inclus comme points de comparaison, même s'il ne s'agit pas de bibliothèques.
+
+  - key: tools.scatterplot_overview
+    t: Satisfaction et utilisation des bibliothèques
+  - key: tools.scatterplot_overview.takeaway
+    t: >
+      Parmi les bibliothèques et frameworks, **Next.js** est le seul à combiner une forte rétention et une utilisation élevée. En revanche, même si davantage de participants ont utilisé **Create React App**, beaucoup moins souhaitent continuer à l'utiliser.
+
+  # component libraries
+
+  - key: tools.component_libraries_experience
+    t: Expérience et appréciation des bibliothèques de composants
+  - key: tools.component_libraries_experience.takeaway
+    t: >
+      **React Aria** et **Radix** arrivent en tête des appréciations positives, ce qui montre tout l'intérêt de l'approche headless pour les bibliothèques de composants.
+
+  # state management
+
+  - key: tools.state_management_experience
+    t: Expérience et appréciation des outils de gestion d'état
+  - key: tools.state_management_experience.takeaway
+    t: >
+      Après **useState**, **Zustand** est la solution de gestion d'état qui recueille le plus d'avis positifs. **Redux** conserve une large base d'utilisateurs, mais est moins apprécié.
+
+  # data loading
+
+  - key: tools.data_loading_experience
+    t: Expérience et appréciation du chargement des données
+  - key: tools.data_loading_experience.takeaway
+    t: >
+      **TanStack Query** fait parler de lui depuis un certain temps, et les données confirment sa réputation : c'est la méthode de chargement des données la plus appréciée, juste après l'API native `fetch`.
+
+  # back-end infrastructure
+
+  - key: tools.meta_frameworks_experience
+    t: Expérience et appréciation des méta-frameworks
+  - key: tools.meta_frameworks_experience.takeaway
+    t: >
+      Même si les critiques envers **Next.js** ne manquent pas, il arrive tout de même en tête des appréciations parmi les méta-frameworks, devant **Remix** et **Astro**.
+
+  #other_tools
+
+  - key: sections.other_tools.description.react2023
+    t: |
+      React est connu pour se concentrer sur le rendu de l'interface tout en restant assez neutre sur les autres aspects de votre application. Cela se reflète dans le dynamisme de l'écosystème qui s'est développé pour combler ces lacunes !
+
+  # usage
+
+  - key: sections.usage.description.react2023
+    t: |
+      Quelle que soit la version que vous utilisez, le modèle d'application que vous adoptez ou votre secteur d'activité, il n'y a pas de mauvaise façon d'utiliser React !
+
+  - key: usage.js_app_patterns.takeaway
+    t: >
+      Malgré l'intérêt porté à la génération de sites statiques, au rendu côté serveur et aux composants serveur, il est intéressant de noter que la grande majorité des utilisateurs de React travaillent toujours sur des applications monopages.
+
+  - key: usage.react_version.takeaway
+    t: >
+      À noter : l'enquête a été menée **avant** l'annonce ou la sortie de React 19.
+
+  # resources
+
+  - key: sections.resources.description.react2023
+    t: |
+      Si React continue de dominer, c'est notamment grâce à l'immense quantité de documentation, d'articles de blog, de vidéos et d'autres ressources accumulées au fil des ans. En voici un petit échantillon !
+
+  - key: resources.learning_methods.takeaway
+    t: |
+      L'équipe React a fait un excellent travail avec le nouveau site de documentation. Il n'est donc pas surprenant qu'il soit devenu le moyen le plus courant d'apprendre à utiliser le framework.
+
+  - key: resources.blogs_news_magazines.takeaway
+    t: |
+      Cette liste comprend de nombreux habitués, mais il faut aussi saluer la présence de médias consacrés à React, comme **This Week in React** et **React Status**.
+
+  - key: resources.sites_courses.takeaway
+    t: |
+      Malgré les difficultés liées à l'IA rencontrées récemment par **Stack Overflow**, le site reste pour l'instant en tête du classement.
+
+  - key: resources.podcasts.takeaway
+    t: |
+      **Syntax** continue de dominer le paysage des podcasts de développement. On remarquera également qu'aucun podcast consacré spécifiquement à React n'est actif dans le top 10.
+
+  - key: resources.video_creators.takeaway
+    t: |
+      **Theo** et **Web Dev Simplified** ont tous deux publié du contenu sur React. Il est intéressant de noter que **The Primeagen**, qui ne traite généralement pas de React, arrive tout de même en troisième position.
+
+  - key: resources.people.takeaway
+    t: |
+      Sans surprise, **Dan Abramov** arrive en tête des personnalités influentes de la communauté React, même si **Kent C. Dodds** et **Theo** semblent tous deux pouvoir lui ravir la place.
+
+  #awards
+  - key: sections.awards.description.react2023
+    t: |
+      Cette année, les récompenses ont été dominées par un projet bien particulier… devinerez-vous rapidement lequel ?
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.language
+    aliasFor: sections.language.title
+  - key: options.features_categories.browser_apis
+    aliasFor: sections.browser_apis.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      Pour en savoir plus, nous avons [rédigé un article de blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) consacré aux questions de genre dans cette enquête.
+
+  - key: blocks.source.note
+    t: >
+
+      Ce graphique regroupe des données issues des référents, des paramètres d'URL et des réponses libres.
+
+      - State of JS : la liste de diffusion [State of JS](https://stateofjs.com).
+
+      - State of CSS : la liste de diffusion State of CSS ; inclut également les réponses `email`, `by email`, etc.
+
+      - Travail : inclut les réponses `work`, `colleagues`, `coworkers`, etc.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: Avec une progression de **{value}** en 2022, **top-level await** est rapidement devenu un élément essentiel de JavaScript.
+
+  - key: award.tool_usage_delta_award.comment
+    t: |
+      **Vite** reste la bibliothèque dont l'utilisation progresse le plus rapidement, avec une hausse de **{value}** sur un an !
+
+  - key: award.tool_satisfaction_award.comment
+    t: "Vite occupe une nouvelle fois la première place : **{value}** des développeurs souhaitent continuer à l'utiliser !"
+
+  - key: award.tool_interest_award.comment
+    t: "Vous aviez deviné Vite ? Presque : cette année, c'est **Vitest** qui suscite le plus d'intérêt, avec un taux de **{value}**."
+
+  - key: award.most_write_ins_award.comment
+    t: Avec **{value}** mentions, **Bun** est la technologie la plus citée dans les réponses libres.
+
+  - key: award.most_commented_tool_award.comment
+    t: Avec **{value}** commentaires, React confirme qu'il est une nouvelle fois la bibliothèque dont on parle le plus.
+
+  - key: award.most_loved_tool_award.comment
+    t: Avec **{value}** de développeurs qui en ont une opinion positive, Vite conclut sa moisson de récompenses en étant la technologie la plus appréciée !
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.react2023.josh_comeau
+    t: |
+
+      <span class="first-line">Quelle année !</span>
+
+      Avec l'arrivée des composants serveur React, je dirais que cette année a été la plus importante pour React depuis 2018, année de l'introduction des hooks React.
+
+      En cinq ans, les hooks ont été adoptés massivement. Pas moins de 99,5 % des participants utilisent `useState`, et moins de 2 % en sont insatisfaits. Les composants de classe existent toujours, mais se cantonnent désormais aux anciens projets et à quelques composants de limite d'erreur.
+
+      Je me demande toutefois… utiliserons-nous tous les composants serveur cinq ans après leur sortie, en 2028 ? Je n'en suis pas si sûr. Ce modèle nécessite une intégration poussée avec le bundler et le routeur. La plupart des développeurs ne peuvent pas commencer à l'adopter progressivement dans leur base de code React actuelle.
+
+      Les développeurs React aiment rester à jour : 71 % des participants utilisaient React 18, la dernière version disponible lors de la collecte des données. Pourtant, l'environnement React le plus utilisé reste Create React App, bien qu'il soit officiellement obsolète et n'ait pas eu de nouvelle version depuis avril 2022. Nous mettons volontiers React à jour, mais ne sommes pas prêts à changer d'environnement : 37 % des participants n'ont même jamais utilisé le SSR (rendu côté serveur), alors que cette possibilité existe depuis plus de dix ans !
+
+      Si je devais faire une prédiction, je dirais qu'en 2028 deux variantes de React seront largement utilisées dans des proportions similaires : la version « full-stack », avec les composants et actions serveur, et la version réservée aux applications monopages côté client.
+
+      Nous vivons une époque passionnante ! J'ai hâte de voir comment React et son écosystème évolueront dans les prochaines années.
+
+  - key: conclusion.react2023.josh_comeau.bio
+    t: Ingénieur logiciel et formateur. Créateur de [The Joy of React](https://www.joyofreact.com/)
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick.react2023
+    t: "Mon choix de 2023 : "
+  - key: picks.intro
+    t: Nous avons demandé à des membres de la communauté React de partager leur « choix de l'année ».
+
+  # https://zustand-demo.pmnd.rs
+  - key: picks.jack_herrington.name
+    t: Zustand
+  - key: picks.jack_herrington.bio
+    t: Ingénieur principal et vidéaste sur YouTube
+  - key: picks.jack_herrington.description
+    t: |
+      Une gestion d'état simple, élégante et extensible qui « fonctionne tout simplement ». Aujourd'hui, vous n'avez peut-être pas besoin d'une solution dédiée, mais si c'est le cas, Zustand est un excellent point de départ.
+
+  # https://react.dev/reference/rsc/server-components
+  - key: picks.alex_sidorenko.name
+    t: React Server Components
+  - key: picks.alex_sidorenko.bio
+    t: Réalise de courtes vidéos sur Next.js sur Twitter
+  - key: picks.alex_sidorenko.description
+    t: |
+      Il y a onze ans, React a réinventé le développement web en remettant en question les pratiques établies. Aujourd'hui, React recommence avec les composants serveur.
+
+      P.-S. : un grand merci à l'équipe Next.js qui fait avancer cette nouvelle vision.
+
+  # https://youtube.com/watch?v=zqhE-CepH2g
+  - key: picks.sam_selikoff.name
+    t: |
+      « Mind the Gap » – conférence de Ryan Florence à Big Sky Dev Con 2024
+  - key: picks.sam_selikoff.bio
+    t: Vidéos pour les développeurs front-end sur Build UI et YouTube ; co-animateur du podcast Frontend First
+  - key: picks.sam_selikoff.description
+    t: |
+      Ryan montre avec brio comment les nouvelles directives React « use server » et « use client » permettent de créer des fonctionnalités riches des deux côtés du réseau, selon un même modèle unifié. À voir absolument pour toute personne qui développe avec React.
+
+  # https://www.remotion.dev/
+  - key: picks.sebastien_lorber.name
+    t: Remotion
+  - key: picks.sebastien_lorber.bio
+    t: Créateur de [This Week in React](https://thisweekinreact.com/)
+  - key: picks.sebastien_lorber.description
+    t: |
+      L'idée de créer des vidéos par programmation avec React continue de me fasciner. Remotion reste un projet plutôt discret, qui progresse régulièrement et a été adopté par des développeurs relations, des formateurs, des créateurs indépendants et de grandes entreprises, notamment pour la campagne vidéo Unwrapped de GitHub.
+
+  # https://buildui.com/posts/instant-search-params-with-react-server-components
+  - key: picks.aurora_scharff.name
+    t: Paramètres de recherche instantanés avec les composants serveur React
+  - key: picks.aurora_scharff.bio
+    t: Développeuse web et consultante chez Inmeta
+  - key: picks.aurora_scharff.description
+    t: |
+      Cet article aborde un problème fréquent lors de la création d'une véritable application avec l'App Router de Next.js : la gestion des paramètres de recherche. Il est étonnamment difficile d'obtenir des interactions « parfaites » ; l'article présente une solution avec `useOptimistic` et explique aussi les transitions à l'aide de nombreux exemples interactifs.
+
+  # https://mui.com/blog/introducing-pigment-css/
+  - key: picks.josh_comeau.name
+    t: Pigment CSS
+  - key: picks.josh_comeau.bio
+    t: Ingénieur logiciel et formateur. Créateur de [The Joy of React](https://www.joyofreact.com/)
+  - key: picks.josh_comeau.description
+    t: |
+      L'équipe Material UI développe une bibliothèque CSS-in-JS de nouvelle génération qui adapte l'API styled à l'ère des composants serveur React. Les outils CSS-in-JS ne manquent pas, mais celui-ci coche toutes les cases à mes yeux.
+
+  # https://www.propelauth.com/post/nextjs-challenges
+  - key: picks.carl_vitullo.name
+    t: "Ce n'est pas qu'une impression : Next.js devient plus difficile à utiliser"
+  - key: picks.carl_vitullo.bio
+    t: Entrepreneur indépendant, animateur de [This Month in React](https://podcasts.apple.com/us/podcast/this-month-in-react/id1661733526) et responsable de la communauté [Reactiflux](https://www.reactiflux.com/)
+  - key: picks.carl_vitullo.description
+    t: |
+      Un excellent article ! Il saisit l'air du temps dans l'écosystème React et exprime clairement une frustration qui couvait depuis 2024.
+
+  # https://sonner.emilkowal.ski
+  - key: picks.miguel_angel_duran.name
+    t: Sonner
+  - key: picks.miguel_angel_duran.bio
+    t: Diffuseur de sessions de programmation sur Twitch et créateur de contenu
+  - key: picks.miguel_angel_duran.description
+    t: |
+      Sonner est le meilleur composant de notifications toast pour React. Élégant par défaut, hautement configurable et doté d'une API simple à intégrer dans n'importe quel projet. Un travail remarquable d'Emil.
+
+  # https://docs.expo.dev/router/introduction/
+  - key: picks.lydia_hallie.name
+    t: Expo Router
+  - key: picks.lydia_hallie.bio
+    t: Ingénieure logiciel indépendante et créatrice de contenu technique
+  - key: picks.lydia_hallie.description
+    t: |
+      Expo Router mérite mon choix pour son immense potentiel sur le web comme en natif. C'est le premier framework à exploiter toute la puissance de React sur toutes les plateformes, faisant de React un moteur de rendu réellement multiplateforme. Son architecture fondée sur les fichiers facilite l'adaptation des développeurs web aux plateformes natives, accélère le développement et réduit le délai de livraison sur tous les appareils.
+
+  #
+  # - key: picks.xxx.name
+  #   t:
+  # - key: picks.xxx.bio
+  #   t:
+  # - key: picks.xxx.description
+  #   t: |
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Développez vos compétences avec des cours approfondis et modernes en ingénierie front-end.
+  - key: sponsors.google_chrome.description
+    t: Merci à l'équipe Google Chrome de soutenir notre travail.
+  - key: sponsors.tokyodev.description
+    t: Trouvez dès aujourd'hui le poste de développeur de vos rêves au Japon.
+  - key: sponsors.renderatl.description
+    t: La conférence tech consacrée à tout ce qui touche au web.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  # React 2023
+
+  - key: faq.data_used_react2023
+    t: Comment ces données seront-elles utilisées ?
+  - key: faq.data_used_react2023.description
+    t: >
+      Toutes les données recueillies seront publiées librement et accessibles à tous. Les développeurs et les entreprises pourront s'en servir pour définir leurs priorités et orienter leurs feuilles de route.
+
+  - key: faq.survey_goals_react2023
+    t: Quels sont les objectifs de l'enquête ?
+  - key: faq.survey_goals_react2023.description
+    t: >
+      Cette enquête vise à mesurer la notoriété et la popularité des API React, ainsi que des bibliothèques de son écosystème.
+
+  - key: faq.who_should_take_survey_react2023
+    t: Qui devrait répondre à cette enquête ?
+  - key: faq.who_should_take_survey_react2023.description
+    t: >
+      Cette enquête est ouverte à toute personne qui utilise React, régulièrement ou occasionnellement, dans le cadre de son travail, de ses études ou simplement par plaisir !
+
+  - key: faq.how_long_will_survey_take_react2023
+    t: Combien de temps faut-il pour répondre à l'enquête ?
+  - key: faq.how_long_will_survey_take_react2023.description
+    t: >
+      Depending on how many questions you answer (all questions are optional),
+      répondre à l'enquête devrait prendre environ 15 à 20 minutes.
+
+  - key: faq.learn_more_react2023
+    t: Où puis-je en apprendre davantage ?
+  - key: faq.learn_more_react2023.description
+    t: Vous trouverez plus d'informations sur cette enquête dans [notre annonce](https://dev.to/sachagreif/announcing-the-first-ever-state-of-react-survey-3k6b).
+
+  - key: faq.survey_design_react2023
+    t: Comment cette enquête a-t-elle été conçue ?
+  - key: faq.survey_design_react2023.description
+    t: >
+      L'enquête a été conçue avec la contribution de la communauté, recueillie dans un [fil de discussion ouvert](https://github.com/Devographics/surveys/issues/85).
+
+  - key: faq.results_released_react2023
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_react2023.description
+    t: L'enquête se déroulera du 27 octobre au 15 novembre et les résultats seront publiés peu après.
+
+  - key: about.content.react2023
+    t: |
+      L'enquête State of React 2023 s'est déroulée du 27 octobre au 15 novembre 2023 et a recueilli 13 003 réponses. Les résultats ont été publiés le 20 juillet 2024. L'enquête est menée par [Devographics](https://devographics.com/), un collectif composé de [Sacha Greif](https://sachagreif.com/), [Eric Burel](https://www.lbke.fr/), ainsi que d'experts invités et de contributeurs open source.
+
+      Le logo State of React et le t-shirt ont été créés par [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Objectifs de l'enquête
+
+      Cette enquête a été créée pour repérer les tendances émergentes de l'écosystème React et aider les développeurs à faire leurs choix technologiques.
+
+      Elle vise donc à anticiper les évolutions des prochaines années plutôt qu'à analyser les tendances actuelles. C'est pourquoi certaines fonctionnalités ou technologies peuvent être omises, même si elles sont déjà très répandues.
+
+      Ces résultats doivent également être considérés comme un **instantané d'un sous-ensemble précis de développeurs** et ne prétendent pas représenter l'ensemble de l'écosystème React.
+
+      ### Conception de l'enquête
+
+      L'enquête s'appuie en partie sur celle de l'année précédente. Son plan a été discuté lors d'une période de commentaires ouverts [sur GitHub](https://github.com/Devographics/surveys/issues/85).
+
+      Toutes les questions de l'enquête étaient facultatives.
+
+      ### Public de l'enquête
+
+      L'enquête était librement accessible en ligne et les participants n'ont fait l'objet d'aucune sélection. Il s'agissait principalement de personnes ayant répondu aux enquêtes précédentes, informées par une liste de diffusion dédiée, et de visiteurs issus des réseaux sociaux.
+
+      Les frameworks, bibliothèques et autres projets pouvaient inviter leur public à participer à l'enquête ; certains l'ont fait au moyen de bannières, de publications, etc. Le graphique « Sources » présente une répartition détaillée des sources de trafic.
+
+      ### Financement du projet
+
+      Le projet est financé par plusieurs sources :
+
+      - **Ventes de t-shirts**.
+
+      - **Liens sponsorisés** : les liens vers les ressources recommandées au bas de chaque page sont fournis par notre partenaire [Frontend Masters](https://frontendmasters.com/).
+
+      - **Financement direct** : cette année, [Google](https://www.google.com/) et [TokyoDev](https://www.tokyodev.com/) ont financé mon travail sur les enquêtes.
+
+      Toute contribution ou tout parrainage est très apprécié. Nous aimerions particulièrement collaborer avec davantage d'éditeurs de navigateurs, qui occupent une place centrale dans l'écosystème web.
+
+      ### Présentation technique
+
+      Vous trouverez [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) une présentation technique plus détaillée du fonctionnement des enquêtes.
+
+      **Note : cette enquête n'est *pas* une enquête officielle sur React, et son équipe n'est affiliée ni à Meta, ni à Vercel, ni à l'équipe React.**
+
+      ### Remerciements
+
+      Un grand merci à Paul McMahon, Marc Grabanski et Justin E. Samuels pour leur soutien continu.
+
+  - key: general.react2023.survey_intro
+    t: |
+      Dès la présentation de React, il était clair que cette bibliothèque allait compter dans le monde du web.
+
+      Après tout, Facebook a été construit avec React et, malgré cette étrange syntaxe « JSX », les développeurs l'ont rapidement adopté. Plus remarquable encore, la communauté l'a suivi à travers des changements majeurs comme les composants fonctionnels et les hooks.
+
+      Mais dix ans ont passé et les nouveaux composants serveur React promettent d'être le plus grand changement depuis… React lui-même !
+
+      La communauté suivra-t-elle une nouvelle fois ? Ou les développeurs partiront-ils vers Svelte, Solid ou une autre solution ?
+
+      Découvrons-le ensemble grâce à la toute première enquête State of React !
