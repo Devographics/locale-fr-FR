@@ -1,0 +1,1093 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  # homepage
+  - key: general.why_create_account
+    t: Pourquoi dois-je créer un compte ?
+  - key: general.create_account_reasons
+    t: >
+      Nous vous demandons de créer un compte afin de :
+
+      - Éviter les réponses en double
+
+      - Vous donner accès à vos données
+
+      - Enregistrer votre session au fur et à mesure
+
+      - Vous prévenir lorsque les résultats seront disponibles
+  - key: general.survey_closed_detailed
+    t: >
+      Désolé, le sondage est maintenant fermé ! Vous pouvez toujours consulter vos données, mais vous ne pourrez pas les modifier.
+  - key: general.survey_read_only
+    t: >
+      Vous consultez actuellement ce sondage en lecture seule.
+  - key: general.survey_preview
+    t: >
+      Ce sondage est en mode aperçu. Ses questions peuvent changer et toutes les
+      données saisies seront supprimées lorsque le sondage commencera réellement.
+
+  - key: general.survey_read_only_back
+    t: >
+      <a href="{link}">Retournez</a> à la page principale du sondage pour commencer ou reprendre une session.
+  - key: general.take_survey
+    t: Répondre au sondage {name}
+
+  # surveys
+  - key: general.open_surveys
+    t: Sondages ouverts
+  - key: general.no_open_surveys
+    t: Aucun sondage n'est actuellement ouvert.
+  - key: general.closed_surveys
+    t: Sondages fermés
+  - key: general.no_closed_surveys
+    t: Aucun sondage n'est actuellement fermé.
+  - key: general.preview_surveys
+    t: Sondages en aperçu
+  - key: general.no_preview_surveys
+    t: Aucun sondage disponible en aperçu.
+  - key: general.start_survey
+    t: Commencer le sondage »
+  - key: general.continue_survey
+    t: Continuer le sondage »
+  - key: general.review_survey
+    t: Revoir le sondage »
+  - key: general.preview_survey
+    t: Prévisualiser le sondage »
+  - key: general.finish_survey
+    t: Terminer le sondage
+  - key: general.next_section
+    t: Section suivante
+  - key: general.previous_section
+    t: Section précédente
+  - key: general.survey_closed
+    t: Ce sondage est maintenant fermé.
+  - key: general.survey_results
+    t: Voir les résultats du sondage »
+  - key: general.surveys_available_languages
+    t: "Sondages disponibles en :"
+  - key: general.help_us_translate
+    t: Aidez-nous à traduire les sondages »
+  - key: general.translators
+    t: Traducteurs
+  - key: general.translation_help
+    t: Aide à la traduction
+  - key: general.newly_added
+    t: Nouvellement ajouté cette année
+  - key: general.new
+    t: Nouveau
+  - key: general.devographics_banner
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a> est le nouveau nom du collectif qui organise les sondages State of JavaScript, CSS et GraphQL.
+
+  # credits
+  - key: credits.thanks
+    t: Remerciements particuliers
+  - key: credits.contributors
+    t: Contributeurs
+  - key: credits.contributors.description
+    t: Merci tout particulièrement aux personnes suivantes pour leur aide dans la conception du sondage.
+  - key: credits.accessibility
+    t: Conseil en accessibilité
+  - key: credits.survey_design
+    t: Conception du sondage
+  - key: credits.logo_design
+    t: Conception du logo
+  - key: credits.mobile_testing
+    t: Tests mobiles
+  - key: credits.data_visualizations
+    t: Visualisations de données
+  - key: credits.repo_architecture
+    t: Architecture du dépôt
+  - key: credits.code_refactoring
+    t: Refactorisation du code
+  - key: credits.data_processing
+    t: Traitement des données
+
+  # support
+  - key: general.support_from
+    t: Avec le soutien de
+
+  # footer
+  - key: general.privacy_policy
+    t: Politique de confidentialité
+  - key: general.leave_issue
+    t: Une question ? Un bug ? <a href="{link}" target="_blank">Signalez-le</a>.
+  - key: general.emoji_icons
+    t: Icônes emoji par <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+
+  # navigation
+  - key: general.table_of_contents
+    t: Sommaire
+  - key: general.all_questions_optional
+    t: >
+      Note : toutes les questions sont facultatives, il n'est pas nécessaire d'atteindre 100 % de complétion.
+  - key: general.data_is_saved
+    t: Vos données sont enregistrées chaque fois que vous naviguez vers la section précédente ou suivante.
+  - key: general.close_nav
+    t: Fermer le menu
+  - key: general.open_nav
+    t: Ouvrir le menu
+  - key: general.more_actions
+    t: Plus d'actions
+  - key: general.skip_to_content
+    t: Aller au contenu
+
+  # thanks
+  - key: general.back
+    t: Retour
+  - key: general.thanks
+    t: >
+      Merci d'avoir rempli le sondage ! Vos données sont enregistrées.
+
+
+      Vous pouvez également nous aider à faire connaître le sondage en le partageant. Chaque geste compte et contribuera à rendre nos données encore
+      plus représentatives :
+  - key: thanks.learn_more_about
+    t: "Voici quelques fonctionnalités que vous pourriez vouloir découvrir :"
+  - key: thanks.knowledge_score
+    t: Score de connaissances
+  - key: thanks.score_explanation
+    t: >
+      Vous avez entendu parler de ou utilisé <span class="score-number score-number-known">{known}</span> des
+      <span class="score-number score-number-total">{total}</span> fonctionnalités mentionnées dans le sondage, ce qui
+      vous place parmi les <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
+      meilleurs répondants.
+  - key: thanks.share_on_twitter
+    t: Partager sur Twitter
+  - key: thanks.share_score_message
+    t: >
+      J'ai obtenu un score de connaissances de {score}% au sondage #{hashtag} de cette année ! Répondez au sondage ici : {shareUrl}
+  # share
+  - key: general.share_subject
+    t: >
+      Sondage {surveyName}
+  - key: general.share_text
+    t: >
+      Le sondage {surveyName} de cette année est maintenant ouvert ! {link}
+
+  # forms
+  - key: forms.select_option
+    t: Sélectionner une option
+  - key: forms.clear_field
+    t: Effacer la question
+
+  # partners
+  - key: sponsors.our_partners
+    t: Nos partenaires
+  - key: sponsors.become_partner
+    t: Devenir partenaire
+
+  # 404
+  - key: notfound.title
+    t: 404 Page introuvable
+  - key: notfound.description
+    t: Désolé, nous n'avons pas trouvé ce que vous cherchiez.
+
+  # other
+  - key: general.join_discord
+    t: Rejoignez-nous sur <a href="{link}">Discord</a>.
+  - key: general.translator_mode
+    t: Appuyez sur option/alt pour activer le mode traducteur.
+  - key: general.charts_nivo
+    t: Graphiques réalisés avec <a href="{link}">Nivo</a>.
+  - key: general.made_by_devographics
+    t: Réalisé par <a href="{link}">Devographics</a>
+
+  ###########################################################################
+  # Nav
+  ###########################################################################
+
+  - key: nav.surveys
+    t: Sondages
+  - key: nav.account
+    t: Compte
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info.title
+    t: À propos de vous
+  - key: sections.user_info.description
+    t: Apprenons à connaître la personne que vous êtes vraiment.
+
+  - key: sections.features.title
+    t: Fonctionnalités
+  - key: sections.features.description
+    t: Syntaxe, mots-clés et autres fonctionnalités du langage.
+
+  - key: sections.resources.title
+    t: Ressources
+  - key: sections.resources.description
+    t: Quelles ressources consultez-vous ?
+
+  - key: sections.opinions.title
+    t: Opinions
+  - key: sections.opinions.description
+    t: Que pensez-vous de l'état de {topic} ?
+
+  - key: sections.other_tools.title
+    t: Autres outils
+  - key: sections.other_tools.description
+    t: Pour ces outils et technologies, cochez simplement ceux que vous utilisez régulièrement.
+
+  - key: sections.report.title
+    t: Rapport de tendances
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  # features
+  - key: options.features.never_heard
+    t: <span aria-hidden="true">🤷</span> Jamais entendu parler / Je ne sais pas ce que c'est
+  - key: options.features.heard
+    t: <span aria-hidden="true">✅</span> Je sais ce que c'est, mais je ne l'ai jamais utilisé
+  - key: options.features.used
+    t: <span aria-hidden="true">👍</span> Je l'ai utilisé
+
+  # features (no emoji)
+  - key: options.features.never_heard.label
+    t: Jamais entendu parler / Je ne sais pas ce que c'est
+  - key: options.features.heard.label
+    t: Je sais ce que c'est, mais je ne l'ai jamais utilisé
+  - key: options.features.used.label
+    t: Je l'ai utilisé
+
+  # features (short versions)
+  # - key: options.features.never_heard.short
+  #   t: Never heard of it
+  # - key: options.features.heard.short
+  #   t: Know about it
+  # - key: options.features.used.short
+  #   t: Have used it
+
+  # patterns
+  - key: options.patterns.use_never
+    t: Évite presque toujours
+  - key: options.patterns.use_sparingly
+    t: Utilise rarement
+  - key: options.patterns.use_neutral
+    t: Neutre
+  - key: options.patterns.use_frequently
+    t: Utilise fréquemment
+  - key: options.patterns.use_always
+    t: Utilise autant que possible
+
+  # tools experience
+  - key: options.tools.never_heard
+    t: <span aria-hidden="true">🤷</span> Jamais entendu parler / Je ne sais pas ce que c'est
+  - key: options.tools.interested
+    t: En a entendu parler > Souhaite l'apprendre
+  - key: options.tools.not_interested
+    t: En a entendu parler > Pas intéressé
+  - key: options.tools.would_use
+    t: L'a utilisé > Le réutiliserait
+  - key: options.tools.would_not_use
+    t: L'a utilisé > Ne le réutiliserait pas
+
+  # tools experience (no emoji)
+  - key: options.tools.never_heard.legend
+    t: Jamais entendu parler / Je ne sais pas ce que c'est
+  - key: options.tools.interested.legend
+    t: En a entendu parler > Souhaite l'apprendre
+  - key: options.tools.not_interested.legend
+    t: En a entendu parler > Pas intéressé
+  - key: options.tools.would_use.legend
+    t: L'a utilisé > Le réutiliserait
+  - key: options.tools.would_not_use.legend
+    t: L'a utilisé > Ne le réutiliserait pas
+
+  # tools experience (short versions)
+  - key: options.tools.never_heard.short
+    t: Jamais entendu parler
+  - key: options.tools.interested.short
+    t: Intéressé
+  - key: options.tools.not_interested.short
+    t: Pas intéressé
+  - key: options.tools.would_use.short
+    t: Réutiliserait
+  - key: options.tools.would_not_use.short
+    t: Ne le réutiliserait pas
+
+  # happiness
+  - key: options.happiness.0
+    t: Très mécontent
+  - key: options.happiness.1
+    t: Mécontent
+  - key: options.happiness.2
+    t: Neutre
+  - key: options.happiness.3
+    t: Content
+  - key: options.happiness.4
+    t: Très content
+
+  # happiness (short version)
+  - key: options.happiness.0.short
+    t: Très mécontent
+  - key: options.happiness.1.short
+    t: Mécontent
+  - key: options.happiness.2.short
+    t: Neutre
+  - key: options.happiness.3.short
+    t: Content
+  - key: options.happiness.4.short
+    t: Très content
+
+  # opinions
+  - key: options.opinions.0
+    t: Pas du tout d'accord
+  - key: options.opinions.1
+    t: Pas d'accord
+  - key: options.opinions.2
+    t: Neutre
+  - key: options.opinions.3
+    t: D'accord
+  - key: options.opinions.4
+    t: Tout à fait d'accord
+
+  # age
+  - key: options.age.range_less_than_10
+    t: 10 ans ou moins
+  - key: options.age.range_10_18
+    t: 11-18 ans
+  - key: options.age.range_18_24
+    t: 19-24 ans
+  - key: options.age.range_25_34
+    t: 25-34 ans
+  - key: options.age.range_35_44
+    t: 35-44 ans
+  - key: options.age.range_45_54
+    t: 45-54 ans
+  - key: options.age.range_55_64
+    t: 55-64 ans
+  - key: options.age.range_more_than_65
+    t: 65 ans ou plus
+
+  # age (short versions)
+  - key: options.age.range_less_than_10.short
+    t: "<=10"
+  - key: options.age.range_10_18.short
+    t: 11-18
+  - key: options.age.range_18_24.short
+    t: 19-24
+  - key: options.age.range_25_34.short
+    t: 25-34
+  - key: options.age.range_35_44.short
+    t: 35-44
+  - key: options.age.range_45_54.short
+    t: 45-54
+  - key: options.age.range_55_64.short
+    t: 55-64
+  - key: options.age.range_more_than_65.short
+    t: ">65"
+
+  # years of experience
+  - key: options.years_of_experience.range_less_than_1
+    t: Moins d'un an
+  - key: options.years_of_experience.range_1_2
+    t: 1 à 2 ans
+  - key: options.years_of_experience.range_2_5
+    t: 3 à 5 ans
+  - key: options.years_of_experience.range_5_10
+    t: 6 à 10 ans
+  - key: options.years_of_experience.range_10_20
+    t: 11 à 20 ans
+  - key: options.years_of_experience.range_more_than_20
+    t: Plus de 20 ans
+
+  # years of experience (short versions)
+  - key: options.years_of_experience.range_less_than_1.short
+    t: "<1 an"
+  - key: options.years_of_experience.range_1_2.short
+    t: 1-2 ans
+  - key: options.years_of_experience.range_2_5.short
+    t: 3-5 ans
+  - key: options.years_of_experience.range_5_10.short
+    t: 6-10 ans
+  - key: options.years_of_experience.range_10_20.short
+    t: 11-20 ans
+  - key: options.years_of_experience.range_more_than_20.short
+    t: ">20 ans"
+
+  # company size
+  - key: options.company_size.range_1
+    t: Un employé
+  - key: options.company_size.range_1_5
+    t: 2 à 5 employés
+  - key: options.company_size.range_5_10
+    t: 6 à 10 employés
+  - key: options.company_size.range_10_20
+    t: 11 à 20 employés
+  - key: options.company_size.range_20_50
+    t: 21 à 50 employés
+  - key: options.company_size.range_50_100
+    t: 51 à 100 employés
+  - key: options.company_size.range_100_1000
+    t: 101 à 1000 employés
+  - key: options.company_size.range_more_than_1000
+    t: Plus de 1000 employés
+
+  # company size (short versions)
+  - key: options.company_size.range_1.short
+    t: 1
+  - key: options.company_size.range_1_5.short
+    t: 1-5
+  - key: options.company_size.range_5_10.short
+    t: 6-10
+  - key: options.company_size.range_10_20.short
+    t: 11-20
+  - key: options.company_size.range_20_50.short
+    t: 21-50
+  - key: options.company_size.range_50_100.short
+    t: 51-100
+  - key: options.company_size.range_100_1000.short
+    t: 101-1000
+  - key: options.company_size.range_more_than_1000.short
+    t: ">1000"
+
+  # salary
+  - key: options.yearly_salary.range_work_for_free
+    t: Je travaille gratuitement
+  - key: options.yearly_salary.range_0_10
+    t: $0k-$10k
+  - key: options.yearly_salary.range_10_30
+    t: $10k-$30k
+  - key: options.yearly_salary.range_30_50
+    t: $30k-$50k
+  - key: options.yearly_salary.range_50_100
+    t: $50k-$100k
+  - key: options.yearly_salary.range_100_200
+    t: $100k-$200k
+  - key: options.yearly_salary.range_more_than_200
+    t: Plus de 200 k$
+
+  # salary (short versions)
+  - key: options.yearly_salary.range_work_for_free.short
+    t: $0
+  - key: options.yearly_salary.range_0_10.short
+    t: $0-$10k
+  - key: options.yearly_salary.range_10_30.short
+    t: $10k-$30k
+  - key: options.yearly_salary.range_30_50.short
+    t: $30k-$50k
+  - key: options.yearly_salary.range_50_100.short
+    t: $50k-$100k
+  - key: options.yearly_salary.range_100_200.short
+    t: $100k-$200k
+  - key: options.yearly_salary.range_more_than_200.short
+    t: ">$200k"
+
+  # Proficiency (generic versions)
+  - key: options.proficiency.0
+    t: Aucun
+  - key: options.proficiency.1
+    t: Débutant
+  - key: options.proficiency.2
+    t: Intermédiaire
+  - key: options.proficiency.3
+    t: Avancé
+  - key: options.proficiency.4
+    t: Expert
+
+  # Gender
+
+  - key: options.gender.female
+    t: Femme
+  - key: options.gender.male
+    t: Homme
+  - key: options.gender.non_binary
+    t: Non-binaire ou non conforme au genre
+  - key: options.gender.questioning
+    t: En questionnement
+  - key: options.gender.prefer_not_to_say
+    t: Préfère ne pas répondre
+  - key: options.gender.not_listed
+    t: Non répertorié
+
+  # Gender (short)
+
+  - key: options.gender.female.short
+    t: Femme
+  - key: options.gender.male.short
+    t: Homme
+  - key: options.gender.non_binary.short
+    t: Non-binaire ou non conforme au genre
+  - key: options.gender.questioning.short
+    t: En questionnement
+  - key: options.gender.prefer_not_to_say.short
+    t: Préfère ne rien dire
+  - key: options.gender.not_listed.short
+    t: Non répertorié
+
+  # Race & Ethnicity
+
+  - key: options.race_ethnicity.white_european
+    t: Blanc
+  - key: options.race_ethnicity.south_asian
+    t: Sud-asiatique
+  - key: options.race_ethnicity.south_east_asian
+    t: Sud-est asiatique
+  - key: options.race_ethnicity.hispanic_latin
+    t: Hispanique ou Latino/Latina/Latinx
+  - key: options.race_ethnicity.east_asian
+    t: Est-asiatique
+  - key: options.race_ethnicity.middle_eastern
+    t: Moyen-oriental
+  - key: options.race_ethnicity.black_african
+    t: Noir ou d'ascendance africaine
+  - key: options.race_ethnicity.multiracial
+    t: Multiracial
+  - key: options.race_ethnicity.biracial
+    t: Biculturel
+  - key: options.race_ethnicity.native_american_islander_australian
+    t: Amérindien, insulaire du Pacifique ou autochtone australien
+  - key: options.race_ethnicity.not_listed
+    t: Non répertorié
+
+  # Race & Ethnicity (short)
+
+  - key: options.race_ethnicity.white_european.short
+    t: Blanc
+  - key: options.race_ethnicity.south_asian.short
+    t: Sud-asiatique
+  - key: options.race_ethnicity.south_east_asian.short
+    t: Sud-est asiatique
+  - key: options.race_ethnicity.hispanic_latin.short
+    t: Hispanique/Latino
+  - key: options.race_ethnicity.east_asian.short
+    t: Est-asiatique
+  - key: options.race_ethnicity.middle_eastern.short
+    t: Moyen-oriental
+  - key: options.race_ethnicity.black_african.short
+    t: Noir/ascendance africaine
+  - key: options.race_ethnicity.multiracial.short
+    t: Multiracial
+  - key: options.race_ethnicity.biracial.short
+    t: Biculturel
+  - key: options.race_ethnicity.native_american_islander_australian.short
+    t: Amérindien/insulaire du Pacifique/autochtone australien
+  - key: options.race_ethnicity.not_listed.short
+    t: Non répertorié
+
+  # Disability Status
+  - key: options.disability_status.visual_impairments
+    t: >
+      Déficiences visuelles (par exemple : cécité, daltonisme, etc.)
+  - key: options.disability_status.hearing_impairments
+    t: >
+      Déficiences auditives (par exemple : surdité, acouphènes, etc.)
+  - key: options.disability_status.mobility_impairments
+    t: >
+      Déficiences motrices (par exemple : arthrite, syndrome du canal carpien, etc.)
+  - key: options.disability_status.cognitive_impairments
+    t: >
+      Troubles cognitifs (par exemple : anxiété, dyslexie, etc.)
+  - key: options.disability_status.not_listed
+    t: >
+      Non répertorié
+
+  # Disability Status (short)
+  - key: options.disability_status.visual_impairments
+    t: >
+      Déficiences visuelles
+  - key: options.disability_status.hearing_impairments
+    t: >
+      Déficiences auditives
+  - key: options.disability_status.mobility_impairments
+    t: >
+      Déficiences motrices
+  - key: options.disability_status.cognitive_impairments
+    t: >
+      Troubles cognitifs
+  - key: options.disability_status.not_listed
+    t: >
+      Non répertorié
+
+  # Form Factors
+  - key: options.form_factors.desktop
+    t: Ordinateur de bureau
+  - key: options.form_factors.keyboard_only
+    t: Ordinateur de bureau avec clavier uniquement
+  - key: options.form_factors.smartphone
+    t: Smartphone
+  - key: options.form_factors.feature_phone
+    t: Téléphone mobile classique
+  - key: options.form_factors.tablet
+    t: Tablette
+  - key: options.form_factors.smart_watch
+    t: Montre connectée
+  - key: options.form_factors.tv
+    t: Téléviseur
+  - key: options.form_factors.gaming_console
+    t: Console de jeux vidéo
+  - key: options.form_factors.screen_reader
+    t: Lecteur d'écran
+  - key: options.form_factors.print
+    t: Impression
+  - key: options.form_factors.testing_tools
+    t: Outils de test (Axe, Lighthouse, etc.)
+  - key: options.form_factors.vision_simulator
+    t: Simulateur de vision altérée (daltonisme, etc.)
+
+  # Industry Sector
+  - key: options.industry_sector.ecommerce
+    t: E-commerce et vente au détail
+  - key: options.industry_sector.news_media
+    t: Actualités, médias et blogs
+  - key: options.industry_sector.healthcare
+    t: Santé
+  - key: options.industry_sector.finance
+    t: Finance
+  - key: options.industry_sector.programming_tools
+    t: Programmation et outils techniques
+  - key: options.industry_sector.socialmedia
+    t: Réseaux sociaux
+  - key: options.industry_sector.marketing_tools
+    t: Marketing/Ventes/Analytique
+  - key: options.industry_sector.education
+    t: Éducation
+  - key: options.industry_sector.real_estate
+    t: Immobilier
+  - key: options.industry_sector.government
+    t: Administration publique
+  - key: options.industry_sector.entertainment
+    t: Divertissement
+  - key: options.industry_sector.consulting
+    t: Conseil et services
+  - key: options.industry_sector.travel
+    t: Voyage
+  - key: options.industry_sector.insurance
+    t: Assurance
+  - key: options.industry_sector.logistics
+    t: Logistique
+  - key: options.industry_sector.energy
+    t: Énergie
+  - key: options.industry_sector.telecommunications
+    t: Télécommunications
+  - key: options.industry_sector.student
+    t: Étudiant
+  - key: options.industry_sector.hospitality
+    t: Hôtellerie et restauration
+  - key: options.industry_sector.cyber_security
+    t: Cybersécurité
+  - key: options.industry_sector.construction
+    t: Construction
+  - key: options.industry_sector.automotive
+    t: Automobile
+  - key: options.industry_sector.agriculture
+    t: Agriculture
+  - key: options.industry_sector.transport
+    t: Transport
+  - key: options.industry_sector.manufacturing
+    t: Industrie manufacturière
+
+  # tool evaluation
+  - key: options.tool_evaluation.learning_curve_documentation
+    t: Documentation
+  - key: options.tool_evaluation.learning_curve_documentation.description
+    t: Est-il facile à apprendre et/ou bien documenté ?
+  - key: options.tool_evaluation.momentum_popularity
+    t: Popularité et engouement
+  - key: options.tool_evaluation.momentum_popularity.description
+    t: Suscite-t-il actuellement beaucoup d'intérêt ?
+  - key: options.tool_evaluation.user_base_size
+    t: Taille de la base d'utilisateurs
+  - key: options.tool_evaluation.user_base_size.description
+    t: S'agit-il d'une solution bien établie avec un long historique ?
+  - key: options.tool_evaluation.developer_experience_tooling
+    t: Expérience développeur
+  - key: options.tool_evaluation.developer_experience_tooling.description
+    t: Dispose-t-il de bons outils pour les développeurs, d'un vaste écosystème de plugins, etc. ?
+  - key: options.tool_evaluation.performance_user_experience
+    t: Expérience utilisateur
+  - key: options.tool_evaluation.performance_user_experience.description
+    t: Aide-t-il à créer des expériences utilisateur fluides et performantes ?
+  - key: options.tool_evaluation.creator_team
+    t: Créateur et équipe
+  - key: options.tool_evaluation.creator_team.description
+    t: Est-il soutenu par une équipe connue, bien financée ou expérimentée ?
+  - key: options.tool_evaluation.accessibility_features
+    t: Fonctionnalités d'accessibilité
+  - key: options.tool_evaluation.accessibility_features.description
+    t: Permet-il de créer des expériences accessibles à tous les utilisateurs ?
+  - key: options.tool_evaluation.community_inclusivity
+    t: Communauté et inclusivité
+  - key: options.tool_evaluation.community_inclusivity.description
+    t: Dispose-t-il d'une communauté accueillante et dynamique ?
+
+  # accessibility features
+  - key: options.accessibility_features.keyboard_navigation
+    t: Navigation au clavier
+  - key: options.accessibility_features.compliant_contrast
+    t: Contraste conforme aux WCAG
+  - key: options.accessibility_features.focus_indicators
+    t: Indicateurs de focus
+  - key: options.accessibility_features.skip_to_content_link
+    t: Lien d'accès direct au contenu
+  - key: options.accessibility_features.color_themes
+    t: Thèmes de couleurs (mode sombre, mode à contraste élevé, etc.)
+  - key: options.accessibility_features.prefers_reduced_motion
+    t: Préférence pour les animations réduites
+  - key: options.accessibility_features.alt_text
+    t: Textes alternatifs
+  - key: options.accessibility_features.semantic_markup
+    t: Balisage sémantique
+  - key: options.accessibility_features.aria_attributes
+    t: Attributs HTML ARIA
+
+  # learning methods
+  - key: options.first_steps.books
+    t: Livres
+  - key: options.first_steps.videos
+    t: Vidéos et screencasts
+  - key: options.first_steps.school
+    t: École et enseignement supérieur
+  - key: options.first_steps.courses_free
+    t: Cours en ligne (gratuits)
+  - key: options.first_steps.courses_paid
+    t: Cours en ligne (payants)
+  - key: options.first_steps.podcasts
+    t: Podcasts
+  - key: options.first_steps.bootcamp
+    t: Bootcamp de programmation
+  - key: options.first_steps.on_the_job
+    t: Formation en entreprise
+  - key: options.first_steps.self_directed
+    t: Apprentissage autonome (Google, Stack Overflow, etc.)
+  - key: options.first_steps.mentoring
+    t: Mentorat
+
+  # degree
+  - key: options.higher_education_degree.no_degree
+    t: Non
+  - key: options.higher_education_degree.yes_related
+    t: Oui, dans un domaine lié à ma profession actuelle
+  - key: options.higher_education_degree.yes_unrelated
+    t: Oui, mais dans un domaine sans rapport avec ma profession actuelle
+
+  # degree (short versions)
+  - key: options.higher_education_degree.no_degree.short
+    t: Non
+  - key: options.higher_education_degree.yes_related.short
+    t: Oui, domaine lié
+  - key: options.higher_education_degree.yes_unrelated.short
+    t: Oui, domaine sans rapport
+
+  # bracket
+  - key: options.bracket.round1
+    t: Victoires au tour 1
+  - key: options.bracket.round2
+    t: Victoires au tour 2
+  - key: options.bracket.round3
+    t: Victoires au tour 3
+  - key: options.bracket.combined
+    t: Combiné
+
+  # email_temporary (receive updates?)
+  - key: options.receive_notifications.yes
+    t: Oui, envoyez-moi un e-mail lorsque les résultats du sondage seront publiés
+
+  ###########################################################################
+  # Tools
+  ###########################################################################
+
+  - key: tools.other_tools
+    t: Autres options
+  - key: tools.other_tools.description
+    t: Autres options que vous utilisez pour la section actuelle et qui ne sont pas mentionnées ci-dessus.
+  - key: tools.happiness
+    t: Satisfaction globale
+  - key: tools.happiness.description
+    t: >
+      Sur une échelle de un (très mécontent) à cinq (très content), quel est votre niveau de satisfaction
+      concernant l'état général actuel des éléments liés aux options listées ci-dessus ?
+
+  ###########################################################################
+  # Demographics (About You/User Info)
+  ###########################################################################
+
+  # age
+  - key: user_info.age
+    t: Âge
+  - key: user_info.age.question
+    t: Quel âge avez-vous, en années ?
+
+  # years of experience
+  - key: user_info.years_of_experience
+    t: Années d'expérience
+  - key: user_info.years_of_experience.question
+    t: Depuis combien de temps travaillez-vous ou étudiez-vous dans ce domaine, en années ?
+
+  # company size
+  - key: user_info.company_size
+    t: Taille de l'entreprise
+  - key: user_info.company_size.question
+    t: Quelle est la taille de votre entreprise, en nombre d'employés ?
+
+  # salary ranges
+  - key: user_info.yearly_salary
+    t: Salaire annuel
+  - key: user_info.yearly_salary.question
+    t: Votre salaire annuel en dollars américains.
+
+  # job title
+  - key: user_info.job_title
+    t: Intitulé du poste
+  - key: user_info.job_title.question
+    t: Comment vous présentez-vous aux autres ?
+
+  # javascript proficiency
+  - key: user_info.javascript_proficiency
+    t: Niveau en JavaScript
+  - key: user_info.javascript_proficiency.question
+    t: Quel est votre niveau en JavaScript ?
+
+  # css proficiency
+  - key: user_info.css_proficiency
+    t: Niveau en CSS
+  - key: user_info.css_proficiency.question
+    t: Quel est votre niveau en CSS ?
+
+  # backend proficiency
+  - key: user_info.backend_proficiency
+    t: Niveau en back-end
+  - key: user_info.backend_proficiency.question
+    t: Quel est votre niveau en développement back-end ?
+
+  # gender
+  - key: user_info.gender
+    t: Genre
+  - key: user_info.gender.question
+    t: >
+      Laquelle des options suivantes vous décrit, le cas échéant ? Veuillez en choisir une.
+  - key: user_info.gender.note
+    t: >
+      Bien que nous sachions que la collecte et la publication de données sur la diversité puissent être sensibles,
+      nous pensons qu'il est important de recueillir ces données afin de mesurer et d'améliorer
+      les efforts du sondage en matière d'inclusion et de représentativité.
+
+  # race & ethnicity
+  - key: user_info.race_ethnicity
+    t: Origine ethnique
+  - key: user_info.race_ethnicity.question
+    t: >
+      Lesquelles des options suivantes vous décrivent, le cas échéant ? Veuillez sélectionner toutes les réponses qui s'appliquent.
+  - key: user_info.race_ethnicity.note
+    t: >
+      Bien que nous sachions que la collecte et la publication de données sur la diversité puissent être sensibles,
+      nous pensons qu'il est important de recueillir ces données afin de mesurer et d'améliorer
+      les efforts du sondage en matière d'inclusion et de représentativité.
+  - key: user_info.race_ethnicity.not_allowed
+    t: >
+      Afin de respecter les réglementations locales, la collecte de données sur l'origine ethnique a
+        été désactivée pour votre pays ou région.
+
+  # disability status
+  - key: user_info.disability_status
+    t: Situation de handicap
+  - key: user_info.disability_status.question
+    t: >
+      Lesquels des handicaps suivants avez-vous, le cas échéant ? Veuillez sélectionner toutes les réponses qui s'appliquent.
+      Cela peut également inclure des handicaps ou blessures temporaires.
+
+  # disability status (other)
+  - key: user_info.disability_status.others
+    t: Autres handicaps
+
+  # other info
+  - key: user_info.how_did_user_find_out_about_the_survey
+    t: Comment avez-vous découvert ce sondage ?
+  - key: user_info.email
+    t: Votre adresse e-mail
+  - key: user_info.email.description
+    t: >
+      Vous avez répondu au sondage de manière anonyme. Si vous le souhaitez, vous pouvez saisir votre adresse e-mail
+      afin de pouvoir accéder ultérieurement à vos données et d'être informé lorsque les résultats du sondage seront publiés.
+  - key: user_info.email.note
+    t: >
+      Nous ne conservons aucune donnée personnelle. Après avoir saisi votre adresse e-mail, nous l'utiliserons pour générer
+      un identifiant anonymisé unique, puis nous supprimerons l'adresse elle-même de nos dossiers.
+  - key: user_info.country
+    t: Pays ou région
+  - key: user_info.country.description
+    t: Où résidez-vous actuellement ?
+
+  - key: user_info.github_username
+    t: Votre nom d'utilisateur GitHub
+  - key: user_info.github_username.description
+    t: >
+      Nous pourrions utiliser les noms d'utilisateur GitHub à l'avenir pour consulter
+      les dépôts et recouper des informations accessibles au public.
+
+  - key: user_info.twitter_username
+    t: Votre nom d'utilisateur Twitter
+  - key: user_info.twitter_username.description
+    t: >
+      Nous pourrions utiliser les noms d'utilisateur Twitter à l'avenir pour consulter
+      l'activité sur Twitter et recouper des informations accessibles au public
+       (comme la liste des personnes que vous suivez).
+
+  - key: user_info.industry_sector
+    t: Secteur d'activité
+  - key: user_info.industry_sector.question
+    t: Dans quel(s) secteur(s) d'activité travaillez-vous ?
+  - key: user_info.industry_sector.others
+    t: Autres secteurs d'activité
+  - key: user_info.industry_sector.others.description
+    t: Autre(s) secteur(s) d'activité dans lesquels vous travaillez et qui ne sont pas mentionnés ci-dessus.
+
+  # degree
+  - key: user_info.higher_education_degree
+    t: Diplôme de l'enseignement supérieur
+  - key: user_info.higher_education_degree.question
+    t: Avez-vous un diplôme de l'enseignement supérieur ?
+
+  # email_temporary (receive updates?)
+  - key: user_info.receive_notifications
+    t: Souhaitez-vous être informé lorsque les résultats du sondage seront publiés ?
+  - key: user_info.receive_notifications.note
+    t: >
+      Nous ne conservons aucune donnée privée. Après l'envoi de votre adresse e-mail à notre
+      fournisseur de liste de diffusion, elle sera supprimée de nos propres dossiers.
+
+  # how can we improve the survey?
+  - key: user_info.how_can_we_improve
+    t: Comment pourrions-nous améliorer ce sondage ?
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools_others.libraries
+    t: Bibliothèques
+  - key: tools_others.libraries.question
+    t: Quelles bibliothèques utilisez-vous régulièrement ?
+  - key: tools_others.libraries.others
+    t: Autres bibliothèques
+  - key: tools_others.libraries.others.description
+    t: Autres réponses (champ libre).
+
+  - key: tools_others.text_editors
+    t: Éditeurs de texte
+  - key: tools_others.text_editors.question
+    t: Quel(s) éditeur(s) de texte utilisez-vous régulièrement ?
+  - key: tools_others.text_editors.others
+    t: Autres éditeurs de texte
+  - key: tools_others.text_editors.others.description
+    t: Autres réponses (champ libre).
+
+  - key: tools_others.utilities
+    t: Utilitaires
+  - key: tools_others.utilities.question
+    t: Quels utilitaires ou outils utilisez-vous régulièrement ?
+  - key: tools_others.utilities.others
+    t: Autres utilitaires
+  - key: tools_others.utilities.others.description
+    t: Autres utilitaires (champ libre).
+
+  - key: tools_others.browsers
+    t: Navigateurs
+  - key: tools_others.browsers.question
+    t: Dans quel(s) navigateur(s) travaillez-vous principalement pendant le développement initial ?
+  - key: tools_others.browsers.others
+    t: Autres navigateurs
+  - key: tools_others.browsers.others.description
+    t: Autres réponses (champ libre).
+
+  - key: tools_others.build_tools
+    t: Outils de build
+  - key: tools_others.build_tools.question
+    t: Quels outils de build utilisez-vous ?
+  - key: tools_others.build_tools.others
+    t: Autres outils de build
+  - key: tools_others.build_tools.others.description
+    t: Autres réponses (champ libre).
+
+  - key: tools_others.non_js_languages
+    t: Langages autres que JavaScript
+  - key: tools_others.non_js_languages.question
+    t: Quels autres langages de programmation utilisez-vous ?
+  - key: tools_others.non_js_languages.others
+    t: Autres langages
+  - key: tools_others.non_js_languages.others.description
+    t: Autres réponses (champ libre).
+
+  - key: tools_others.javascript_flavors
+    t: Variantes de JavaScript
+  - key: tools_others.javascript_flavors.question
+    t: Langages qui se compilent en JavaScript
+  - key: tools_others.javascript_flavors.others
+    t: Autres variantes de JavaScript
+  - key: tools_others.javascript_flavors.others.description
+    t: Autres réponses (champ libre).
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  # first steps
+  - key: resources.first_steps
+    t: Premières méthodes d'apprentissage
+  - key: resources.first_steps.question
+    t: Lorsque vous avez débuté, comment avez-vous appris à coder ?
+  - key: resources.first_steps.others
+    t: Autres premières méthodes d'apprentissage
+  - key: resources.first_steps.others.description
+    t: Autres réponses (champ libre).
+
+  # blogs & magazines
+  - key: resources.blogs_news_magazines
+    t: Blogs et magazines
+  - key: resources.blogs_news_magazines.question
+    t: Quels blogs, magazines, etc. lisez-vous ?
+  - key: resources.blogs_news_magazines.others
+    t: Autres blogs et magazines
+  - key: resources.blogs_news_magazines.others.description
+    t: Autres réponses (champ libre).
+
+  # sites & courses
+  - key: resources.sites_courses
+    t: Sites et cours
+  - key: resources.sites_courses.question
+    t: Quels sites, cours, etc. consultez-vous ?
+  - key: resources.sites_courses.others
+    t: Autres sites et cours
+  - key: resources.sites_courses.others.description
+    t: Autres réponses (champ libre).
+
+  # podcasts
+  - key: resources.podcasts
+    t: Podcasts
+  - key: resources.podcasts.question
+    t: Quels podcasts liés à la programmation écoutez-vous ?
+  - key: resources.podcasts.others
+    t: Autres podcasts
+  - key: resources.podcasts.others.description
+    t: Autres réponses (champ libre).
+
+  # people
+  - key: resources.people
+    t: Personnes
+  - key: resources.people.description
+    t: Personnes que vous lisez, suivez ou souhaitez simplement mettre en avant.
+  # - key: resources.people.others
+  #   t: Other People
+  # - key: resources.people.others.description
+  #   t: Other answers (freeform field).
+  - key: resources.people.others
+    t: Personnes
+  - key: resources.people.others.description
+    t: >
+      Personnes que vous lisez, suivez ou souhaitez simplement mettre en avant pour leur travail
+      (champ libre, noms séparés par des virgules).
+
+  # other surveys
+  - key: resources.other_surveys
+    t: Autres sondages
+  - key: resources.other_surveys.question
+    t: À quels autres sondages destinés aux développeurs participez-vous ?
+  - key: resources.other_surveys.others
+    t: Sondages supplémentaires non mentionnés ci-dessus

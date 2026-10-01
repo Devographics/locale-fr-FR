@@ -71,7 +71,7 @@ translations:
   - key: general.leave_issue
     t: Une question ? Un bug ? <a href="{link}" target="_blank">Rapportez un problème</a>.
   - key: general.emoji_icons
-    t: Emoji icons by <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+    t: Icônes emoji par <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
 
   # navigation
   - key: general.table_of_contents

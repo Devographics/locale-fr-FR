@@ -76,12 +76,12 @@ translations:
     t: Connecté en tant qu'invité
   - key: accounts.questions
     t: >
-        Si vous avez une question à propos de notre utilisation de vos données, ou si vous
-        voulez être retiré de nos enregistrements,
-        merci de <a href="mailto:hello@stateofjs.com">nous envoyer un message</a>.
-  
+      Si vous avez une question à propos de notre utilisation de vos données, ou si vous
+      voulez être retiré de nos enregistrements,
+      merci de <a href="mailto:hello@stateofjs.com">nous envoyer un message</a>.
+
   - key: accounts.token_verified
     t: Jeton vérifié avec succès, redirection...
-  
+
   - key: accounts.your_surveys
     t: Vos questionnaires
