@@ -1,0 +1,1568 @@
+locale: fr-FR
+namespace: css
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_css.intro
+    t: |
+      Le CSS évolue plus vite que jamais.
+
+      Flexbox, Grid, multicolonnes… Sans même parler de nouveaux paradigmes comme le CSS-in-JS.
+
+      C'est là qu'intervient l'enquête State of CSS : nous explorons l'univers des styles et des sélecteurs pour repérer les tendances à venir et déterminer quelles fonctionnalités et quels outils apprendre ensuite !
+
+  - key: general.state_of_css.description
+    t: L'enquête annuelle auprès des développeurs sur les dernières tendances du CSS
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Soutenez l'enquête avec le t-shirt State of CSS
+
+      Entre la mauvaise qualité vidéo, les grosses cassettes et l'obligation de rembobiner, l'époque du VHS ne nous manque pas beaucoup. Mais les superbes visuels des années 90 qui ornaient les cassettes vierges, eux, nous manquent vraiment.
+
+      Grâce au talent de Christopher Kirk-Nielsen, vous pouvez désormais profiter de toute cette esthétique rétro tout en affichant votre amour du CSS !
+
+  - key: tshirt.about
+    t: À propos du t-shirt
+
+  - key: tshirt.description
+    t: |
+      Nous utilisons un t-shirt ajusté, de grande qualité et très doux, en mélange de trois matières, imprimé par notre partenaire Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Le commander
+
+  - key: tshirt.price
+    t: 29 $US + frais de port
+
+  - key: tshirt.designer.heading
+    t: À propos du designer
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originaire de France et désormais installé aux États-Unis, Chris est non seulement un excellent développeur front-end, mais aussi un illustrateur talentueux spécialisé dans les visuels rétro. Découvrez également [ses autres créations de t-shirts](https://chriskirknielsen.com/designs) !
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.layout.title
+    t: Mise en page
+    aliases:
+      - pain_points.layout_pain_points.short
+  - key: sections.layout.description
+    t: Comment positionnez-vous les éléments à l'écran ?
+
+  - key: sections.shapes_graphics.title
+    t: Formes et graphiques
+    aliases:
+      - pain_points.shapes_graphics_pain_points.short
+  - key: sections.shapes_graphics.description
+    t: Contrôler la forme et l'affichage des éléments.
+
+  - key: sections.interactions.title
+    t: Interactions
+    aliases:
+      - pain_points.interactions_pain_points.short
+  - key: sections.interactions.description
+    t: Contrôler la manière dont l'utilisateur interagit avec la page.
+
+  - key: sections.typography.title
+    t: Typographie
+    aliases:
+      - pain_points.typography_pain_points.short
+  - key: sections.typography.description
+    t: Régler et mettre en page le texte.
+
+  - key: sections.animations_transforms.title
+    t: Animations et transformations
+    aliases:
+      - pain_points.animations_transforms_pain_points.short
+  - key: sections.animations_transforms.description
+    t: Animer et transformer les éléments.
+
+  - key: sections.accessibility.title
+    t: Accessibilité
+    aliases:
+      - pain_points.accessibility_pain_points.short
+  - key: sections.accessibility.description
+    t: Fonctionnalités et techniques d'accessibilité.
+
+  - key: sections.media_queries.title
+    t: Requêtes média
+    aliases:
+      - pain_points.media_queries_pain_points.short
+  - key: sections.media_queries.description
+    t: Adapter votre site à l'appareil ou aux préférences de l'utilisateur.
+
+  - key: sections.selectors.title
+    t: Sélecteurs
+    aliases:
+      - pain_points.selectors_pain_points.short
+  - key: sections.selectors.description
+    t: Sélecteurs CSS.
+
+  - key: sections.colors.title
+    t: Couleurs
+    aliases:
+      - pain_points.colors_pain_points.short
+  - key: sections.colors.description
+    t: Fonctionnalités liées aux couleurs.
+
+  - key: sections.javascript_apis.title
+    t: API JavaScript
+    aliases:
+      - pain_points.javascript_apis_pain_points.short
+  - key: sections.javascript_apis.description
+    t: API JavaScript permettant de contrôler ou de compléter le CSS.
+
+  - key: sections.other_features.title
+    t: Autres fonctionnalités
+    aliases:
+      - pain_points.other_features_pain_points.short
+  - key: sections.other_features.description
+    t: Autres fonctionnalités CSS.
+
+  - key: sections.math_features.title
+    t: Mathématiques
+    aliases:
+      - pain_points.math_features_pain_points.short
+  - key: sections.math_features.description
+    t: Fonctionnalités mathématiques.
+
+  - key: sections.units_selectors.title
+    t: Unités et sélecteurs
+  - key: sections.units_selectors.description
+    t: Testez vos connaissances sur les unités et sélecteurs CSS.
+
+  - key: sections.pre_post_processors.title
+    t: Préprocesseurs et postprocesseurs
+  - key: sections.pre_post_processors.description
+    t: Outils qui étendent les possibilités du CSS.
+
+  - key: sections.pre_post_processors_others.title
+    t: Autres préprocesseurs et postprocesseurs
+
+  - key: sections.css_frameworks.title
+    t: Frameworks CSS
+  - key: sections.css_frameworks.description
+    t: Frameworks et bibliothèques proposant des composants ou des styles prédéfinis.
+
+  - key: sections.css_frameworks_others.title
+    t: Autres frameworks CSS
+
+  - key: sections.css_methodologies.title
+    t: Méthodologies CSS
+  - key: sections.css_methodologies.description
+    t: Méthodes structurées pour écrire un CSS plus propre.
+
+  - key: sections.css_methodologies_others.title
+    t: Autres méthodologies CSS.
+
+  - key: sections.css_in_js.title
+    t: CSS-in-JS
+  - key: sections.css_in_js.description
+    t: Bibliothèques facilitant l'intégration du CSS dans le code JavaScript.
+
+  - key: sections.css_in_js_others.title
+    t: Autres bibliothèques CSS-in-JS.
+
+  - key: sections.tools_others.title
+    t: Autres outils
+  - key: sections.tools_others.description
+    t: Autres outils CSS.
+
+  - key: sections.environments.title
+    t: Environnements
+  - key: sections.environments.description
+    t: Quels environnements et enjeux d'accessibilité prenez-vous en compte lorsque vous écrivez du CSS ?
+
+  - key: sections.usage_css.title
+    t: Utilisation du CSS
+  - key: sections.usage_css.description
+    t: La façon dont vous utilisez le CSS.
+
+  - key: sections.resources_css.title
+    t: Ressources
+  - key: sections.resources_css.description
+    t: Quelles ressources sur le CSS consultez-vous ?
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: sections.other_tools.title
+    t: Autres outils
+  - key: sections.other_tools.description
+    t: Autres outils liés au CSS.
+
+  ###########################################################################
+  # Pain Points
+  ###########################################################################
+
+  - key: features.layout_pain_points
+    t: Difficultés liées à la mise en page
+    aliases:
+      - pain_points.layout_pain_points
+  - key: features.layout_pain_points.question
+    t: Quelles sont vos principales difficultés CSS liées à la mise en page ?
+    aliases:
+      - pain_points.layout_pain_points.question
+
+  - key: features.shapes_graphics_pain_points
+    t: Difficultés liées aux formes et aux graphiques
+    aliases:
+      - pain_points.shapes_graphics_pain_points
+  - key: features.shapes_graphics_pain_points.question
+    t: Quelles sont vos principales difficultés CSS liées aux formes et aux graphiques ?
+    aliases:
+      - pain_points.shapes_graphics_pain_points.question
+
+  - key: features.interactions_pain_points
+    t: Difficultés liées aux interactions
+    aliases:
+      - pain_points.interactions_pain_points
+  - key: features.interactions_pain_points.question
+    t: Quelles sont vos principales difficultés CSS liées aux interactions ?
+    aliases:
+      - pain_points.interactions_pain_points.question
+
+  - key: features.typography_pain_points
+    t: Difficultés liées à la typographie
+    aliases:
+      - pain_points.typography_pain_points
+  - key: features.typography_pain_points.question
+    t: Quelles sont vos principales difficultés CSS liées à la typographie ?
+    aliases:
+      - pain_points.typography_pain_points.question
+
+  - key: features.animations_transforms_pain_points
+    t: Difficultés liées aux animations et aux transformations
+    aliases:
+      - pain_points.animations_transforms_pain_points
+  - key: features.animations_transforms_pain_points.question
+    t: Quelles sont vos principales difficultés CSS liées aux animations et aux transformations ?
+    aliases:
+      - pain_points.animations_transforms_pain_points.question
+
+  - key: features.colors_pain_points
+    t: Difficultés liées aux couleurs
+    aliases:
+      - pain_points.colors_pain_points
+
+  - key: features.colors_pain_points.question
+    t: Quelles sont vos principales difficultés CSS liées à la gestion des couleurs ?
+    aliases:
+      - pain_points.colors_pain_points.question
+
+  - key: features.other_features_pain_points
+    t: Difficultés liées aux autres fonctionnalités
+    aliases:
+      - pain_points.other_features_pain_points
+  - key: features.other_features_pain_points.question
+    t: Quelles sont vos principales difficultés CSS liées aux fonctionnalités mentionnées ci-dessus ?
+    aliases:
+      - pain_points.other_features_pain_points.question
+
+  - key: features.accessibility_pain_points
+    t: Difficultés liées à l'accessibilité
+    aliases:
+      - pain_points.accessibility_pain_points
+  - key: features.accessibility_pain_points.question
+    t: Quelles sont vos principales difficultés CSS liées à l'accessibilité ?
+    aliases:
+      - pain_points.accessibility_pain_points.question
+
+  - key: features.math_features_pain_points
+    t: Difficultés liées aux fonctionnalités mathématiques
+    aliases:
+      - pain_points.math_features_pain_points
+  - key: features.math_features_pain_points.question
+    t: Quelles sont vos principales difficultés CSS liées aux fonctionnalités mathématiques ?
+    aliases:
+      - pain_points.math_features_pain_points.question
+
+  # layout
+  - key: features.flexbox_issues
+    t: Problèmes liés à Flexbox
+  - key: features.height_issues
+    t: Problèmes de hauteur
+  - key: features.overflow_issues
+    t: Problèmes de débordement
+  - key: features.positioning_issues
+    t: Problèmes de positionnement
+  - key: features.alignment_issues
+    t: Problèmes d'alignement
+  - key: features.centering_issues
+    t: Problèmes de centrage
+  - key: features.z_index_issues
+    t: Problèmes liés à z-index
+  - key: features.scrolling_issues
+    t: Problèmes de défilement
+  - key: features.table_layouts_issues
+    t: Problèmes de mise en page des tableaux
+
+    # shapes & graphics
+  - key: features.shape_issues
+    t: Difficultés à dessiner des formes
+  - key: features.svg_issues
+    t: Problèmes liés à SVG
+  - key: features.gradient_issues
+    t: Problèmes liés aux dégradés
+    aliases:
+      - features.gradients_issues
+
+    # colors
+  - key: features.theming_issues
+    t: Problèmes liés aux thèmes
+  - key: features.contrast_issues
+    t: Problèmes de contraste
+  - key: features.dark_mode_issues
+    t: Problèmes liés au mode sombre
+  - key: features.color_spaces_issues
+    t: Problèmes liés aux espaces colorimétriques
+  - key: features.color_variables_issues
+    t: Problèmes liés aux variables de couleur
+  - key: features.color_manipulation_issues
+    t: Problèmes liés à la manipulation des couleurs
+  - key: features.color_syntax_issues
+    t: Problèmes liés à la syntaxe des couleurs
+  - key: features.new_color_spaces_adoption_issues
+    t: Adoption lente des nouveaux espaces colorimétriques
+
+  # interactions
+  - key: features.scrolling_issues
+    t: Scrolling issues
+  - key: features.scrollbar_issues
+    t: Problèmes liés aux barres de défilement
+
+  # typography
+  - key: features.line_height_issues
+    t: |
+      Problèmes liés à `line-height`
+  - key: features.font_sizing_issues
+    t: Problèmes de taille des polices
+
+  # math
+  - key: features.handling_units
+    t: Gestion des unités
+  - key: features.math_is_hard
+    t: Difficultés liées aux calculs
+  - key: features.lack_of_random_function
+    t: |
+      Absence de fonction `random()`
+
+  # other_features
+  # - key: features.
+  #   t:
+
+  - key: features.excessive_tailwind_use
+    t: Utilisation excessive de Tailwind
+
+  ###########################################################################
+  # Options
+  ###########################################################################
+
+  # CSS for print
+  - key: options.css_for_print.0
+    t: Je n'écris (presque) jamais de styles pour l'impression
+  - key: options.css_for_print.0.short
+    t: Jamais
+
+  - key: options.css_for_print.1
+    t: Il m'arrive d'écrire des styles pour l'impression
+  - key: options.css_for_print.1.short
+    t: Parfois
+
+  - key: options.css_for_print.2
+    t: J'écris des styles pour l'impression dans la plupart de mes projets
+  - key: options.css_for_print.2.short
+    t: Souvent
+
+  - key: options.css_for_print.3
+    t: Je me consacre principalement au CSS pour l'impression
+  - key: options.css_for_print.3.short
+    t: Principalement
+
+  # CSS for email
+  - key: options.css_for_email.0
+    t: Je n'écris (presque) jamais de CSS pour les clients de messagerie
+  - key: options.css_for_email.0.short
+    t: Never
+
+  - key: options.css_for_email.1
+    t: Il m'arrive d'écrire du CSS pour les clients de messagerie
+  - key: options.css_for_email.1.short
+    t: Occasionally
+
+  - key: options.css_for_email.2
+    t: J'écris du CSS pour les clients de messagerie dans la plupart de mes projets
+  - key: options.css_for_email.2.short
+    t: Often
+
+  - key: options.css_for_email.3
+    t: Je me consacre principalement au CSS pour les clients de messagerie
+  - key: options.css_for_email.3.short
+    t: Mainly
+
+  # what do you use CSS for?
+  - key: options.what_do_you_use_css_for.marketing_sites
+    t: Sites marketing et pages d'atterrissage
+  - key: options.what_do_you_use_css_for.design_systems
+    t: Systèmes de design
+  - key: options.what_do_you_use_css_for.blogs
+    t: Blogs ou autres sites riches en texte
+  - key: options.what_do_you_use_css_for.web_apps
+    t: Applications web
+  - key: options.what_do_you_use_css_for.mobile_apps
+    t: Applications mobiles
+  - key: options.what_do_you_use_css_for.css_art
+    t: Art et illustrations en CSS
+  - key: options.what_do_you_use_css_for.emails
+    t: E-mails
+  - key: options.what_do_you_use_css_for.printed_documents
+    t: Documents imprimés
+  - key: options.what_do_you_use_css_for.pdf_documents
+    t: Documents PDF
+  - key: options.what_do_you_use_css_for.desktop_apps
+    t: Applications de bureau
+
+  - key: options.what_do_you_use_css_for.e_commerce
+    t: Commerce en ligne
+  - key: options.what_do_you_use_css_for.websites
+    t: Sites web
+  - key: options.what_do_you_use_css_for.games
+    t: Jeux
+  - key: options.what_do_you_use_css_for.portfolio
+    t: Portfolio
+  - key: options.what_do_you_use_css_for.extensions
+    t: Extensions de navigateur
+  - key: options.what_do_you_use_css_for.desktop
+    t: Bureau
+
+  # CSS pain points
+  - key: options.css_pain_points.browser_interoperability
+    t: Compatibilité des navigateurs
+  - key: options.css_pain_points.browser_interoperability.description
+    t: Différences entre Chrome, Safari, Firefox, etc.
+  - key: options.css_pain_points.interactions
+    t: Interactions
+  - key: options.css_pain_points.interactions.description
+    t: Réagir aux actions de l'utilisateur ou à d'autres événements (défilement, survol, etc.).
+  - key: options.css_pain_points.architecture
+    t: Architecture et maintenance
+  - key: options.css_pain_points.architecture.description
+    t: Organisation des fichiers, suppression du code mort, refactorisation, etc.
+  - key: options.css_pain_points.layout_positioning
+    t: Mise en page et positionnement
+  - key: options.css_pain_points.layout_positioning.description
+    t: Créer des mises en page et placer les éléments à l'endroit souhaité.
+  - key: options.css_pain_points.scoping_specificity
+    t: Portée et spécificité
+  - key: options.css_pain_points.scoping_specificity.description
+    t: Gérer la cascade, remplacer des styles, etc.
+  - key: options.css_pain_points.responsive_design
+    t: Design adaptatif
+  - key: options.css_pain_points.responsive_design.description
+    t: Adapter les mises en page et les designs à différents formats d'écran.
+  - key: options.css_pain_points.form_elements_styling
+    t: Mise en forme des éléments de formulaire
+  - key: options.css_pain_points.form_elements_styling.description
+    t: Personnaliser l'apparence et le comportement des éléments de formulaire.
+  - key: options.css_pain_points.performance_issues
+    t: Problèmes de performance
+  - key: options.css_pain_points.performance_issues.description
+    t: Gérer les saccades au défilement, fluidifier les animations, etc.
+
+  - key: options.css_pain_points.accessibility
+    t: Accessibilité
+  - key: options.css_pain_points.accessibility.description
+    t: Garantir l'accessibilité du contenu
+  - key: options.css_pain_points.animations
+    t: Animations
+  - key: options.css_pain_points.animations.description
+    t: Créer des animations et des transitions
+
+  # CSS missing features (same as features section)
+  - key: options.css_missing_features.nesting
+    t: Imbrication
+  - key: options.css_missing_features.nesting.description
+    t: Pouvoir imbriquer des styles en CSS natif.
+  - key: options.css_missing_features.parent_selector
+    t: Sélecteur parent
+  - key: options.css_missing_features.parent_selector.description
+    t: Cibler un élément parent en fonction de ses enfants.
+  - key: options.css_missing_features.browser_support
+    aliasFor: features.browser_support
+  - key: options.css_missing_features.browser_support.description
+    t: Une meilleure prise en charge des fonctionnalités existantes par les navigateurs.
+  - key: options.css_missing_features.mixins
+    t: Mixins
+  - key: options.css_missing_features.mixins.description
+    t: Regrouper et réutiliser des définitions de façon dynamique.
+  - key: options.css_missing_features.color_functions
+    aliasFor: features.color_functions
+  - key: options.css_missing_features.color_functions.description
+    aliasFor: features.color_functions.description
+  - key: options.css_missing_features.container_queries
+    t: Requêtes de conteneur
+  - key: options.css_missing_features.container_queries.description
+    t: Écrire des styles en fonction des dimensions du conteneur parent.
+  - key: options.css_missing_features.scoping
+    t: Délimitation de portée
+  - key: options.css_missing_features.scoping.description
+    t: Définir plus précisément où vos styles s'appliquent.
+  - key: options.css_missing_features.subgrid
+    t: Sous-grille
+  - key: options.css_missing_features.subgrid.description
+    t: Imbriquer des sous-grilles de niveaux plus profonds dans une grille parente.
+
+  - key: options.css_missing_features.native_visually_hidden
+    t: Contenu masqué visuellement
+  - key: options.css_missing_features.native_visually_hidden.description
+    t: Prise en charge native du contenu masqué visuellement.
+
+  - key: options.css_missing_features.generated_content_alt_text
+    t: Texte alternatif du contenu généré
+  - key: options.css_missing_features.generated_content_alt_text.description
+    t: Ajouter un texte alternatif au contenu généré (`::before`, `::after`).
+
+  - key: options.css_missing_features.animate_to_auto
+    t: Animer jusqu'à `auto`
+  - key: options.css_missing_features.animate_to_auto.description
+    t: Animer la dimension d'un élément jusqu'à `auto`.
+
+  - key: options.css_missing_features.anchored_positioning
+    t: Positionnement par ancrage
+  - key: options.css_missing_features.anchored_positioning.description
+    t: Positionner des éléments par rapport aux bords de n'importe quel autre élément.
+
+  - key: options.css_missing_features.wrapping_detection
+    t: Détection du retour à la ligne
+  - key: options.css_missing_features.wrapping_detection.description
+    t: Détecter lorsqu'un élément flex ou grid est passé à la ligne suivante.
+
+  - key: options.css_missing_features.more_pseudo_elements
+    t: Davantage de pseudo-éléments
+  - key: options.css_missing_features.more_pseudo_elements.description
+    t: Disposer de plus de deux pseudo-éléments par élément.
+
+  - key: options.css_missing_features.svg_in_css
+    t: SVG dans le CSS
+  - key: options.css_missing_features.svg_in_css.description
+    t: Prise en charge de la syntaxe SVG dans le code CSS (par exemple dans `background`).
+
+  - key: options.css_missing_features.grid_lines_styling
+    t: Mise en forme des lignes de grille
+  - key: options.css_missing_features.grid_lines_styling.description
+    t: Pouvoir mettre en forme les lignes invisibles qui divisent une grille.
+
+  - key: options.css_missing_features.media_queries_variables
+    t: Variables dans les requêtes média
+  - key: options.css_missing_features.media_queries_variables.description
+    t: Pouvoir utiliser des variables dans les requêtes média.
+
+  - key: options.css_missing_features.masonry_layout
+    t: Mise en page en maçonnerie
+  - key: options.css_missing_features.masonry_layout.description
+    t: Prise en charge native de mises en page en grille fluides, à la manière de Pinterest.
+
+  - key: options.css_missing_features.css_toggle
+    t: Bascule CSS
+  - key: options.css_missing_features.css_toggle.description
+    t: Un moyen d'associer une « valeur basculable » à un élément
+
+  ###########################################################################
+  # Features
+  ###########################################################################
+
+  # layout
+
+  - key: features.regions
+    t: Régions CSS
+  - key: features.multi_column
+    t: Mise en page multicolonne CSS
+  - key: features.writing_modes
+    t: Modes d'écriture CSS
+  - key: features.exclusions
+    t: Exclusions CSS
+
+  - key: features.flexbox_gap
+    t: "Propriété `gap` pour Flexbox"
+
+  # - key: features.viewport_percentage_length_units
+  #   t: Small, Large, and Dynamic Viewport Units
+  # - key: features.viewport_percentage_length_units.question
+  #   aliasFor: features.viewport_percentage_length_units
+  - key: features.at_container
+    t: "Requêtes `@container`"
+  - key: features.at_container.description
+    t: Notamment les requêtes de taille et de style
+
+  # shapes & graphics
+  - key: features.shapes
+    t: Formes CSS
+  - key: features.masks
+    t: Masques CSS
+  - key: features.filter_effects
+    t: Effets de filtre CSS
+
+  - key: features.linear_easing_function
+    t: "Fonction d'accélération `linear()`"
+  - key: features.linear_easing_function.question
+    aliasFor: features.linear_easing_function
+  - key: features.blend_modes
+    t: Modes de fusion
+  - key: features.blend_modes.question
+    aliasFor: features.blend_modes
+  - key: features.intrinsic_sizing
+    t: Mots-clés de dimensionnement intrinsèque
+  - key: features.gradient_color_spaces
+    t: Espaces colorimétriques d'interpolation
+  - key: features.gradient_color_spaces.question
+    aliasFor: features.gradient_color_spaces
+
+  # typography
+  - key: features.web_fonts
+    t: Polices web (`@font-face`)
+  - key: features.variable_fonts
+    t: Polices variables
+  - key: features.line_breaking
+    t: Propriétés de coupure de ligne
+  - key: features.direction.description
+    t: Inclut également l'attribut HTML `dir`.
+
+  # animations & transforms
+  - key: features.transitions
+    t: Transitions CSS
+  - key: features.transforms
+    t: Transformations CSS
+  - key: features.animations
+    t: Animations CSS
+
+  - key: features.discrete_properties_animations
+    t: Animations des propriétés discrètes
+
+  - key: features.discrete_properties_animations.description
+    t: Animer facilement l'apparition et la disparition d'éléments fermables comme les boîtes de dialogue et les fenêtres contextuelles.
+
+  # media queries/accessibility
+  - key: features.tabindex
+    t: "`tabindex` HTML attribute"
+
+  - key: features.aria_attributes
+    t: Attributs HTML ARIA
+  - key: features.aria_attributes.description
+    t: "`role`, `aria-label`, etc."
+
+  # other features
+  - key: features.variables
+    t: Variables CSS (propriétés personnalisées)
+  - key: features.containment
+    t: Encapsulation CSS
+
+  - key: features.css_nesting.description
+    t: Imbrication native en CSS, hors préprocesseurs et postprocesseurs.
+
+  - key: features.trigonometric_functions
+    t: Fonctions trigonométriques
+  - key: features.trigonometric_functions.question
+    aliasFor: features.trigonometric_functions
+  - key: features.exponential_functions
+    t: Fonctions exponentielles
+  - key: features.sign_related_functions
+    t: Fonctions liées au signe
+  - key: features.stepped_value_functions
+    t: Fonctions à valeurs discrètes
+  - key: features.css_nesting
+    t: Imbrication CSS
+  - key: features.shadow_dom_css
+    t: Fonctionnalités du Shadow DOM
+  - key: features.individual_transform_properties
+    t: Propriétés de transformation individuelles
+  - key: features.individual_transform_properties.question
+    aliasFor: features.individual_transform_properties
+  - key: features.comparison_functions
+    t: Fonctions de comparaison CSS
+  - key: features.comparison_functions.question
+    aliasFor: features.comparison_functions
+  - key: features.math_functions
+    t: Fonctions mathématiques CSS
+  - key: features.viewport_units
+    t: Unités de fenêtre d'affichage (`vh`, `vw`)
+  - key: features.cascade_layers
+    t: Couches de cascade
+  - key: features.cascade_layers.question
+    aliasFor: features.cascade_layers
+
+  # missing features (see also options)
+  - key: features.nesting
+    t: Imbrication
+  - key: features.nesting.description
+    t: Pouvoir imbriquer des styles en CSS natif.
+  - key: features.parent_selector
+    t: Sélecteur parent
+  - key: features.parent_selector.description
+    t: Cibler un élément parent en fonction de ses enfants.
+  - key: features.browser_support
+    t: Prise en charge par les navigateurs
+  - key: features.browser_support.description
+    t: Une meilleure prise en charge des fonctionnalités existantes par les navigateurs.
+  - key: features.mixins
+    t: Mixins
+  - key: features.mixins.description
+    t: Regrouper et réutiliser des définitions de façon dynamique.
+  - key: features.color_functions
+    t: Fonctions de couleur
+  - key: features.color_functions.description
+    t: Fonctions de manipulation des valeurs de couleur (`color()`, `color-mix()`, `contrast-color()`…).
+  - key: features.container_queries
+    t: Requêtes de conteneur
+  - key: features.container_queries.description
+    t: Écrire des styles en fonction des dimensions du conteneur parent.
+  - key: features.scoping
+    t: Délimitation de portée
+  - key: features.scoping.description
+    t: Définir plus précisément où vos styles s'appliquent.
+
+  ###########################################################################
+  # Units & Selectors
+  ###########################################################################
+
+  - key: features_others.units
+    t: Unités
+  - key: features_others.units.description
+    t: Lesquelles de ces unités CSS avez-vous utilisées ?
+
+  - key: options.units.px
+    t: px
+  - key: options.units.pt
+    t: pt
+  - key: options.units.percent
+    t: "%"
+  - key: options.units.em
+    t: em
+  - key: options.units.rem
+    t: rem
+  - key: options.units.vh_vw
+    t: vh, vw
+  - key: options.units.vmin_vmax
+    t: vmin, vmax
+  - key: options.units.ch
+    t: ch
+  - key: options.units.ex
+    t: ex
+  - key: options.units.mm
+    t: mm
+  - key: options.units.cm
+    t: cm
+  - key: options.units.in
+    t: in
+
+  - key: features_others.pseudo_elements
+    t: Pseudo-éléments
+  - key: features_others.pseudo_elements.description
+    t: Lesquels de ces pseudo-éléments CSS avez-vous utilisés ?
+
+  - key: options.pseudo_elements.before
+    t: "::before"
+  - key: options.pseudo_elements.after
+    t: "::after"
+  - key: options.pseudo_elements.first_line
+    t: "::first-line"
+  - key: options.pseudo_elements.first_letter
+    t: "::first-letter"
+  - key: options.pseudo_elements.selection
+    t: "::selection"
+  - key: options.pseudo_elements.placeholder
+    t: "::placeholder"
+  - key: options.pseudo_elements.marker
+    t: "::marker"
+  - key: options.pseudo_elements.backdrop
+    t: "::backdrop"
+
+  - key: features_others.combinators
+    t: Combinateurs
+  - key: features_others.combinators.description
+    t: Lesquels de ces combinateurs de sélecteurs CSS avez-vous utilisés ?
+
+  - key: options.combinators.descendant
+    t: div span (descendant)
+  - key: options.combinators.child
+    t: div > span (enfant direct)
+  - key: options.combinators.next_sibling
+    t: div + div (frère suivant)
+  - key: options.combinators.subsequent_sibling
+    t: div ~ div (frères suivants)
+
+  - key: features_others.tree_document_structure
+    t: Arbre et structure du document
+  - key: features_others.tree_document_structure.description
+    t: Lesquels de ces sélecteurs CSS liés à la structure avez-vous utilisés ?
+
+  - key: options.tree_document_structure.root
+    t: :root
+  - key: options.tree_document_structure.empty
+    t: :empty
+  - key: options.tree_document_structure.not
+    t: :not()
+  - key: options.tree_document_structure.nth_child
+    t: :nth-child()
+  - key: options.tree_document_structure.nth_last_child
+    t: :nth-last-child()
+  - key: options.tree_document_structure.first_child
+    t: :first-child
+  - key: options.tree_document_structure.last_child
+    t: :last-child
+  - key: options.tree_document_structure.only_child
+    t: :only-child
+  - key: options.tree_document_structure.nth_of_type
+    t: :nth-of-type()
+  - key: options.tree_document_structure.nth_last_of_type
+    t: :nth-last-of-type()
+  - key: options.tree_document_structure.first_of_type
+    t: :first-of-type
+  - key: options.tree_document_structure.last_of_type
+    t: :last-of-type
+  - key: options.tree_document_structure.only_of_type
+    t: :only-of-type
+  - key: options.tree_document_structure.lang
+    t: :lang()
+  - key: options.tree_document_structure.is
+    t: :is()
+  - key: options.tree_document_structure.where
+    t: :where()
+  - key: options.tree_document_structure.has
+    t: :has()
+
+  - key: features_others.attributes
+    t: Attributs
+  - key: features_others.attributes.description
+    t: Lesquels de ces sélecteurs d'attributs CSS avez-vous utilisés ?
+
+  - key: options.attributes.presence
+    t: div[foo] (présence)
+  - key: options.attributes.equality
+    t: div[foo="bar"] (égalité)
+  - key: options.attributes.starts_with
+    t: div[foo^="bar"] (commence par)
+  - key: options.attributes.ends_with
+    t: div[foo$="bar"] (se termine par)
+  - key: options.attributes.contains_word
+    t: div[foo~="bar"] (contient le mot)
+  - key: options.attributes.contains_substring
+    t: div[foo*="bar"] (contient la chaîne)
+
+  - key: features_others.links_urls
+    t: Liens et URL
+  - key: features_others.links_urls.description
+    t: Lesquels de ces sélecteurs CSS liés aux liens et aux URL avez-vous utilisés ?
+
+  - key: options.links_urls.any_link
+    t: :any-link
+  - key: options.links_urls.link_visited
+    t: :link et :visited
+  - key: options.links_urls.local_link
+    t: :local-link
+  - key: options.links_urls.target
+    t: :target
+
+  - key: features_others.interaction
+    t: Interaction
+  - key: features_others.interaction.description
+    t: Lesquels de ces sélecteurs CSS d'interaction avez-vous utilisés ?
+
+  - key: options.interaction.hover
+    t: :hover
+  - key: options.interaction.active
+    t: :active
+  - key: options.interaction.focus
+    t: :focus
+  - key: options.interaction.focus_within
+    t: :focus-within
+  - key: options.interaction.focus_visible
+    t: :focus-visible
+
+  - key: features_others.form_controls
+    t: Contrôles de formulaire
+  - key: features_others.form_controls.description
+    t: Lesquels de ces sélecteurs CSS liés aux formulaires avez-vous utilisés ?
+
+  - key: options.form_controls.enabled_disabled
+    t: :enabled et :disabled
+  - key: options.form_controls.read_only_write
+    t: :read-only et :read-write
+  - key: options.form_controls.placeholder_shown
+    t: :placeholder-shown
+  - key: options.form_controls.default
+    t: :default
+  - key: options.form_controls.checked
+    t: :checked
+  - key: options.form_controls.indeterminate
+    t: :indeterminate
+  - key: options.form_controls.valid_invalid
+    t: :valid et :invalid
+  - key: options.form_controls.user_invalid
+    t: :user-invalid
+  - key: options.form_controls.in_out_range
+    t: :in-range et :out-of-range
+  - key: options.form_controls.required_optional
+    t: :required et :optional
+
+  # slider
+  - key: options.css_js_balance.0
+    t: 100% CSS
+  - key: options.css_js_balance.1
+    t: "|"
+  - key: options.css_js_balance.2
+    t: "|"
+  - key: options.css_js_balance.3
+    t: "|"
+  - key: options.css_js_balance.4
+    t: 50%–50%
+  - key: options.css_js_balance.5
+    t: "|"
+  - key: options.css_js_balance.6
+    t: "|"
+  - key: options.css_js_balance.7
+    t: "|"
+  - key: options.css_js_balance.8
+    t: 100% JS
+
+  ###########################################################################
+  # Other Tools
+  ###########################################################################
+
+  - key: tools.pre_post_processors
+    t: Préprocesseurs et postprocesseurs
+    aliases:
+      - other_tools.pre_post_processors
+  - key: tools.pre_post_processors.question
+    t: Quels préprocesseurs et postprocesseurs CSS utilisez-vous ?
+    aliases:
+      - other_tools.pre_post_processors.question
+
+  - key: tools.css_frameworks
+    t: Frameworks CSS
+    aliases:
+      - other_tools.css_frameworks
+  - key: tools.css_frameworks.question
+    t: Quels frameworks CSS utilisez-vous ?
+    aliases:
+      - other_tools.css_frameworks.question
+  - key: tools.css_frameworks.prompt
+    t: Frameworks ou bibliothèques proposant des composants ou des styles prédéfinis.
+    aliases:
+      - other_tools.css_frameworks.prompt
+
+  - key: options.css_frameworks.custom_framework
+    t: Framework personnalisé ou interne
+    aliases:
+      - tools.custom_framework
+
+  - key: tools.css_in_js
+    t: CSS-in-JS
+    aliases:
+      - other_tools.css_in_js
+  - key: tools.css_in_js.question
+    t: Quelles bibliothèques CSS-in-JS utilisez-vous ?
+    aliases:
+      - other_tools.css_in_js.question
+
+  - key: tools_others.utilities
+    t: Outils
+    aliases:
+      - other_tools.utilities
+  - key: tools_others.utilities.question
+    t: Quels utilitaires ou outils utilisez-vous régulièrement ?
+    aliases:
+      - other_tools.utilities.question
+
+  - key: tools_others.browsers
+    t: Navigateurs
+    aliases:
+      - other_tools.browsers
+  - key: tools_others.browsers.question
+    t: Dans quel(s) navigateur(s) travaillez-vous principalement pendant le développement initial ?
+    aliases:
+      - other_tools.browsers.question
+
+  ###########################################################################
+  # Environments
+  ###########################################################################
+
+  - key: environments.browsers
+    t: Navigateurs
+  - key: environments.browsers.description
+    t: Dans quels navigateurs effectuez-vous vos tests ?
+
+  - key: environments.form_factors
+    t: Environnements de test
+  - key: environments.form_factors.question
+    t: Sur quels types d'appareils ou dans quels environnements effectuez-vous vos tests ?
+  - key: environments.form_factors.others
+    t: Autres environnements de test
+  - key: environments.form_factors.others.description
+    t: Autres types d'appareils ou environnements dans lesquels vous effectuez habituellement vos tests.
+
+  - key: usage.form_factors
+    aliasFor: environments.form_factors
+  - key: usage.form_factors.question
+    aliasFor: environments.form_factors.question
+  - key: usage.form_factors.others
+    aliasFor: environments.form_factors.others
+  - key: usage.form_factors_freeform
+    aliasFor: environments.form_factors.others
+  - key: usage.form_factors.others.description
+    aliasFor: environments.form_factors.others.description
+
+  - key: environments.accessibility_features
+    t: Fonctionnalités d'accessibilité
+  - key: environments.accessibility_features.question
+    t: Quelles fonctionnalités d'accessibilité mettez-vous habituellement en œuvre ?
+  - key: environments.accessibility_features.others
+    t: Autres fonctionnalités d'accessibilité
+  - key: environments.accessibility_features.others.description
+    t: Autres fonctionnalités d'accessibilité que vous mettez habituellement en œuvre
+
+  - key: environments.css_for_print
+    t: CSS pour l'impression
+  - key: environments.css_for_print.question
+    t: Écrivez-vous des styles pour l'impression ?
+
+  - key: environments.css_for_email
+    t: CSS pour les clients de messagerie
+  - key: environments.css_for_email.question
+    t: Écrivez-vous du CSS pour les clients de messagerie ?
+
+  - key: environments.what_do_you_use_css_for
+    t: Utilisation du CSS
+  - key: environments.what_do_you_use_css_for.question
+    t: Pour quels types de projets utilisez-vous généralement le CSS ?
+  - key: environments.what_do_you_use_css_for.others
+    t: Autres types de projets
+
+  - key: usage.what_do_you_use_css_for
+    aliasFor: environments.what_do_you_use_css_for
+  - key: usage.what_do_you_use_css_for.question
+    aliasFor: environments.what_do_you_use_css_for.question
+
+  - key: usage.what_do_you_use_css_for
+    aliasFor: environments.what_do_you_use_css_for
+  - key: usage.what_do_you_use_css_for.others
+    aliasFor: environments.what_do_you_use_css_for.others
+  - key: usage.what_do_you_use_css_for_freeform
+    aliasFor: environments.what_do_you_use_css_for.others
+
+  - key: charts.axis_legends.css_for_print
+    t: Fréquence
+  - key: charts.axis_legends.css_for_email
+    t: Frequency
+
+  - key: tools_others.tool_evaluation
+    t: Évaluation des bibliothèques
+  - key: tools_others.tool_evaluation.description
+    t: Pour chaque duel, choisissez le critère que vous privilégiez lors de l'évaluation d'une nouvelle bibliothèque.
+
+  ###########################################################################
+  # Opinions
+  ###########################################################################
+
+  - key: opinions.css_easy_to_learn
+    t: Le CSS est facile à apprendre
+  - key: opinions.css_easy_to_learn.title
+    t: Courbe d'apprentissage
+
+  - key: opinions.css_evolving_slowly
+    t: Le CSS évolue trop lentement
+  - key: opinions.css_evolving_slowly.title
+    t: Rythme d'évolution
+
+  - key: opinions.utility_classes_to_be_avoided
+    t: Il faut éviter les classes utilitaires (non sémantiques) (.center, .large-text, etc.)
+  - key: opinions.utility_classes_to_be_avoided.title
+    t: Classes non sémantiques
+
+  - key: opinions.selector_nesting_to_be_avoided
+    t: Il faut éviter l'imbrication des sélecteurs (.foo .bar ul li {...})
+  - key: opinions.selector_nesting_to_be_avoided.title
+    t: Imbrication des sélecteurs
+
+  - key: opinions.css_is_programming_language
+    t: Le CSS est un langage de programmation
+  - key: opinions.css_is_programming_language.title
+    t: Langage de programmation
+
+  - key: opinions.enjoy_writing_css
+    t: J'aime écrire du CSS
+  - key: opinions.enjoy_writing_css.title
+    t: Plaisir
+
+  - key: usage.css_pace_of_change
+    t: Rythme du changement
+  - key: usage.css_pace_of_change.question
+    t: Dans quelle mesure parvenez-vous à suivre les nouvelles fonctionnalités CSS, comme celles mentionnées dans cette enquête ?
+
+  - key: options.css_pace_of_change.1
+    t: Je n'ai découvert ni essayé la plupart des fonctionnalités
+    aliases:
+      - options.js_pace_of_change.1
+  # - key: options.css_pace_of_change.0.description
+  # t: I haven't learned about or tried out most features
+
+  - key: options.css_pace_of_change.2
+    t: J'ai découvert certaines fonctionnalités, mais je ne les ai pas essayées
+    aliases:
+      - options.js_pace_of_change.2
+  # - key: options.css_pace_of_change.1.description
+  # t: I've learned about some of the features; but haven't tried them out
+
+  - key: options.css_pace_of_change.3
+    t: J'ai découvert et essayé certaines fonctionnalités
+    aliases:
+      - options.js_pace_of_change.3
+  # - key: options.css_pace_of_change.2.description
+  # t: I've learned about and tried out some of the features
+
+  - key: options.css_pace_of_change.4
+    t: J'ai découvert la plupart des fonctionnalités et en ai essayé certaines
+    aliases:
+      - options.js_pace_of_change.4
+  # - key: options.css_pace_of_change.3.description
+  # t: I've learned about most of the features and tried out some of them
+
+  - key: options.css_pace_of_change.5
+    t: J'ai découvert et essayé la plupart des fonctionnalités
+    aliases:
+      - options.js_pace_of_change.5
+  # - key: options.css_pace_of_change.4.description
+  #   t: I've learned about and tried out most of the features
+
+  # Browser interoperability question
+  - key: opinions_others.browser_interoperability_features.others
+    t: Incompatibilités entre navigateurs
+  - key: opinions_others.browser_interoperability_features.others.description
+    t: >
+      Y a-t-il des fonctionnalités CSS existantes que vous avez du mal à utiliser (ou que vous évitez complètement)
+      en raison d'une prise en charge insuffisante ou de différences entre navigateurs ?
+
+  - key: usage.css_interoperability_features
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.css_interoperability_features.question
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+
+  - key: usage.css_interoperability_features_freeform
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.interoperability_features_freeform
+    aliasFor: opinions_others.browser_interoperability_features.others
+  - key: usage.interoperability_features_freeform.others
+    aliasFor: opinions_others.browser_interoperability_features.others
+
+  - key: usage.interoperability_features_freeform.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+  - key: usage.interoperability_features_freeform.others.description
+    aliasFor: opinions_others.browser_interoperability_features.others.description
+
+  - key: options.css_interoperability_features.math_functions
+    aliasFor: features.math_functions
+  - key: options.css_interoperability_features.css_nesting
+    aliasFor: features.css_nesting
+  - key: options.css_interoperability_features.at_container
+    aliasFor: features.at_container
+
+  - key: options.css_interoperability_features.color_functions
+    aliasFor: features.color_functions
+  - key: options.css_interoperability_features.color_functions.description
+    aliasFor: features.color_functions.description
+  - key: options.css_interoperability_features.cascade_layers
+    aliasFor: features.cascade_layers
+  - key: options.css_interoperability_features.scrollbar
+    t: Mise en forme des barres de défilement
+
+  - key: options.css_interoperability_features.safari_unsupported_features
+    t: Problèmes liés à Safari
+    aliases:
+      - options.css_missing_features.safari_unsupported_features
+
+  - key: options.css_interoperability_features.na
+    t: Aucun
+
+  # Pain Points
+  - key: opinions.css_pain_points
+    t: Difficultés liées au CSS
+  - key: opinions.css_pain_points.description
+    t: Pour chaque duel, choisissez l'aspect du CSS qui vous pose le plus de difficultés.
+
+  - key: pain_points.css_general_pain_points.short
+    t: Difficultés générales
+
+  - key: opinions_others.css_pain_points.others
+    t: Difficultés générales liées au CSS
+    aliases:
+      - usage.css_pain_points
+      - usage.css_general_pain_points
+      - pain_points.css_general_pain_points
+
+  - key: usage.other_pain_points_freeform
+    t: Rencontrez-vous d'autres difficultés liées à l'écriture du CSS ?
+    aliases:
+      - usage.other_pain_points_freeform.others
+      - usage.css_pain_points.question
+      - usage.css_pain_points_freeform
+      - usage.css_general_pain_points.question
+      - pain_points.css_general_pain_points.question
+
+  - key: options.css_pain_points.na
+    t: None
+
+  - key: options.css_general_pain_points.layout_and_positioning_issues
+    t: Mise en page et positionnement
+  - key: options.css_general_pain_points.excessive_tailwind_use
+    t: Utilisation excessive de Tailwind
+  - key: options.css_general_pain_points.hard_to_memorize
+    t: Syntaxe difficile à retenir
+
+  # Missing Features
+  - key: opinions.css_missing_features
+    t: Qu'est-ce qui manque actuellement au CSS selon vous ?
+  - key: opinions.css_missing_features.description
+    t: Pour chaque duel, choisissez la fonctionnalité que vous aimeriez le plus pouvoir utiliser en CSS aujourd'hui.
+
+  - key: usage.missing_features_freeform
+    t: Quelles fonctionnalités manquent complètement au CSS selon vous ?
+  - key: usage.missing_features_freeform.others
+    aliasFor: usage.missing_features_freeform
+  - key: usage.missing_features_freeform
+    aliasFor: usage.missing_features_freeform
+
+  - key: usage.css_missing_features
+    t: Fonctionnalités manquantes
+    aliases:
+      - usage.css_missing_features.short
+  - key: usage.css_missing_features.question
+    aliasFor: usage.missing_features_freeform
+
+  - key: opinions_others.css_missing_features.others
+    t: Autres fonctionnalités manquantes
+
+  - key: options.css_missing_features.na
+    t: Aucune
+
+  - key: features.missing_features.default
+    t: Fonctionnalités manquantes les plus demandées, toutes catégories confondues.
+
+  # - key: opinions_others.css_missing_features.others.note
+  #   t: >
+  #       These results were normalized based on the contents of a freeform field.
+  #       To view the raw, unprocessed responses check out [whatsmissingfromcss.com](http://whatsmissingfromcss.com/).
+
+  - key: opinions.sum_up_one_word_css
+    t: Le CSS en un mot
+  - key: opinions.sum_up_one_word_css.description
+    t: Comment résumeriez-vous votre opinion du CSS en un mot ?
+
+  - key: happiness.pre_post_processors
+    t: Dans quelle mesure êtes-vous satisfait de l'état des préprocesseurs et postprocesseurs ?
+  - key: happiness.css_in_js
+    t: Dans quelle mesure êtes-vous satisfait de l'état des bibliothèques CSS-in-JS ?
+  - key: css_in_js.css_in_js_happiness
+    aliasFor: happiness.css_in_js
+  - key: happiness.css_frameworks
+    t: Dans quelle mesure êtes-vous satisfait de l'état des frameworks CSS ?
+  - key: css_frameworks.css_frameworks_happiness
+    aliasFor: happiness.css_frameworks
+
+  - key: happiness.state_of_the_web
+    t: État des technologies web
+  - key: happiness.state_of_the_web.description
+    t: Dans quelle mesure êtes-vous satisfait de l'état général des technologies web ?
+  - key: usage.state_of_the_web_happiness
+    aliasFor: happiness.state_of_the_web
+  - key: usage.state_of_the_web_happiness.question
+    aliasFor: happiness.state_of_the_web.description
+
+  - key: options.state_of_the_web_happiness.0
+    aliasFor: options.happiness.0
+  - key: options.state_of_the_web_happiness.1
+    aliasFor: options.happiness.1
+  - key: options.state_of_the_web_happiness.2
+    aliasFor: options.happiness.2
+  - key: options.state_of_the_web_happiness.3
+    aliasFor: options.happiness.3
+  - key: options.state_of_the_web_happiness.4
+    aliasFor: options.happiness.4
+
+  - key: happiness.state_of_css
+    t: État du CSS
+  - key: happiness.state_of_css.question
+    t: Dans quelle mesure êtes-vous satisfait de l'état général du CSS ?
+  - key: usage.state_of_css_happiness
+    aliasFor: happiness.state_of_css
+  - key: usage.state_of_css_happiness.question
+    aliasFor: happiness.state_of_css.question
+
+  - key: options.state_of_css_happiness.0
+    aliasFor: options.happiness.0
+  - key: options.state_of_css_happiness.1
+    aliasFor: options.happiness.1
+  - key: options.state_of_css_happiness.2
+    aliasFor: options.happiness.2
+  - key: options.state_of_css_happiness.3
+    aliasFor: options.happiness.3
+  - key: options.state_of_css_happiness.4
+    aliasFor: options.happiness.4
+
+  # pain points/currently missing (results)
+  - key: css_pain_points.css_pain_points_wins
+    t: Difficultés liées au CSS
+  - key: css_pain_points.css_pain_points_wins.description
+    t: Quel aspect du CSS vous pose le plus de difficultés ? Les résultats sont classés selon le nombre de manches remportées dans le tournoi.
+
+  - key: css_pain_points.css_pain_points_matchups
+    t: Difficultés liées au CSS (duels)
+  - key: css_pain_points.css_pain_points_matchups.description
+    t: Quel aspect du CSS vous pose le plus de difficultés ? Pourcentage de manches remportées par l'élément de gauche face à celui du haut.
+
+  - key: css_missing_features.css_missing_features_wins
+    t: Fonctionnalités manquantes au CSS
+  - key: css_missing_features.css_missing_features_wins.description
+    t: Quelle fonctionnalité aimeriez-vous le plus pouvoir utiliser en CSS aujourd'hui ? Les résultats sont classés selon le nombre de manches remportées dans le tournoi.
+
+  - key: css_missing_features.css_missing_features_matchups
+    t: Fonctionnalités manquantes au CSS (duels)
+  - key: css_missing_features.css_missing_features_matchups.description
+    t: Quelle fonctionnalité aimeriez-vous le plus pouvoir utiliser en CSS aujourd'hui ? Pourcentage de manches remportées par l'élément de gauche face à celui du haut.
+
+  ###########################################################################
+  # Usage
+  ###########################################################################
+
+  - key: usage.css_js_balance
+    t: Équilibre entre CSS et JavaScript
+  - key: usage.css_js_balance.question
+    t: Comment répartissez-vous votre temps entre l'écriture de CSS (y compris le balisage HTML) et celle de code JavaScript ?
+
+  - key: usage.css_usage_type
+    t: Utilisation du CSS
+  - key: usage.css_usage_type.question
+    t: Dans quel contexte utilisez-vous principalement le CSS ?
+  - key: usage.css_usage_type.others
+    t: Autres usages du CSS
+
+  - key: usage.usage_type
+    aliasFor: usage.css_usage_type
+  - key: usage.usage_type.question
+    aliasFor: usage.css_usage_type.question
+  - key: usage.css_usage_type.others
+    aliasFor: usage.css_usage_type.others
+
+  # design_methodology
+  - key: usage.design_methodology
+    t: Méthodologie de conception
+  - key: usage.design_methodology.question
+    t: Laquelle de ces propositions décrit le mieux votre façon de concevoir principalement avec le CSS ?
+  - key: options.design_methodology.implement_other_peoples_designs
+    t: Je réalise les maquettes conçues par d'autres
+  - key: options.design_methodology.design_in_design_apps
+    t: Je crée mes propres maquettes dans des outils de conception, puis je les réalise en CSS
+  - key: options.design_methodology.design_in_css
+    t: Je réalise mes propres maquettes directement en CSS
+
+  # baseline_awareness
+  - key: usage.baseline_awareness
+    t: Connaissance de Baseline
+  - key: usage.baseline_awareness.question
+    t: Question ! Baseline de la plateforme web, c'est…
+
+  - key: options.baseline_awareness.text_formatting
+    t: Un ensemble de nouvelles fonctionnalités de mise en page du texte
+  - key: options.baseline_awareness.performance_testing_tool
+    t: Un outil de test des performances intégré au navigateur
+  - key: options.baseline_awareness.supported_apis
+    t: Un ensemble de fonctionnalités web et d'API prises en charge par tous les principaux navigateurs
+  - key: options.baseline_awareness.code_examples
+    t: Un ensemble d'exemples de code à réutiliser dans différents projets
+  - key: options.baseline_awareness.no_idea
+    t: Je n'en ai aucune idée
+
+  # favorite_new_feature
+  - key: usage.favorite_new_features
+    t: Nouvelle fonctionnalité préférée
+  - key: usage.favorite_new_features.question
+    t: Quelles nouvelles fonctionnalités CSS avez-vous commencé à utiliser cette année et préférez-vous ?
+
+  # gamechanger_feature
+  - key: usage.gamechanger_feature
+    t: Fonctionnalité qui change la donne
+  - key: usage.gamechanger_feature.question
+    t: Au cours des cinq dernières années, quelle fonctionnalité a le plus changé votre façon d'écrire du CSS ?
+
+  # ai_generated_code_balance
+
+  - key: usage.css_ai_generated_code_balance
+    t: Génération de code CSS par l'IA
+  - key: usage.css_ai_generated_code_balance.question
+    t: Quelle proportion du code CSS que vous produisez est générée par l'IA ?
+  - key: usage.css_ai_generated_code_balance.prompt
+    aliasFor: usage.ai_generated_code_balance.prompt
+
+  ###########################################################################
+  # Resources
+  ###########################################################################
+
+  - key: resources.first_steps_css
+    t: Premiers pas avec le CSS
+  - key: resources.first_steps_css.description
+    t: Lorsque vous avez débuté, quelles ressources avez-vous utilisées pour apprendre le CSS ?
+
+  - key: resources.learning_methods_css
+    t: Méthodes d'apprentissage du CSS
+  - key: resources.learning_methods_css.description
+    t: Quelles ressources avez-vous utilisées pour apprendre le CSS ?
+
+  # sites & courses
+  - key: resources.sites_courses_css
+    aliasFor: resources.sites_courses
+  - key: resources.sites_courses_css.description
+    t: Quels sites, cours et autres ressources liés au CSS utilisez-vous pour approfondir le sujet ?
+
+  # blogs_news_magazines
+  - key: resources.blogs_news_magazines.question
+    t: Quels blogs, magazines, infolettres et autres publications lisez-vous pour suivre l'actualité du CSS ?
+
+  # courses
+  - key: resources.courses.question
+    t: Quels cours ou autres supports (vidéos, livres, etc.) avez-vous utilisés pour apprendre le CSS ?
+
+  # podcasts
+  - key: resources.podcasts_css
+    aliasFor: resources.podcasts
+  - key: resources.podcasts_css.description
+    t: Quels podcasts consacrés au CSS écoutez-vous ?
+
+  # people
+  - key: resources.people_css.others
+    aliasFor: resources.people.others
+  - key: resources.people_css.others.description
+    t: Personnes que vous lisez ou suivez, ou que vous souhaitez mettre en avant pour leur travail dans l'écosystème CSS.
+
+  - key: resources.people.question
+    t: Quelles personnes lisez-vous ou suivez-vous, ou souhaitez-vous mettre en avant dans l'écosystème CSS ?
+
+  ###########################################################################
+  # Survey Help
+  ###########################################################################
+
+  - key: features.features_intro_css
+    t: |
+      Bienvenue dans l'enquête ! Cette première partie vise à déterminer
+      quelles **fonctionnalités** CSS vous connaissez.
+
+      Au fait, si vous souhaitez préciser l'une de vos réponses, cliquez simplement sur la petite icône de commentaire !
+
+  - key: tools.tools_intro_css
+    t: |
+      Les prochaines sections portent sur les **bibliothèques** et les **frameworks** de l'écosystème CSS.
+      Dites-nous lesquels vous enthousiasment !
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+  - key: options.features_categories.colors
+    aliasFor: sections.colors.title
+  - key: options.features_categories.selectors
+    aliasFor: sections.selectors.title
+  - key: options.features_categories.math_features
+    aliasFor: sections.math_features.title
+
+  - key: sections.pain_points.title
+    t: Difficultés
+
+  - key: features.layout
+    aliasFor: sections.layout.title
+  - key: features.layout.description
+    aliasFor: sections.layout.description
+
+  - key: features.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: features.shapes_graphics.description
+    aliasFor: sections.shapes_graphics.description
+
+  - key: features.interactions
+    aliasFor: sections.interactions.title
+  - key: features.interactions.description
+    aliasFor: sections.interactions.description
+
+  - key: features.typography
+    aliasFor: sections.typography.title
+  - key: features.typography.description
+    aliasFor: sections.typography.description
+
+  - key: features.accessibility
+    aliasFor: sections.accessibility.title
+  - key: features.accessibility.description
+    aliasFor: sections.accessibility.description
+
+  - key: features.other_features
+    aliasFor: sections.other_features.title
+  - key: features.other_features.description
+    aliasFor: sections.other_features.description
+
+  - key: features.colors
+    aliasFor: sections.colors.title
+  - key: features.colors.description
+    aliasFor: sections.colors.description
+
+  - key: features.selectors
+    aliasFor: sections.selectors.title
+  - key: features.selectors.description
+    aliasFor: sections.selectors.description
+
+  - key: features.math_features
+    aliasFor: sections.math_features.title
+  - key: features.math_features.description
+    aliasFor: sections.math_features.description
+
+  # CSS
+
+  - key: faq.data_used_css
+    t: Comment ces données seront-elles utilisées ?
+  - key: faq.data_used_css.description
+    t: >
+      Toutes les données recueillies seront publiées librement afin que les développeurs et les entreprises puissent les consulter.
+      Les éditeurs de navigateurs [utilisent également ces données](https://web.dev/interop-2023/) pour définir leurs priorités et orienter leurs feuilles de route.
+
+  - key: faq.who_should_take_survey_css
+    t: Qui devrait répondre à cette enquête ?
+  - key: faq.who_should_take_survey_css.description
+    t: >
+      Cette enquête est ouverte à toute personne qui écrit du CSS, régulièrement
+      ou occasionnellement, dans le cadre de son travail, de ses études ou simplement pour le plaisir !
+
+  - key: faq.survey_goals_css
+    t: Quel est l'objectif de cette enquête ?
+  - key: faq.survey_goals_css.description
+    t: >
+      L'objectif de l'enquête est de suivre l'évolution des fonctionnalités et des bibliothèques à venir,
+      et d'aider les développeurs à choisir les nouvelles technologies sur lesquelles se concentrer.

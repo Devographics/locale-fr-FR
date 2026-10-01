@@ -1,0 +1,543 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: L'édition 2024 de l'enquête annuelle sur les dernières tendances de l'écosystème CSS.
+
+  - key: general.css2024.survey_intro
+    t: |
+
+      La vitesse à laquelle le CSS continue d'évoluer est impressionnante. La dernière décennie a permis de consolider les bases de la mise en page (Flexbox, Grid) et de la syntaxe (variables) ; l'avenir promet d'aller bien au-delà de ce que la plupart d'entre nous auraient imaginé.
+
+      Vous voulez calculer une racine carrée ou un cosinus en CSS ? Créer des animations déclenchées par le défilement ? Et peut-être limiter tout cela à une portée précise pour éviter les effets indésirables ? C'est désormais possible, et bien plus encore !
+
+      Cette enquête est donc plus importante que jamais : elle permet non seulement de suivre vos propres progrès, mais aussi de faire savoir aux éditeurs de navigateurs ce que nous pensons de cette nouvelle orientation.
+
+      Alors, une fois encore, rejoignez-moi pour cette édition de State of CSS !
+
+  - key: features.features_intro_css2024
+    t: |
+      Bienvenue dans l'enquête ! Cette première partie porte sur votre expérience avec différentes fonctionnalités CSS :
+
+
+      - **Jamais entendu parler** : vous découvrez cette fonctionnalité ou vous en avez entendu parler sans savoir à quoi elle sert.
+
+      - **J'en ai entendu parler** : vous l'avez découverte ou étudiée, mais ne l'avez pas encore utilisée.
+
+      - **Je l'ai utilisée** : vous l'avez utilisée au moins une fois, même simplement pour l'essayer.
+
+
+      Au fait, si vous souhaitez préciser l'une de vos réponses, cliquez simplement sur la petite icône de commentaire !
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.css2024
+    t: |
+      <span class="first-letter">F</span>aisons une prédiction : nous considérerons 2024 comme le tournant entre le « CSS classique » et le « nouveau CSS ».
+
+      Le CSS classique, c'est la manière dont la plupart d'entre nous écrivons du CSS depuis des années : avec un ensemble limité de fonctionnalités, en compensant les lacunes du langage par des outils externes comme les bibliothèques, les préprocesseurs, les postprocesseurs et des méthodologies strictes.
+
+      Le nouveau CSS, au contraire, adopte Subgrid, `:has()`, les variables, les requêtes de conteneur et les nombreuses fonctionnalités prometteuses apparues ces dernières années. Il permet non seulement de se passer d'outils supplémentaires, mais aussi de remplacer des contournements complexes en JavaScript.
+
+      Tout cela est possible grâce à l'engagement renouvelé des éditeurs de navigateurs, qui font enfin *fonctionner ces nouveautés*. Et je ne peux m'empêcher de penser que nous n'avons fait qu'effleurer tout ce que le nouveau CSS peut offrir.
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.css2024
+    t: |
+      L'enquête de cette année a recueilli les réponses de **9 704** développeurs et développeuses dans le monde entier.
+
+  - key: sections.features.description.css2024
+    t: |
+      Ce n'est un secret pour personne : le CSS accueille de nouvelles fonctionnalités à un rythme record. C'est pourquoi nous en avons abordé pas moins de *50* cette année !
+
+  - key: sections.tools.css2024
+    t: Bibliothèques et outils
+
+  - key: sections.tools.description.css2024
+    t: |
+      Malgré les nombreuses possibilités offertes par les nouvelles fonctionnalités CSS, les développeurs s'appuient encore sur des outils et des bibliothèques pour faciliter leur travail, du moins pour le moment.
+
+  - key: sections.usage.description.css2024
+    t: |
+      Quelle que soit votre façon d'utiliser le CSS, les données montrent que la compatibilité entre navigateurs reste une préoccupation, en particulier pour les nouveautés comme `:has()`.
+
+  - key: sections.resources.description.css2024
+    t: |
+      Rassurez-vous : avec toutes les nouvelles fonctionnalités CSS qui arrivent, les sujets ne manqueront pas de sitôt pour les articles de blog, les podcasts, les vidéos et les formations !
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  # user_info
+
+  - key: user_info.country.takeaway.css2024
+    t: >
+      Les États-Unis restent le groupe le plus représenté, mais nous sommes heureux de constater une bonne diversité de pays parmi les autres répondants, même si l'Asie demeure malheureusement sous-représentée.
+
+  - key: user_info.locale.takeaway.css2024
+    t: >
+      Un grand merci aux traducteurs bénévoles qui rendent les enquêtes accessibles dans autant de langues !
+
+  - key: user_info.completion_stats.takeaway.css2024
+    t: >
+      Malgré la longueur de l'enquête, une très grande majorité des répondants a pris le temps d'aller jusqu'au bout !
+
+  - key: user_info.age.takeaway.css2024
+    t: >
+      Le CSS n'a pas beaucoup de succès auprès de la génération Alpha, peut-être parce qu'elle est trop occupée à jouer à Fortnite.
+
+      Attendez, Fortnite existe encore, non… ?
+
+  - key: user_info.years_of_experience.takeaway.css2024
+    t: >
+      Ce graphique révèle que la plupart des répondants ont eu la chance de ne jamais avoir à gérer la mise en page avec `float`.
+
+  - key: user_info.company_size.takeaway.css2024
+    t: >
+      Plus l'entreprise est grande, plus le salaire est élevé. Cela dit, nos données montrent qu'avec de bonnes compétences, on peut bien gagner sa vie quelle que soit la taille de son entreprise.
+
+  - key: user_info.yearly_salary.takeaway.css2024
+    t: >
+      On entend souvent parler des salaires à six chiffres de la Silicon Valley, mais la plupart des développeurs front-end dans le monde gagnent bien moins, comme le montre la comparaison directe entre les États-Unis et le reste du monde.
+
+  - key: user_info.higher_education_degree.takeaway.css2024
+    t: >
+      Un diplôme est associé à un meilleur salaire, mais il n'a pas nécessairement besoin d'être lié à la programmation. Voilà une bonne nouvelle pour celles et ceux qui ont découvert leur passion pour le développement web plus tard dans leur parcours.
+
+  - key: user_info.gender.takeaway.css2024
+    t: >
+      Le Canada, l'Espagne, le Royaume-Uni et les États-Unis comptaient les plus fortes proportions de répondantes.
+
+      Nos données montrent également que les revenus des femmes restent inférieurs à ceux d'autres groupes. Les raisons de cet écart dépassent le cadre de ce rapport, mais il est clair que les femmes de notre secteur font face à des difficultés qui leur sont propres.
+
+  - key: user_info.race_ethnicity.takeaway.css2024
+    t: >
+      Les répondants non blancs étaient plus souvent jeunes et moins expérimentés, ce qui témoigne, nous l'espérons, d'une diversification continue du secteur.
+
+  - key: user_info.disability_status.takeaway.css2024
+    t: >
+      Grâce aux efforts constants des défenseurs de l'accessibilité, nous reconnaissons désormais que les handicaps, permanents ou non, doivent être pris en compte dans le processus de conception et de développement.
+
+  - key: user_info.source.takeaway.css2024
+    t: >
+      Si la plupart des répondants connaissaient l'enquête grâce aux éditions précédentes, Kevin Powell nous a également envoyé un grand nombre de participants.
+
+  # features
+
+  - key: features.all_features.takeaway.css2024
+    t: >
+      Les effets de filtre (`blur()`, `contrast()`, etc.) ont été la fonctionnalité CSS la plus utilisée en 2024, contre toute attente : 75,4 % des répondants les ont utilisés. Le sélecteur `:has()` arrive juste derrière avec 72,8 %.
+
+      En revanche, selon les avis exprimés, Subgrid est la fonctionnalité la plus appréciée : 51,5 % des répondants souhaitent la réutiliser.
+
+      La fonctionnalité la moins utilisée ? `hanging-punctuation`, dont 84,7 % des répondants n'avaient même jamais entendu parler !
+
+  - key: features.reading_list.takeaway.css2024
+    t: >
+      La liste de lecture permet d'enregistrer les sujets que vous souhaitez approfondir après l'enquête.
+
+      Ce n'est donc pas un hasard si la fonctionnalité la moins connue, `hanging-punctuation`, arrive aussi en tête des sujets les plus enregistrés dans la liste de lecture !
+
+  # tools
+
+  - key: tools.css_frameworks.takeaway.css2024
+    t: >
+      Parmi les frameworks CSS et les bibliothèques d'interface, Tailwind CSS continue de tracer sa propre voie, loin devant ses concurrents plus traditionnels.
+
+  - key: tools.css_in_js.takeaway.css2024
+    t: >
+      Certaines nouveautés CSS, comme les variables, ont peut-être réduit l'intérêt du CSS-in-JS. Toutefois, les styles typés et la compilation à la construction montrent que ce domaine a encore beaucoup à offrir.
+
+  - key: tools.pre_post_processors.takeaway.css2024
+    t: >
+      Sass/SCSS reste en tête, mais il sera intéressant de voir si son utilisation se maintient maintenant que le CSS a intégré bon nombre de ses fonctionnalités essentielles.
+
+  - key: tools.utilities.takeaway.css2024
+    t: >
+      Les moyens de formater, de minifier et d'adapter votre code CSS à vos besoins ne manquent pas.
+
+  - key: tools.browsers.takeaway.css2024
+    t: >
+      Les quatre principaux navigateurs dominent ce graphique, mais Arc progresse lentement, passant de 7,8 % à 12 % d'utilisation en un an.
+
+  # usage
+
+  - key: usage.form_factors.takeaway.css2024
+    t: >
+      Signe encourageant de l'importance croissante de l'accessibilité, les tests avec lecteur d'écran sont passés de 16,6 % à 19 % en un an.
+
+  - key: usage.what_do_you_use_css_for.takeaway.css2024
+    t: >
+      Ces données ne sont pas surprenantes, mais elles rappellent utilement que le CSS permet de faire bien plus que mettre en forme des pages web.
+
+  - key: usage.industry_sector.takeaway.css2024
+    t: >
+      Saviez-vous que vous pouvez filtrer les données de cette enquête par secteur d'activité ? Cliquez sur « Ajouter des filtres… » sur n'importe quel graphique !
+
+  - key: usage.usage_type.takeaway.css2024
+    t: >
+      Que vous créiez des sites web professionnellement ou pour le plaisir, il n'y a pas de mauvaise façon d'utiliser le CSS !
+
+  - key: usage.design_methodology.takeaway.css2024
+    t: >
+      Une grande majorité des répondants utilisent le CSS pour intégrer des maquettes existantes. Il sera intéressant de voir si cela évolue avec les outils de conception et les outils d'IA capables de passer directement de l'idée au code.
+
+  - key: usage.css_js_balance.takeaway.css2024
+    t: >
+      Même dans une enquête sur le CSS, la majorité des répondants passent encore le plus clair de leur temps dans l'écosystème JavaScript. Seul l'avenir dira si cela changera à mesure que le CSS gagnera en possibilités.
+
+  - key: usage.css_interoperability_features.takeaway.css2024
+    t: >
+      Peu de choses sont plus frustrantes que de savoir qu'une nouvelle fonctionnalité résoudrait parfaitement un problème, sans pouvoir l'utiliser faute d'une prise en charge suffisante par les navigateurs.
+
+
+      C'est le cas du positionnement par ancrage, une nouveauté prometteuse qui n'est malheureusement pas encore largement prise en charge.
+
+
+      En revanche, les requêtes de conteneur sont bel et bien [disponibles au niveau Baseline](https://web.dev/blog/cq-stable) et prêtes à l'emploi, même si de nombreux répondants les mentionnent encore !
+
+  - key: usage.css_missing_features.takeaway.css2024
+    t: >
+      Faute de baguette magique pour faire apparaître toutes les fonctionnalités CSS dont nous rêvons, nous espérons que ces données aideront à orienter les éditeurs de navigateurs dans la bonne direction !
+
+
+      Bonne nouvelle : la logique conditionnelle, les mixins et les mises en page en maçonnerie sont tous à l'étude sous une forme ou une autre !
+
+  - key: usage.css_pain_points.takeaway.css2024
+    t: >
+      La compatibilité des navigateurs reste le problème récurrent du CSS. Tailwind CSS est également une source de frustration pour certains, tandis que d'autres regrettent qu'il ne soit pas davantage utilisé !
+
+  - key: usage.favorite_new_features.takeaway.css2024
+    t: >
+      Fonctionnalité attendue de longue date, implémentation pertinente et bonne prise en charge par les navigateurs : `:has()` a tout pour plaire et arrive en tête des nouveautés CSS de 2024 !
+
+  - key: usage.state_of_the_web_happiness.takeaway.css2024
+    t: >
+      Même si nous aimons nous plaindre de la situation, le niveau de satisfaction est étonnamment stable au fil des ans.
+
+  - key: usage.state_of_css_happiness.takeaway.css2024
+    t: >
+      La satisfaction à l'égard du CSS augmente même légèrement, preuve que le travail des éditeurs de navigateurs, des groupes de travail et de toute la communauté CSS ne passe pas inaperçu !
+
+  # resources
+
+  - key: resources.blogs_news_magazines.takeaway.css2024
+    t: >
+      Malgré son changement de propriétaire ces dernières années, CSS-Tricks a conservé la première place parmi les blogs consacrés au CSS.
+
+  - key: resources.courses.takeaway.css2024
+    t: >
+      Les ressources gratuites comme MDN et les vidéos YouTube sont essentielles pour apprendre le CSS, mais il faut aussi saluer l'excellent contenu de Josh Comeau.
+
+  - key: resources.podcasts.takeaway.css2024
+    t: >
+      Syntax conserve peut-être sa première place, mais Web Standards et The CSS Podcast montrent qu'un podcast peut aussi réussir en se consacrant à un langage ou à un sujet précis.
+
+  - key: resources.video_creators.takeaway.css2024
+    t: >
+      Kevin Powell montre une fois encore que personne n'égale sa portée et sa popularité sur YouTube lorsqu'il s'agit de CSS.
+
+  - key: resources.people.takeaway.css2024
+    t: >
+      Kevin reprend la tête du classement, et c'est un plaisir de voir la communauté reconnaître également le travail d'Adam, Una, Josh et Lea !
+
+  - key: resources.other_surveys.takeaway.css2024
+    t: >
+      Vous ne serez pas surpris d'apprendre que nous considérons les enquêtes comme un outil d'apprentissage essentiel. C'est pourquoi nous cherchons toujours de nouveaux concurr… enfin, de nouveaux amis !
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.most_used_feature_award.comment
+    t: |
+      Les **effets de filtre** existent depuis un moment et sont toujours aussi utiles !
+
+  - key: award.least_used_feature_award.comment
+    t: |
+      `hanging-punctuation` remporte le prix de la fonctionnalité CSS la moins connue !
+
+  - key: award.most_loved_feature_award.comment
+    t: |
+      Avec {value} % d'avis positifs, **Subgrid** occupe la première place de notre classement.
+
+  - key: award.most_commented_feature_award.comment
+    t: |
+      **Subgrid** a reçu plus de {value} commentaires, en partie parce qu'elle apparaissait tôt dans l'enquête, mais aussi parce que cette fonctionnalité mérite assurément les éloges !
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2024.ahmad_shadeed
+    t: |
+
+      <span class="first-line">Au cours des deux dernières années, le CSS a tellement évolué</span> que suivre toutes les nouveautés ressemble à un travail à plein temps. Il reste donc de nombreux sujets et idées à explorer et à tester.
+
+      Par exemple, réclamé pendant des années, `:has()` s'est révélé être l'un des ajouts les plus puissants au CSS et a considérablement réduit le besoin de JavaScript. À mes yeux, c'est comparable au passage des flottants CSS à Flexbox, qui nous a permis de créer presque toutes les mises en page imaginables.
+
+      Les **requêtes de taille et de style sur les conteneurs** changent également la donne pour créer des composants adaptés à différents contextes. Pour l'instant, seules les requêtes de taille sont entièrement prises en charge par tous les principaux navigateurs, et leur adoption reste limitée.
+
+      Pour 2025, j'espère voir les requêtes de taille sur les conteneurs plus largement adoptées, ainsi qu'une prise en charge complète des **animations pilotées par le défilement**, des requêtes de style et du **positionnement par ancrage**. Que demander de plus ?
+
+  - key: conclusion.css2024.ahmad_shadeed.bio
+    t: Ingénieur en conception et auteur de [Debugging CSS](https://debuggingcss.com/)
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick.css2024
+    t: "Mon choix pour 2024 : "
+  - key: picks.intro
+    t: Nous avons demandé aux membres de la communauté CSS de partager leur « coup de cœur de l'année ».
+
+  - key: picks.chris_coyier.name
+    t: Les contributions de Google au CSS
+  - key: picks.chris_coyier.bio
+    t: Créateur de CodePen et animateur de Shoptalk Show
+  - key: picks.chris_coyier.description
+    t: |
+      Il serait tentant de parler de la place centrale que Google occupe récemment dans le monde du CSS, surtout cette dernière année. Rachel Andrew, Adam Argyle, Bramus Van Damme, Una Kravets, Tab Atkins, fantasai : toutes ces personnes font publiquement un travail formidable.
+
+
+      *Remarque : fantasai travaille désormais chez Apple.*
+
+  - key: picks.temani_afif.name
+    t: |
+      La prise en charge généralisée de `@property`
+  - key: picks.temani_afif.bio
+    t: Créateur de [css-challenges.com](https://css-challenges.com)
+  - key: picks.temani_afif.description
+    t: |
+      Je dirais que c'est l'arrivée de la prise en charge de `@property` dans Firefox cette année : depuis juillet, la fonctionnalité est disponible dans tous les principaux navigateurs et ouvre la voie à de nombreuses possibilités.
+
+  - key: picks.adam_argyle.name
+    t: |
+      `linear()`
+  - key: picks.adam_argyle.bio
+    t: Google
+  - key: picks.adam_argyle.description
+    t: |
+      La fonction d'accélération `linear()` permet d'apporter une finition remarquable aux interactions.
+
+  - key: picks.andy_bell.name
+    t: |
+      Se retrouver bloqué : toutes les façons dont `position: sticky` peut échouer
+  - key: picks.andy_bell.bio
+    t: Designer, développeur et fondateur de Piccalilli et Set Studio.
+  - key: picks.andy_bell.description
+    t: |
+      En toutes ces années de pratique du CSS, `position: sticky` a été l'une des fonctionnalités les plus *frustrantes*, mais aussi l'une des plus utiles. J'ai toujours voulu écrire un guide pour aider les autres, mais Kilian l'a si bien fait que ce n'est plus nécessaire.
+
+  - key: picks.miguel_angel_duran.name
+    t: |
+      `@view-transition`
+  - key: picks.miguel_angel_duran.bio
+    t: Créateur de contenu sur Twitch
+  - key: picks.miguel_angel_duran.description
+    t: |
+      La nouvelle règle CSS `@view-transition` change la donne en 2024. Elle permet de créer des transitions natives et fluides entre les pages ou les composants avec très peu de code, réduisant considérablement le recours à des solutions complexes en JavaScript. C'est une avancée majeure pour créer des interfaces web dynamiques et fluides !
+
+  - key: picks.sacha_greif.name
+    t: Sara Soueidan
+  - key: picks.sacha_greif.bio
+    t: Créateur de State of CSS
+  - key: picks.sacha_greif.description
+    t: |
+      Même si nous travaillons tous dans le monde numérique, n'oublions pas que celui-ci repose sur des personnes bien réelles, qui subissent les conséquences des conflits dans le monde. Sara a récemment été déplacée à cause de la guerre ; j'espère de tout cœur qu'elle pourra bientôt reprendre son formidable travail !
+
+  - key: picks.augustin_mauroy.name
+    t: |
+      `:has()`
+  - key: picks.augustin_mauroy.bio
+    t: Développeur web et passionné de logiciels libres
+  - key: picks.augustin_mauroy.description
+    t: |
+      La pseudo-classe `:has()` permet de créer des choses très originales. Elle permet aussi de remonter dans l'arborescence, par exemple pour modifier la forme d'une carte lorsque vous survolez l'un de ses éléments enfants.
+
+  - key: picks.lea_verou.name
+    t: Style Queries and `if()`
+  - key: picks.lea_verou.bio
+    t: Responsable produit chez Font Awesome
+  - key: picks.lea_verou.description
+    t: |
+      Je choisirais les requêtes de style et `if()` en ligne. Dès que ces deux fonctionnalités seront disponibles partout, les possibilités offertes par les variables CSS seront décuplées.
+
+  # - key: picks.xxx.name
+  #   t: State Queries
+  # - key: picks.xxx.bio
+  #   t:
+  # - key: picks.xxx.description
+  #   t: |
+  #     I'd pick State Queries, even if we aren't there yet, I feel like this has been a missing piece for quite some time now.
+
+  #     Applying styles once an element becomes sticky or starts to overflow isn't a game changer persé, because it could've been achieved with JS before. But being able to achieve this without any JS is a great addition next to scroll driven animations and view transitions to bring the power of styling and animations back to CSS.
+
+  - key: picks.ahmad_shadeed.name
+    t: Scroll-driven Animations
+  - key: picks.ahmad_shadeed.bio
+    t: Ingénieur design et auteur de [Debugging CSS](https://debuggingcss.com/)
+  - key: picks.ahmad_shadeed.description
+    t: |
+      Cette fonctionnalité change la donne et sera bientôt prise en charge par tous les principaux navigateurs. C'est incroyable de pouvoir désormais réaliser en quelques lignes de CSS ce qui nécessitait autrefois beaucoup de JavaScript.
+
+  - key: picks.josh_comeau.name
+    t: Temani Afif
+  - key: picks.josh_comeau.bio
+    t: Entrepreneur indépendant et formateur
+  - key: picks.josh_comeau.description
+    t: |
+      Temani repousse les limites de ce qu'il est possible de faire avec le CSS. Ses expérimentations m'époustouflent à chaque fois !
+
+  # - key: picks.xxx.name
+  #   t:
+  # - key: picks.xxx.bio
+  #   t:
+  # - key: picks.xxx.description
+  #   t: |
+
+  ###########################################################################
+  # Quiz
+  ###########################################################################
+
+  - key: quiz.quiz_dave_shea
+    t: "Question 01"
+  - key: quiz.quiz_dave_shea.question
+    t: >
+      En mai 2003, Dave Shea a lancé un site qui mettait en valeur la flexibilité et l'adaptabilité du CSS. Comment s'appelait-il ?
+  - key: options.quiz_dave_shea.css_playground
+    t: Terrain de jeu CSS
+  - key: options.quiz_dave_shea.style_jungle
+    t: Jungle des styles
+  - key: options.quiz_dave_shea.css_zen_garden
+    t: CSS Zen Garden
+  - key: quiz.quiz_dave_shea.answer
+    t: >
+      [CSS Zen Garden](https://www.csszengarden.com/) a marqué les esprits en montrant ce qu'il était possible de faire en séparant le balisage de la mise en forme.
+  - key: quiz.quiz_dave_shea.description
+    aliasFor: quiz.quiz_dave_shea.question
+
+  - key: quiz.quiz_css_spec
+    t: "Question 02"
+  - key: quiz.quiz_css_spec.question
+    t: >
+      Laquelle de ces organisations maintient la spécification CSS ?
+  - key: options.quiz_css_spec.w3c
+    t: W3C
+  - key: options.quiz_css_spec.w3schools
+    t: W3Schools
+  - key: options.quiz_css_spec.mdn
+    t: MDN
+  - key: quiz.quiz_css_spec.answer
+    t: >
+      Le [groupe de travail CSS du W3C](https://www.w3.org/groups/wg/css) maintient la spécification CSS, ensuite mise en œuvre par les éditeurs de navigateurs.
+  - key: quiz.quiz_css_spec.description
+    aliasFor: quiz.quiz_css_spec.question
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Développez vos compétences grâce à des cours approfondis et modernes en ingénierie front-end.
+  - key: sponsors.polypane.description
+    t: Le navigateur des développeurs ambitieux. Créez facilement des sites rapides, adaptatifs et accessibles.
+  - key: sponsors.nijibox.description
+    t: Conseil en expérience utilisateur et développement de produits au cœur de Tokyo.
+  - key: sponsors.renderatl.description
+    t: La plus grande conférence technologique avec un parcours consacré au design et au CSS.
+  - key: sponsors.google_chrome.description
+    t: Merci à l'équipe Google Chrome pour son soutien.
+  - key: sponsors.tokyodev.description
+    t: Trouvez dès aujourd'hui le poste de développeur de vos rêves au Japon.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_css2024
+    t: Combien de temps faut-il pour répondre à l'enquête ?
+  - key: faq.how_long_will_survey_take_css2024.description
+    t: >
+      Selon le nombre de questions auxquelles vous répondez (elles sont toutes facultatives),
+      l'enquête devrait prendre environ 15 à 20 minutes.
+
+  - key: faq.learn_more_css2024
+    t: Où puis-je en savoir plus ?
+  - key: faq.learn_more_css2024.description
+    t: Pour en savoir plus sur cette enquête, consultez [notre annonce](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h).
+
+  - key: faq.survey_design_css2024
+    t: Comment cette enquête a-t-elle été conçue ?
+  - key: faq.survey_design_css2024.description
+    t: >
+      Cette enquête est le fruit d'un [processus de conception ouvert](https://github.com/Devographics/surveys/issues/245) auquel ont participé des éditeurs de navigateurs et la communauté du développement web.
+
+  - key: faq.results_released_css2024
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_css2024.description
+    t: L'enquête se déroulera du 17 août au 7 septembre 2024 et ses résultats seront publiés peu après.
+
+  - key: about.content.css2024
+    t: >
+      L'enquête State of CSS 2024 s'est déroulée du 17 août au 12 septembre 2024 et a recueilli 9 704 réponses. Elle est menée par [Devographics](https://www.devographics.com/), avec l'aide d'une équipe de contributeurs et de consultants open source.
+
+
+      Le logo et le t-shirt State of CSS ont été conçus et animés par [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+
+      ### Objectifs de l'enquête
+
+      Cette enquête a été créée pour repérer les tendances émergentes du développement web et aider les développeurs à faire leurs choix technologiques.
+
+
+      Elle vise donc à anticiper les évolutions des prochaines années plutôt qu'à analyser les tendances actuelles. C'est pourquoi les fonctionnalités et technologies déjà les plus répandues n'y figurent pas toujours.
+
+
+      Les éditeurs de navigateurs utilisent également ces données pour hiérarchiser les fonctionnalités et orienter des initiatives comme [Interop 2024](https://web.dev/blog/interop-2024).
+
+
+      ### Conception de l'enquête
+
+      Cette enquête a été conçue en collaboration [sur GitHub](https://github.com/Devographics/surveys/issues/245).
+
+      ### Public de l'enquête
+
+      L'enquête était accessible librement en ligne et les répondants n'ont fait l'objet d'aucune sélection. Il s'agissait principalement de personnes ayant participé aux éditions précédentes (informées par une liste de diffusion dédiée) et de visiteurs venus des réseaux sociaux.
+
+      ### Financement du projet
+
+      Outre la vente de t-shirts, le projet est financé par plusieurs sources :
+
+      - Notre partenaire [Frontend Masters](https://frontendmasters.com/) finance l'enquête en échange de liens vers ses formations, affichés au bas de chaque page.
+
+      - Cette année, l'équipe [Google Chrome](https://www.google.com/chrome/) a consacré un budget de sponsoring à la conception et à la réalisation de l'enquête.
+
+      - [TokyoDev](https://www.tokyodev.com/) soutient également l'enquête de manière régulière.
+
+      ### Aperçu technique
+
+      Vous trouverez [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) un aperçu technique plus détaillé du fonctionnement des enquêtes. Notre code est [open source](https://github.com/Devographics/Monorepo/).
+
+      ### Commentaires
+
+
+      - [Signaler un problème technique](https://github.com/Devographics/Monorepo/issues)
+
+      - [Faire une suggestion pour l'année prochaine](https://github.com/Devographics/surveys/issues/249)
+
+      - [Autres problèmes non techniques](https://github.com/Devographics/surveys/issues)
+
+      - [Rejoindre notre Discord](https://discord.gg/tuWRUWVyJs)
