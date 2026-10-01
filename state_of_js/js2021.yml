@@ -1,0 +1,448 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: L’édition 2021 de l’enquête annuelle sur les dernières tendances de l’écosystème JavaScript.
+
+  - key: general.livestream_announcement
+    t: Ne manquez pas notre [diffusion en direct spéciale consacrée aux résultats de l’enquête](https://dev.to/sachagreif/state-of-javascript-2021-livestream-24a5) le 22 février ! (en anglais)
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.js2021
+    t: |
+
+      <span class="first-letter">I</span>l s’est passé beaucoup de choses en 2021. À tel point que l’enquête a été reportée jusqu’en 2022 ! 
+
+
+      Entre la multitude d’outils de build plus rapides et une nouvelle génération de frameworks back-end, le monde JavaScript a continué d’évoluer. Nous avons fait de notre mieux pour suivre le rythme en dotant l’enquête de quelques nouveautés ([découvrez-les](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej)) : de nouveaux types de questions, la possibilité de croiser deux données (comme les salaires annuels selon l’expérience), et même de personnaliser les graphiques pour faire ressortir vos propres observations ! Découvrez [les nouveautés de cette année](https://dev.to/sachagreif/whats-new-in-the-2021-state-of-javascript-survey-4eej) (en anglais).
+
+
+      Tout ne s’est toutefois pas déroulé sans encombre. Nous avons dû gérer une [fuite de données](https://dev.to/sachagreif/disclosing-a-state-of-javascriptstate-of-css-data-breach-2lg1) qui, heureusement, ne semble pas avoir eu de conséquences néfastes. Nous nous efforçons constamment de rendre l’enquête plus inclusive, plus accessible et plus équitable. 
+
+
+      Même si cette enquête ne peut représenter qu’une infime partie de l’écosystème JavaScript, nous espérons que les données obtenues vous intéresseront !
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Tee-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Soutenez l’enquête avec le tee-shirt State of JavaScript
+
+      Entre la mauvaise qualité vidéo, les cassettes encombrantes et l’obligation de rembobiner, peu de choses nous manquent de l’époque des VHS. Mais les superbes visuels des années 90 qui décoraient les cassettes vierges, eux, nous manquent bel et bien. 
+
+      Grâce au talent de Christopher Kirk-Nielsen, vous pouvez désormais profiter de tout ce style rétro tout en célébrant votre amour pour JavaScript !
+
+  - key: tshirt.about
+    t: À propos du tee-shirt
+
+  - key: tshirt.description
+    t: |
+      Nous utilisons un tee-shirt ajusté, très doux et de grande qualité, composé de trois fibres et imprimé par nos partenaires de Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Achetez-le
+
+  - key: tshirt.price
+    t: 29 $ US + frais de livraison
+
+  - key: tshirt.designer.heading
+    t: À propos du créateur
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originaire de France et désormais installé aux États-Unis, Chris est non seulement un formidable développeur front-end, mais aussi un illustrateur talentueux spécialisé dans les visuels rétro. Nous vous invitons d’ailleurs à découvrir ses [autres modèles de tee-shirts](https://chriskirknielsen.com/designs) !
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info.description
+    t: |
+      Cette année, **16 085** personnes ont répondu à l’enquête.
+
+  - key: sections.features.description
+    t: |
+      JavaScript évolue vite, mais les développeurs JavaScript semblent aller encore plus vite : de nombreuses fonctionnalités relativement récentes affichent déjà un taux d’adoption élevé.
+
+  - key: sections.technologies.description
+    t: |
+      Les résultats de cette année révèlent une forte fragmentation du monde JavaScript. Cela peut parfois donner des maux de tête, mais cette concurrence contribue à créer un écosystème très dynamique.
+
+  - key: sections.tools_others.description
+    t: |
+      Choisir une technologie implique souvent de difficiles arbitrages entre des priorités concurrentes.
+      Cette année, nous avons tenté de représenter ce processus avec un nouveau format de question à élimination directe.
+
+  - key: sections.environments.description
+    t: |
+      Longtemps reléguée au second plan dans le développement Web, l’accessibilité est désormais reconnue par de nombreux développeurs
+      comme le fondement sur lequel tout le reste devrait reposer.
+
+  - key: sections.resources.description
+    t: |
+      Mettre en avant des blogs, des podcasts et des sites était un bon début, mais cette année nous sommes allés plus loin
+      en présentant les personnes qui composent la communauté JavaScript !
+
+  - key: sections.opinions.description
+    t: |
+      Qu’il s’agisse des difficultés qui vous freinent aujourd’hui ou des fonctionnalités manquantes que vous aimeriez utiliser
+      demain, c’était l’occasion de vous exprimer et de partager vos frustrations avec JavaScript !
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.language
+    aliasFor: sections.language.title
+  - key: options.features_categories.browser_apis
+    aliasFor: sections.browser_apis.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  - key: blocks.tools_quadrant.description
+    t: |
+      Ce graphique compare le **taux de rétention** de chaque technologie à son **nombre total d’utilisateurs**.
+      Il se divise en quatre quadrants :
+
+        - **1** : faible utilisation, forte rétention. Des technologies à suivre.
+
+        - **2** : forte utilisation, forte rétention. Des technologies que l’on peut adopter sereinement.
+
+        - **3** : faible utilisation, faible rétention. Des technologies difficiles à recommander pour le moment.
+
+        - **4** : forte utilisation, faible rétention. Si vous utilisez ces technologies, réévaluez votre choix.
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      Pour en savoir plus, nous avons [écrit un article de blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) sur les questions de genre liées à l’enquête.
+
+  - key: blocks.css_missing_features.note
+    t: |
+      Vous pouvez explorer l’ensemble des réponses à cette question dans [ce projet annexe](https://whatsmissingfromcss.com/).
+
+  - key: blocks.source.note
+    t: >
+
+      Ce graphique regroupe des référents, des paramètres d’URL et des réponses libres. 
+
+      - State of JS : la liste de diffusion [State of JS](https://stateofjs.com).
+
+      - State of CSS : la liste de diffusion State of CSS ; correspond aussi à `email`, `by email`, etc.
+
+      - Travail : correspond à `work`, `colleagues`, `coworkers`, etc.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: Avec une progression de **{value}** en 2021, l’opérateur de coalescence des valeurs nulles (??) est rapidement devenu incontournable en JavaScript.
+
+  - key: award.tool_usage_delta_award.comment
+    t: esbuild a à peine deux ans, mais avec une progression de **{value}** au cours de l’année écoulée, il gagne déjà du terrain.
+
+  - key: award.tool_satisfaction_award.comment
+    t: Vite occupe la première place avec un taux de rétention exceptionnel de **{value}** !
+
+  - key: award.tool_interest_award.comment
+    t: Avec un taux d’intérêt de **{value}**, Vite remporte une nouvelle fois la médaille d’or !
+
+  - key: award.most_write_ins_award.comment
+    t: Plusieurs questions acceptaient aussi des réponses libres et, avec **{value}** mentions, Elm a été la réponse la plus populaire dans l’ensemble.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.js2021
+    t: |
+
+      <span class="first-line">JavaScript se porte bien mieux aujourd’hui qu’en 2016.</span>
+
+      Lors de la première enquête State of JS, seuls 21 % d’entre vous utilisaient TypeScript, contre 69 % aujourd’hui. Alors que nous plaisantions autrefois sur la sortie quotidienne d’un nouveau framework front-end, **React** et **Vue** dominent depuis maintenant six ans. Et la part des personnes estimant que « JS évolue trop vite » est passée de 59 % à 38 %.
+
+      Cela ne signifie pas pour autant que le langage a stagné. Les API **Optional Chaining** et **Nullish Coalescing** sont devenues les nouvelles API les plus utilisées de notre enquête, alors qu’elles n’ont que deux ans. Et TC39 nous réserve d’autres nouveautés : vous avez indiqué que la gestion des dates est l’une des principales fonctionnalités manquantes, et l’API Temporal a récemment atteint le [stade 3](https://github.com/tc39/proposal-temporal).
+
+      L’écosystème des outils évolue lui aussi rapidement, et l’on peut dire que 2021 a été l’année de **Vite**. Vite a non seulement débuté avec 98 % de rétention, mais son utilisation atteint déjà 30 % dès sa première année dans notre enquête, dépassant même esbuild. Vite n’est pas seul à faire progresser les outils de build JavaScript : 8 des 12 outils que nous suivons ont moins de deux ans ! **pnpm**, **Turborepo** et **Nx** arrivent en tête lors de notre première année de suivi des outils de monorepo, mais seuls 25 % des répondants se déclarent satisfaits de cette catégorie, preuve qu’il reste beaucoup à faire. 
+
+      À noter également : de nouveaux acteurs comme **Deno**, **Rome**, **Astro** et **Remix** bénéficient désormais du soutien de sociétés financées par le capital-risque, dessinant peut-être une alternative viable au fragile modèle de financement de l’open source.
+
+      Alors que le [troisième âge de JavaScript](https://www.swyx.io/js-third-age/) entame sa troisième année, les possibilités continuent de s’ouvrir aux futurs contributeurs open source et entrepreneurs. J’ai hâte de voir ce que nous réservent les prochaines années !
+
+  - key: conclusion.js2021.bio
+    t: Responsable de l’expérience développeur chez Temporal
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick.js2021
+    t: "Mon choix de 2021 : "
+  - key: picks.intro
+    t: Nous avons demandé aux membres de la communauté JavaScript de partager leur « choix de l’année ».
+
+  - key: picks.lee_robinson.name
+    t: SvelteKit
+  - key: picks.lee_robinson.bio
+    t: Directeur des relations développeurs chez Vercel
+  - key: picks.lee_robinson.description
+    t: |
+      SvelteKit propose une nouvelle approche du développement Web et rassemble
+      une communauté de soutien en pleine croissance, particulièrement passionnée.
+
+  - key: picks.vadim_makeev.name
+    t: Server-Side Rendering
+  - key: picks.vadim_makeev.bio
+    t: Relations développeurs, podcasteur et défenseur des standards du Web
+  - key: picks.vadim_makeev.description
+    t: |
+      Il est temps de remettre nos priorités dans le bon ordre.
+      L’expérience utilisateur prime sur l’expérience développeur, et cela a toujours été le cas. Vive les performances !
+
+  - key: picks.ben_ilegbodu.name
+    t: Lee Robinson
+  - key: picks.ben_ilegbodu.bio
+    t: Ben Ilegbodu, ingénieur front-end principal chez Stitch Fix
+  - key: picks.ben_ilegbodu.description
+    t: |
+      Lee a remarquablement guidé et défendu Next.js.
+      Il m’a énormément aidé avec Next et continue de susciter l’enthousiasme
+      pour son avenir.
+
+  - key: picks.shawn_wang.name
+    t: Supabase
+  - key: picks.shawn_wang.bio
+    t: Responsable de l’expérience développeur chez Temporal
+  - key: picks.shawn_wang.description
+    t: |
+      Supabase rend Postgres accessible à davantage de développeurs et montre
+      comment une petite équipe concentrée peut livrer dix fois plus que des équipes bien plus grandes.
+
+  - key: picks.sarah_drasner.name
+    t: Pawel Kozlowski
+  - key: picks.sarah_drasner.bio
+    t: Directrice de l’ingénierie, développement Web principal chez Google
+  - key: picks.sarah_drasner.description
+    t: |
+      Pawel Kozlowski est un développeur ouvert à différentes approches,
+      qui fait preuve d’humilité et de curiosité pour améliorer les choses.
+
+  - key: picks.sara_vieira.name
+    t: Paul Henschel
+  - key: picks.sara_vieira.bio
+    t: Agente internationale du JavaScript absurde
+  - key: picks.sara_vieira.description
+    t: |
+      Le travail de Paul sur les animations et ReactThreeFiber
+      a grandement facilité la création de contenus 3D sur le Web.
+
+  - key: picks.mark_erikson.name
+    t: Ryan Carniato
+  - key: picks.mark_erikson.bio
+    t: Mainteneur de Redux
+  - key: picks.mark_erikson.description
+    t: |
+      SolidJS, le framework réactif de Ryan, a atteint la version 1.0,
+      et il a publié de nombreux articles analysant des concepts avancés
+      de mise en œuvre des frameworks JS.
+
+  - key: picks.miguel_angel_duran.name
+    t: Vite
+  - key: picks.miguel_angel_duran.bio
+    t: Développeur front-end et diffuseur de programmation sur Twitch
+  - key: picks.miguel_angel_duran.description
+    t: |
+      En plus d’esbuild et de swc, deux excellents outils qui font progresser l’écosystème,
+      j’apprécie beaucoup Vite. Son expérience développeur est excellente et ses fonctionnalités sont nombreuses.
+
+  - key: picks.alyssa_nicoll.name
+    t: BroccoDev's Twitch Stream
+  - key: picks.alyssa_nicoll.bio
+    t: Responsable de la promotion des développeurs chez Progress
+  - key: picks.alyssa_nicoll.description
+    t: |
+      Mike Brocchi a récemment commencé à diffuser sur Twitch. C’est un programmeur
+      et développeur brillant, mais surtout un excellent pédagogue.
+      Je prends toujours beaucoup de plaisir à regarder ses diffusions et à apprendre avec lui.
+
+  - key: picks.michael_jackson.name
+    t: esbuild
+  - key: picks.michael_jackson.bio
+    t: Cofondateur de Remix
+  - key: picks.michael_jackson.description
+    t: |
+      Nous avons construit le compilateur Remix sur esbuild, qui a clairement
+      relevé le niveau des bundlers JS.
+      Il est incroyablement rapide et son API de plugins nous permet de faire presque tout ce que nous voulons.
+
+  - key: picks.david_khourshid.name
+    t: Remix
+  - key: picks.david_khourshid.bio
+    t: Pianiste et fondateur de Stately
+  - key: picks.david_khourshid.description
+    t: |
+      Remix est un framework Web full-stack à l’approche classique, dans le bon sens du terme :
+      il vous aide à créer des applications Web modernes, rapides, complexes et accessibles.
+
+  - key: picks.kent_c_dodds.name
+    t: Fly.io
+  - key: picks.kent_c_dodds.bio
+    t: Directeur de l’expérience développeur chez Remix
+  - key: picks.kent_c_dodds.description
+    t: |
+      Fly m’a permis, moi qui suis ingénieur front-end et déteste le DevOps,
+      de déployer sereinement une application réelle, distribuée à l’échelle mondiale
+      et prête pour la production.
+
+  - key: picks.tejas_kumar.name
+    t: Joe Haddad
+  - key: picks.tejas_kumar.bio
+    t: Développeur Web, conférencier et directeur des relations développeurs chez Xata
+  - key: picks.tejas_kumar.description
+    t: |
+      Joe travaille sur Next.js chez Vercel et cherche constamment à en
+      démontrer les possibilités tout en restant à l’écoute des retours
+      de la communauté pour mieux l’accompagner.
+
+  - key: picks.wes_bos.name
+    t: TC39 Proposals
+  - key: picks.wes_bos.bio
+    t: Formateur JavaScript et animateur de podcast
+  - key: picks.wes_bos.description
+    t: |
+      Un dépôt Git qui rassemble toutes les propositions d’ajout à JavaScript. C’est passionnant de découvrir les idées proposées pour le langage et de les voir franchir les différentes étapes.
+
+  - key: picks.scott_tolinski.name
+    t: SvelteKit
+  - key: picks.scott_tolinski.bio
+    t: Créateur de Level-Up Tuts et coanimateur de Syntax
+  - key: picks.scott_tolinski.description
+    t: |
+      SvelteKit offre l’excellente expérience développeur de Svelte,
+      avec toutes les fonctionnalités modernes que l’on attend d’une plateforme Web.
+
+  - key: picks.xxxx.name
+    t:
+  - key: picks.xxxx.bio
+    t:
+  - key: picks.xxxx.description
+    t: |
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Développez vos compétences grâce à des cours approfondis et modernes en ingénierie front-end.
+  - key: sponsors.polypane.description
+    t: Le navigateur des développeurs ambitieux. Créez facilement des sites Web responsifs, accessibles et rapides.
+  - key: sponsors.google_chrome.description
+    t: Merci à l’équipe Google Chrome de soutenir notre travail.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.js2021
+    t: >
+      L’enquête State of JS 2021 s’est déroulée du 13 janvier au 2 février **2022** et a recueilli 16 085 réponses. Elle est organisée par [Sacha Greif](https://sachagreif.com/), avec l’aide d’une équipe de contributeurs et de consultants open source. 
+
+      Le logo et le tee-shirt de cette année ont été conçus par [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Objectifs de l’enquête
+
+      Cette enquête, comme celle de [State of CSS](https://stateofcss.com/), vise à repérer les tendances à venir dans l’écosystème du développement Web afin d’aider les développeurs à choisir leurs technologies. 
+
+      Ces enquêtes cherchent donc à anticiper les évolutions des prochaines années plutôt qu’à analyser les tendances actuelles. C’est pourquoi les fonctionnalités ou technologies les plus répandues ne sont pas toujours incluses. 
+
+      Elles constituent également un **instantané d’un sous-ensemble précis de développeurs** et ne prétendent pas représenter l’ensemble de l’écosystème. 
+
+      ### Conception de l’enquête
+
+      L’enquête s’appuie en partie sur celle de l’année précédente. Une période de commentaires ouverts a permis de discuter de son plan [sur GitHub](https://github.com/StateOfJS/Monorepo/issues/56). 
+
+      Toutes les questions étaient facultatives. 
+
+      ### Public de l’enquête
+
+      L’enquête était librement accessible en ligne et les répondants n’ont fait l’objet d’aucune sélection. Ils provenaient principalement des éditions précédentes (informés par une liste de diffusion dédiée) et des réseaux sociaux. 
+
+      Les frameworks, bibliothèques et autres projets pouvaient inviter leur public à participer, et certains l’ont fait au moyen de bannières, de publications, etc. Le graphique « Sources » présente une ventilation détaillée du trafic. 
+
+      ### Représentativité et inclusivité
+
+      Nous estimons important de donner la parole à chaque communauté, mais une enquête ouverte comme celle-ci aura toujours du mal à représenter tout le monde, en particulier lorsqu’elle s’appuie sur des systèmes qui comportent déjà leurs propres biais. 
+
+
+      Pour y remédier, nous mettons en œuvre trois stratégies distinctes :
+
+
+      - **Sensibilisation** : nous cherchons à contacter différentes organisations (notamment des groupes axés sur les personnes racisées ou LGBTQ+, ou des plateformes de formation en ligne) afin de diversifier notre public. 
+
+      - **Analyse des données** : grâce à des fonctionnalités comme les facettes et les variantes, nous cherchons à mieux faire entendre les différents groupes démographiques, même lorsqu’ils sont minoritaires dans nos données. 
+
+      - **Réduction des obstacles** : une enquête trop longue, inaccessible, lente à charger ou uniquement en anglais impose un « coût d’effort » qui exclut les membres de la communauté qui ne peuvent pas le supporter. Corriger ces problèmes facilite la participation et diversifie notre public. 
+
+      ### Financement du projet
+
+      Le projet est financé par différentes sources :
+
+
+      - **Vente de tee-shirts**. 
+
+      - **Parrainage de graphiques** : les membres de la communauté peuvent soutenir l’enquête en échange de la mention de leur nom dans le rapport.  
+
+      - **Liens sponsorisés** : les liens vers les ressources recommandées en bas de chaque page sont fournis par notre partenaire [Frontend Masters](https://frontendmasters.com/).
+
+      - **Autres financements** : cette année, l’équipe [Google Chrome](https://www.google.com/chrome/) a prévu un petit budget pour engager une [consultante en accessibilité](https://fossheim.io/) chargée des enquêtes CSS et JS.
+
+
+      Malgré ces sources de financement, les enquêtes restent principalement autofinancées ; toute contribution ou tout parrainage est donc vivement apprécié. J’aimerais particulièrement collaborer avec davantage d’éditeurs de navigateurs, qui jouent un rôle central dans l’écosystème Web.  
+
+      ### Présentation technique
+
+      Vous trouverez [ici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb) une présentation technique plus détaillée du fonctionnement des enquêtes.
+
+      - **Collecte des données** : application [Vulcan.js](http://vulcanjs.org/) personnalisée.
+
+      - **Stockage et traitement des données** : MongoDB et agrégations MongoDB.
+
+      - **API de données** : API GraphQL Node.js. 
+
+      - **Site des résultats** : application React [Gatsby](https://www.gatsbyjs.com/).
+
+      - **Visualisations des données** : bibliothèque de visualisation React [Nivo](https://nivo.rocks/). 
+
+      - **Typographies** : [IBM Plex Mono](https://fonts.google.com/specimen/IBM+Plex+Mono) et [Bebas Neue](https://fonts.google.com/specimen/Bebas+Neue).
+
+  - key: general.js2021.survey_intro
+    t: |
+      D’abord, les Jeux olympiques de 2020 ont été reportés à 2021,
+      et maintenant l’enquête State of JavaScript 2021 se déroule en 2022 !
+
+      C’est vrai : entre le travail, la famille et les bouleversements du monde,
+      certaines choses ont été un peu perturbées.
+
+      Même si l’année a pris un peu de retard, nous espérons que les données de
+      l’enquête resteront aussi instructives et éclairantes que jamais.
+      Et rassurez-vous, une autre enquête aura lieu vers la fin de l’année pour remettre les choses en ordre !

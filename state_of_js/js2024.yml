@@ -1,0 +1,666 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: L’édition 2024 de l’enquête annuelle sur les dernières tendances de l’écosystème JavaScript.
+
+  ###########################################################################
+  # Survey Intro
+  ###########################################################################
+
+  # JS 2023
+  - key: general.js2024.survey_intro
+    t: >
+      Pendant que nous cherchions quelle bibliothèque front-end choisir ensuite, JavaScript a poursuivi sa propre évolution. 
+
+
+      De nouvelles propositions de TC39 font parler d’elles dans la communauté, tandis que d’autres sont sur le point d’être intégrées aux navigateurs. La popularité de TypeScript rend également plausible l’arrivée future d’une prise en charge native des types. 
+
+
+      Une chose est sûre : si JavaScript nous semble encore familier en 2024, rien ne garantit qu’il en sera de même pour le langage que nous écrirons dans cinq ans.
+
+
+      D’ici là, vous pouvez contribuer à dessiner la suite en répondant à l’enquête State of JavaScript de cette année !
+
+  ###########################################################################
+  # Survey FAQ
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_js2024
+    t: Combien de temps faut-il pour répondre à l’enquête ?
+  - key: faq.how_long_will_survey_take_js2024.description
+    t: >
+      Selon le nombre de questions auxquelles vous répondez (vous pouvez toutes les passer),
+      l’enquête devrait prendre environ 15 à 20 minutes.
+
+  - key: faq.survey_design_js2024
+    t: Comment cette enquête a-t-elle été conçue ?
+  - key: faq.survey_design_js2024.description
+    t: >
+      Cette enquête est le fruit d’un [processus de conception ouvert](https://github.com/Devographics/surveys/issues/252) auquel ont participé des éditeurs de navigateurs et la communauté du développement Web.
+
+  - key: faq.results_released_js2024
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_js2024.description
+    t: L’enquête se déroulera du 13 novembre au 10 décembre 2024, et les résultats seront publiés peu après.
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.js2024
+    t: |
+
+      <span class="first-letter">P</span>renons un instant pour y réfléchir : les trois principaux frameworks front-end de 2024 ont tous été lancés il y a plus de dix ans. 
+
+      Bien sûr, ils ont beaucoup évolué depuis, et les pratiques de 2014 paraîtraient aujourd’hui complètement dépassées. Mais compte tenu de la réputation de l’écosystème JavaScript, véritable tourbillon de changements constants, il est rassurant de constater que certaines choses perdurent. 
+
+      À propos de constantes, Vite et Vitest restent en tête de tous les graphiques et ouvrent la voie à une nouvelle génération d’outils plus simples. 
+
+      Nous avons également ajouté une nouvelle annexe **Métadonnées**, qui vous en dira plus sur les répondants et sur l’enquête elle-même. N’oubliez pas que vous pouvez aussi appliquer ces nouvelles variables à d’autres graphiques avec le **Query Builder**. 
+
+      Ceci étant dit, découvrons ce que JavaScript nous a réservé cette année !
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Sections
+  ###########################################################################
+
+  - key: sections.user_info.description.js2024
+    t: |
+      Cette année, **14 015** personnes ont répondu à l’enquête. 
+
+
+      Pour la première fois, en plus des données démographiques habituelles, nous avons demandé les intitulés de poste, ce qui a révélé des corrélations intéressantes avec les revenus, l’âge et le genre.
+
+  - key: sections.features.description.js2024
+    t: |
+      Même si elles ne sont pas encore largement utilisées, les nouvelles fonctionnalités Set et Object de JavaScript réduiront le besoin de recourir à des bibliothèques utilitaires tierces. 
+
+
+      De plus, lorsqu’elle est disponible, nous affichons désormais la [disponibilité Baseline](): vert pour « largement disponible », bleu pour « récemment disponible » et blanc pour « disponibilité limitée ».
+
+  - key: sections.libraries.description.js2024
+    t: |
+      L’écosystème JavaScript reste assez fragmenté, mais il est encourageant de constater que certaines des bibliothèques les plus utilisées sont aussi les plus appréciées.
+
+
+      Explorez nos nouvelles options de regroupement et de tri pour découvrir quelles bibliothèques sont les plus… ou les moins appréciées !
+
+  - key: sections.other_tools.description.js2024
+    t: |
+      Les outils d’IA font leur entrée dans l’enquête cette année. Même si le domaine reste dominé par quelques acteurs majeurs, le nombre d’options déjà disponibles est impressionnant !
+
+  - key: sections.usage.description.js2024
+    t: |
+      Cette année, le répondant type utilise TypeScript, passe systématiquement son code par une étape de build et n’a pas encore tout à fait adopté l’IA.
+
+  - key: sections.resources.description.js2024
+    t: |
+      Les cours, podcasts et newsletters de qualité ne manquent pas, mais les contenus vidéo continuent de gagner du terrain dans l’univers JavaScript. 
+
+
+      L’écosystème de contenus hispanophones mérite également d’être souligné : il rivalise sérieusement avec la domination historique de l’anglais dans le monde de la programmation.
+
+  - key: sections.awards.description.js2024
+    t: |
+      À quelle *vitesse* devinerez-vous quel projet arrivera en tête de chaque catégorie ?
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.language
+    aliasFor: sections.language.title
+  - key: options.features_categories.browser_apis
+    aliasFor: sections.browser_apis.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+
+  ###########################################################################
+  # Notes
+  ###########################################################################
+
+  - key: blocks.gender.note
+    t: |
+      Pour en savoir plus, nous avons [écrit un article de blog](https://dev.to/sachagreif/is-our-survey-biased-against-women-49oj) sur les questions de genre liées à l’enquête.
+
+  - key: blocks.source.note
+    t: >
+
+      Ce graphique regroupe des référents, des paramètres d’URL et des réponses libres. 
+
+      - State of JS : la liste de diffusion [State of JS](https://stateofjs.com).
+
+      - State of CSS : la liste de diffusion State of CSS ; correspond aussi à `email`, `by email`, etc.
+
+      - Travail : correspond à `work`, `colleagues`, `coworkers`, etc.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: Avec une progression de **{value}** en 2022, **top-level await** est rapidement devenu incontournable en JavaScript.
+
+  - key: award.tool_usage_delta_award.comment
+    t: |
+      Fidèle à son nom, **Vite** poursuit sa croissance à un rythme record, avec une hausse d’utilisation de **{value}** sur un an !
+
+  - key: award.tool_satisfaction_award.comment
+    t: "Vitest arrive en tête : **{value}** des développeurs souhaitent continuer à l’utiliser !"
+
+  - key: award.tool_interest_award.comment
+    t: "Toujours dans l’écosystème Vite, **Rolldown** est cette année la technologie qui suscite le plus d’intérêt chez les développeurs, avec un taux de **{value}**."
+
+  - key: award.most_write_ins_award.comment
+    t: Avec **{value}** mentions, **Analog**, le méta-framework Angular, est la bibliothèque la plus souvent citée dans les réponses libres.
+
+  - key: award.most_commented_tool_award.comment
+    t: Angular n’est peut-être pas le dernier venu, mais il fait toujours parler de lui avec **{value}** commentaires de répondants !
+
+  - key: award.most_loved_tool_award.comment
+    t: Avec **{value}** des développeurs qui en ont une opinion positive, Vite remporte une nouvelle fois le prix de la technologie la plus appréciée !
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.js2024.fernando_herrera
+    t: |
+      <span class="first-line">Il y a quelques années, une autre enquête State of JS a attiré mon attention sur Astro.</span>
+
+      J’ai décidé de l’essayer et, après quelques heures, j’étais conquis. Ce fut presque le coup de foudre ! Je me suis vite imaginé reconstruire mon site Web, mes outils d’administration et d’autres projets avec Astro. Aujourd’hui, je peux dire qu’Astro est de loin mon framework préféré.
+
+      JavaScript est un écosystème dynamique et passionnant, en constante évolution, riche en bibliothèques et frameworks. Des composants réutilisables aux solutions côté client, côté serveur ou statiques, les moyens d’atteindre vos objectifs ne manquent pas : JavaScript natif, paquets communautaires, bibliothèques ou frameworks, chacun offrant de nouvelles possibilités d’innovation. Cette diversité peut sembler écrasante, mais elle fait la force de JavaScript et vous donne une multitude de façons ingénieuses de réussir.
+
+      N’ayez pas peur de vous lancer et d’essayer différents outils : Vitest ou Jest, React ou Solid, Node ou Deno, Next.js ou Astro, ou encore une nouveauté comme [Brisa](https://brisa.build/). 
+
+      Restez curieux : aucun autre langage n’offre la même communauté, la même flexibilité et la même créativité que JavaScript !
+
+  - key: conclusion.js2024.fernando_herrera.bio
+    t: Développeur, formateur et vidéaste sur YouTube
+
+  - key: conclusion.js2024.shaundai_person
+    t: |
+      <span class="first-line">Il y a un peu moins de cinq ans, j’ai découvert pour la première fois les avantages de TypeScript.</span>
+
+      Je n’étais pas seule dans cette découverte : je faisais partie des nombreux développeurs JavaScript qui commençaient à explorer TypeScript et ses avantages pour les équipes souhaitant créer des systèmes front-end évolutifs et faciles à maintenir. Sa popularité a progressé à une vitesse incroyable ! Je suis ravie de constater que la majorité des répondants l’utilisent désormais au quotidien.
+
+      Aujourd’hui, ma pile technologique de prédilection, au travail comme pour mes projets personnels, comprend React, TypeScript, Vite et Jest. De grandes équipes en pleine croissance ont misé sur ces outils et recherchent ces compétences lors du recrutement de développeurs front-end. Il n’est donc pas surprenant qu’ils soient également largement adoptés et utilisés durablement par d’autres organisations.
+
+      Si vous êtes comme moi, vous préférez maîtriser quelques outils essentiels plutôt que d’expérimenter sans cesse de nouveaux frameworks et bibliothèques. Vous attendez peut-être aussi, comme moi, que les outils front-end fiables atteignent une version stable et que leurs problèmes soient résolus avant d’adopter la dernière version. Vous n’êtes pas seul, et cette approche éprouvée présente de nombreux avantages.
+
+  - key: conclusion.js2024.shaundai_person.bio
+    t: Ingénieure logiciel senior front-end chez Netflix et formatrice
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick.js2024
+    t: "Mon choix de 2024 : "
+  - key: picks.intro
+    t: Nous avons demandé aux membres de la communauté JavaScript de partager leur « choix de l’année ».
+
+  - key: picks.jack_herrington.name
+    t: TanStack
+  - key: picks.jack_herrington.bio
+    t: Développeur et vidéaste sur YouTube
+  - key: picks.jack_herrington.description
+    t: |
+      TanStack, un ensemble de bibliothèques pratiques, de grande qualité et éprouvées, avec en point d’orgue le framework TanStack Start.
+
+  - key: picks.josefine_schaefer.name
+    t: Arisa Fukuzaki
+  - key: picks.josefine_schaefer.bio
+    t: Ingénieure spécialisée en accessibilité
+  - key: picks.josefine_schaefer.description
+    t: |
+      Arisa est une formidable formatrice et mentore en technologies, ingénieure en documentation et relations développeurs, passionnée par les frameworks JS, la communauté et le soutien aux femmes dans la tech. À suivre de près !
+
+  - key: picks.cassie_evans.name
+    t: gsap-video-export
+  - key: picks.cassie_evans.bio
+    t: Touche-à-tout chez GSAP
+  - key: picks.cassie_evans.description
+    t: |
+      Chris a créé cet outil très pratique pour exporter vos animations GSAP en vidéo. Il m’a grandement simplifié la vie et rendu mes vidéos bien plus fluides : fini les enregistrements d’écran de mauvaise qualité !
+
+  - key: picks.tania_rascia.name
+    t: Cassidy Williams
+  - key: picks.tania_rascia.bio
+    t: Ingénieure principale autodidacte, blogueuse tech reconnue et cheffe formée professionnellement
+  - key: picks.tania_rascia.description
+    t: |
+      Cassidy écrit sur son blog depuis 2009, possède un style incroyablement unique et de nombreux centres d’intérêt de niche (je suis fière de posséder son clavier de copier-coller Stack Overflow !). Elle publie une excellente newsletter chaque semaine, crée les meilleurs mèmes pour développeurs et fait tout cela en étant jeune maman : c’est impressionnant.
+
+  - key: picks.salma_alam_naylor.name
+    t: The Breedling
+  - key: picks.salma_alam_naylor.bio
+    t: Streameuse, ingénieure logiciel et formatrice pour développeurs
+  - key: picks.salma_alam_naylor.description
+    t: |
+      Les technologies Web ne servent pas uniquement à créer des sites. The Breedling est un outil de visualisation dans le navigateur qui accompagne les concerts du groupe du même nom, en mêlant vidéo, animations RIVE et shaders WebGL à l’aide de l’ancienne bibliothèque expérimentale de la BBC, VideoContext.
+
+  - key: picks.wes_bos.name
+    t: Transformers.js
+  - key: picks.wes_bos.bio
+    t: Podcasteur et formateur
+  - key: picks.wes_bos.description
+    t: |
+      Transformers.js est une bibliothèque permettant d’utiliser des modèles d’IA en JavaScript. Elle sait tout faire : vision par ordinateur, audio, génération d’images, création de chatbots et bien plus.
+
+      Elle fonctionne dans le navigateur via WASM ou WebGPU, ainsi que côté serveur avec Node.js, Bun ou Deno. Exécuter des modèles d’IA sur l’appareil est très prometteur, et cette bibliothèque permet de s’y mettre sans les difficultés liées à l’installation de Python.
+
+  - key: picks.shaundai_person.name
+    t: Shruti Kapoor
+  - key: picks.shaundai_person.bio
+    t: Ingénieure logiciel senior front-end chez Netflix et formatrice
+  - key: picks.shaundai_person.description
+    t: |
+      Mon choix de l’année est mon amie Shruti Kapoor. Elle sait expliquer les concepts techniques JS les plus délicats de façon très accessible. Dans ses vidéos YouTube et ses conférences, aussi amusantes que captivantes, elle enseigne l’essentiel du développement JavaScript sans fioritures.
+
+  - key: picks.michelle_bakels.name
+    t: v0
+  - key: picks.michelle_bakels.bio
+    t: Développeuse logiciel, animatrice de communauté et organisatrice de React Miami chez G2i
+  - key: picks.michelle_bakels.description
+    t: |
+      Les assistants de programmation basés sur l’IA sont là pour durer, mais ils peinent encore à suivre les dernières évolutions de notre écosystème. v0 n’est pas seulement le meilleur outil de génération d’interfaces : il dispose aussi du contexte le plus solide pour fournir une aide au code pertinente dans l’écosystème JavaScript actuel.
+
+  - key: picks.sacha_greif.name
+    t: Bluesky
+  - key: picks.sacha_greif.bio
+    t: Mainteneur de State of JS
+  - key: picks.sacha_greif.description
+    t: |
+      Avec la lente dérive de X, la communauté front-end semblait ne plus avoir de foyer. C’est donc formidable de voir autant d’entre nous rejoindre enfin une nouvelle plateforme comme Bluesky.
+
+  - key: picks.dominik_dorfmeister.name
+    t: Knip
+  - key: picks.dominik_dorfmeister.bio
+    t: Ingénieur logiciel chez Sentry, mainteneur de React Query
+  - key: picks.dominik_dorfmeister.description
+    t: |
+      Knip est un outil formidable qui analyse votre code et indique ce dont vous pouvez vous débarrasser. Rapide (vous pouvez donc l’exécuter en intégration continue), il comprend de nombreux frameworks et bibliothèques sans configuration et fonctionne aussi parfaitement dans les monorepos.
+
+  - key: picks.sebastien_lorber.name
+    t: Rspack
+  - key: picks.sebastien_lorber.bio
+    t: Créateur de This Week In React, mainteneur de Docusaurus
+  - key: picks.sebastien_lorber.description
+    t: |
+      Le bundler Rspack remplace presque directement Webpack. Écrit en Rust, il est bien plus rapide et consomme moins de mémoire. Tous les projets Webpack devraient l’essayer sans attendre, tant son adoption est simple !
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Développez vos compétences grâce à des cours approfondis et modernes en ingénierie front-end.
+  - key: sponsors.google_chrome.description
+    t: Merci à l’équipe Google Chrome de soutenir notre travail.
+  - key: sponsors.tokyodev.description
+    t: Trouvez dès aujourd’hui le poste de développeur de vos rêves au Japon.
+  - key: sponsors.renderatl.description
+    t: La conférence technologique consacrée à tout ce qui touche au Web.
+  - key: sponsors.gitnation.description
+    t: |
+      Découvrez les dernières tendances directement auprès des pionniers et des auteurs tech sur GitNation.com.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.js2024
+    t: |
+      L’enquête State of JavaScript 2024 s’est déroulée du 13 novembre au 10 décembre 2024 et a recueilli 14 015 réponses. Les résultats ont été publiés le 16 décembre 2024. Elle est organisée par [Devographics](https://devographics.com/), un collectif composé de moi-même ([Sacha Greif](https://sachagreif.com/)), d’[Eric Burel](https://www.lbke.fr/), d’experts invités et de contributeurs open source. 
+
+      The State of JavaScript logo and t-shirt were designed by [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Objectifs de l’enquête
+
+      Cette enquête vise à repérer les tendances à venir dans l’écosystème du développement Web afin d’aider les développeurs à choisir leurs technologies. 
+
+      Elle cherche donc à anticiper les évolutions des prochaines années plutôt qu’à analyser les tendances actuelles. C’est pourquoi certaines fonctionnalités ou technologies peuvent être omises, même si elles sont déjà largement répandues. 
+
+      Ces résultats constituent également un **instantané d’un sous-ensemble précis de développeurs** et ne prétendent pas représenter l’ensemble de l’écosystème. 
+
+      ### Conception de l’enquête
+
+      L’enquête s’appuie en partie sur celle de l’année précédente. Une période de commentaires ouverts a permis de discuter de son plan [sur GitHub](https://github.com/Devographics/surveys/issues?q=+label%3A%22State+of+JS+2024%22+). 
+
+      Toutes les questions étaient facultatives. 
+
+      ### Public de l’enquête
+
+      L’enquête était librement accessible en ligne et les répondants n’ont fait l’objet d’aucune sélection. Ils provenaient principalement des éditions précédentes (informés par une liste de diffusion dédiée) et des réseaux sociaux. 
+
+      Les frameworks, bibliothèques et autres projets pouvaient inviter leur public à participer, et certains l’ont fait au moyen de bannières, de publications, etc. Le graphique « Sources » de la page Métadonnées présente une ventilation détaillée du trafic. 
+
+      ### Financement du projet
+
+      Le projet est financé par différentes sources :
+
+      - **Vente de tee-shirts**. 
+
+      - **Liens sponsorisés** : les liens vers les ressources recommandées en bas de chaque page sont fournis par nos partenaires [Frontend Masters](https://frontendmasters.com/) et [TokyoDev](https://tokyodev.com/).
+
+      - **Financement direct** : cette année, [Google](https://www.google.com/) a financé mon travail sur l’enquête. 
+
+      Toute contribution ou tout parrainage est vivement apprécié. Nous aimerions particulièrement collaborer avec davantage d’éditeurs de navigateurs, qui jouent un rôle central dans l’écosystème Web.  
+
+      ### Présentation technique
+
+      Vous trouverez [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) une présentation technique plus détaillée du fonctionnement des enquêtes.
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  # user_info
+
+  - key: user_info.country.takeaway.js2024
+    t: >
+      Comme d’habitude, les États-Unis représentaient une grande part des répondants et arrivaient aussi en tête du classement des revenus médians.
+
+  - key: user_info.age.takeaway.js2024
+    t: >
+      Avec un âge moyen de 33,5 ans, le répondant type de State of JS était légèrement plus jeune que celui de State of CSS (34,9 ans) et de State of HTML (35,8 ans).
+
+      Comme prévu, l’âge et les revenus sont positivement corrélés. La diversité de genre plus importante dans les tranches d’âge jeunes est encourageante et pourrait annoncer une évolution démographique.
+
+      Fait intéressant, les répondants les plus jeunes étaient bien plus susceptibles de déclarer des troubles cognitifs et visuels, tandis que les plus âgés étaient davantage concernés par des troubles auditifs et de mobilité.
+
+  - key: user_info.years_of_experience.takeaway.js2024
+    t: >
+      51 % des répondants avaient dix ans d’expérience ou moins : la majorité n’a donc pas connu le monde d’avant les frameworks JavaScript modernes.
+
+      Comme pour l’âge, les catégories les moins expérimentées présentaient également une plus grande diversité de genre.
+
+  - key: user_info.company_size.takeaway.js2024
+    t: >
+      Les grandes entreprises représentent toujours une part importante des répondants, et leur taille reste corrélée au niveau de revenu.
+
+  - key: user_info.yearly_salary.takeaway.js2024
+    t: >
+      On entend souvent parler de salaires à six chiffres dans la Silicon Valley, mais la plupart des développeurs front-end du monde entier gagnent bien moins, comme le montre la comparaison directe entre les États-Unis et le reste du monde.
+
+  - key: user_info.job_title.takeaway.js2024
+    t: >
+      L’écosystème JavaScript semble compter autant d’intitulés de poste que de frameworks front-end. Une tendance est claire : le mot « ingénieur » dans un intitulé est associé à un meilleur salaire, même par rapport aux PDG, directeurs techniques et fondateurs. Les « développeurs », eux, sont tout en bas de l’échelle et pourraient envisager de refaire leurs cartes de visite…
+
+
+      Sur le plan démographique, les postes full-stack et front-end étaient occupés par les répondants les plus jeunes en moyenne. Les intitulés front-end étaient également associés à une proportion nettement plus élevée de femmes.
+
+  - key: user_info.higher_education_degree.takeaway.js2024
+    t: >
+      Un diplôme est associé à un meilleur salaire, mais il n’est pas nécessaire qu’il soit lié à la programmation.
+
+  - key: user_info.gender.takeaway.js2024
+    t: >
+      La proportion de femmes et de personnes non binaires a légèrement augmenté par rapport à 2023, en partie grâce aux [efforts de sensibilisation renouvelés](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e) cette année.
+
+  - key: user_info.race_ethnicity.takeaway.js2024
+    t: >
+      Les répondants non blancs étaient plus souvent jeunes et moins expérimentés, ce qui pourrait expliquer leurs revenus généralement plus faibles. Espérons que cela témoigne aussi d’une diversification continue des franges les plus jeunes du secteur.
+
+  - key: user_info.disability_status.takeaway.js2024
+    t: >
+      Qu’elles soient permanentes ou temporaires, les situations de handicap font partie du quotidien de beaucoup d’entre nous, en particulier avec l’âge pour les troubles auditifs et de mobilité. 
+
+      Le fait que de nombreux répondants ayant des troubles visuels et cognitifs soient relativement jeunes pourrait également expliquer la corrélation observée entre ces handicaps et les niveaux de revenus.
+
+  # features
+
+  - key: features.language_pain_points.takeaway.js2024
+    t: >
+      Interrogés sur leur principale difficulté avec JavaScript, les répondants ont très majoritairement cité l’absence de système de types intégré ; les problèmes de prise en charge par les navigateurs arrivent loin derrière.
+
+  - key: features.browser_apis_pain_points.takeaway.js2024
+    t: >
+      Sans surprise, la prise en charge insuffisante des navigateurs constituait le principal obstacle concernant les navigateurs et leurs API. Safari a également été souvent cité comme une difficulté, tout comme le manque général de documentation sur les fonctionnalités des navigateurs.
+
+  - key: features.reading_list.takeaway.js2024
+    t: >
+      La liste de lecture vous permet d’enregistrer les sujets que vous souhaitez approfondir après l’enquête. 
+
+      Cette année, `error.cause`, l’affectation logique et `Object.groupBy()` sont les fonctionnalités qui ont le plus éveillé la curiosité des répondants.
+
+  # tools
+
+  - key: tools.all_tools_experience.takeaway.js2024
+    t: >
+      Webpack est l’outil JavaScript le plus utilisé, mais pas le plus apprécié. Ce titre revient à Vite, avec 56 % d’avis positifs (la neutralité était aussi proposée cette année). Vite est également le troisième outil le plus utilisé, malgré son arrivée relativement récente !
+
+
+      React arrive deuxième non seulement parmi les outils les plus utilisés, mais aussi parmi les plus appréciés : une belle longévité pour un projet vieux de plus de dix ans ! À noter également que React affiche la plus forte proportion d’utilisateurs exprimant un avis tranché.
+
+  - key: tools.tools_arrows.takeaway.js2024
+    t: >
+      Les bibliothèques JavaScript suivent souvent une évolution en « boomerang » : d’abord portées par des avis positifs (la courbe part à droite), leur utilisation augmente (la courbe monte), puis les cas limites et les problèmes concrets se multiplient, et les avis peuvent devenir plus négatifs (la courbe repart à gauche).
+
+
+      Il est donc intéressant d’observer les projets qui échappent à cette tendance, comme Vue et Angular, qui ont tous deux regagné des avis positifs après quelques années de résultats moins favorables.
+
+
+      *Remarque : contrairement aux éditions précédentes, cette année il était facultatif de choisir un avis positif ou négatif, l’avis neutre étant sélectionné par défaut. En conséquence, les données 2024 de ce graphique tendent généralement à revenir vers son centre.*
+
+  - key: tools.tier_list.takeaway.js2024
+    t: >
+      Même s’il n’existe malheureusement pas encore de pile « niveau S » unique, SvelteKit et Astro semblent tous deux de bons choix pour démarrer un projet, éventuellement avec Vitest pour les tests et pnpm pour gérer le monorepo.
+
+  - key: tools.scatterplot_overview.takeaway.js2024
+    t: >
+      Seules trois bibliothèques ont été utilisées par plus de 50 % des répondants tout en conservant un taux de rétention supérieur à 50 % : React, Jest et Vite. C’est le signe d’un écosystème relativement fragmenté.
+
+  # front end frameworks
+
+  - key: tools.front_end_frameworks_ratios.takeaway.js2024
+    t: >
+      L’an dernier, l’événement marquant était le dépassement d’Angular par Vue en nombre d’utilisateurs parmi nos répondants. Malgré les progrès d’Angular cette année, Vue conserve sa deuxième place et gagne même trois rangs en taux de rétention !
+
+      De son côté, l’utilisation de Svelte progresse régulièrement et le framework reste en tête du classement des avis positifs.
+
+  - key: tools.front_end_frameworks_pain_points.takeaway.js2024
+    t: >
+      En tant que framework dominant, React doit subir la plupart des critiques. 
+
+
+      La complexité excessive, l’abondance de choix, les performances médiocres et les changements incompatibles ont également été souvent cités comme difficultés majeures.
+
+  - key: tools.front_end_frameworks_work.takeaway.js2024
+    t: >
+      Le choix du framework front-end utilisé au travail n’entraîne pas de différences de revenus importantes, mais la taille de l’entreprise raconte une autre histoire.
+
+
+      Les nouveaux venus Alpine.js, Qwik et Solid sont privilégiés par les petites entreprises, tandis que les solutions Web Components Lit et Stencil sont surtout utilisées par les grandes entreprises.
+
+  # meta frameworks
+
+  - key: tools.meta_frameworks_ratios.takeaway.js2024
+    t: >
+      Next.js domine toujours largement la concurrence en nombre d’utilisateurs. Mais le taux de rétention raconte une autre histoire : sans Gatsby, Next.js serait dernier. 
+
+
+      Cela témoigne notamment du succès d’Astro et de SvelteKit, qui ont jusqu’ici réussi à satisfaire leurs utilisateurs.
+
+  - key: tools.meta_frameworks_pain_points.takeaway.js2024
+    t: >
+      Comme React dans sa catégorie, Next.js, en tant que leader, concentre l’essentiel des critiques.
+
+  - key: tools.meta_frameworks_work.takeaway.js2024
+    t: >
+      Gatsby est peut-être l’un des outils les moins appréciés, mais aussi le plus rémunérateur, probablement parce qu’il est surtout utilisé dans les grandes entreprises.
+
+
+      À l’autre extrémité, Astro n’en est qu’au début de son adoption par les entreprises, ce qui est associé à des revenus plus faibles.
+
+  # testing
+
+  - key: tools.testing_ratios.takeaway.js2024
+    t: >
+      Il est rare d’observer une tendance aussi nette que la progression de Vitest dans les classements ces dernières années. Même s’il n’est « que » quatrième en nombre d’utilisateurs, il domine déjà les classements d’intérêt, de rétention et d’avis positifs, sans signe de céder sa place de sitôt.
+
+  - key: tools.testing_pain_points.takeaway.js2024
+    t: >
+      Les simulations (mocking) constituent la principale difficulté des tests, suivies de près par la complexité de la configuration et de la mise en place, ainsi que par la lenteur des tests.
+
+  - key: tools.testing_work.takeaway.js2024
+    t: >
+      Vitest présente les signes classiques d’une technologie récente : une forte rétention et un grand intérêt, mais une faible adoption dans les grandes entreprises, pour l’instant.
+
+  # mobile desktop
+  - key: tools.mobile_desktop_ratios.takeaway.js2024
+    t: >
+      Au cours de la dernière décennie, la création d’applications mobiles et de bureau s’est largement répandue, mais cela ne signifie pas que les développeurs soient satisfaits de leurs outils. 
+
+
+      Tauri et Expo se distinguent en tête du classement de rétention, tandis que tous les autres outils affichent un taux inférieur aux bonnes vieilles applications natives.
+
+  - key: tools.mobile_desktop_pain_points.takeaway.js2024
+    t: >
+      Les applications JavaScript peinent toujours à rivaliser en matière de performances avec les applications véritablement natives. Electron et React Native semblent tous deux présenter leurs propres inconvénients.
+
+  - key: tools.mobile_desktop_work.takeaway.js2024
+    t: >
+      Une nouvelle fois, les outils plus récents comme Tauri semblent surtout utilisés au travail par des développeurs moins expérimentés, preuve qu’il peut être avantageux de ne pas traîner tout cet héritage !
+
+  # build tools
+
+  - key: tools.build_tools_ratios.takeaway.js2024
+    t: >
+      Comme son proche parent Vitest, Vite gagne lui aussi des parts de marché à un rythme record. Gardez également un œil sur les nouveaux venus Rolldown et Rspack, qui démarrent très haut dans les classements.
+
+  - key: tools.build_tools_pain_points.takeaway.js2024
+    t: >
+      Les configurations excessives ont toujours été le talon d’Achille des outils de build, même si cette complexité est souvent précisément ce qui les rend puissants.
+
+  - key: tools.build_tools_work.takeaway.js2024
+    t: >
+      Rspack a réussi à déjouer la tendance et à être adopté d’emblée par les grandes entreprises, sans doute grâce à sa stratégie avisée de remplacement direct de webpack.
+
+  # monorepo tools
+
+  - key: tools.monorepo_tools_ratios.takeaway.js2024
+    t: >
+      Les monorepos ne sont pas encore entrés dans les usages courants du développement Web. Pour celles et ceux qui osent explorer cette nouvelle frontière, pnpm semble toutefois être le grand favori.
+
+  - key: tools.monorepo_tools_ratios.takeaway.js2024
+    t: >
+      Les monorepos restent difficiles à configurer correctement. La gestion des paquets elle-même n’est pas encore parfaitement maîtrisée… mais qui peut prétendre y être arrivé ?
+
+  - key: tools.monorepo_tools_work.takeaway.js2024
+    t: >
+      Il n’est pas surprenant que de nombreux outils de monorepo soient utilisés par de grandes entreprises, puisque la taille de l’entreprise est souvent liée à celle de sa base de code.
+
+  # usage
+
+  - key: usage.js_ts_balance.takeaway.js2024
+    t: >
+      Nous sommes désormais pleinement entrés dans l’ère TypeScript. 67 % des répondants déclarent écrire davantage de TypeScript que de JavaScript, et le groupe le plus important ne rédige *que* du TypeScript.
+
+  - key: usage.compiled_code_balance.takeaway.js2024
+    t: >
+      Sans surprise, en 2024, presque tout notre code JavaScript passe par une étape de build. Les bundlers et outils de build complexifient notre processus de développement, mais ils sont probablement là pour rester.
+
+  - key: usage.ai_generated_code_balance.takeaway.js2024
+    t: >
+      Malgré tout ce qui se dit sur la programmation assistée par l’IA, la plupart d’entre nous n’utilisent encore ces outils qu’avec parcimonie. En fait, 20 % ne les utilisent absolument pas pour produire du code.
+
+  - key: usage.usage_type.takeaway.js2024
+    t: >
+      Il est toujours utile de savoir dans quel contexte les répondants écrivent du JavaScript ; la grande majorité l’utilise dans le cadre de son travail.
+
+  - key: usage.what_do_you_use_js_for.takeaway.js2024
+    t: >
+      Presque tous les répondants déclarent utiliser JavaScript pour le développement front-end, ce qui est logique compte tenu des origines du langage.
+
+  - key: usage.industry_sector.takeaway.js2024
+    t: >
+      Le secteur d’activité le plus représenté regroupe les développeurs qui créent des outils pour d’autres développeurs, tandis que le mieux rémunéré s’est révélé être la publicité.
+
+  - key: usage.js_app_patterns.takeaway.js2024
+    t: >
+      Malgré les stratégies de rendu sophistiquées désormais prises en charge par les méta-frameworks JavaScript modernes, les modèles d’application les plus courants restent les plus traditionnels : les applications monopages et le rendu côté serveur.
+
+  - key: usage.top_js_pain_points.takeaway.js2024
+    t: >
+      Dès qu’une base de code atteint une certaine taille, son architecture devient une préoccupation majeure. Il est donc logique que ce sujet arrive en tête des difficultés liées à JavaScript, suivi de la gestion de l’état et des dépendances.
+
+  - key: usage.js_new_features.takeaway.js2024
+    t: >
+      Plusieurs [propositions TC39](https://github.com/tc39/proposals) sont sur le point de devenir réalité. Cette année, Temporal et les décorateurs sont celles qui enthousiasment le plus les répondants.
+
+  - key: usage.top_currently_missing_from_js.takeaway.js2024
+    t: >
+      La communauté ressent depuis longtemps l’absence de typage statique natif. Il est intéressant de voir Signals arriver en troisième position de cette liste, bien qu’il ne fasse pas partie du framework front-end le plus populaire.
+
+  - key: usage.native_types_proposal.takeaway.js2024
+    t: >
+      Les répondants souhaitent clairement disposer de types natifs et espèrent les voir implémentés avec une syntaxe proche de TypeScript. 
+
+
+      Malheureusement, la formulation de la question cette année ne distinguait pas clairement les types à l’exécution des annotations de types à la manière de TypeScript. Il reste donc à voir laquelle de ces deux approches sera privilégiée par la communauté.
+
+  # resources
+
+  - key: resources.courses.takeaway.js2024
+    t: >
+      Udemy a su attirer des formateurs populaires comme Brad Traversy et Colt Steele pour étoffer son catalogue de cours JavaScript, tout comme Frontend Masters (pour information, Frontend Masters soutient financièrement cette enquête).
+
+
+      Mentionnons également You Don't Know JS, un excellent livre disponible gratuitement en ligne.
+
+  - key: resources.newsletters.takeaway.js2024
+    t: >
+      Les newsletters sont un excellent moyen de suivre l’évolution constante de JavaScript, et JavaScript Weekly de Cooperpress reste en tête.
+
+  - key: resources.podcasts.takeaway.js2024
+    t: >
+      Syntax conserve pour l’instant sa couronne, mais des vidéastes comme The Primeagen et Midudev pourraient bientôt le concurrencer, puisqu’ils peuvent facilement produire du contenu audio en plus de leurs diffusions habituelles.
+
+  - key: resources.video_creators.takeaway.js2024
+    t: >
+      Fireship, Theo et The Primeagen dominent le classement des vidéastes. Il faut toutefois souligner le dynamisme de l’écosystème hispanophone, notamment avec Midudev, quatrième au classement général, mais pas seulement !
+
+
+      Le deuxième onglet présente le même classement, filtré manuellement pour n’afficher que les créateurs hispanophones.
+
+  - key: resources.people.takeaway.js2024
+    t: >
+      L’anglais domine depuis longtemps le secteur technologique, mais dans notre partie du monde, l’espagnol relève le défi : Midudev et Fernando Herrera arrivent en tête du classement des développeurs les plus influents hors vidéo.
+
+  # metadata
+
+  - key: user_metadata.source.takeaway.js2024
+    t: >
+      La majorité des répondants connaissaient l’enquête grâce aux éditions précédentes. Signalons également que les pages d’accueil d’[Angular](https://angular.dev/) et de [Nuxt](https://nuxt.com/) comportaient des bannières renvoyant vers l’enquête, et que Bluesky arrive cinquième alors qu’il apparaît pour la première fois comme source de trafic. 
+
+
+      Nous avons également déployé des efforts de sensibilisation particuliers ([rapport complet ici](https://dev.to/sachagreif/state-of-js-2024-outreach-and-diversity-report-n0e)) pour attirer davantage de développeuses.
+
+  - key: user_metadata.past_surveys.takeaway.js2024
+    t: >
+      Ce graphique montre à quelles autres enquêtes Devographics les répondants de cette année avaient déjà participé. 
+
+
+      Le fait qu’une part importante des répondants de cette année ait également participé à d’autres enquêtes montre que le développement Web est moins fragmenté qu’on pourrait le croire. Même si vous écrivez principalement du JavaScript, suivre CSS et la plateforme Web reste essentiel !
+
+
+      Cette donnée ne peut être calculée que pour les répondants connectés lors de l’enquête. Les invités apparaissent comme « Sans réponse ».
+
+  - key: user_metadata.past_same_survey_count.takeaway.js2024
+    t: >
+      Ce graphique indique combien de fois les répondants de cette année avaient déjà participé à une enquête State of JS.
+
+
+      Le fait que la catégorie la plus importante soit composée de nouveaux répondants montre que nous touchons un nouveau public, ce qui limite les biais susceptibles de provenir de notre audience existante. Cela souligne aussi la difficulté d’inciter les personnes à répondre à une enquête chaque année.
+
+
+      Cette donnée ne peut être calculée que pour les répondants connectés lors de l’enquête. Les invités apparaissent comme « Sans réponse ».
