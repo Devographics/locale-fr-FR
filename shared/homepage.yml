@@ -12,7 +12,7 @@ translations:
     t: Contactez-nous
 
   - key: homepage.made_by
-    t: "The State of CSS est réalisé par:"
+    t: "State of CSS est réalisé par :"
 
   - key: homepage.previous_years
     t: "Années précédentes:"
@@ -90,6 +90,7 @@ translations:
     aliasFor: general.made_by_devographics
   - key: homepage.netlify_link
     aliasFor: general.netlify_link
+
   - key: homepage.join_discord
     aliasFor: general.join_discord
   - key: homepage.astro_link
@@ -123,9 +124,18 @@ translations:
       Codebar est une association qui organise des ateliers qui coûteraient normalement des milliers de dollars, et les propose gratuitement en ligne pour construire une communauté de développeurs plus inclusive.
 
   # calendar
+
   - key: calendar.heading
     t: |
-      Sondages {currentYear}
+      {currentYear} Surveys
+  - key: author.sacha.bio
+    t: >
+      Créateur de [Nivo](http://nivo.rocks/), une librairie JavaScript de data visualisation, et de
+      [Mozaik](http://mozaik.rocks/), un outil pour créer des dashboards magnifiques.
+  - key: author.raphael.bio
+    t: >
+      Créateur de [Sidebar](http://sidebar.io), une newsletter journalière, et de
+      [VulcanJS](http://vulcanjs.org), un framework open-source React+GraphQL.
   - key: calendar.feedbackAt
     t: Début des retours
   - key: calendar.startedAt
@@ -148,12 +158,3 @@ translations:
     t: Remplir le sondage →
   - key: calendar.view_results
     t: Voir les résultats →
-
-  - key: author.sacha.bio
-    t: >
-      Créateur de [Nivo](http://nivo.rocks/), une librairie JavaScript de data visualisation, et de
-      [Mozaik](http://mozaik.rocks/), un outil pour créer des dashboards magnifiques.
-  - key: author.raphael.bio
-    t: >
-      Créateur de [Sidebar](http://sidebar.io), une newsletter journalière, et de 
-      [VulcanJS](http://vulcanjs.org), un framework open-source React+GraphQL.

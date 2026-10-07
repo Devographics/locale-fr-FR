@@ -1,0 +1,85 @@
+# NOTE: not ready for translation currently
+locale: fr-FR
+translations:
+  - key: how_to_help.content
+    t: >
+      Même si State of JavaScript et State of CSS génèrent des revenus, ils reposent encore principalement sur le bénévolat. Si vous souhaitez rejoindre le projet et nous aider, voici quelques domaines dans lesquels nous avons toujours besoin de soutien.
+
+      ### Traduction
+
+      Les sondages sont désormais traduits dans plus de 20 langues, mais beaucoup de traductions sont incomplètes ou obsolètes. Si vous souhaitez aider, [rejoignez notre Discord](https://discord.gg/tuWRUWVyJs) et indiquez votre nom d'utilisateur GitHub dans le canal **#translations**.
+
+      ### Sensibilisation
+
+      Ce n'est un secret pour personne : le public des sondages destinés aux développeurs est généralement majoritairement masculin, blanc et basé aux États-Unis. Si vous souhaitez nous aider à mieux équilibrer les choses, votre aide est la bienvenue !
+
+      Les actions de sensibilisation consistent notamment à contacter des organisations qui aident les populations minorisées à évoluer dans le monde de la technologie, à partager le lien du sondage dans différentes communautés en ligne, à envoyer des emails aux blogs ou magazines au sujet du sondage et, plus généralement, à essayer de diversifier son public. Si vous souhaitez aider, rejoignez le canal **#outreach** de [notre Discord](https://discord.gg/tuWRUWVyJs) (vous pouvez masquer tous les autres canaux si vous le souhaitez).
+
+      Plus précisément, nous aimerions de l'aide pour contacter des organisations qui se consacrent aux :
+
+
+      - développeurs BIPOC
+
+
+      - développeurs LGBTQ+
+
+
+      - femmes développeuses
+
+
+      - développeurs en situation de handicap
+
+
+      - développeurs de pays sous-représentés (Chine, Brésil, Inde, Japon, etc.)
+
+
+      ### Rédaction et analyse
+
+      Même si nous essayons de mettre en avant des informations intéressantes chaque année, nous savons qu'il est impossible de tout couvrir dans un seul rapport. Si vous êtes spécialiste des données ou simplement curieux des tendances technologiques, nous aimerions découvrir votre propre analyse de nos données ! C'est un excellent moyen d'élargir le dialogue autour du sondage, notamment en mettant en lumière les communautés sous-représentées mentionnées plus haut.
+
+      Vous pouvez utiliser la fonctionnalité de personnalisation des graphiques (icône en forme de crayon à côté de certains graphiques) ainsi que notre [API GraphQL publique](https://api.stateofjs.com/) pour créer de nouvelles visualisations, ou [rejoindre notre Discord](https://discord.gg/tuWRUWVyJs) et nous contacter pour demander le jeu de données JSON complet.
+
+      ### Programmation
+
+      L'intégralité de nos bases de code est open source et nous accueillons volontiers les contributions. Je vous conseille de commencer par [vous familiariser avec le fonctionnement des sondages](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb), puis de [passer sur Discord](https://discord.gg/tuWRUWVyJs) pour me dire sur quoi vous aimeriez travailler.
+
+      ### Offres et partenariats
+
+      À l'avenir, nous aimerions étudier la possibilité de proposer des offres ou des réductions sur des produits aux répondants, afin de récompenser les participants et d'inciter de nouveaux publics à prendre part au sondage.
+
+      ### Soutien financier
+
+      #### Subventions et financements
+
+      Bien sûr, un autre moyen d'aider consiste simplement à apporter un financement. Par exemple, grâce à une subvention de Google, nous avons pu engager un expert pour réaliser un audit complet de l'accessibilité du projet.
+
+      #### Sponsoring de graphiques
+
+      Si vous souhaitez soutenir le sondage à une plus petite échelle, vous pouvez également désormais
+
+      #### Ressources recommandées
+
+      Si vous créez du contenu pertinent pour notre public, vous pouvez également acheter l'un des liens « Ressources recommandées » affichés au bas de chaque page. Nous proposons également gratuitement ces emplacements aux
+
+      ressources recommandées
+      sponsorings de graphiques
+      réductions
+      autres partenariats
+
+      #### À propos du travail rémunéré
+
+      J'ai principalement parlé du bénévolat, mais nous disposons également d'un petit budget pour rémunérer des consultants ou des experts et nous cherchons des partenaires pour financer davantage de travail. Plus précisément, nous préférons rémunérer les tâches qui :
+
+
+      - ont une **portée limitée**, car le budget le sera probablement aussi ;
+
+
+      - nécessitent une **expertise particulière** que des bénévoles ne pourraient pas facilement fournir ;
+
+
+      - sont **autonomes** et ne nécessitent pas trop de suivi, car nous n'aurons peut-être pas le temps de nous en charger.
+
+
+      Les bons exemples comprennent les illustrations et le travail de marque, les audits d'utilisabilité ou d'accessibilité, la visualisation de données, la sensibilisation, etc.
+
+      Ainsi, même si nous ne pouvons pas promettre grand-chose, si vous souhaitez contribuer au projet mais ne pouvez pas travailler bénévolement, n'hésitez pas à [rejoindre Discord](https://discord.gg/tuWRUWVyJs) et à nous contacter !

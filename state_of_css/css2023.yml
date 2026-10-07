@@ -1,0 +1,541 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: L'édition 2023 de l'enquête annuelle sur les dernières tendances de l'écosystème CSS.
+
+  - key: general.css2022.js2022_banner
+    t: "L'enquête State of JS 2022 est ouverte : vous pouvez [y répondre dès maintenant](https://survey.devographics.com/survey/state-of-js/2022?source=css2022) !"
+
+  - key: general.css2023.results_intro
+    t: |
+
+      Je ne vais pas vous mentir : suivre l'évolution du CSS n'a pas été facile ces derniers temps. Heureusement, cette année, [Chen Hui Jing](https://chenhuijing.com/) a pris la tête de la conception de l'enquête, dans la continuité du travail de [Lea Verou](https://lea.verou.me/) l'année dernière.
+
+      Nous avons également eu la chance de recevoir le soutien de l'équipe Google Chrome, qui, avec les autres éditeurs de navigateurs, s'appuie sur ces résultats pour orienter sa feuille de route.
+
+      Grâce à cette aide supplémentaire, nous avons pu proposer plusieurs nouveautés, à commencer par la possibilité de **personnaliser les graphiques**. Cliquez sur l'icône <span class="customize-chart-icon">« paramètres »</span> à côté d'un graphique pour le filtrer par salaire, pays ou toute autre variable !
+
+      Ceci étant dit, voyons comment le CSS a évolué en 2023 !
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.css2023
+    t: |
+      <span class="first-letter">L</span>e CSS connaît une période de progrès sans précédent. Entre `:has()`, les requêtes de conteneur, Subgrid et bien d'autres nouveautés, de nouvelles fonctionnalités arrivent dans les navigateurs presque chaque mois.
+
+      Cette évolution peut toutefois donner le vertige. Heureusement, [Chen Hui Jing](https://chenhuijing.com/) nous a aidés cette année à concevoir l'enquête et à nous guider dans la jungle du CSS.
+
+      À propos de l'enquête, saviez-vous que les éditeurs de navigateurs utilisent ses données dans le cadre de l'initiative [Interop](https://web.dev/interop-2023/) pour déterminer les fonctionnalités à développer en priorité ?
+
+      Enfin, nous lançons une nouveauté cette année : vous pouvez **personnaliser les graphiques** en appliquant vos propres filtres aux données. Nous avons hâte de découvrir les nouvelles perspectives que vous en tirerez !
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.css2023
+    t: |
+      L'enquête de cette année a recueilli les réponses de **9 190** développeurs et développeuses dans le monde entier.
+
+  - key: sections.features.description.css2023
+    t: |
+      Le CSS évolue à toute vitesse et la communauté des développeurs adopte
+      progressivement, mais sûrement, bon nombre des nouvelles fonctionnalités.
+
+  - key: sections.css_frameworks.description.css2023
+    t: |
+      Une fois encore, Tailwind CSS se distingue comme le seul grand framework d'interface que les développeurs souhaitent continuer à utiliser, tandis qu'Open Props se constitue un public restreint mais passionné.
+
+  - key: sections.css_in_js.description.css2023
+    t: |
+      Après une première période de croissance, le secteur du CSS-in-JS semble avoir atteint un plateau. Le fait que le CSS natif adopte lui-même bon nombre de ses principaux avantages y est sans doute pour beaucoup.
+
+  - key: sections.other_tools.description.css2023
+    t: |
+      Trente ans après l'invention du navigateur, l'innovation se poursuit avec de nouveaux venus comme Brave et Arc, ainsi que des outils spécialisés comme Polypane qui gagnent des parts de marché.
+
+  - key: sections.usage.description.css2023
+    t: |
+      Quelle que soit votre façon d'utiliser le CSS, les données montrent que la compatibilité entre navigateurs reste une préoccupation, en particulier pour les nouveautés comme `:has()`.
+
+  - key: sections.resources.description.css2023
+    t: |
+      Entre les blogs, les chaînes YouTube et les podcasts, la communauté CSS est plus dynamique que jamais.
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+  - key: options.features_categories.colors
+    aliasFor: sections.colors.title
+  - key: options.features_categories.selectors
+    aliasFor: sections.selectors.title
+
+  - key: user_info.country_low_vs_high_income.description.css2023
+    t: >
+      La répartition des répondants entre les tranches de revenus faibles et élevées
+      fait apparaître deux listes de pays très différentes.
+
+  - key: user_info.higher_education_degree_by_gender.description.css2023
+    t: >
+      La proportion de femmes parmi les répondants titulaires d'un diplôme de l'enseignement supérieur
+      dans un domaine sans rapport avec le CSS était plus élevée que prévu, ce qui pourrait
+      indiquer de nombreuses reconversions professionnelles.
+
+  - key: user_info.source_by_gender.description.css2023
+    t: >
+      Le faible nombre total de réponses ne permet pas de tirer de conclusions définitives,
+      mais la proportion de femmes était la plus élevée parmi les personnes ayant découvert l'enquête
+      par leur travail ou le bouche-à-oreille, notamment par rapport aux réseaux sociaux comme Twitter ou YouTube.
+
+  - key: user_info.source_by_race_ethnicity.description.css2023
+    t: >
+      Malgré la faible taille de l'échantillon, YouTube se distingue comme l'une des sources
+      de trafic vers l'enquête les plus diverses en matière d'origine ethnique.
+
+  - key: user_info.average_income_by_company_size.description.css2023
+    t: >
+      Les répondants les mieux rémunérés travaillent dans de grandes entreprises. À noter toutefois
+      que les indépendants gagnent légèrement plus que les personnes travaillant dans de petites entreprises.
+
+  - key: user_info.yearly_salary_usa_vs_the_world.description.css2023
+    t: >
+      La comparaison des revenus aux États-Unis avec ceux du reste du monde montre que les développeurs
+      américains sont surreprésentés dans les tranches de revenus les plus élevées.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: |
+      La propriété `gap` est si utile avec Flexbox qu'il n'est pas étonnant
+      qu'elle ait progressé de **{value}** en 2023.
+
+  # - key: award.tool_usage_delta_award.comment
+  #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+
+  - key: award.most_commented_feature_award.comment
+    t: Avec **{value}** commentaires, aucune autre fonctionnalité n'a suscité autant de réactions que Subgrid.
+
+  - key: award.tool_satisfaction_award.comment
+    t: |
+      Parmi toutes les solutions CSS-in-JS, Open Props est la seule à avoir conservé
+      un taux de rétention exceptionnel de **{value}**.
+
+  # - key: award.tool_interest_award.comment
+  #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+
+  - key: award.most_write_ins_award.comment
+    t: |
+      Avec **{value}** mentions, Panda est de loin l'outil le plus cité dans les réponses libres.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2023.chen_hui_jing
+    t: |
+      <span class="first-line">Alors que l'utilisation des nouvelles fonctionnalités CSS est en hausse, celle des frameworks CSS suit une tendance à la baisse.</span>
+
+      Cela pourrait indiquer que l'on commence à comprendre qu'il n'est pas forcément nécessaire d'attendre pour utiliser les nouveautés du CSS : les navigateurs les prennent en charge bien plus rapidement qu'auparavant.
+
+      Les fonctionnalités natives comme l'imbrication et `:has()` (qui peut agir comme un sélecteur parent, mais offre bien plus encore) sont bien connues ; leur adoption à grande échelle semble donc imminente.
+
+      Parmi toutes ces fonctionnalités, ma préférée cette année est `text-wrap: balance`. Cette propriété permet de répondre en une ligne à une demande que j'entends depuis le début de ma carrière dans le développement web : « Peut-on ajuster ce titre pour éviter que le dernier mot se retrouve tout seul ? »
+
+      Il est également intéressant de constater que tant de développeurs considèrent l'animation vers `auto` et la disposition en maçonnerie comme des fonctionnalités manquantes du CSS. Il est vrai que les navigateurs ont toujours eu du mal à déterminer les dimensions des éléments, notamment leur hauteur, lorsqu'elles ne sont pas explicitement définies.
+
+      Mais comme l'a souligné [Lea Verou](https://lea.verou.me/) l'an dernier, les initiatives telles qu'[Interop](https://wpt.fyi/interop-2023), qui rassemblent les navigateurs, peuvent transformer en réalité des fonctionnalités autrefois jugées impossibles !
+
+  - key: conclusion.css2023.chen_hui_jing.bio
+    t: Ingénieur en expérience développeur chez Interledger Foundation
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick.css2023
+    t: "Mon choix pour 2023 : "
+  - key: picks.intro
+    t: Nous avons demandé aux membres de la communauté CSS de partager leur « coup de cœur de l'année ».
+
+  # - key: picks.david_east.name
+  #   t: CSS Subgrid
+  # - key: picks.david_east.bio
+  #   t: Advocate for building on the web
+  # - key: picks.david_east.description
+  #   t: |
+  #     CSS Subgrid allows child elements to inherit their parents grid properties.
+  #     Soon, it will be much easier to lay elements out to the same grid
+  #     lines across the entire page.
+
+  # - key: picks.bramus_van_damme.name
+  #   t: The `:has()` Selector
+  # - key: picks.bramus_van_damme.bio
+  #   t: Chrome Developer Relations Engineer at Google
+  # - key: picks.bramus_van_damme.description
+  #   t: |
+  #     You might know this one as the so-called “parent selector” but that name does it
+  #     no justice as it only covers a small part of what it can do.
+  #     This selector has essentially changed the way I write my CSS.
+
+  - key: picks.kevin_j_powell.name
+    t: Ahmad Shadeed
+  - key: picks.kevin_j_powell.bio
+    t: Évangéliste CSS
+  - key: picks.kevin_j_powell.description
+    t: |
+      Le blog d'Ahmad est une source de connaissances et d'inspiration. Il explore des sujets en profondeur, avec de superbes illustrations et des exemples concrets.
+
+  # - key: picks.samuel_kraft.name
+  #   t: The `:has()` Selector
+  # - key: picks.samuel_kraft.bio
+  #   t: Design Engineer
+  # - key: picks.samuel_kraft.description
+  #   t: |
+  #     The new :has() selector is super powerful and unlocks new styling possibilities.
+  #     This great article from Jen Simmons breaks it down with explanations and practical examples.
+
+  - key: picks.josh_comeau.name
+    t: CSS Podcast
+  - key: picks.josh_comeau.bio
+    t: Formateur pour CSS for JavaScript Developers
+  - key: picks.josh_comeau.description
+    t: |
+      Ce podcast propose une visite passionnante de nombreuses fonctionnalités CSS modernes et importantes.
+      Il est animé par Una Kravets et Adam Argyle, deux personnes formidables.
+
+  - key: picks.adam_argyle.name
+    t: Zag.js
+  - key: picks.adam_argyle.bio
+    t: Relations avec les développeurs chez Google Chrome
+  - key: picks.adam_argyle.description
+    t: |
+      Les personnes talentueuses de Chakra UI créent des composants et des idées de nouvelle génération ;
+      j'ai hâte de découvrir la suite.
+
+  # - key: picks.eric_w_bailey.name
+  #   t: “Style with Stateful, Semantic Selectors” by Ben Myers
+  # - key: picks.eric_w_bailey.bio
+  #   t: Accessibility advocate and CSS nerd
+  # - key: picks.eric_w_bailey.description
+  #   t: |
+  #     Ben demonstrates how utilizing ARIA
+  #     attribute selectors can simply and powerfully tie appearance to state.
+
+  # - key: picks.michelle_barker.name
+  #   t: Interop 2022
+  # - key: picks.michelle_barker.bio
+  #   t: Writer and creator of front-end blog CSS { In Real Life }
+  # - key: picks.michelle_barker.description
+  #   t: |
+  #     Interop is a collaboration between all of the major browser vendors,
+  #     agreeing 15 key areas of focus for implementation —
+  #     including game-changing new CSS features like container queries,
+  #     cascade layers and color functions.
+
+  - key: picks.jhey_tompkins.name
+    t: |
+      Le sélecteur `:has()`
+  - key: picks.jhey_tompkins.bio
+    t: PDG de Fancy CSS
+  - key: picks.jhey_tompkins.description
+    t: |
+      `:has()` est une fonctionnalité magique qui permet de combiner d'autres API, comme les requêtes de conteneur ou le positionnement par ancrage. J'ai hâte de voir comment la communauté trouvera de nouvelles façons innovantes de l'utiliser.
+
+  # - key: picks.gift_egwuenu.name
+  #   t: Learn CSS
+  # - key: picks.gift_egwuenu.bio
+  #   t: Developer Advocate at Cloudflare
+  # - key: picks.gift_egwuenu.description
+  #   t: |
+  #     My recommended resource for anyone looking to learn CSS from the ground up,
+  #     I also use it as a reference everytime I need to look up any CSS property.
+
+  - key: picks.ahmad_shadeed.name
+    t: Animations pilotées par le défilement
+  - key: picks.ahmad_shadeed.bio
+    t: Ingénieur en conception et rédacteur sur [ishadeed.com](https://ishadeed.com/)
+  - key: picks.ahmad_shadeed.description
+    t: |
+      Il y a deux ans, je n'aurais jamais imaginé que le CSS puisse proposer
+      des animations pilotées par le défilement. Et pourtant, nous y voilà !
+
+  # - key: picks.georgedoescode.name
+  #   t:
+  # - key: picks.georgedoescode.bio
+  #   t:
+  # - key: picks.georgedoescode.description
+  #   t: |
+
+  # - key: picks.jen_simmons.name
+  #   t: The `:has()` Selector
+  # - key: picks.jen_simmons.bio
+  #   t: Web technologies evangelist at Apple
+  # - key: picks.jen_simmons.description
+  #   t: |
+  #     For two decades, “parent selector” was a top requested feature for CSS.
+  #     Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
+
+  - key: picks.sara_soueidan.name
+    t: |
+      `color-contrast()`
+  - key: picks.sara_soueidan.bio
+    t: Ingénieure en conception inclusive et formatrice
+  - key: picks.sara_soueidan.description
+    t: |
+      Je choisis `color-contrast()`, car cette fonction mérite davantage d'attention.
+      C'est l'une des rares fonctionnalités qui nous permet, à nous développeurs,
+      de concevoir plus _facilement_ pour nos utilisateurs. Vivement sa prise en charge par tous les navigateurs !
+
+  - key: picks.adam_wathan.name
+    t: Lightning CSS
+  - key: picks.adam_wathan.bio
+    t: Créateur de Tailwind CSS
+  - key: picks.adam_wathan.description
+    t: |
+      Un outil de traitement CSS tout-en-un extrêmement rapide qui gère notamment les préfixes propriétaires, la minification et la transpilation des fonctionnalités modernes, tout en offrant une excellente base pour créer d'autres outils CSS.
+
+  # - key: picks.christianoliff.bio
+  #   t: Front-end developer for Trimble MAPS
+  # - key: picks.christianoliff.description
+  #   t: |
+  #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+
+  - key: picks.kilian_valkhof.name
+    t: Devtoolstips
+  - key: picks.kilian_valkhof.bio
+    t: Créateur de Polypane, le navigateur des développeurs.
+  - key: picks.kilian_valkhof.description
+    t: |
+      Les outils de développement de tous les navigateurs sont très puissants. Ces conseils concis
+      vous aideront à en tirer le meilleur parti, quel que soit le navigateur utilisé.
+
+  - key: picks.ahmad_awais.name
+    t: |
+      `text-wrap: balance`
+  - key: picks.ahmad_awais.bio
+    t: Vice-président des relations avec les développeurs et membre fondateur du conseil consultatif des développeurs Google
+  - key: picks.ahmad_awais.description
+    t: |
+      Les titres doivent être percutants et agréables à lire, même sur des écrans aux dimensions imprévisibles.
+      J'ai souvent dû lutter contre ces mots isolés en fin de ligne (bonjour les veuves typographiques !),
+      mais `text-wrap: balance` apporte une solution magique en une seule ligne !
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.piccalilli_.bio
+  #   t: Freelance designer & dev who runs piccalil.li
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #       This blog is an absolute gold mine of CSS knowledge. Michelle is a CSS legend and every post or tutorial they write is heaped with useful content.
+
+  # - key: picks.sarasoueidan.bio
+  #   t: Independent UI/design engineer
+  # - key: picks.sarasoueidan.description
+  #   t: |
+  #       My pick is a person, namely Rachel Andrew. She taught CSS Grid to a whole generation of developers.
+
+  # - key: picks.5t3ph.bio
+  #   t: Software Engineer @ Microsoft
+  # - key: picks.5t3ph.description
+  #   t: |
+  #       In this conference talk, Manuel Matuzovic provides thoughtfully
+  #       crafted examples that are engaging, approachable, and actionable.
+
+  # - key: picks.hugogiraudel.bio
+  #   t: Non-binary accessibility & diversity advocate
+  # - key: picks.hugogiraudel.description
+  #   t: |
+  #       Fela is an amazing piece of software.
+  #       It’s pretty powerful, relatively easy to use and very performant
+
+  # - key: picks.foolip.bio
+  #   t: Software Engineer @ Google
+  # - key: picks.foolip.description
+  #   t: |
+  #       Sergio has recently fixed lots of Flexbox in WebKit and even some in Chromium,
+  #       notably bringing flex gap to WebKit,
+  #       which means that soon it will be available on all modern browsers.
+
+  # - key: picks.jina.bio
+  #   t: Design systems advocate and practitioner
+  # - key: picks.jina.description
+  #   t: |
+  #       The media query to reduce motion, which helps avoid
+  #       triggering dizziness and discomfort.
+
+  ###########################################################################
+  # Quiz
+  ###########################################################################
+
+  - key: quiz.quiz_dave_shea
+    t: "Question 01"
+  - key: quiz.quiz_dave_shea.question
+    t: >
+      En mai 2003, Dave Shea a lancé un site qui mettait en valeur la flexibilité et l'adaptabilité du CSS. Comment s'appelait-il ?
+  - key: options.quiz_dave_shea.css_playground
+    t: Terrain de jeu CSS
+  - key: options.quiz_dave_shea.style_jungle
+    t: Jungle des styles
+  - key: options.quiz_dave_shea.css_zen_garden
+    t: CSS Zen Garden
+  - key: quiz.quiz_dave_shea.answer
+    t: >
+      [CSS Zen Garden](https://www.csszengarden.com/) a marqué les esprits en montrant ce qu'il était possible de faire en séparant le balisage de la mise en forme.
+  - key: quiz.quiz_dave_shea.description
+    aliasFor: quiz.quiz_dave_shea.question
+
+  - key: quiz.quiz_css_spec
+    t: "Question 02"
+  - key: quiz.quiz_css_spec.question
+    t: >
+      Laquelle de ces organisations maintient la spécification CSS ?
+  - key: options.quiz_css_spec.w3c
+    t: W3C
+  - key: options.quiz_css_spec.w3schools
+    t: W3Schools
+  - key: options.quiz_css_spec.mdn
+    t: MDN
+  - key: quiz.quiz_css_spec.answer
+    t: >
+      Le [groupe de travail CSS du W3C](https://www.w3.org/groups/wg/css) maintient la spécification CSS, ensuite mise en œuvre par les éditeurs de navigateurs.
+  - key: quiz.quiz_css_spec.description
+    aliasFor: quiz.quiz_css_spec.question
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Développez vos compétences grâce à des cours approfondis et modernes en ingénierie front-end.
+  - key: sponsors.polypane.description
+    t: Le navigateur des développeurs ambitieux. Créez facilement des sites rapides, adaptatifs et accessibles.
+  - key: sponsors.nijibox.description
+    t: Conseil en expérience utilisateur et développement de produits au cœur de Tokyo.
+  - key: sponsors.renderatl.description
+    t: La plus grande conférence technologique avec un parcours consacré au design et au CSS.
+  - key: sponsors.google_chrome.description
+    t: Merci à l'équipe Google Chrome pour son soutien.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.css2023
+    t: >
+      L'enquête State of CSS 2023 s'est déroulée du 15 juin au 15 juillet 2023 et a recueilli 9 108 réponses. Elle est menée par [Devographics](https://www.devographics.com/), avec l'aide d'une équipe de contributeurs et de consultants open source.
+
+
+      Le logo et le t-shirt State of CSS ont été conçus et animés par [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+
+      ### Objectifs de l'enquête
+
+      Cette enquête, ainsi que celle de [State of JavaScript](https://stateofjs.com/), vise à repérer les tendances émergentes du développement web afin d'aider les développeurs à faire leurs choix technologiques.
+
+
+      Ces enquêtes cherchent donc à anticiper les évolutions des prochaines années plutôt qu'à analyser les tendances actuelles. C'est pourquoi les fonctionnalités et technologies déjà les plus répandues n'y figurent pas toujours.
+
+
+      Les éditeurs de navigateurs utilisent également les données de l'enquête pour hiérarchiser les fonctionnalités et orienter des initiatives comme [Interop 2023](https://web.dev/interop-2023/).
+
+
+      ### Conception de l'enquête
+
+      Cette année, la conception de l'enquête a été dirigée par [Chen Hui Jing](https://chenhuijing.com/) grâce à une subvention de l'équipe Google Chrome. Toutes les questions étaient facultatives.
+
+      ### Public de l'enquête
+
+      L'enquête était accessible librement en ligne et les répondants n'ont fait l'objet d'aucune sélection. Il s'agissait principalement de personnes ayant participé aux éditions précédentes (informées par une liste de diffusion dédiée) et de visiteurs venus des réseaux sociaux.
+
+      ### Financement du projet
+
+      Le projet est financé par plusieurs sources :
+
+      - **La vente de t-shirts**.
+
+      - **Liens sponsorisés** : les ressources recommandées au bas de chaque page sont proposées par notre partenaire [Frontend Masters](https://frontendmasters.com/).
+
+      - **Graphiques sponsorisés** : depuis l'année dernière, chacun peut sponsoriser directement un graphique à partir de 10 $ et afficher son avatar Twitter à côté.
+
+      - **Google** : cette année, l'équipe [Google Chrome](https://www.google.com/chrome/) a prévu un budget pour rémunérer Lea afin qu'elle contribue à la conception de l'enquête, et m'a également apporté un soutien financier direct.
+
+      - **Nijibox** : l'entreprise japonaise [Nijibox](https://nijibox.jp/) a également accepté de soutenir généreusement mes efforts pour rendre ces enquêtes annuelles plus pérennes.
+
+
+      ### Aperçu technique
+
+      Vous trouverez [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) un aperçu technique plus détaillé du fonctionnement des enquêtes. Notre code est [open source](https://github.com/Devographics/Monorepo/).
+
+      ### Commentaires
+
+
+      - [Signaler un problème technique](https://github.com/Devographics/Monorepo/issues)
+
+      - [Faire une suggestion pour l'année prochaine](https://github.com/Devographics/surveys/issues/193)
+
+      - [Autres problèmes non techniques](https://github.com/Devographics/surveys/issues)
+
+      - [Rejoindre notre Discord](https://discord.gg/tuWRUWVyJs)
+
+  # CSS 2023
+
+  - key: faq.how_long_will_survey_take_css2023
+    t: Combien de temps faut-il pour répondre à l'enquête ?
+  - key: faq.how_long_will_survey_take_css2023.description
+    t: >
+      Selon le nombre de questions auxquelles vous répondez (elles sont toutes facultatives),
+      l'enquête devrait prendre environ 10 à 15 minutes.
+
+  - key: faq.learn_more_css2023
+    t: Où puis-je en savoir plus ?
+  - key: faq.learn_more_css2023.description
+    t: Pour en savoir plus sur cette enquête, consultez [notre annonce](https://dev.to/sachagreif/the-2023-state-of-css-survey-is-now-open-18bk).
+
+  - key: faq.survey_design_css2023
+    t: Comment cette enquête a-t-elle été conçue ?
+  - key: faq.survey_design_css2023.description
+    t: >
+      Cette année, grâce à une subvention du [UI Fund de Google](https://web.dev/ui-fund/),
+      [Chen Hui Jing](https://chenhuijing.com/) a pu contribuer à la [conception ouverte de l'enquête](https://github.com/Devographics/surveys/issues/84).
+
+  - key: faq.results_released_css2023
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_css2023.description
+    t: L'enquête se déroulera jusqu'au 15 juillet 2023 et ses résultats seront publiés dans les semaines suivantes.
+
+  - key: general.css2023.survey_intro
+    t: |
+      Pour vous aider à suivre les nouveautés comme `:has()`, `@container` et toutes les autres fonctionnalités CSS, nous lançons cette année notre propre nouveauté : la **liste de lecture**.
+
+      Pendant l'enquête, vous pourrez ajouter à vos favoris les fonctionnalités qui vous intéressent et en apprendre davantage après avoir envoyé vos réponses.
+
+      Cette année, [Chen Hui Jing](https://chenhuijing.com/) a dirigé la conception de l'enquête, dans la continuité du travail de [Lea Verou](https://lea.verou.me/) l'année dernière. Comme toujours, vos réponses aideront les éditeurs de navigateurs à définir leurs priorités et à améliorer la compatibilité entre navigateurs.
+
+      Ceci étant dit, voyons comment le CSS a évolué jusqu'ici en 2023 !

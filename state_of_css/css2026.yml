@@ -1,0 +1,597 @@
+locale: fr-FR
+translations:
+  - key: general.css2026.devs2026_banner
+    t: |
+      Répondez à l'enquête State of Devs et dites-nous ce que vous pensez vraiment de la tech ! →
+
+  - key: general.css2026.survey_intro
+    t: |
+
+      Respirez profondément. Détendez-vous. Ce n'est pas grave si vous ne connaissez pas chaque nouvelle propriété CSS. En réalité, très peu d'entre nous les connaissent toutes.
+
+      L'un des objectifs de cette enquête a toujours été d'aider les développeurs à rester au courant des dernières avancées du CSS. Mais tous ces progrès peuvent parfois sembler écrasants.
+
+      C'est pourquoi nous avons délibérément réduit cette année le nombre de fonctionnalités abordées, pour nous concentrer sur les plus importantes.
+
+      À l'heure où le code est généré avec l'aide de l'IA, faire moins, mais mieux, est peut-être la façon pour celles et ceux qui tiennent encore à coder leurs logiciels à la main de rester compétitifs.
+
+      Alors, une fois encore, rejoignez-nous pour cette édition de State of CSS !
+
+  ###########################################################################
+  # Overview
+  ###########################################################################
+
+  - key: overview.introduction.css2026
+    t: |
+      <span class="first-letter">L</span>e CSS de 2026 serait méconnaissable pour nos lointains ancêtres du début des années 2000.
+
+
+      Aujourd'hui, vous pouvez animer les transitions entre les pages en CSS, créer des [mises en page en maçonnerie](https://webkit.org/blog/17660/introducing-css-grid-lanes/) et même [émuler un microprocesseur](https://lyra.horse/x86css/) ! Bien sûr, vous pouvez aussi [faire tourner Doom](https://cssdoom.wtf/) en CSS et, oui, même [centrer des `<div>`](https://www.joshwcomeau.com/css/center-a-div/) !
+
+
+      Pour vous aider à comprendre ce que les résultats de l'enquête State of CSS de cette année révèlent sur cet écosystème foisonnant, voici un aperçu rapide des tendances les plus intéressantes.
+
+  - key: overview.1.css2026
+    t: |
+
+      ## L'année du positionnement par ancrage
+
+      La prise en charge limitée du **positionnement par ancrage** rend d'autant plus remarquable sa première place lorsque les répondants citent leur nouvelle fonctionnalité CSS préférée.
+
+  - key: overview.2.css2026
+    t: |
+      ## Les problèmes de prise en charge par les navigateurs
+
+      Le positionnement par ancrage arrive également en tête des fonctionnalités CSS que les développeurs aimeraient utiliser, mais évitent à cause de problèmes de compatibilité avec les navigateurs.
+
+  - key: overview.3.css2026
+    t: |
+      Cela met en évidence un problème central de l'écosystème CSS : à cause du retard de prise en charge par les navigateurs, l'enthousiasme suscité par les nouveautés est souvent tempéré par l'impossibilité de les utiliser en production.
+
+      Outre le positionnement par ancrage, d'autres fonctionnalités comme les **transitions de vue** ou `if()` rencontrent le même problème : les développeurs CSS les réclament, et il revient désormais aux éditeurs de navigateurs de veiller à ce qu'elles soient utilisables partout.
+
+      C'est là qu'interviennent des initiatives comme [Interop](https://web.dev/blog/interop-2026), dont l'édition de cette année contribuera heureusement à améliorer la prise en charge de nombreuses fonctionnalités les plus demandées.
+
+  - key: overview.4.css2026
+    t: |
+
+      ## À contre-courant de la tendance à l'IA
+
+      Alors que le reste du monde du développement web confie une part croissante de son code à l'IA, le CSS semble rester un bastion du codage manuel, du moins pour l'instant.
+
+  - key: overview.5.css2026
+    t: |
+
+      La plupart des commentaires à ce sujet soulignent que l'IA n'est pas encore très douée pour produire du bon code CSS. Il sera donc intéressant de voir comment la situation évoluera.
+
+      ## Un langage à part
+
+      Plus que toute autre technologie web, le CSS semble être un langage entièrement à part. Il est fascinant de l'avoir vu évoluer au fil des décennies jusqu'à sa forme actuelle.
+
+
+      Ce n'est qu'un minuscule aperçu des données recueillies dans cette enquête. Consultez les résultats complets pour avoir une vue d'ensemble !
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  - key: overview.anchor_positioning_1.css2026
+    t: |
+
+      L'histoire du CSS en 2026 peut se raconter à travers quatre fonctionnalités.
+
+      ## Le positionnement par ancrage
+
+      Parmi les fonctionnalités dont le statut [Baseline](https://web.dev/baseline) indique une « disponibilité limitée » (elles ne sont pas encore largement prises en charge par les principaux navigateurs), le **positionnement par ancrage** recueille le deuxième avis le plus favorable, juste après `calc-size()`. Les développeurs attendent donc sa disponibilité avec impatience.
+      ## `display: grid-lanes`
+
+
+      ## `color-contrast()`
+
+  - key: overview.ai_adoption.css2026
+    t: |
+      ## N° 1 : l'adoption croissante de l'IA
+
+      Il faut reconnaître que les enquêtes ouvertes comme celle-ci peuvent comporter un biais de sélection. Autrement dit, une enquête consacrée à l'IA a probablement plus de chances d'être remplie par des développeurs qui l'utilisent déjà et s'y intéressent.
+
+      Gardons cette réserve à l'esprit : si les tendances observées ici reflètent l'ensemble du secteur, le passage du codage assisté par l'IA, d'une expérimentation réservée aux précurseurs à une pratique courante, est déjà bien engagé.
+
+      Cela apparaît clairement lorsqu'on observe [la proportion de code généré par l'IA chez les répondants](/en-US/usage/#ai_generated_code_balance) : elle est passée d'une moyenne de **28 %** en 2025 à **54 %** cette année, les tranches supérieures à 75 % enregistrant la plus forte hausse (l'évolution par rapport à l'année précédente est indiquée par des hachures sur les barres).
+
+  - key: overview.ai_adoption2.css2026
+    t: |
+      Les répondants utilisent également l'IA beaucoup plus souvent : la proportion de ceux qui déclarent l'utiliser « constamment » a [doublé en un an](/en-US/usage/#ai_code_generation_frequency).
+
+  - key: overview.coding_agents.css2026
+    t: |
+      ## N° 2 : Claude Code et l'essor des agents de programmation
+
+      Cette adoption est largement portée par une nouvelle génération d'agents et d'assistants de programmation. **Claude Code** arrive en tête des [avis positifs des répondants sur les agents de programmation](/en-US/coding-agents-assistants/#coding_agents_assistants_experience).
+
+  - key: overview.coding_agents2.css2026
+    t: |
+
+      Ces agents s'imposent comme un moyen plus pratique d'interagir avec les grands modèles de langage, et pourraient remplacer les chatbots, les générateurs d'applications et d'autres outils spécialisés.
+
+      Ainsi, même si **ChatGPT** reste le plus populaire, **Claude** est [le modèle pour lequel les développeurs paient le plus](/en-US/models/#models_paid_for).
+
+  - key: overview.monetization.css2026
+    t: |
+      ## N° 3 : la course à la monétisation
+
+      Puisqu'on parle de payer davantage : après nous être habitués à une IA bon marché, subventionnée par des levées de fonds sans précédent, notre dépendance collective facilite désormais la hausse des prix par les laboratoires d'IA. Cela se traduit par une [augmentation nette des dépenses personnelles consacrées à l'IA](/en-US/usage/#ai_personal_expenses) par rapport à l'année dernière.
+
+  - key: overview.monetization_2.css2026
+    t: |
+      Seul l'avenir dira si cette monétisation accrue justifiera les valorisations vertigineuses des entreprises d'IA, ou si celles-ci indiquent plutôt que nous sommes au cœur d'[une bulle de l'IA](/en-US/opinions/#ai_bubble_currently). Quoi qu'il en soit, les répondants semblent en être convaincus.
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: features.features_intro_css2026
+    aliasFor: features.features_intro_css2024
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.css2026
+    t: |
+      L'enquête de cette année a recueilli les réponses de **5 506** développeurs et développeuses dans le monde entier.
+
+  - key: sections.features.description.css2026
+    t: |
+      Ce n'est un secret pour personne : le CSS accueille de nouvelles fonctionnalités à un rythme record. C'est pourquoi nous en avons abordé pas moins de *50* cette année !
+
+  - key: sections.tools.css2026
+    t: Bibliothèques et outils
+
+  - key: sections.tools.description.css2026
+    t: |
+      Malgré les nombreuses possibilités offertes par les nouvelles fonctionnalités CSS, les développeurs s'appuient encore sur des outils et des bibliothèques pour faciliter leur travail, du moins pour le moment.
+
+  - key: sections.usage.description.css2026
+    t: |
+      Quelle que soit votre façon d'utiliser le CSS, les données montrent que la compatibilité entre navigateurs reste une préoccupation, en particulier pour les nouveautés comme `:has()`.
+
+  - key: sections.resources.description.css2026
+    t: |
+      Rassurez-vous : avec toutes les nouvelles fonctionnalités CSS qui arrivent, les sujets ne manqueront pas de sitôt pour les articles de blog, les podcasts, les vidéos et les formations !
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  # - key: user_info.country.takeaway.css2026
+  #   t: >
+  #     The survey remains U.S.-centric, but European countries continue
+
+  - key: features.all_features.takeaway.css2026
+    t: >
+      `:has()`, `aspect-ratio` et **l'imbrication CSS** sont à la fois les fonctionnalités les plus utilisées et les plus appréciées de l'enquête.
+
+
+      `line-clamp` a de nouveau suscité de nombreux commentaires, la plupart réclamant une version sans préfixe. **L'imbrication CSS** a également reçu son lot de réactions, mais contrairement à `line-clamp`, presque toutes étaient positives.
+
+
+      Les fonctionnalités les moins utilisées étaient les **décorations d'espacement** et `if()`, sans doute à cause de leur prise en charge limitée par les navigateurs.
+
+
+      Puisqu'on parle de compatibilité, on peut anticiper l'avenir du CSS en observant les fonctionnalités les plus appréciées qui ont le statut Baseline « disponibilité limitée » ([Baseline](https://web.dev/baseline)). Ici, `calc-size()` et le **positionnement par ancrage** sont très attendus !
+
+  - key: features.features_ratios_over_time.takeaway.css2026
+    t: >
+      Même avec une prise en charge limitée par les navigateurs, le **positionnement par ancrage** affiche la plus forte hausse annuelle d'**utilisation** (**+15 %**), ce qui montre à quel point les développeurs attendaient cette fonctionnalité.
+
+
+      Du côté de la **notoriété**, la plus forte progression (**+23 %**) revient à **sibling-count**, qui sera, espérons-le, bientôt pris en charge par tous les principaux navigateurs.
+
+
+      Il est également intéressant d'observer les fonctionnalités peu **appréciées**. Par exemple, le taux de **-13 %** de **contrast-color()** signifie que les personnes l'ayant réellement utilisée ont un avis moins positif que celles qui en ont seulement entendu parler.
+
+  - key: pain_points.layout_pain_points.takeaway.css2026
+    t: >
+      Comme l'année dernière, **Grid** est l'élément le plus souvent cité parmi les difficultés liées à la mise en page. Cela reflète à la fois son utilisation croissante (il est devenu la méthode de mise en page CSS par défaut pour de nombreux développeurs) et sa courbe d'apprentissage indéniable.
+
+
+      Si la prise en charge généralisée de **Subgrid** est bienvenue, cette fonctionnalité ajoute une couche de complexité à un système de mise en page déjà sophistiqué.
+
+  - key: pain_points.shapes_graphics_pain_points.takeaway.css2026
+    t: >
+      Le CSS nous permet de mieux en mieux de dépasser le rectangle et de dessiner toutes sortes de formes complexes sans recourir à Canvas ni même à SVG.
+
+
+      Le problème reste la compatibilité : tant que tous les navigateurs n'implémenteront pas ces fonctionnalités, il sera difficile de convaincre les développeurs de les utiliser.
+
+  - key: pain_points.colors_pain_points.takeaway.css2026
+    t: >
+      Ces dernières années, le CSS nous a offert de nombreuses façons de définir les couleurs. Les espaces colorimétriques polaires uniformes en perception comme `oklch`, ainsi que les couleurs relatives, `light-dark()` et `contrast-color()`, nous rapprochent de l'idéal d'interfaces recolorables dynamiquement.
+
+
+      Malheureusement, sans mappage de gamut, les modifications produisent souvent des couleurs hors gamut, sans aucune garantie. Les critiques portent donc non seulement sur l'absence de mappage, mais aussi sur ses conséquences : thèmes dynamiques toujours difficiles à créer ou couleurs `oklch` imprévisibles.
+
+  - key: pain_points.interactions_pain_points.takeaway.css2026
+    t: >
+      Tout comme pour les formes et les graphiques, la prise en charge des interactions et des animations par les navigateurs accuse un certain retard.
+
+
+      Les **carrousels CSS** ont également suscité des réactions, notamment au sujet de l'**accessibilité**.
+
+  - key: pain_points.other_features_pain_points.takeaway.css2026
+    t: >
+      Outre le fait qu'elles sont les trois fonctionnalités les plus citées de cette catégorie, les **couches de cascade**, **l'imbrication CSS** et `if()` pourraient profondément changer notre façon d'écrire du CSS.
+
+
+      Malgré cela, les répondants sont plutôt enthousiastes à l'idée de les adopter ; seul le manque de prise en charge adéquate par les navigateurs et les outils les en empêche principalement.
+
+  - key: pain_points.css_general_pain_points.takeaway.css2026
+    t: >
+      Les **problèmes de compatibilité des navigateurs** restent très présents, mais il est frappant de voir combien de répondants évoquent une **surcharge cognitive** et craignent que le CSS ne devienne **excessivement complexe**. Une inquiétude compréhensible au vu de la **vitesse d'évolution** du langage et du rythme auquel de nouvelles fonctionnalités sont apparues ces dernières années.
+
+  - key: features.reading_list.takeaway.css2026
+    t: >
+      La liste de lecture permet aux répondants d'enregistrer des sujets à découvrir après l'enquête. **55 %** des répondants ont enregistré les **décorations d'espacement**, qui promettent de résoudre une difficulté fréquente nécessitant actuellement de nombreux contournements complexes.
+
+  # other_tools
+
+  - key: other_tools.css_frameworks.takeaway.css2026
+    t: >
+      La plus grande menace pour la première place de **Tailwind** n'est peut-être pas un autre framework CSS, mais l'absence totale de framework.
+
+
+      La facilité avec laquelle les grands modèles de langage génèrent des systèmes de design et des bibliothèques de composants sur mesure contribue sans doute à cette tendance. Le CSS lui-même évolue aussi pour répondre à de nombreux besoins qui nécessitaient auparavant des frameworks tiers.
+
+  - key: other_tools.css_in_js.takeaway.css2026
+    t: >
+      Le CSS-in-JS n'a jamais été l'idée la plus élégante, mais il a rempli un rôle à une époque où le CSS n'était pas le langage qu'il est aujourd'hui. Son ère est peut-être révolue, mais il a ouvert la voie aux pratiques actuelles, ne serait-ce qu'en nous montrant ce qu'il *ne faut pas* faire.
+
+  - key: other_tools.pre_post_processors.takeaway.css2026
+    t: >
+      Comme le CSS-in-JS, l'utilisation des préprocesseurs diminue et pourrait bientôt appartenir au passé.
+
+  - key: other_tools.utilities.takeaway.css2026
+    t: >
+      Cette liste d'outils CSS vaut toujours le détour : vous y découvrirez peut-être un nouvel outil pratique à intégrer à votre flux de travail !
+
+  - key: other_tools.browsers.takeaway.css2026
+    t: >
+      L'utilisation des navigateurs est l'une de ces tendances étonnamment stables d'une année à l'autre, avec presque aucun changement par rapport à l'édition précédente.
+
+  # usage
+
+  - key: usage.form_factors.takeaway.css2026
+    t: >
+      Les environnements de test ont peu évolué depuis l'année dernière, et les tests d'accessibilité restent moins courants qu'ils ne devraient l'être.
+
+  - key: usage.css_ai_generated_code_balance.takeaway.css2026
+    t: >
+      Ce graphique est fascinant, car il diffère complètement des réponses à une question similaire dans les enquêtes [State of AI](https://2026.stateofai.dev/en-US/usage/#ai_generated_code_balance) et [State of JS](https://2025.stateofjs.com/en-US/usage/#ai_generated_code_balance).
+
+      Les commentaires sur cette question montrent que l'IA n'est pas encore très douée en CSS. L'avenir dira s'il s'agit d'une limite temporaire ou si l'IA sera un jour assez performante pour comprendre pleinement le fonctionnement des mises en page CSS Grid.
+
+  - key: usage.css_interoperability_features.takeaway.css2026
+    t: >
+      Le **positionnement par ancrage** et la **View Transition API** restent les fonctionnalités que les répondants évitent le plus à cause de problèmes de compatibilité avec les navigateurs.
+
+
+      Il est également intéressant de noter que les **requêtes de taille sur les conteneurs** et **Grid** figurent toujours dans ce graphique, alors que leur statut Baseline est **largement disponible**.
+
+  - key: usage.css_missing_features.takeaway.css2026
+    t: >
+      Nous attendons toujours l'arrivée des **mixins** en CSS, mais les éditeurs de navigateurs ont répondu à nos demandes concernant la **mise en page en maçonnerie**, deuxième fonctionnalité la plus réclamée l'année dernière, avec la nouvelle syntaxe `display: grid-lanes`.
+
+  - key: usage.css_general_pain_points.takeaway.css2026
+    t: >
+      La **prise en charge par les navigateurs** reste notre principale source de mécontentement, mais le nombre de répondants citant la **complexité excessive** (un sujet récurrent de State of JavaScript) augmente légèrement. Le CSS ne devient-il pas trop compliqué… ?
+
+  - key: usage.favorite_new_features.takeaway.css2026
+    t: >
+      `:has()` reste aussi formidable que jamais, mais de nombreux développeurs l'utilisent depuis plus d'un an. Elle a donc cédé sa couronne de « meilleure nouveauté » au **positionnement par ancrage**, qui a gagné 4 places pour prendre la tête.
+
+  - key: usage.css_pace_of_change.takeaway.css2026
+    t: >
+      Si vous avez l'impression d'être à la traîne parce que vous n'avez pas utilisé toutes les nouveautés CSS de cette année, ne vous inquiétez pas.
+
+      Comme le montre ce graphique, la plupart des répondants se trouvent au milieu de leur parcours d'adoption : ils ont découvert et essayé seulement une partie des fonctionnalités de l'enquête.
+
+  - key: usage.state_of_the_web_happiness.takeaway.css2026
+    t: >
+      Les répondants étaient plutôt satisfaits de l'état général des technologies web, avec une moyenne stable de 3,8 sur 5.
+
+  - key: usage.state_of_css_happiness.takeaway.css2026
+    t: >
+      En revanche, la satisfaction à l'égard du CSS suit une nette tendance à la hausse, en phase avec les progrès rapides du langage.
+
+  # resources
+  - key: resources.podcasts.takeaway.css2026
+    t: >
+      **Syntax** a réussi à gagner encore des points de pourcentage, alors qu'il dominait déjà la catégorie.
+
+  - key: resources.video_creators.takeaway.css2026
+    t: >
+      **Kevin Powell** reste le roi de cette catégorie. **The Primeagen** arrive loin derrière, bien que le CSS ne fasse pas vraiment partie des sujets habituels de sa chaîne. Ses avis plus mesurés sur l'IA trouvent peut-être un écho auprès des développeurs CSS sceptiques à son égard.
+
+  - key: resources.people.takeaway.css2026
+    t: >
+      **Kevin**, **Josh**, **Adam**, **Una**, **Ahmad**, **Lea**, **Chris**… on sait qu'on a réussi quand son seul prénom suffit à être reconnu !
+
+  - key: resources.web_platform_resources.takeaway.css2026
+    t: >
+      **CSS-Tricks** a peut-être connu le succès comme blog, mais ses guides et son almanach sont d'excellentes ressources à part entière, ce qui justifie pleinement la troisième place du site.
+
+  - key: resources.other_surveys.takeaway.css2026
+    t: >
+      À l'exception de l'enquête **State of HTML**, la participation aux enquêtes semble globalement en baisse.
+
+
+      Assiste-t-on à une saturation soudaine des enquêtes ? Pour le savoir, restez à l'écoute de notre prochaine enquête « State of Surveys » !
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.most_used_feature_award.comment
+    t: |
+      Avec {value} d'utilisation, `:has()` est une nouvelle fois la fonctionnalité la plus utilisée !
+
+  - key: award.least_used_feature_award.comment
+    t: |
+      Avec seulement {value} d'utilisation, les **décorations d'espacement** sont encore loin d'être répandues.
+
+  - key: award.most_loved_feature_award.comment
+    t: |
+      Avec {value} d'avis positifs, `:has()` occupe une nouvelle fois la première place de notre classement.
+
+  - key: award.most_hated_feature_award.comment
+    t: |
+      Même si les **couleurs à large gamut** sont une excellente fonctionnalité, {value} des répondants en ont une opinion négative.
+
+  - key: award.largest_awareness_progression_award.comment
+    t: |
+      {value} répondants de plus connaissent `sibling-count()` par rapport à l'année dernière.
+
+  - key: award.largest_usage_progression_award.comment
+    t: |
+      Le **positionnement par ancrage** n'est peut-être pas encore très utilisé, mais sa hausse d'utilisation de {value} devrait bientôt changer la donne !
+
+  - key: award.most_commented_feature_award.comment
+    t: |
+      `line-clamp` a reçu {value} commentaires, dont beaucoup critiquent sa syntaxe préfixée.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_css2026
+    aliasFor: faq.how_long_will_survey_take_css2024
+  - key: faq.how_long_will_survey_take_css2026.description
+    aliasFor: faq.how_long_will_survey_take_css2024.description
+
+  - key: faq.learn_more_css2026
+    t: Où puis-je en savoir plus ?
+  - key: faq.learn_more_css2026.description
+    t: Pour en savoir plus sur cette enquête, consultez [notre annonce](https://dev.to/sachagreif/the-2024-state-of-css-survey-is-now-open-4o5h).
+
+  - key: faq.survey_design_css2026
+    t: Comment cette enquête a-t-elle été conçue ?
+  - key: faq.survey_design_css2026.description
+    t: >
+      Cette enquête est le fruit d'un [processus de conception ouvert](https://github.com/Devographics/surveys/issues/289) auquel ont participé des éditeurs de navigateurs et la communauté du développement web.
+
+  - key: faq.results_released_css2026
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_css2026.description
+    t: L'enquête se déroulera du 1er juin au 1er juillet 2025 et ses résultats seront publiés peu après.
+
+  - key: about.content.css2026
+    t: >
+      L'enquête State of CSS 2025 s'est déroulée du 1er juin au 15 juillet 2025 et a recueilli 5 506 réponses. Elle est menée par [Devographics](https://www.devographics.com/), avec l'aide d'une équipe de contributeurs et de consultants open source.
+
+
+      Le logo et le t-shirt State of CSS ont été conçus et animés par [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+
+      ### Objectifs de l'enquête
+
+      Cette enquête a été créée pour repérer les tendances émergentes du développement web et aider les développeurs à faire leurs choix technologiques.
+
+
+      Elle vise donc à anticiper les évolutions des prochaines années plutôt qu'à analyser les tendances actuelles. C'est pourquoi les fonctionnalités et technologies déjà les plus répandues n'y figurent pas toujours.
+
+
+      Les éditeurs de navigateurs utilisent également ces données pour hiérarchiser les fonctionnalités et orienter des initiatives comme [Interop 2025](https://web.dev/blog/interop-2025).
+
+
+      ### Conception de l'enquête
+
+      Cette enquête a été conçue en collaboration [sur GitHub](https://github.com/Devographics/surveys/issues/245).
+
+      ### Public de l'enquête
+
+      L'enquête était accessible librement en ligne et les répondants n'ont fait l'objet d'aucune sélection. Il s'agissait principalement de personnes ayant participé aux éditions précédentes (informées par une liste de diffusion dédiée) et de visiteurs venus des réseaux sociaux.
+
+      ### Financement du projet
+
+      Outre la vente de t-shirts, le projet est financé par plusieurs sources :
+
+      - Notre partenaire [Frontend Masters](https://frontendmasters.com/) finance l'enquête en échange de liens vers ses formations, affichés au bas de chaque page.
+
+      - Cette année, l'équipe [Google Chrome](https://www.google.com/chrome/) a consacré un budget de sponsoring à la conception et à la réalisation de l'enquête.
+
+      - [TokyoDev](https://www.tokyodev.com/) soutient également l'enquête de manière régulière.
+
+      ### Aperçu technique
+
+      Vous trouverez [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) un aperçu technique plus détaillé du fonctionnement des enquêtes. Notre code est [open source](https://github.com/Devographics/Monorepo/).
+
+      ### Commentaires
+
+
+      - [Signaler un problème technique](https://github.com/Devographics/Monorepo/issues)
+
+      - [Faire une suggestion pour l'année prochaine](https://github.com/Devographics/surveys/issues/249)
+
+      - [Autres problèmes non techniques](https://github.com/Devographics/surveys/issues)
+
+      - [Rejoindre notre Discord](https://discord.gg/tuWRUWVyJs)
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick.css2026
+    t: "Mon choix pour 2026 : "
+  - key: picks.intro
+    t: Nous avons demandé aux membres de la communauté CSS de partager leur « coup de cœur de l'année ».
+
+  # https://linear-easing-generator.netlify.app/
+  - key: picks.josh_comeau.name
+    t: |
+      Générateur d'accélération `linear()`
+  - key: picks.josh_comeau.bio
+    t: Développeur indépendant et formateur
+  - key: picks.josh_comeau.description
+    t: |
+      La fonction de durée `linear()` est rapidement devenue l'une de mes fonctionnalités modernes préférées. Cet excellent outil permet de générer facilement des animations de ressort CSS à partir d'une logique JavaScript !
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/if
+  - key: picks.ahmad_shadeed.name
+    t: |
+      `if()`
+  - key: picks.ahmad_shadeed.bio
+    t: Ingénieur en conception, auteur de [debuggingcss.com](https://debuggingcss.com)
+  - key: picks.ahmad_shadeed.description
+    t: |
+      Associé à `:has()` et aux requêtes de style, `if()` nous permettra de créer encore plus de logique conditionnelle en CSS.
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/text-wrap
+  - key: picks.kilian_valkhof.name
+    t: |
+      `text-wrap: balance;`
+  - key: picks.kilian_valkhof.bio
+    t: Créateur de [Polypane](https://polypane.app/)
+  - key: picks.kilian_valkhof.description
+    t: |
+      Je ne me souviens pas de la dernière fois qu'une nouvelle propriété CSS a pu être ajoutée telle quelle à n'importe quelle feuille de style, ancienne ou récente. Cette petite ligne magique améliore nettement vos titres sans aucun inconvénient. Ajoutez-la à vos réinitialisations CSS !
+
+    # https://codepen.io/thebabydino/pen/LEExpVg
+  - key: picks.ana_tudor.name
+    t: Combiner les fonctionnalités
+  - key: picks.ana_tudor.bio
+    t: Scientifique folle du CSS
+  - key: picks.ana_tudor.description
+    t: |
+      Mon choix ne porte pas tant sur une fonctionnalité isolée qui change la donne que sur la façon dont plusieurs fonctionnalités peuvent être combinées.
+
+      Par exemple, Subgrid associé à la nouvelle propriété `corner-shape` (ou à la fonction `shape()` de `clip-path`) permet de créer des formes dépendant du contenu, avec des arrondis concaves qui ne sont pas forcément circulaires.
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units/Using_CSS_math_functions
+  - key: picks.amit_sheen.name
+    t: Fonctions mathématiques CSS
+  - key: picks.amit_sheen.bio
+    t: Développeur web et créateur numérique
+  - key: picks.amit_sheen.description
+    t: |
+      Les mathématiques sont le langage de l'univers et de la vie. Sans elles, nous ne pourrions rien décrire, mesurer ni construire avec précision.
+
+      Pouvoir utiliser ces fonctions directement en CSS renforce donc nos possibilités et ouvre tout un monde de nouvelles perspectives.
+
+  # https://miocene.io/
+  - key: picks.sacha_greif.name
+    t: Julia Miocene
+  - key: picks.sacha_greif.bio
+    t: Responsable de State of CSS
+  - key: picks.sacha_greif.description
+    t: |
+      Quand on passe des journées à déboguer une mise en page ou à styliser des formulaires, on oublie facilement que le développement front-end peut aussi être un plaisir en soi. Le travail remarquable de Julia nous rappelle la joie et la créativité que le CSS peut offrir, si l'on prend le temps de les chercher.
+
+  # https://developer.mozilla.org/en-US/docs/Web/API/View_Transition_API
+  - key: picks.julia_miocene.name
+    t: API View Transition
+  - key: picks.julia_miocene.bio
+    t: Designer produit, ingénieure UX et spécialiste des animations en CSS pur
+  - key: picks.julia_miocene.description
+    t: |
+      Mon coup de cœur de l'année est l'API View Transition. Elle m'a permis de supprimer du code JS et des astuces d'animation complexes. Je peux désormais animer facilement du contenu généré et des interactions utilisateur ✨
+
+  # https://modern-fluid-typography.vercel.app/
+  - key: picks.ana_rodrigues.name
+    t: |
+      Générateurs de clamp pour les polices
+  - key: picks.ana_rodrigues.bio
+    t: Développeuse front-end chez [Hactar.is](https://hactar.is/)
+  - key: picks.ana_rodrigues.description
+    t: |
+      Mon coup de cœur de l'année, ce sont tous les générateurs de clamp pour les polices que les gens ont créés et partagés. Leur diversité permet de s'adapter à différentes façons d'apprendre, surtout lorsque la documentation seule ne suffit pas à comprendre le fonctionnement d'une fonctionnalité.
+
+  # https://piccalil.li/blog/
+  - key: picks.saron_yitbarek.name
+    t: Picalilli
+  - key: picks.saron_yitbarek.bio
+    t: Évangéliste du Web chez Apple
+  - key: picks.saron_yitbarek.description
+    t: |
+      Je suis Piccalilli depuis un moment et j'aime y trouver des articles techniques gratuits ainsi que des formations payantes plus approfondies, pour choisir la formule qui me convient. Cette entreprise comprend très bien la communauté web et prend des décisions éthiques, ce qui lui permet de faire un excellent travail sans malaise quant à son modèle économique.
+
+  # https://developer.mozilla.org/en-US/docs/Web/CSS/color_value/light-dark
+  - key: picks.sara_joy.name
+    t: |
+      La fonction `light-dark()`
+  - key: picks.sara_joy.bio
+    t: Développeuse front-end
+  - key: picks.sara_joy.description
+    t: |
+      Dès lors que l'on utilise `color-scheme` en CSS, déclarer des couleurs avec `light-dark()` selon le mode clair ou sombre s'impose naturellement. Je suis avec intérêt [cette discussion](https://github.com/w3c/csswg-drafts/issues/10577) sur les futures possibilités de logique conditionnelle permettant d'interroger le schéma de couleurs et d'adapter le CSS.
+
+  - key: frontendmasters.learning_path
+    t: |
+      Votre parcours pour devenir développeur web senior
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      Envie de faire évoluer votre carrière ? Approfondissez JavaScript, React, les performances web, le CSS, le déploiement de sites, TypeScript et la programmation fonctionnelle pour passer dès aujourd'hui de junior à senior.
+
+  ###########################################################################
+  # Figures
+  ###########################################################################
+
+  - key: figure.figure_total_features.css2026
+    t: Nombre total de fonctionnalités dans l'enquête raccourcie de cette année, contre 63 en 2025.
+
+  - key: figure.figure_sibling_count_awareness.css2026
+    t: Hausse annuelle du pourcentage de répondants ayant entendu parler de `sibling-count()`.
+
+  - key: figure.figure_non_major_browsers.css2026
+    t: Pourcentage de répondants déclarant avoir utilisé un navigateur autre que les principaux navigateurs.
+
+  - key: figure.figure_css_ai_generated_code_balance.css2026
+    t: Pourcentage de répondants qui ne génèrent aucun code CSS à l'aide de l'IA.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2026.sunkanmi_fafowora
+    t: |
+
+      <span class="first-line">« Ce que faisait JavaScript, le CSS peut désormais le faire. »</span> Cette affirmation n'est pas sans fondement. Le CSS devient ce qu'il aurait toujours dû être. Des fonctionnalités qui auraient dû appartenir à sa couche de présentation prennent enfin vie et forme.
+
+
+      Avec des fonctionnalités comme les transitions de vue, le mélange des couleurs, les [mixins](https://groups.google.com/a/chromium.org/g/blink-dev/c/g0dSC7CvdlA/m/Wz30GgIZAwAJ?pli=1) et le positionnement par ancrage, l'avenir du CSS rend désormais possible l'impossible. Pour suivre le rythme du secteur, les développeurs web doivent faire preuve d'adaptabilité, penser d'abord à l'architecture et à la plateforme web, et se passionner pour un développement moderne et accessible. Le CSS évolue sans cesse et, avec l'aide de l'IA, cette évolution ne fera que s'accélérer. Que la nouveauté devienne moderne, puis que le moderne devienne obsolète.
+
+
+      Il est passionnant de voir où va le CSS : de nouvelles fonctionnalités sont discutées et proposées en ce moment même. [Les retours haptiques déclaratifs](https://github.com/w3c/csswg-drafts/issues/13728), [l'activation d'états personnalisés lors de déclencheurs](https://github.com/w3c/csswg-drafts/issues/13579) et même [un pseudo-sélecteur que j'ai proposé](https://github.com/w3c/csswg-drafts/issues/13198), [`::drag-image`](https://github.com/w3c/csswg-drafts/issues/13198), pour styliser les images fantômes des éléments déplacés à l'écran.
+
+
+      Les développeurs ne doivent pas seulement suivre les nouveautés : ils doivent aussi comprendre et prendre en compte la compatibilité des navigateurs, l'amélioration progressive et l'accessibilité dans un langage en constante évolution. L'interopérabilité est essentielle pour établir un ensemble standard de fonctionnalités CSS dont tout le monde peut profiter ; ne l'oublions pas.
+
+
+      Ce qui m'enthousiasme encore davantage, c'est que le CSS n'évolue pas seul. Il évolue grâce aux membres du CSSWG, aux éditeurs de navigateurs et à la participation des développeurs : discussions du CSSWG sur GitHub, signalements de bugs dans les navigateurs, retours sur la plateforme web et enquêtes comme State of CSS permettent de découvrir ce qui fonctionne ou non.
+
+
+      L'avenir du CSS en 2026 consiste à transformer, au fil des expérimentations, ce qui était autrefois impossible ou impraticable en quelque chose de possible et ordinaire pour nous, développeurs CSS. Aux fonctionnalités anciennes, nouvelles et à venir : j'ai hâte de voir les normes et fonctionnalités d'aujourd'hui devenir la norme de demain !
+
+      *Sunkanmi est un ingénieur CSS chevronné, un rédacteur technique et un formateur pour développeurs. Il est actuellement **à la recherche d'un emploi**. Si son profil vous intéresse, [contactez-le](https://www.linkedin.com/in/olasunkanmi-fafowora/) !*
+
+  - key: conclusion.css2026.sunkanmi_fafowora.bio
+    t: Rédacteur pour [CSS-Tricks](https://css-tricks.com/) et créateur de [CSS-Questions](https://css-questions.com/)

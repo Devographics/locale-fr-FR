@@ -1,0 +1,1098 @@
+# this list includes only the top ~50 countries in the world ranked by population,
+# we can add more countries if they appear in the survey. See full list below
+
+locale: fr-FR
+translations:
+  - key: options.country.AFG
+    t: Afghanistan
+    aliases:
+      - options.country_of_origin.AFG
+  - key: options.country.DZA
+    t: Algérie
+    aliases:
+      - options.country_of_origin.DZA
+  - key: options.country.ARG
+    t: Argentine
+    aliases:
+      - options.country_of_origin.ARG
+  - key: options.country.ARM
+    t: Arménie
+    aliases:
+      - options.country_of_origin.ARM
+  - key: options.country.AUS
+    t: Australie
+    aliases:
+      - options.country_of_origin.AUS
+  - key: options.country.AUT
+    t: Autriche
+    aliases:
+      - options.country_of_origin.AUT
+  - key: options.country.BGD
+    t: Bangladesh
+    aliases:
+      - options.country_of_origin.BGD
+  - key: options.country.BEL
+    t: Belgique
+    aliases:
+      - options.country_of_origin.BEL
+  - key: options.country.BLR
+    t: Biélorussie
+    aliases:
+      - options.country_of_origin.BLR
+  - key: options.country.BIH
+    t: Bosnie-Herzégovine
+    aliases:
+      - options.country_of_origin.BIH
+  - key: options.country.BRA
+    t: Brésil
+    aliases:
+      - options.country_of_origin.BRA
+  - key: options.country.BGR
+    t: Bulgarie
+    aliases:
+      - options.country_of_origin.BGR
+  - key: options.country.CAN
+    t: Canada
+    aliases:
+      - options.country_of_origin.CAN
+  - key: options.country.CRI
+    t: Costa Rica
+    aliases:
+      - options.country_of_origin.CRI
+  - key: options.country.HRV
+    t: Croatie
+    aliases:
+      - options.country_of_origin.HRV
+  - key: options.country.CHE
+    t: Suisse
+    aliases:
+      - options.country_of_origin.CHE
+  - key: options.country.CHL
+    t: Chili
+    aliases:
+      - options.country_of_origin.CHL
+  - key: options.country.CHN
+    t: Chine
+    aliases:
+      - options.country_of_origin.CHN
+  - key: options.country.COD
+    t: République démocratique du Congo
+    aliases:
+      - options.country_of_origin.COD
+  - key: options.country.COL
+    t: Colombie
+    aliases:
+      - options.country_of_origin.COL
+  - key: options.country.CIV
+    t: Côte d'Ivoire
+    aliases:
+      - options.country_of_origin.CIV
+  - key: options.country.CYP
+    t: Chypre
+    aliases:
+      - options.country_of_origin.CYP
+  - key: options.country.CZE
+    t: Tchéquie
+    aliases:
+      - options.country_of_origin.CZE
+  - key: options.country.DEU
+    t: Allemagne
+    aliases:
+      - options.country_of_origin.DEU
+  - key: options.country.GRC
+    t: Grèce
+    aliases:
+      - options.country_of_origin.GRC
+  - key: options.country.DNK
+    t: Danemark
+    aliases:
+      - options.country_of_origin.DNK
+  - key: options.country.EGY
+    t: Égypte
+    aliases:
+      - options.country_of_origin.EGY
+  - key: options.country.EST
+    t: Estonie
+    aliases:
+      - options.country_of_origin.EST
+  - key: options.country.ETH
+    t: Éthiopie
+    aliases:
+      - options.country_of_origin.ETH
+  - key: options.country.FIN
+    t: Finlande
+    aliases:
+      - options.country_of_origin.FIN
+  - key: options.country.FRA
+    t: France
+    aliases:
+      - options.country_of_origin.FRA
+  - key: options.country.GEO
+    t: Géorgie
+    aliases:
+      - options.country_of_origin.GEO
+  - key: options.country.GHA
+    t: Ghana
+    aliases:
+      - options.country_of_origin.GHA
+  - key: options.country.HKG
+    t: Hong Kong
+    aliases:
+      - options.country_of_origin.HKG
+  - key: options.country.HUN
+    t: Hongrie
+    aliases:
+      - options.country_of_origin.HUN
+  - key: options.country.IND
+    t: Inde
+    aliases:
+      - options.country_of_origin.IND
+  - key: options.country.IDN
+    t: Indonésie
+    aliases:
+      - options.country_of_origin.IDN
+  - key: options.country.IRL
+    t: Irlande
+    aliases:
+      - options.country_of_origin.IRL
+  - key: options.country.ISL
+    t: Islande
+    aliases:
+      - options.country_of_origin.ISL
+  - key: options.country.IRN
+    t: Iran
+    aliases:
+      - options.country_of_origin.IRN
+  - key: options.country.IRQ
+    t: Irak
+    aliases:
+      - options.country_of_origin.IRQ
+  - key: options.country.ITA
+    t: Italie
+    aliases:
+      - options.country_of_origin.ITA
+  - key: options.country.ISR
+    t: Israël
+    aliases:
+      - options.country_of_origin.ISR
+  - key: options.country.JPN
+    t: Japon
+    aliases:
+      - options.country_of_origin.JPN
+  - key: options.country.KEN
+    t: Kenya
+    aliases:
+      - options.country_of_origin.KEN
+  - key: options.country.LTU
+    t: Lituanie
+    aliases:
+      - options.country_of_origin.LTU
+  - key: options.country.LVA
+    t: Lettonie
+    aliases:
+      - options.country_of_origin.LVA
+  - key: options.country.LUX
+    t: Luxembourg
+    aliases:
+      - options.country_of_origin.LUX
+  - key: options.country.MDA
+    t: Moldavie
+    aliases:
+      - options.country_of_origin.MDA
+  - key: options.country.MEX
+    t: Mexique
+    aliases:
+      - options.country_of_origin.MEX
+  - key: options.country.MMR
+    t: Myanmar
+    aliases:
+      - options.country_of_origin.MMR
+  - key: options.country.NPL
+    t: Népal
+    aliases:
+      - options.country_of_origin.NPL
+  - key: options.country.MKD
+    t: Macédoine du Nord
+    aliases:
+      - options.country_of_origin.MKD
+  - key: options.country.NOR
+    t: Norvège
+    aliases:
+      - options.country_of_origin.NOR
+  - key: options.country.NLD
+    t: Pays-Bas
+    aliases:
+      - options.country_of_origin.NLD
+  - key: options.country.NGA
+    t: Nigéria
+    aliases:
+      - options.country_of_origin.NGA
+  - key: options.country.NZL
+    t: Nouvelle-Zélande
+    aliases:
+      - options.country_of_origin.NZL
+  - key: options.country.POL
+    t: Pologne
+    aliases:
+      - options.country_of_origin.POL
+  - key: options.country.PRT
+    t: Portugal
+    aliases:
+      - options.country_of_origin.PRT
+  - key: options.country.PAK
+    t: Pakistan
+    aliases:
+      - options.country_of_origin.PAK
+  - key: options.country.PER
+    t: Pérou
+    aliases:
+      - options.country_of_origin.PER
+  - key: options.country.PHL
+    t: Philippines
+    aliases:
+      - options.country_of_origin.PHL
+  - key: options.country.ROU
+    t: Roumanie
+    aliases:
+      - options.country_of_origin.ROU
+  - key: options.country.RUS
+    t: Russie
+    aliases:
+      - options.country_of_origin.RUS
+  - key: options.country.SAU
+    t: Arabie saoudite
+    aliases:
+      - options.country_of_origin.SAU
+  - key: options.country.SRB
+    t: Serbie
+    aliases:
+      - options.country_of_origin.SRB
+  - key: options.country.SGP
+    t: Singapour
+    aliases:
+      - options.country_of_origin.SGP
+  - key: options.country.SVK
+    t: Slovaquie
+    aliases:
+      - options.country_of_origin.SVK
+  - key: options.country.SVN
+    t: Slovénie
+    aliases:
+      - options.country_of_origin.SVN
+  - key: options.country.ZAF
+    t: Afrique du Sud
+    aliases:
+      - options.country_of_origin.ZAF
+  - key: options.country.KOR
+    t: Corée du Sud
+    aliases:
+      - options.country_of_origin.KOR
+  - key: options.country.ESP
+    t: Espagne
+    aliases:
+      - options.country_of_origin.ESP
+  - key: options.country.SWE
+    t: Suède
+    aliases:
+      - options.country_of_origin.SWE
+  - key: options.country.TWN
+    t: Taïwan
+    aliases:
+      - options.country_of_origin.TWN
+  - key: options.country.TZA
+    t: Tanzanie
+    aliases:
+      - options.country_of_origin.TZA
+  - key: options.country.THA
+    t: Thaïlande
+    aliases:
+      - options.country_of_origin.THA
+  - key: options.country.TUR
+    t: Türkiye
+    aliases:
+      - options.country_of_origin.TUR
+  - key: options.country.UGA
+    t: Ouganda
+    aliases:
+      - options.country_of_origin.UGA
+  - key: options.country.UKR
+    t: Ukraine
+    aliases:
+      - options.country_of_origin.UKR
+  - key: options.country.URY
+    t: Uruguay
+    aliases:
+      - options.country_of_origin.URY
+  - key: options.country.ARE
+    t: Émirats arabes unis
+    aliases:
+      - options.country_of_origin.ARE
+  - key: options.country.GBR
+    t: Royaume-Uni
+    aliases:
+      - options.country_of_origin.GBR
+  - key: options.country.SCT # not a country but still adding it
+    t: Écosse
+    aliases:
+      - options.country_of_origin.SCT
+  - key: options.country.USA
+    t: États-Unis
+    aliases:
+      - options.country_of_origin.USA
+  - key: options.country.VEN
+    t: Venezuela
+    aliases:
+      - options.country_of_origin.VEN
+  - key: options.country.VNM
+    t: Vietnam
+    aliases:
+      - options.country_of_origin.VNM
+
+# from https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes/blob/master/slim-3/slim-3.json
+# - name: Afghanistan
+# alpha-3: AFG
+# country-code: '004'
+# - name: Îles Åland
+# alpha-3: ALA
+# country-code: '248'
+# - name: Albanie
+# alpha-3: ALB
+# country-code: '008'
+# - name: Algérie
+# alpha-3: DZA
+# country-code: '012'
+# - name: Samoa américaines
+# alpha-3: ASM
+# country-code: '016'
+# - name: Andorre
+# alpha-3: AND
+# country-code: '020'
+# - name: Angola
+# alpha-3: AGO
+# country-code: '024'
+# - name: Anguilla
+# alpha-3: AIA
+# country-code: '660'
+# - name: Antarctique
+# alpha-3: ATA
+# country-code: '010'
+# - name: Antigua-et-Barbuda
+# alpha-3: ATG
+# country-code: '028'
+# - name: Argentine
+# alpha-3: ARG
+# country-code: '032'
+# - name: Arménie
+# alpha-3: ARM
+# country-code: '051'
+# - name: Aruba
+# alpha-3: ABW
+# country-code: '533'
+# - name: Australie
+# alpha-3: AUS
+# country-code: '036'
+# - name: Autriche
+# alpha-3: AUT
+# country-code: '040'
+# - name: Azerbaïdjan
+# alpha-3: AZE
+# country-code: '031'
+# - name: Bahamas
+# alpha-3: BHS
+# country-code: '044'
+# - name: Bahreïn
+# alpha-3: BHR
+# country-code: '048'
+# - name: Bangladesh
+# alpha-3: BGD
+# country-code: '050'
+# - name: Barbade
+# alpha-3: BRB
+# country-code: '052'
+# - name: Biélorussie
+# alpha-3: BLR
+# country-code: '112'
+# - name: Belgique
+# alpha-3: BEL
+# country-code: '056'
+# - name: Belize
+# alpha-3: BLZ
+# country-code: '084'
+# - name: Bénin
+# alpha-3: BEN
+# country-code: '204'
+# - name: Bermudes
+# alpha-3: BMU
+# country-code: '060'
+# - name: Bhoutan
+# alpha-3: BTN
+# country-code: '064'
+# - name: Bolivie (État plurinational de)
+# alpha-3: BOL
+# country-code: '068'
+# - name: Bonaire, Saint-Eustache et Saba
+# alpha-3: BES
+# country-code: '535'
+# - name: Bosnie-Herzégovine
+# alpha-3: BIH
+# country-code: '070'
+# - name: Botswana
+# alpha-3: BWA
+# country-code: '072'
+# - name: Île Bouvet
+# alpha-3: BVT
+# country-code: '074'
+# - name: Brésil
+# alpha-3: BRA
+# country-code: '076'
+# - name: Territoire britannique de l'océan Indien
+# alpha-3: IOT
+# country-code: '086'
+# - name: Brunéi Darussalam
+# alpha-3: BRN
+# country-code: '096'
+# - name: Bulgarie
+# alpha-3: BGR
+# country-code: '100'
+# - name: Burkina Faso
+# alpha-3: BFA
+# country-code: '854'
+# - name: Burundi
+# alpha-3: BDI
+# country-code: '108'
+# - name: Cabo Verde
+# alpha-3: CPV
+# country-code: '132'
+# - name: Cambodge
+# alpha-3: KHM
+# country-code: '116'
+# - name: Cameroun
+# alpha-3: CMR
+# country-code: '120'
+# - name: Canada
+# alpha-3: CAN
+# country-code: '124'
+# - name: Îles Caïmans
+# alpha-3: CYM
+# country-code: '136'
+# - name: République centrafricaine
+# alpha-3: CAF
+# country-code: '140'
+# - name: Tchad
+# alpha-3: TCD
+# country-code: '148'
+# - name: Chili
+# alpha-3: CHL
+# country-code: '152'
+# - name: Chine
+# alpha-3: CHN
+# country-code: '156'
+# - name: Île Christmas
+# alpha-3: CXR
+# country-code: '162'
+# - name: Îles Cocos (Keeling)
+# alpha-3: CCK
+# country-code: '166'
+# - name: Colombie
+# alpha-3: COL
+# country-code: '170'
+# - name: Comores
+# alpha-3: COM
+# country-code: '174'
+# - name: Congo
+# alpha-3: COG
+# country-code: '178'
+# - name: République démocratique du Congo
+# alpha-3: COD
+# country-code: '180'
+# - name: Îles Cook
+# alpha-3: COK
+# country-code: '184'
+# - name: Costa Rica
+# alpha-3: CRI
+# country-code: '188'
+# - name: Côte d'Ivoire
+# alpha-3: CIV
+# country-code: '384'
+# - name: Croatie
+# alpha-3: HRV
+# country-code: '191'
+# - name: Cuba
+# alpha-3: CUB
+# country-code: '192'
+# - name: Curaçao
+# alpha-3: CUW
+# country-code: '531'
+# - name: Chypre
+# alpha-3: CYP
+# country-code: '196'
+# - name: Tchéquie
+# alpha-3: CZE
+# country-code: '203'
+# - name: Danemark
+# alpha-3: DNK
+# country-code: '208'
+# - name: Djibouti
+# alpha-3: DJI
+# country-code: '262'
+# - name: Dominique
+# alpha-3: DMA
+# country-code: '212'
+# - name: République dominicaine
+# alpha-3: DOM
+# country-code: '214'
+# - name: Équateur
+# alpha-3: ECU
+# country-code: '218'
+# - name: Égypte
+# alpha-3: EGY
+# country-code: '818'
+# - name: Salvador
+# alpha-3: SLV
+# country-code: '222'
+# - name: Guinée équatoriale
+# alpha-3: GNQ
+# country-code: '226'
+# - name: Érythrée
+# alpha-3: ERI
+# country-code: '232'
+# - name: Estonie
+# alpha-3: EST
+# country-code: '233'
+# - name: Eswatini
+# alpha-3: SWZ
+# country-code: '748'
+# - name: Éthiopie
+# alpha-3: ETH
+# country-code: '231'
+# - name: Îles Malouines (Falkland)
+# alpha-3: FLK
+# country-code: '238'
+# - name: Îles Féroé
+# alpha-3: FRO
+# country-code: '234'
+# - name: Fidji
+# alpha-3: FJI
+# country-code: '242'
+# - name: Finlande
+# alpha-3: FIN
+# country-code: '246'
+# - name: France
+# alpha-3: FRA
+# country-code: '250'
+# - name: Guyane française
+# alpha-3: GUF
+# country-code: '254'
+# - name: Polynésie française
+# alpha-3: PYF
+# country-code: '258'
+# - name: Terres australes françaises
+# alpha-3: ATF
+# country-code: '260'
+# - name: Gabon
+# alpha-3: GAB
+# country-code: '266'
+# - name: Gambie
+# alpha-3: GMB
+# country-code: '270'
+# - name: Géorgie
+# alpha-3: GEO
+# country-code: '268'
+# - name: Allemagne
+# alpha-3: DEU
+# country-code: '276'
+# - name: Ghana
+# alpha-3: GHA
+# country-code: '288'
+# - name: Gibraltar
+# alpha-3: GIB
+# country-code: '292'
+# - name: Grèce
+# alpha-3: GRC
+# country-code: '300'
+# - name: Groenland
+# alpha-3: GRL
+# country-code: '304'
+# - name: Grenade
+# alpha-3: GRD
+# country-code: '308'
+# - name: Guadeloupe
+# alpha-3: GLP
+# country-code: '312'
+# - name: Guam
+# alpha-3: GUM
+# country-code: '316'
+# - name: Guatemala
+# alpha-3: GTM
+# country-code: '320'
+# - name: Guernesey
+# alpha-3: GGY
+# country-code: '831'
+# - name: Guinée
+# alpha-3: GIN
+# country-code: '324'
+# - name: Guinée-Bissau
+# alpha-3: GNB
+# country-code: '624'
+# - name: Guyana
+# alpha-3: GUY
+# country-code: '328'
+# - name: Haïti
+# alpha-3: HTI
+# country-code: '332'
+# - name: Île Heard et îles McDonald
+# alpha-3: HMD
+# country-code: '334'
+# - name: Saint-Siège
+# alpha-3: VAT
+# country-code: '336'
+# - name: Honduras
+# alpha-3: HND
+# country-code: '340'
+# - name: Hong Kong
+# alpha-3: HKG
+# country-code: '344'
+# - name: Hongrie
+# alpha-3: HUN
+# country-code: '348'
+# - name: Islande
+# alpha-3: ISL
+# country-code: '352'
+# - name: Inde
+# alpha-3: IND
+# country-code: '356'
+# - name: Indonésie
+# alpha-3: IDN
+# country-code: '360'
+# - name: Iran (République islamique d')
+# alpha-3: IRN
+# country-code: '364'
+# - name: Irak
+# alpha-3: IRQ
+# country-code: '368'
+# - name: Irlande
+# alpha-3: IRL
+# country-code: '372'
+# - name: Île de Man
+# alpha-3: IMN
+# country-code: '833'
+# - name: Israël
+# alpha-3: ISR
+# country-code: '376'
+# - name: Italie
+# alpha-3: ITA
+# country-code: '380'
+# - name: Jamaïque
+# alpha-3: JAM
+# country-code: '388'
+# - name: Japon
+# alpha-3: JPN
+# country-code: '392'
+# - name: Jersey
+# alpha-3: JEY
+# country-code: '832'
+# - name: Jordanie
+# alpha-3: JOR
+# country-code: '400'
+# - name: Kazakhstan
+# alpha-3: KAZ
+# country-code: '398'
+# - name: Kenya
+# alpha-3: KEN
+# country-code: '404'
+# - name: Kiribati
+# alpha-3: KIR
+# country-code: '296'
+# - name: Corée (République populaire démocratique de)
+# alpha-3: PRK
+# country-code: '408'
+# - name: Corée (République de)
+# alpha-3: KOR
+# country-code: '410'
+# - name: Koweït
+# alpha-3: KWT
+# country-code: '414'
+# - name: Kirghizistan
+# alpha-3: KGZ
+# country-code: '417'
+# - name: République démocratique populaire lao
+# alpha-3: LAO
+# country-code: '418'
+# - name: Lettonie
+# alpha-3: LVA
+# country-code: '428'
+# - name: Liban
+# alpha-3: LBN
+# country-code: '422'
+# - name: Lesotho
+# alpha-3: LSO
+# country-code: '426'
+# - name: Libéria
+# alpha-3: LBR
+# country-code: '430'
+# - name: Libye
+# alpha-3: LBY
+# country-code: '434'
+# - name: Liechtenstein
+# alpha-3: LIE
+# country-code: '438'
+# - name: Lituanie
+# alpha-3: LTU
+# country-code: '440'
+# - name: Luxembourg
+# alpha-3: LUX
+# country-code: '442'
+# - name: Macao
+# alpha-3: MAC
+# country-code: '446'
+# - name: Madagascar
+# alpha-3: MDG
+# country-code: '450'
+# - name: Malawi
+# alpha-3: MWI
+# country-code: '454'
+# - name: Malaisie
+# alpha-3: MYS
+# country-code: '458'
+# - name: Maldives
+# alpha-3: MDV
+# country-code: '462'
+# - name: Mali
+# alpha-3: MLI
+# country-code: '466'
+# - name: Malte
+# alpha-3: MLT
+# country-code: '470'
+# - name: Îles Marshall
+# alpha-3: MHL
+# country-code: '584'
+# - name: Martinique
+# alpha-3: MTQ
+# country-code: '474'
+# - name: Mauritanie
+# alpha-3: MRT
+# country-code: '478'
+# - name: Maurice
+# alpha-3: MUS
+# country-code: '480'
+# - name: Mayotte
+# alpha-3: MYT
+# country-code: '175'
+# - name: Mexique
+# alpha-3: MEX
+# country-code: '484'
+# - name: Micronésie (États fédérés de)
+# alpha-3: FSM
+# country-code: '583'
+# - name: Moldavie, République de
+# alpha-3: MDA
+# country-code: '498'
+# - name: Monaco
+# alpha-3: MCO
+# country-code: '492'
+# - name: Mongolie
+# alpha-3: MNG
+# country-code: '496'
+# - name: Monténégro
+# alpha-3: MNE
+# country-code: '499'
+# - name: Montserrat
+# alpha-3: MSR
+# country-code: '500'
+# - name: Maroc
+# alpha-3: MAR
+# country-code: '504'
+# - name: Mozambique
+# alpha-3: MOZ
+# country-code: '508'
+# - name: Myanmar
+# alpha-3: MMR
+# country-code: '104'
+# - name: Namibie
+# alpha-3: NAM
+# country-code: '516'
+# - name: Nauru
+# alpha-3: NRU
+# country-code: '520'
+# - name: Népal
+# alpha-3: NPL
+# country-code: '524'
+# - name: Pays-Bas
+# alpha-3: NLD
+# country-code: '528'
+# - name: Nouvelle-Calédonie
+# alpha-3: NCL
+# country-code: '540'
+# - name: Nouvelle-Zélande
+# alpha-3: NZL
+# country-code: '554'
+# - name: Nicaragua
+# alpha-3: NIC
+# country-code: '558'
+# - name: Niger
+# alpha-3: NER
+# country-code: '562'
+# - name: Nigéria
+# alpha-3: NGA
+# country-code: '566'
+# - name: Niue
+# alpha-3: NIU
+# country-code: '570'
+# - name: Île Norfolk
+# alpha-3: NFK
+# country-code: '574'
+# - name: Macédoine du Nord
+# alpha-3: MKD
+# country-code: '807'
+# - name: Îles Mariannes du Nord
+# alpha-3: MNP
+# country-code: '580'
+# - name: Norvège
+# alpha-3: NOR
+# country-code: '578'
+# - name: Oman
+# alpha-3: OMN
+# country-code: '512'
+# - name: Pakistan
+# alpha-3: PAK
+# country-code: '586'
+# - name: Palaos
+# alpha-3: PLW
+# country-code: '585'
+# - name: Palestine, État de
+# alpha-3: PSE
+# country-code: '275'
+# - name: Panama
+# alpha-3: PAN
+# country-code: '591'
+# - name: Papouasie-Nouvelle-Guinée
+# alpha-3: PNG
+# country-code: '598'
+# - name: Paraguay
+# alpha-3: PRY
+# country-code: '600'
+# - name: Pérou
+# alpha-3: PER
+# country-code: '604'
+# - name: Philippines
+# alpha-3: PHL
+# country-code: '608'
+# - name: Îles Pitcairn
+# alpha-3: PCN
+# country-code: '612'
+# - name: Pologne
+# alpha-3: POL
+# country-code: '616'
+# - name: Portugal
+# alpha-3: PRT
+# country-code: '620'
+# - name: Porto Rico
+# alpha-3: PRI
+# country-code: '630'
+# - name: Qatar
+# alpha-3: QAT
+# country-code: '634'
+# - name: La Réunion
+# alpha-3: REU
+# country-code: '638'
+# - name: Roumanie
+# alpha-3: ROU
+# country-code: '642'
+# - name: Fédération de Russie
+# alpha-3: RUS
+# country-code: '643'
+# - name: Rwanda
+# alpha-3: RWA
+# country-code: '646'
+# - name: Saint-Barthélemy
+# alpha-3: BLM
+# country-code: '652'
+# - name: Sainte-Hélène, Ascension et Tristan da Cunha
+# alpha-3: SHN
+# country-code: '654'
+# - name: Saint-Christophe-et-Niévès
+# alpha-3: KNA
+# country-code: '659'
+# - name: Sainte-Lucie
+# alpha-3: LCA
+# country-code: '662'
+# - name: Saint-Martin (partie française)
+# alpha-3: MAF
+# country-code: '663'
+# - name: Saint-Pierre-et-Miquelon
+# alpha-3: SPM
+# country-code: '666'
+# - name: Saint-Vincent-et-les-Grenadines
+# alpha-3: VCT
+# country-code: '670'
+# - name: Samoa
+# alpha-3: WSM
+# country-code: '882'
+# - name: Saint-Marin
+# alpha-3: SMR
+# country-code: '674'
+# - name: Sao Tomé-et-Principe
+# alpha-3: STP
+# country-code: '678'
+# - name: Arabie saoudite
+# alpha-3: SAU
+# country-code: '682'
+# - name: Sénégal
+# alpha-3: SEN
+# country-code: '686'
+# - name: Serbie
+# alpha-3: SRB
+# country-code: '688'
+# - name: Seychelles
+# alpha-3: SYC
+# country-code: '690'
+# - name: Sierra Leone
+# alpha-3: SLE
+# country-code: '694'
+# - name: Singapour
+# alpha-3: SGP
+# country-code: '702'
+# - name: Saint-Martin (partie néerlandaise)
+# alpha-3: SXM
+# country-code: '534'
+# - name: Slovaquie
+# alpha-3: SVK
+# country-code: '703'
+# - name: Slovénie
+# alpha-3: SVN
+# country-code: '705'
+# - name: Îles Salomon
+# alpha-3: SLB
+# country-code: '090'
+# - name: Somalie
+# alpha-3: SOM
+# country-code: '706'
+# - name: Afrique du Sud
+# alpha-3: ZAF
+# country-code: '710'
+# - name: Géorgie du Sud-et-les Îles Sandwich du Sud
+# alpha-3: SGS
+# country-code: '239'
+# - name: Soudan du Sud
+# alpha-3: SSD
+# country-code: '728'
+# - name: Espagne
+# alpha-3: ESP
+# country-code: '724'
+# - name: Sri Lanka
+# alpha-3: LKA
+# country-code: '144'
+# - name: Soudan
+# alpha-3: SDN
+# country-code: '729'
+# - name: Suriname
+# alpha-3: SUR
+# country-code: '740'
+# - name: Svalbard et Jan Mayen
+# alpha-3: SJM
+# country-code: '744'
+# - name: Suède
+# alpha-3: SWE
+# country-code: '752'
+# - name: Suisse
+# alpha-3: CHE
+# country-code: '756'
+# - name: République arabe syrienne
+# alpha-3: SYR
+# country-code: '760'
+# - name: Taïwan
+# alpha-3: TWN
+# country-code: '158'
+# - name: Tadjikistan
+# alpha-3: TJK
+# country-code: '762'
+# - name: République-Unie de Tanzanie
+# alpha-3: TZA
+# country-code: '834'
+# - name: Thaïlande
+# alpha-3: THA
+# country-code: '764'
+# - name: Timor-Leste
+# alpha-3: TLS
+# country-code: '626'
+# - name: Togo
+# alpha-3: TGO
+# country-code: '768'
+# - name: Tokélaou
+# alpha-3: TKL
+# country-code: '772'
+# - name: Tonga
+# alpha-3: TON
+# country-code: '776'
+# - name: Trinité-et-Tobago
+# alpha-3: TTO
+# country-code: '780'
+# - name: Tunisie
+# alpha-3: TUN
+# country-code: '788'
+# - name: Türkiye
+# alpha-3: TUR
+# country-code: '792'
+# - name: Turkménistan
+# alpha-3: TKM
+# country-code: '795'
+# - name: Îles Turques-et-Caïques
+# alpha-3: TCA
+# country-code: '796'
+# - name: Tuvalu
+# alpha-3: TUV
+# country-code: '798'
+# - name: Ouganda
+# alpha-3: UGA
+# country-code: '800'
+# - name: Ukraine
+# alpha-3: UKR
+# country-code: '804'
+# - name: Émirats arabes unis
+# alpha-3: ARE
+# country-code: '784'
+# - name: Royaume-Uni
+# alpha-3: GBR
+# country-code: '826'
+# - name: États-Unis d'Amérique
+# alpha-3: USA
+# country-code: '840'
+# - name: Îles mineures éloignées des États-Unis
+# alpha-3: UMI
+# country-code: '581'
+# - name: Uruguay
+# alpha-3: URY
+# country-code: '858'
+# - name: Ouzbékistan
+# alpha-3: UZB
+# country-code: '860'
+# - name: Vanuatu
+# alpha-3: VUT
+# country-code: '548'
+# - name: Venezuela
+# alpha-3: VEN
+# country-code: '862'
+# - name: Viet Nam
+# alpha-3: VNM
+# country-code: '704'
+# - name: Îles Vierges britanniques
+# alpha-3: VGB
+# country-code: '092'
+# - name: Îles Vierges des États-Unis
+# alpha-3: VIR
+# country-code: '850'
+# - name: Wallis-et-Futuna
+# alpha-3: WLF
+# country-code: '876'
+# - name: Sahara occidental
+# alpha-3: ESH
+# country-code: '732'
+# - name: Yémen
+# alpha-3: YEM
+# country-code: '887'
+# - name: Zambie
+# alpha-3: ZMB
+# country-code: '894'
+# - name: Zimbabwe
+# alpha-3: ZWE
+# country-code: '716'

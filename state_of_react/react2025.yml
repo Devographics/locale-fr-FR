@@ -1,0 +1,440 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: L'édition 2025 de l'enquête annuelle sur les dernières tendances de l'écosystème React.
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: general.react2025.survey_intro
+    t: |
+      Vu que React est né au sein d'une entreprise dont la devise était « avancer vite et tout casser », il est ironique que son approche puisse se résumer à « lentement mais sûrement ».
+
+      L'équipe React a remarquablement fait évoluer le framework jusqu'à sa forme actuelle, en introduisant progressivement des innovations comme les composants serveur, puis en laissant la communauté les adopter, ou non, à son propre rythme.
+
+      Cette année, le compilateur tant attendu fait enfin ses débuts officiels. Les choses avancent aussi sur le plan de la gouvernance avec la récente création de la [React Foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation).
+
+      Que vous adoptiez les nouveautés React dès leur sortie ou que vous préfériez avancer à votre rythme, répondez une nouvelle fois à l'enquête State of React pour découvrir où va React !
+
+  - key: features.features_intro.react2025
+    t: |
+      Bienvenue dans l'enquête ! Cette première partie porte sur votre expérience avec différentes fonctionnalités de React :
+
+
+      - **Jamais entendu parler** : vous découvrez cette fonctionnalité, ou vous en avez entendu parler sans savoir à quoi elle sert.
+
+      - **J'en ai entendu parler** : vous avez lu des informations à ce sujet, mais ne l'avez pas encore utilisée.
+
+      - **Je l'ai utilisée** : vous l'avez utilisée au moins une fois, même simplement pour l'essayer.
+
+
+      Au fait, si vous souhaitez nous en dire plus sur l'un de vos choix, cliquez simplement sur la petite icône de commentaire !
+
+  - key: tools.tools_intro.react2025
+    t: |
+      Cette partie de l'enquête porte sur les différentes bibliothèques et frameworks qui composent l'écosystème React.
+
+  - key: introduction.react2025
+    t: |
+      <span class="first-letter">A</span>nnée après année, React déjoue les tendances d'un développement web en perpétuelle mutation : il refuse obstinément de devenir obsolète et évolue avec son temps, parfois même en avance sur lui.
+
+
+      Et puisque l'IA générative s'appuie sur les bases de code existantes pour produire du code, React pourrait-il s'ancrer encore davantage et devenir, de fait, le premier « framework éternel » ?
+
+
+      Nous ne connaîtrons pas la réponse avant un certain temps. D'ici là, le mieux est de continuer à publier des enquêtes comme celle-ci pour suivre l'évolution de l'écosystème.
+
+
+      Même si cette édition a recueilli moins de réponses parce qu'elle a été organisée tard dans l'année, elle offre tout de même des résultats intéressants. J'ai hâte que vous les découvriez !
+
+
+      *Veuillez noter que cette enquête n'est pas officielle et n'est affiliée ni à Meta, ni à Vercel, ni à l'équipe React, ni à la React Foundation.*
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.survey_design_react2025
+    t: Comment cette enquête a-t-elle été conçue ?
+  - key: faq.survey_design_react2025.description
+    t: >
+      L'enquête a été conçue avec la contribution de la communauté, recueillie dans un [fil de discussion ouvert](https://github.com/Devographics/surveys/issues/262).
+
+  - key: faq.results_released_react2025
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_react2025.description
+    t: L'enquête se déroulera du 25 octobre au 25 novembre et les résultats seront publiés peu après.
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  - key: features.all_features.takeaway.react2025
+    t: |
+      Il n'y a pas de grande surprise, mais il est intéressant de noter que les **composants serveur** et les **fonctions serveur** sont respectivement les troisième et quatrième fonctionnalités les moins appréciées. C'est préoccupant pour ces nouvelles API, censées ouvrir la voie à la prochaine grande évolution de React vers un framework full-stack plus complet.
+
+  - key: features.main_apis_ratios.takeaway.react2025
+    t: |
+      React est une bibliothèque mature, ce qui se traduit par des courbes d'utilisation assez prévisibles pour ses principales API.
+
+  - key: features.hooks_ratios.takeaway.react2025
+    t: |
+      Parmi les hooks, [useId](https://react.dev/reference/react/useId) est rapidement adopté. [useEffect](https://react.dev/reference/react/useEffect) reste l'un des hooks les plus utilisés, mais aussi celui qui recueille le moins de satisfaction, confirmant les difficultés que pose son modèle de réactivité délicat.
+
+  - key: features.new_apis_ratios.takeaway.react2025
+    t: |
+      Les **composants serveur** et les **fonctions serveur** gagnent lentement en popularité, tandis que [Suspense](https://react.dev/reference/react/Suspense) est la nouvelle fonctionnalité dont l'adoption progresse le plus rapidement.
+
+
+      Suspense bénéficie également d'un taux de satisfaction élevé, contrairement aux API serveur mentionnées précédemment.
+
+  - key: features.main_apis_pain_points.takeaway.react2025
+    t: |
+      `forwardRef` est depuis longtemps une source de frustration pour les développeurs React. Sa [dépréciation dans React 19](https://react.dev/blog/2024/12/05/react-19#ref-as-a-prop) a donc été accueillie avec soulagement.
+    aliases:
+      - react_pain_points.main_apis_pain_points.takeaway.react2025
+
+  - key: features.hooks_pain_points.takeaway.react2025
+    t: |
+      Une nouvelle fois, les développeurs React expriment clairement leur agacement à l'égard de `useEffect`.
+    aliases:
+      - react_pain_points.hooks_pain_points.takeaway.react2025
+
+  - key: features.new_apis_pain_points.takeaway.react2025
+    t: |
+      Comme le laissaient présager les graphiques précédents, les participants ont leur lot de critiques à l'égard des **composants serveur**.
+    aliases:
+      - react_pain_points.new_apis_pain_points.takeaway.react2025
+
+  - key: features.reading_list.takeaway.react2025
+    t: |
+      L'API `<ViewTransition>` n'est peut-être encore disponible que dans React Canary, mais elle suscite déjà beaucoup de curiosité, tout comme `<Profiler>`.
+
+  - key: libraries.all_libraries.takeaway.react2025
+    t: |
+      **TanStack Query** recueille le plus d'avis positifs, suivi d'assez près par **TanStack Start**, puis **Zustand**, **shadcn/ui** et **create-vite**.
+
+      Comme dans les récents [résultats de l'enquête State of JavaScript](https://2025.stateofjs.com/en-US/libraries/), **Next.js** est également la bibliothèque qui suscite le plus de commentaires ici.
+
+  - key: libraries.tools_ratios_over_time.takeaway.react2025
+    t: |
+      **shadcn/ui** se distingue par la plus forte progression d'utilisation, passant de 20 % à 56 % en deux ans.
+
+      De son côté, **TanStack Start** a fait sensation malgré sa relative nouveauté : sa notoriété est passée de 55 % à 81 % en un an seulement !
+
+  - key: component_libraries.component_libraries_ratios.takeaway.react2025
+    t: |
+      **MUI** (ou Material UI) reste le plus utilisé, mais **shadcn/ui** progresse rapidement et pourrait bientôt lui ravir la première place.
+
+  - key: component_libraries.component_libraries_cardinalities.takeaway.react2025
+    t: |
+      Une grande partie des utilisateurs n'emploient aucune bibliothèque de composants. En revanche, ceux qui en utilisent une en ont souvent essayé plusieurs. Le secteur n'est donc pas encore stabilisé et de nouveaux projets peuvent toujours s'y faire une place.
+
+  - key: component_libraries.component_libraries_others.takeaway.react2025
+    t: |
+      **Base UI** fait son entrée dans le secteur très concurrentiel des bibliothèques d'interface headless, qui fournissent le comportement des composants tout en vous laissant gérer leur style. Avec plusieurs anciens de **Radix** dans l'équipe, le projet mérite le détour si c'est ce que vous recherchez.
+
+  - key: component_libraries.animation_libraries.takeaway.react2025
+    t: |
+      Tous les projets n'ont pas besoin d'animations sophistiquées, mais pour ceux qui en ont besoin, **Motion** s'est imposé comme une option de premier plan.
+
+  - key: component_libraries.data_visualization_libraries.takeaway.react2025
+    t: |
+      Bien qu'il ne s'agisse pas d'une bibliothèque de graphiques propre à React, **Chart.js** arrive tout de même en tête du classement.
+
+
+      Devinez quelle bibliothèque *nous* utilisons pour créer les graphiques de cette page ? Question piège : ils sont tous codés à la main, de zéro !
+
+  - key: component_libraries.form_libraries.takeaway.react2025
+    t: |
+      Personne n'aime gérer les formulaires, mais quand on n'a pas le choix, **React Hook Forms** rend au moins la tâche beaucoup moins pénible.
+
+  - key: component_libraries.react_form_patterns.takeaway.react2025
+    t: |
+      Le débat entre composants de formulaire contrôlés et non contrôlés n'en est pas vraiment un. Les participants alternent surtout entre les deux modèles, mais lorsqu'ils doivent choisir, les formulaires contrôlés l'emportent clairement.
+
+  - key: component_libraries.css_tools.takeaway.react2025
+    t: |
+      Le CSS-in-JS a connu son heure de gloire, mais l'arrivée de **Tailwind** et les grandes avancées du CSS ces dernières années ont fortement entamé sa popularité.
+
+  - key: component_libraries.component_libraries_pain_points.takeaway.react2025
+    t: |
+      Les développeurs semblent entretenir une relation ambivalente avec **Tailwind** : certains le citent parmi leurs difficultés, tandis que d'autres y voient la solution à leurs problèmes d'interface.
+
+  - key: state_management.state_management_ratios.takeaway.react2025
+    t: |
+      **Redux** et son successeur **Redux Toolkit** sont depuis longtemps les solutions de gestion d'état les plus répandues, mais **Zustand** gagne rapidement du terrain. C'est aussi la solution la plus appréciée, ce qui en fait le nouveau leader de cette catégorie.
+
+  - key: state_management.state_management_cardinalities.takeaway.react2025
+    t: |
+      De nombreux participants n'utilisent aucun outil de gestion d'état dédié, ce qui montre que les API intégrées comme `useState` ou `useContext` suffisent souvent.
+
+  - key: state_management.state_management_others.takeaway.react2025
+    t: |
+      **TanStack Query** est peut-être considéré comme une bibliothèque de requêtes de données, mais sa capacité à gérer également l'état en fait un excellent ajout à cette catégorie.
+
+  - key: state_management.state_management_pain_points.takeaway.react2025
+    t: |
+      Une bonne solution de gestion d'état doit trouver un équilibre délicat : trop limitée, elle n'offre pas assez de possibilités pour être adoptée ; trop complexe, elle nuit à l'expérience des développeurs.
+
+  - key: data_loading.data_loading_ratios.takeaway.react2025
+    t: |
+      **TanStack Query** n'est peut-être pas encore la bibliothèque de chargement des données la plus répandue, mais sa progression rapide et son taux de satisfaction record en font un choix évident.
+
+  - key: data_loading.data_loading_cardinalities.takeaway.react2025.takeaway.react2025
+    t: |
+      Comme pour la gestion d'état, de nombreux participants ne voient pas (encore) la nécessité d'utiliser des bibliothèques dédiées au chargement des données.
+
+  - key: data_loading.data_loading_others.takeaway.react2025
+    t: |
+      La fonction native `fetch` peut encore très bien faire l'affaire !
+
+  - key: data_loading.data_loading_pain_points.takeaway.react2025
+    t: |
+      La mise en cache est l'une de ces choses qui *semblent* simples (il suffit de mettre le cache à jour quand quelque chose change, non ?), mais qui s'avèrent toujours délicates à maîtriser. C'est assurément un enjeu lorsqu'on charge et gère des données côté client.
+
+  - key: back_end_infrastructure.meta_frameworks_ratios.takeaway.react2025
+    t: |
+      **TanStack Start** venait à peine d'être lancé en 2024 et sortait tout juste de bêta en 2025. Pourtant, le framework gagne déjà du terrain, porté par le succès de **TanStack Query** dans la catégorie du chargement des données.
+
+
+      Ce succès pourrait se faire au détriment de **Next.js**. Il reste peut-être en tête de sa catégorie pour le moment, mais son taux de satisfaction a dangereusement baissé ces dernières années.
+
+  - key: back_end_infrastructure.meta_frameworks_ratios.note.react2025
+    t: |
+      Nous avons décidé d'ajouter **React Router** au graphique, car son [mode framework](https://reactrouter.com/start/modes) permet désormais de l'utiliser seul comme méta-framework.
+
+
+      Cependant, la présence de **Remix** dans le même graphique est assez déroutante, nous devrons donc revoir ce choix pour la prochaine édition de l'enquête.
+
+  - key: back_end_infrastructure.back_end_infrastructure_cardinalities.takeaway.react2025
+    t: |
+      Une nouvelle fois, de nombreux participants délaissent complètement cette catégorie.
+
+  - key: back_end_infrastructure.meta_frameworks_others.takeaway.react2025
+    t: |
+      **TanStack Router** complète le trio TanStack avec une nouvelle belle performance.
+
+  - key: back_end_infrastructure.build_tools.takeaway.react2025
+    t: |
+      Pour la première fois dans une enquête « State of… », **Vite** détrône **Webpack** et devient l'outil de compilation numéro un !
+
+  - key: back_end_infrastructure.hosting.takeaway.react2025
+    t: |
+      **Vercel** a réussi à dépasser **AWS**, bien plus imposant, du moins auprès des utilisateurs de React. **Cloudflare** avance toutefois rapidement sur le marché de l'hébergement et pourrait bientôt les dépasser tous les deux.
+
+  - key: back_end_infrastructure.other_services.takeaway.react2025
+    t: |
+      En plus d'être un excellent service de suivi des erreurs, **Sentry** a consolidé sa part de marché grâce à des initiatives comme le rachat du podcast [Syntax](https://syntax.fm/).
+
+  - key: back_end_infrastructure.backend_language.takeaway.react2025
+    t: |
+      Même si Node.js existe depuis longtemps, le choix du langage back-end était autrefois beaucoup plus ouvert. La tendance s'est inversée : aujourd'hui, développer des applications full-stack en JavaScript est tout indiqué, surtout lorsqu'on peut partager les types et le code entre les deux côtés.
+
+  - key: back_end_infrastructure.back_end_infrastructure_pain_points.takeaway.react2025
+    t: |
+      À ce propos, garantir la **sécurité des types de bout en bout** reste le principal obstacle rencontré par les participants côté back-end.
+
+  - key: tools.testing.takeaway.react2025
+    t: |
+      **Vitest** est sur le point de s'imposer comme la principale solution de test pour React, mais **Jest** reste pour l'instant numéro un.
+
+  - key: tools.renderers.takeaway.react2025
+    t: |
+      React est avant tout une bibliothèque de développement web, mais ce graphique rappelle qu'il peut aussi être utilisé dans de nombreux autres contextes !
+
+  - key: tools.validation.takeaway.react2025
+    t: |
+      « Utilisez-vous une bibliothèque de validation ? » « Oui, **Zod**, c'est un plaisir à utiliser. » « …Attendez, laquelle utilisez-vous déjà ? »
+
+  - key: tools.auth.takeaway.react2025
+    t: |
+      **Auth0** se distingue en confiant l'authentification à un service tiers. Cette simplicité d'utilisation semble l'avoir propulsé en tête du classement.
+
+  - key: tools.mobile_development.takeaway.react2025
+    t: |
+      **React Native** se porte toujours très bien et **Expo** s'appuie sur ce succès pour offrir encore davantage de possibilités.
+
+  - key: usage.what_do_you_use_react_for.takeaway.react2025
+    t: |
+      Sans surprise, la plupart des participants utilisent toujours React pour créer des **applications web**. Le graphique montre également que les **systèmes de conception** font désormais partie intégrante du développement web.
+
+  - key: usage.react_version.takeaway.react2025
+    t: |
+      Les participants à l'enquête sont généralement plus au fait des nouveautés que l'ensemble de la communauté, mais il est tout de même frappant de constater que tant d'entre eux étaient déjà passés à React 19.
+
+  - key: usage.js_app_patterns.takeaway.react2025
+    t: |
+      Les frameworks modernes comme Next.js mettent en avant le rendu granulaire, mais il faut noter que la plupart des participants s'appuient toujours sur les trois grands modèles de rendu : SPA, SSR et SSG.
+
+  - key: usage.new_features.takeaway.react2025
+    t: |
+      La plupart d'entre nous attendent avec impatience le **compilateur React**, qui promet d'améliorer les performances sans demander d'effort important de notre part.
+
+
+      À l'inverse, même si les **composants serveur** peuvent améliorer les performances des applications web, leur déploiement a parfois causé bien des difficultés aux développeurs. Ajouté au fait que cette fonctionnalité existe depuis déjà quelques années, cela explique le peu d'enthousiasme qu'elle suscite.
+
+  - key: react_pain_points.usage_pain_points.takeaway.react2025
+    t: |
+      En matière de performances, React a toujours privilégié une approche où le framework décide : faites-lui confiance et ne vous préoccupez pas de gérer chaque nouveau rendu.
+
+
+      Pourtant, les développeurs peuvent vite se retrouver dans des situations frustrantes lorsqu'ils ont *besoin* d'un contrôle plus précis. Espérons donc que le nouveau [compilateur React](https://react.dev/learn/react-compiler) permettra d'atténuer certaines de ces difficultés.
+
+  - key: usage.meta_involvement_opinion.takeaway.react2025
+    t: |
+      Peu d'entreprises technologiques ont suscité autant de controverses que Meta au fil de leur histoire. Cela ne se traduit toutefois pas par une opinion négative de sa gestion de React : la plupart des participants ont un avis neutre ou positif sur l'entreprise.
+
+  - key: usage.vercel_involvement_opinion.takeaway.react2025
+    t: |
+      Le constat est différent pour Vercel, l'autre acteur majeur de l'écosystème React.
+
+
+      Même si la majorité reste neutre, les avis négatifs l'emportent sur les positifs. Les participants évoquent la crainte d'un enfermement propriétaire, l'imposition de fonctionnalités non souhaitées et les positions politiques controversées du fondateur.
+
+  - key: usage.react_foundation_involvement_opinion.takeaway.react2025
+    t: |
+      Contrairement à Meta et Vercel, l'opinion sur la [React Foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation), récemment annoncée, est très largement positive. La communauté semble donc accueillir favorablement cette évolution vers une gouvernance plus ouverte et neutre.
+
+  - key: usage.state_of_react.takeaway.react2025
+    t: |
+      On observe une légère baisse de la satisfaction globale, mais il est bien trop tôt pour savoir s'il faut s'en inquiéter ou s'il ne s'agit que d'une fluctuation des données. Rendez-vous l'an prochain pour le découvrir !
+
+  - key: resources.learning_methods.takeaway.react2025
+    t: |
+      La nouvelle documentation React est encore meilleure que l'ancienne, ce qui explique qu'elle reste le meilleur moyen d'apprendre React.
+
+
+      Toutefois, de plus en plus de développeurs s'appuient sur des outils d'IA pour consulter la documentation au lieu de la lire directement, une situation qui a [déjà des conséquences inattendues](https://www.leanware.co/insights/tailwind-ai-crisis) sur certains projets.
+
+  - key: resources.blogs_news_magazines.takeaway.react2025
+    t: |
+      **This Week in React**, la newsletter de Sébastien Lorber, a gagné deux places depuis la dernière enquête et s'impose comme la référence de l'actualité React !
+
+  - key: resources.courses.takeaway.react2025
+    t: |
+      Même si des acteurs plus importants comme **Udemy** et **Frontend Masters**, partenaire de cette enquête, dominent le classement, il est réjouissant de voir des formateurs indépendants comme **Wes Bos** et Josh Comeau (avec **The Joy of React**) tirer leur épingle du jeu.
+
+  - key: resources.podcasts.takeaway.react2025
+    t: |
+      Comme toujours, **Syntax** règne en maître dans le monde des podcasts. De nombreux participants n'écoutent toutefois aucun podcast de programmation, peut-être en raison de la popularité croissante des vidéos de développement sur YouTube.
+
+  - key: resources.video_creators.takeaway.react2025
+    t: |
+      Grâce à ses publications fréquentes sur tous les aspects du développement web et l'actualité de l'IA, **Theo** a pris de l'avance et consolidé sa première place.
+
+  - key: resources.people.takeaway.react2025
+    t: |
+      À l'heure où les contenus vidéo sont omniprésents, il est réjouissant de voir que les développeurs qui privilégient des modes de communication plus traditionnels peuvent encore fédérer un public.
+
+  - key: resources.other_surveys.takeaway.react2025
+    t: |
+      Les enquêtes « State of… » partageant une liste de diffusion, il est logique que leurs publics se recoupent largement.
+
+  # - key: xxx.takeaway.react2025
+  #   t: |
+
+  # - key: xxx.takeaway.react2025
+  #   t: |
+
+  # - key: xxx.takeaway.react2025
+  #   t: |
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.react2025.aurora_scharff
+    t: |
+
+      <span class="first-line">2025 a été une année importante pour React.</span>
+
+
+      React 19 est sorti fin 2024 et beaucoup craignaient que React abandonne le côté client. [Create React App a finalement été retiré](https://react.dev/blog/2025/02/14/sunsetting-create-react-app) en février, après les problèmes rencontrés avec React 19 et la pression de la communauté. En mai, [Remix a annoncé](https://remix.run/blog/wake-up-remix) que Remix 3 s'éloignerait de React. Pendant ce temps, [Dan Abramov](https://overreacted.io/) est revenu avec des articles de blog sur les composants serveur React et [RSC Explorer](https://rscexplorer.dev/), expliquant leur objectif et leur fonctionnement.
+
+
+      La question demeurait pourtant : où va React ?
+
+
+      React Conf, en octobre, a apporté des réponses. La [React Foundation](https://react.dev/blog/2025/10/07/introducing-the-react-foundation) a été annoncée pour offrir à React un foyer indépendant de toute entreprise. [Compiler 1.0](https://react.dev/blog/2025/10/07/react-compiler-1) est passé en version stable : nous pouvons donc cesser de parsemer notre code de `useMemo` et `useCallback`. React 19.2 est arrivé avec `useEffectEvent` et `<Activity>`, tandis que `<ViewTransition>`, dans React Canary, rend les animations fluides accessibles à tous.
+
+
+      La [démonstration asynchrone de Ricky Hanlon](https://www.youtube.com/watch?v=B_2E96URooA) a rassemblé tout le travail de l'équipe depuis des années, et le [groupe de travail Async React](https://github.com/reactwg/async-react/discussions) aide les bibliothèques à adopter ces modèles. React côté client n'est clairement pas près de disparaître.
+
+
+      Après tout, les applications monopages restent plus nombreuses que les applications SSR en production. TanStack Query demeure la solution de référence pour la gestion d'état asynchrone, tandis que TanStack Start s'affirme comme une alternative prometteuse à Next.js, privilégiant le client. À titre d'exemple, [T3 Chat a récemment migré](https://x.com/theo/status/1997406196660400228) pour tirer parti de son fonctionnement en application monopage.
+
+
+      Les opinions sont plus partagées sur le côté serveur : la liste croissante de directives (`"use cache"`, `"use workflow"`) suscite débats et [mèmes mémorables](https://x.com/DavidKPiano/status/1981470720166154567), tandis que la [CVE de décembre](https://react.dev/blog/2025/12/03/critical-security-vulnerability-in-react-server-components) nous a rappelé que les composants serveur sont encore en maturation. Dans le camp des approches centrées sur le serveur, Next.js a introduit [Cache Components](https://nextjs.org/docs/app/getting-started/cache-components), une approche entièrement nouvelle, et [RedwoodSDK](https://rwsdk.com/) mise tout sur les composants serveur React.
+
+
+      React est également devenu la réponse par défaut des outils d'IA lorsqu'on leur demande de créer une interface. Andrej Karpathy a popularisé le terme [« vibe coding »](https://x.com/karpathy/status/1886192184808149383) en février, et des outils comme [v0](https://v0.app/), [Cursor](https://cursor.com/), [Lovable](https://lovable.dev/) et [Bolt.new](https://bolt.new/) l'ont concrétisé. Ils permettent à chacun de créer des applications et de donner vie à ses idées, souvent avec [shadcn/ui](https://ui.shadcn.com/).
+
+
+      Il y a beaucoup à suivre, mais [Theo Browne](https://www.youtube.com/@t3dotgg) s'est tourné vers l'IA et parvient à tout couvrir pour un public toujours plus large. Heureusement, [This Week in React](https://thisweekinreact.com/) continue d'arriver dans nos boîtes de réception.
+
+
+      Ainsi, malgré le chaos de 2025, React se porte toujours très bien. J'ai hâte de livrer plus vite que jamais et, en tant que formatrice, de voir comment l'IA transforme notre façon d'apprendre. Vivement la suite !
+
+  - key: conclusion.react2025.aurora_scharff.bio
+    t: Responsable des certifications chez [certificates.dev](https://certificates.dev/), formatrice React et Next.js
+
+  ###########################################################################
+  # About
+  ###########################################################################
+
+  - key: about.content.react2025
+    t: |
+      L'enquête State of React 2025 s'est déroulée du 19 novembre 2025 au 13 janvier 2026 et a recueilli 3 760 réponses. Les résultats ont été publiés le 15 février 2025. L'enquête est menée par [Devographics](https://devographics.com/).
+
+      Le logo State of React et le t-shirt ont été créés par [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Objectifs de l'enquête
+
+      Cette enquête a été créée pour repérer les tendances émergentes de l'écosystème React et aider les développeurs à faire leurs choix technologiques.
+
+      Elle vise donc à anticiper les évolutions des prochaines années plutôt qu'à analyser les tendances actuelles. C'est pourquoi certaines fonctionnalités ou technologies peuvent être omises, même si elles sont déjà très répandues.
+
+      Ces résultats doivent également être considérés comme un **instantané d'un sous-ensemble précis de développeurs** et ne prétendent pas représenter l'ensemble de l'écosystème React.
+
+      ### Conception de l'enquête
+
+      L'enquête s'appuie en partie sur celle de l'année précédente. Son plan a été discuté lors d'une période de commentaires ouverts [sur GitHub](https://github.com/Devographics/surveys/issues/262).
+
+      Toutes les questions de l'enquête étaient facultatives.
+
+      ### Public de l'enquête
+
+      L'enquête était librement accessible en ligne et les participants n'ont fait l'objet d'aucune sélection. Il s'agissait principalement de personnes ayant répondu aux enquêtes précédentes, informées par une liste de diffusion dédiée, et de visiteurs issus des réseaux sociaux.
+
+      Les frameworks, bibliothèques et autres projets pouvaient inviter leur public à participer à l'enquête ; certains l'ont fait au moyen de bannières, de publications, etc. Le graphique « Sources » de la section Métadonnées présente une répartition détaillée des sources de trafic.
+
+      ### Financement du projet
+
+      Le projet est financé par plusieurs sources :
+
+      - **Ventes de t-shirts**.
+
+      - **Liens sponsorisés** : les liens vers les ressources recommandées au bas de chaque page sont fournis par notre partenaire [Frontend Masters](https://frontendmasters.com/).
+
+      - **Financement direct** : cette année, [Google](https://www.google.com/), [GitNation](https://gitnation.com/), [Algolia](https://www.algolia.com/), [Storyblok](https://www.storyblok.com/), [JetBrains](https://www.jetbrains.com/webstorm/) et [TokyoDev](https://www.tokyodev.com/) ont financé mon travail sur les enquêtes.
+
+      Toute contribution ou tout parrainage est très apprécié. Nous aimerions particulièrement collaborer avec davantage d'éditeurs de navigateurs, qui occupent une place centrale dans l'écosystème web.
+
+      ### Présentation technique
+
+      Vous trouverez [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) une présentation technique plus détaillée du fonctionnement des enquêtes.
+
+      **Note : cette enquête n'est *pas* une enquête officielle sur React, et son équipe n'est affiliée ni à Meta, ni à Vercel, ni à l'équipe React.**
+
+      ### Remerciements
+
+      Un grand merci à Paul McMahon, Marc Grabanski et Sébastien Lorber.

@@ -1,0 +1,430 @@
+locale: fr-FR
+translations:
+  - key: general.ai2026.ai2026_banner
+    t: >
+      Répondez à l'enquête « State of CSS 2026 » et découvrez les nouveautés CSS de cette année →
+
+  - key: general.ai2026.survey_intro
+    t: |
+
+      Cela fait maintenant quelques années que l'on nous annonce, tous les six mois, que nous allons être remplacés par l'IA, ce qui signifie l'une des deux choses suivantes : soit ces prédictions apocalyptiques étaient exagérées et ne se réaliseront jamais ; *soit* elles étaient justes depuis le début et les programmeurs sont plus près que jamais de rejoindre les allumeurs de réverbères et les ascensoristes dans les poubelles de l'histoire.
+
+      Ou peut-être que la vérité se situe quelque part entre les deux et que nos métiers vont évoluer sans pour autant disparaître complètement ; tandis que certains d’entre nous s’adapteront à cette nouvelle donne et que d’autres abandonneront la programmation pour réaliser enfin leur rêve de toujours : devenir menuisiers.
+
+      En attendant, tout ce que nous pouvons faire, c’est essayer de notre mieux de comprendre où nous en sommes, et cela commence par répondre à cette deuxième édition de l’enquête « State of Web Dev AI » !
+
+  - key: overview.intro.ai2026
+    t: |
+
+      Que vous soyez pour ou contre l’IA, je pense que la plupart d’entre nous s’accordent à dire que l’IA a un impact considérable sur notre travail de développeurs, et au-delà, sur le monde en général.
+
+      L'édition 2026 de l'enquête « State of Web Dev AI » a recueilli des données auprès de **7 258** développeurs, fournissant ainsi une mine d'informations fascinantes pour étudier cet impact. Et même si je vous recommande vivement de consulter l'intégralité des résultats de l'enquête à votre rythme, voici quatre tendances clés pour commencer à explorer ces données.
+
+  - key: overview.ai_adoption.ai2026
+    t: |
+      ## N° 1 : L'adoption croissante de l'IA
+
+      Il est important de reconnaître que les enquêtes ouvertes telles que celle-ci peuvent souffrir d'un biais de sélection inhérent. En d'autres termes, une enquête axée sur l'IA est probablement plus susceptible d'être remplie par des développeurs qui utilisent déjà l'IA et s'y intéressent.
+
+      En gardant cette mise en garde à l’esprit, si l’on part du principe que les tendances révélées ici s’appliquent à l’ensemble du secteur, alors la transition du codage assisté par l’IA, qui passe d’une expérience réservée aux précurseurs à une pratique courante, est désormais bien engagée.
+
+      Cela apparaît clairement lorsque l’on examine [la proportion de code généré par l’IA parmi les répondants](/fr-FR/usage/#ai_generated_code_balance), qui est passée de **28 %** en moyenne en 2025 à **54 %** cette année, les segments supérieurs à 75 % enregistrant la plus forte croissance (l’écart par rapport à l’année précédente est indiqué par les barres rayées superposées).
+
+  - key: overview.ai_adoption2.ai2026
+    t: |
+      De même, les personnes interrogées ont également recours à l'IA beaucoup plus souvent, le pourcentage de celles [qui déclarent utiliser l'IA « en permanence »](/fr-FR/usage/#ai_code_generation_frequency) ayant doublé d'une année sur l'autre.
+
+  - key: overview.coding_agents.ai2026
+    t: |
+      ## N° 2 : Claude Code et l'essor des agents de codage
+
+      Cette adoption est en grande partie portée par une nouvelle génération d'agents et d'assistants de codage, parmi lesquels **Claude Code** occupe une place de choix si l'on en juge par [l'avis favorable des personnes interrogées concernant les agents de codage](/fr-FR/coding-agents-assistants/#coding_agents_assistants_experience).
+
+  - key: overview.coding_agents2.ai2026
+    t: |
+
+      Ces agents s'imposent comme un moyen plus pratique d'interagir avec les modèles de langage de grande échelle (LLM) et pourraient bien remplacer les chatbots, les générateurs d'applications et d'autres outils spécialisés.
+
+      En conséquence, bien que **ChatGPT** ait l'avantage en termes de popularité pure, **Claude** est [le modèle pour lequel les développeurs dépensent le plus](/fr-FR/models/#models_paid_for).
+
+  - key: overview.monetization.ai2026
+    t: |
+      ## N° 3 : La course à la monétisation
+
+      En parlant de payer plus cher : maintenant que nous sommes tous devenus accros à une IA bon marché, subventionnée par des levées de fonds sans précédent auprès de capital-risqueurs, notre dépendance collective permet aux laboratoires d’IA de commencer plus facilement à augmenter leurs prix. Et cela se traduit par une [nette augmentation des dépenses individuelles en IA](/fr-FR/usage/#ai_personal_expenses) par rapport à l’année dernière.
+
+  - key: overview.monetization_2.ai2026
+    t: |
+      Seul le temps nous dira si cette monétisation accrue justifiera les valorisations actuelles, vertigineuses, des entreprises spécialisées dans l'IA, ou si elles signifient au contraire que nous sommes en pleine [bulle de l'IA](/fr-FR/opinions/#ai_bubble_currently). Quoi qu'il en soit, les personnes interrogées dans le cadre de cette enquête sont convaincues que c'est le cas.
+
+  - key: overview.risk_factors.ai2026
+    t: |
+      ## N° 4 : Des facteurs de risque accrus
+
+      Il serait irresponsable d’évoquer les progrès de l’IA sans mentionner également les nombreux problèmes découlant de toutes ces avancées.
+
+      Il existe un risque réel que beaucoup d’entre nous [perdent leur moyen de subsistance](/fr-FR/opinions/#job_security_threat) en raison des progrès de l’IA. Après tout, que l’IA soit réellement capable ou non de faire notre travail, il suffit que la direction *croie* qu’elle en est capable pour que les développeurs soient remplacés.
+
+  - key: overview.risk_factors2.ai2026
+    t: |
+      Mais la liste des [risques liés à l'IA](/fr-FR/risks-pain-points/#ai_risks) ne s'arrête pas là.
+
+      À l’heure actuelle, les forces armées du monde entier travaillent sur des drones autonomes et des systèmes de ciblage qui pourraient entraîner une diminution de la responsabilité et de l’obligation de rendre des comptes ; et cela s’inscrit bien sûr dans un contexte de consommation toujours croissante des ressources par l’IA et d’accélération du changement climatique.
+
+  - key: overview.risk_factors3.ai2026
+    t: |
+      Even if you discount these externalities, as we rely on AI more and more, it's hard to shake the feeling that maybe our new cyber-buddies aren't being fully truthful with us, with **hallucinations and inaccuracies**  being cited as the [most common AI pain points](/fr-FR/risks-pain-points/#ai_pain_points).
+
+  - key: overview.ai_future.ai2026
+    t: |
+      Même en faisant abstraction de ces externalités, alors que nous dépendons de plus en plus de l’IA, il est difficile de se défaire du sentiment que nos nouveaux « cyber-amis » ne sont peut-être pas tout à fait honnêtes avec nous, les **hallucinations et les inexactitudes** étant citées comme les [principaux points faibles de l’IA](/fr-FR/risks-pain-points/#ai_pain_points).
+
+  - key: overview.ai_future.ai2026
+    t: |
+      ## L’avenir de l’IA est déjà là, que cela nous plaise ou non
+
+      Je vais être honnête : je ne sais pas trop où tout cela nous mène. Mais que vous pensiez qu’il faille embrasser l’IA, la combattre, ou peut-être adopter une position intermédiaire, une chose est sûre : il devient de plus en plus difficile de l’ignorer.
+
+      Alors si, comme moi, vous n’avez pas encore tout à fait pris position sur ce sujet complexe, j’espère que [ces résultats d’enquête](/fr-FR/models/) pourront constituer un élément d’information supplémentaire qui vous aidera à prendre des décisions plus éclairées – sans avoir à demander d’abord l’avis de ChatGPT.
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  # FAQ
+
+  - key: faq.results_released_ai2026
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_ai2026.description
+    t: L’enquête se déroulera du 10 avril au 10 mai 2026, et les résultats seront publiés peu après.
+
+  - key: faq.survey_design_ai2026
+    t: Comment cette enquête a-t-elle été conçue ?
+  - key: faq.survey_design_ai2026.description
+    t: >
+      Cette enquête a été conçue à l'issue d'un [processus de conception ouvert](https://github.com/Devographics/surveys/issues/285) auquel ont participé des entreprises spécialisées dans l'IA, des éditeurs de navigateurs et la communauté des développeurs web.
+
+  ###########################################################################
+  # Figures
+  ###########################################################################
+
+  - key: figure.figure_claude_use_increase.ai2026
+    t: |
+      Augmentation en pourcentage, d’une année sur l’autre, de l’utilisation de Claude, soit la plus forte progression parmi tous les modèles.
+
+  - key: figure.figure_average_model_use.ai2026
+    t: |
+      Nombre de modèles utilisés en moyenne par les personnes interrogées.
+
+  - key: figure.figure_claude_paying_users.ai2026
+    t: |
+      Pourcentage des personnes interrogées qui paient pour utiliser Claude Code.
+
+  - key: figure.figure_ai_generated_code_balance.ai2026
+    t: |
+      Pourcentage des personnes interrogées ayant déclaré que l’intégralité de leur production de code est désormais générée par l’IA.
+
+  - key: figure.figure_ai_code_generation_frequency.ai2026
+    t: |
+      Pourcentage des personnes interrogées qui utilisent l’IA pour générer du code au quotidien.
+
+  - key: figure.figure_ai_pain_points.ai2026
+    t: |
+      Baisse en pourcentage du nombre de personnes interrogées ayant cité la compréhension des consignes comme un point faible.
+
+  - key: figure.figure_integral_workflow.ai2026
+    t: |
+      Pourcentage de personnes interrogées qui considèrent désormais l'IA comme une partie intégrante de leur flux de travail.
+
+  - key: figure.figure_reach_agi.ai2026
+    t: |
+      Pourcentage de personnes interrogées qui pensent que nous atteindrons l'IA générale (AGI) dans un avenir proche.
+
+  ###########################################################################
+  # Content & Takeaways
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description.ai2026
+    t: |
+      **7 258** personnes ont participé à cette deuxième édition de l'enquête « State of Web Dev AI », soit une **hausse de 73 %** du nombre de participants par rapport à l'année précédente.
+
+  # models
+
+  - key: sections.models.description.ai2026
+    t: |
+      Le fondement sur lequel repose l'ensemble de l'écosystème.
+
+  - key: models.models_experience.takeaway.ai2026
+    t: |
+      Si **ChatGPT** reste la famille de modèles la plus utilisée, c'est **Claude** qui suscite cette année le plus de réactions positives – un avant-goût d'une tendance qui se retrouvera tout au long des résultats de cette enquête.
+
+      À l'opposé, **Grok** est le modèle le plus décrié, de nombreux commentateurs s'y opposant uniquement pour des raisons morales, en raison de ses liens avec Elon Musk et l'idéologie de droite.
+
+  - key: models.models_ratios.takeaway.ai2026
+    t: |
+      **ChatGPT** is still the most-used model, but both **Claude** and **Gemini** have seen huge year-over-year progress. 
+
+      L'analyse des taux de satisfaction confirme cette tendance : **Claude** conserve sa première place, et bien que **ChatGPT** occupe toujours la deuxième place pour l'instant, il perd des points à un rythme inquiétant, tandis que **Gemini** se distingue comme le seul modèle à avoir réellement *gagné* des points de pourcentage depuis l'année dernière.
+
+  - key: models.models_others.takeaway.ai2026
+    t: |
+      La plupart des autres modèles cités ici ne figuraient même pas dans l'enquête de l'année dernière, et il est intéressant de noter que les trois premiers (**Kimi**, **GLM** et **MiniMax**) sont tous développés par des entreprises basées en Chine, ce qui laisse penser que l'avenir de l'IA n'appartient peut-être pas exclusivement à la Silicon Valley, après tout.
+
+  - key: models.models_cardinalities.takeaway.ai2026
+    t: |
+      Le fait que le répondant moyen ait utilisé **4** modèles différents montre bien que le secteur de l'IA est encore en pleine évolution, les utilisateurs étant tout à fait disposés à tester de nouvelles solutions et à se tourner vers de nouveaux concurrents si ceux-ci s'avèrent supérieurs.
+
+  - key: models.models_paid_for.takeaway.ai2026
+    t: |
+      Le fait d'avoir recueilli le plus grand nombre d'avis positifs constituait déjà une belle réussite pour **Claude**, mais le fait qu'il arrive également en tête de la liste des modèles pour lesquels les utilisateurs sont prêts à payer montre qu'Anthropic est clairement sur la bonne voie.
+
+  # coding_agents_assistants
+
+  - key: coding_agents_assistants.coding_agents_assistants_experience.takeaway.ai2026
+    t: |
+      Une fois de plus, Claude affiche une nette avance sur ses concurrents en termes de sentiment positif, **Claude Code** occupant la première place du classement même si **GitHub Copilot** dispose techniquement d'une base d'utilisateurs plus importante.
+
+  - key: coding_agents_assistants.coding_agents_assistants_ratios.takeaway.ai2026
+    t: |
+      **Claude Code** et **OpenAI Codex** sont au coude à coude en termes de satisfaction des personnes interrogées, mais l'outil de codage d'Anthropic est en réalité bien plus utilisé que son concurrent.
+
+  - key: coding_agents_assistants.coding_agents_assistants_others.takeaway.ai2026
+    t: |
+      Compte tenu de sa popularité, **OpenCode** aurait sans doute dû figurer parmi les principales options du sondage. Mais il compense cette omission en se démarquant nettement de la concurrence dans ce domaine, **Cursor** arrivant en deuxième position, à quelques longueurs seulement.
+
+  - key: coding_agents_assistants.coding_agents_assistants_cardinalities.takeaway.ai2026
+    t: |
+      Compte tenu d'un environnement plus récent et d'un espace plus restreint, il n'est pas surprenant que les développeurs aient encore testé un nombre relativement limité d'agents de codage.
+
+  - key: coding_agents_assistants.coding_agents_assistants_paid_for.takeaway.ai2026
+    t: |
+      À l'instar des résultats présentés dans la section « Modèles », **Claude Code** arrive également en tête parmi les assistants de codage pour lesquels les développeurs sont prêts à mettre la main au portefeuille.
+
+  # other_tools
+
+  - key: sections.other_tools.description.ai2026
+    t: Autres outils d'IA
+
+  - key: other_tools.ai_programming_languages.takeaway.ai2026
+    t: |
+      Confirming a trend seen in other surveys, **TypeScript** is now the de facto programming language of the web, at least as far as AI is concerned.
+
+  - key: other_tools.image_generation.takeaway.ai2026
+    t: |
+      **Nano Banana** est très populaire pour la génération d'images, mais de nombreux participants à l'enquête n'utilisent tout simplement pas ces outils, en grande partie pour des raisons éthiques. Comme l'a résumé succinctement un commentateur : « [Les générateurs d'images par IA sont] répugnants, immoraux et gourmands en ressources ».
+
+  - key: other_tools.video_generation.takeaway.ai2026
+    t: |
+      Avec la fermeture récente de **Sora** par OpenAI, la génération de vidéos par IA semble ne pas avoir tenu ses promesses, une tendance confirmée ici. Comme l'indiquait ce même commentaire : « C'est encore plus dégoûtant. »
+
+  - key: other_tools.app_generation.takeaway.ai2026
+    t: |
+      Les outils promettant de générer une application complète à partir d'une simple consigne ne manquent pas, mais l'essor des véritables assistants de programmation menace de rendre tout ce secteur obsolète, du moins en ce qui concerne les développeurs web professionnels.
+
+  - key: other_tools.code_review.takeaway.ai2026
+    t: |
+      Alors que l'IA permet de générer des milliers de lignes de code plus facilement que jamais, il ne serait peut-être pas inutile d'améliorer la manière dont nous révisons tout ce code, et **CodeRabbit** est à l'avant-garde de cette démarche.
+
+  - key: other_tools.text_editors.takeaway.ai2026
+    t: |
+      Alors que **Cursor** s'efforce toujours de démontrer les avantages d'un IDE dédié et optimisé pour l'IA, la majorité des personnes interrogées continuent de privilégier **VS Code** comme éditeur de prédilection.
+
+  - key: other_tools.ai_browser_apis.takeaway.ai2026
+    t: |
+      La prise en charge native des fonctionnalités d'IA par les navigateurs est une idée séduisante, qui promet de réduire la latence et pourrait s'avérer plus respectueuse de l'environnement, en limitant le recours à de nouveaux centres de données.
+
+  - key: other_tools.ai_tools_others.takeaway.ai2026
+    t: |
+      **OpenCode** occupe une nouvelle fois la première place, tandis que le très médiatisé **OpenClaw** ne se classe qu'en quatrième position.
+
+  # usage
+
+  - key: sections.usage.description.ai2026
+    t: |
+      Comment les développeurs utilisent l'IA.
+
+  - key: usage.ai_uses.takeaway.ai2026
+    t: |
+      Même si la **génération de code** reste en tête, il est intéressant de noter que la **revision de code** (une nouvelle option cette année) s'est hissée d'un coup à la troisième place. Après tout, ces 30 000 lignes de code écrites à la va-vite pendant le week-end devront bien être vérifiées à un moment ou à un autre…
+
+  - key: usage.ai_generated_code_balance.takeaway.ai2026
+    t: |
+      La différence par rapport à l’année dernière est ici frappante. À l’époque, le répondant moyen utilisait l’IA de manière sporadique pour générer une petite partie de son code, mais aujourd’hui, ce même développeur est bien plus susceptible de s’appuyer sur l’IA pour l’essentiel de son travail de programmation.
+
+      Si l'utilisation de l'IA est en hausse dans tous les domaines, il est intéressant de noter que les tranches d'utilisation les plus élevées sont corrélées à une expérience médiane en programmation plus faible. Et comme on pouvait s'y attendre, l'utilisation d'un assistant de codage tel que **Claude Code** est corrélée à une proportion plus élevée de code généré par l'IA.
+
+  - key: usage.ai_generated_code_refactoring.takeaway.ai2026
+    t: |
+      De même, l'utilisation de code généré par l'IA sans avoir à le refactoriser au préalable n'est plus une exception : de nombreux participants à l'enquête ont en effet indiqué ne devoir refactoriser qu'environ 25 % du code produit par l'IA.
+
+  - key: usage.ai_code_refactoring_reasons.takeaway.ai2026
+    t: |
+      Lorsque les personnes interrogées *doivent* refactoriser du code généré par l'IA, les causes principales sont généralement un **mauvais style de code** et des **« hallucinations »**. Il est intéressant de noter que le **renommage des variables** ne semble plus être un facteur aussi important, ce qui indique que les grands modèles de langage (LLM) parviennent de mieux en mieux à suivre les instructions et à tirer des enseignements des bases de code existantes.
+
+  - key: usage.ai_code_generation_frequency.takeaway.ai2026
+    t: |
+      Il semble évident que l'IA fait désormais partie intégrante de notre travail : la majorité des personnes interrogées l'utilisent plusieurs fois par jour, et une part croissante d'entre elles y ont recours en permanence.
+
+      Et plus vous utilisez l'IA fréquemment, plus votre nombre médian d'années d'expérience en programmation aura tendance à être faible.
+
+  - key: usage.ai_other_tasks_frequency.takeaway.ai2026
+    t: |
+      Si cette enquête porte principalement sur le codage, d'autres applications de l'IA connaissent également une utilisation croissante par rapport à la dernière édition. Après tout, si l'on confie à l'IA la partie principale de son travail, il semble logique de lui confier également tout le reste.
+
+  - key: usage.ai_generated_code_type.takeaway.ai2026
+    t: |
+      Presque tous les types de code généré ont connu une augmentation par rapport à la dernière enquête, les tests devenant notamment l'une des principales raisons d'utiliser l'IA.
+
+  - key: usage.ai_personal_expenses.takeaway.ai2026
+    t: |
+      La proportion de personnes interrogées profitant des avantages de l'IA sans avoir à dépenser personnellement leur argent durement gagné a considérablement diminué d'une année sur l'autre ; tandis que la tranche de population dont les dépenses mensuelles se situent entre **100 et 500 dollars** connaît une croissance significative. Cela pourrait s'expliquer par l'essor des agents de programmation, dont le coût financier est souvent plus élevé que celui des simples chatbots.
+
+  - key: usage.ai_personal_expenses.note.ai2026
+    t: Bien que l'enquête de 2026 comprenne également une question sur les dépenses des entreprises en matière d'IA, ses données n'étaient pas exploitables car elles ne précisaient pas clairement si la question portait sur les dépenses totales à l'échelle de l'entreprise ou sur les dépenses par salarié.
+
+  - key: usage.industry_sector.takeaway.ai2026
+    t: |
+      N'hésitez pas à utiliser notre **Query Builder** intégré sur n'importe quel *autre* graphique pour filtrer ces résultats d'enquête en fonction d'un secteur d'activité spécifique.
+
+  - key: usage.ai_running_locally.takeaway.ai2026
+    t: |
+      De plus en plus de personnes interrogées ont testé des modèles d'IA locaux, et bien qu'ils ne soient pas encore aussi performants que leurs homologues basés sur le cloud, ils présentent un fort potentiel de disruption, car ils constituent une alternative moins coûteuse aux modèles traditionnels des laboratoires de pointe.
+
+  # risks_pain_points
+
+  - key: risks_pain_points.ai_risks.takeaway.ai2026
+    t: |
+      Le secteur de l’IA n’a jamais hésité à évoquer les risques potentiels de cette technologie, sans pour autant, malheureusement, aller jusqu’à, disons, *lever le pied* ne serait-ce qu’un instant.
+
+      Parmi ces risques, la **suppression d’emplois** figure en tête des préoccupations, mais on peut également citer le potentiel d’**utilisation militaire** de l’IA, comme on l’a vu lors de conflits récents, et bien sûr l’**impact environnemental** inquiétant de l’IA dans un monde déjà menacé par le changement climatique.
+
+      Il est également intéressant de noter que les femmes et les personnes non masculines interrogées étaient globalement beaucoup plus susceptibles de s’inquiéter de l’impact environnemental de l’IA (**58 %** contre **37 %**).
+
+      De nombreux commentateurs se sont plaints de ne pouvoir sélectionner que trois éléments. Comme l’a fait remarquer l’un d’entre eux : « C’est assez choquant de voir à quel point cette liste d’impacts sociaux négatifs est longue quand on les rassemble tous au même endroit. »
+
+  - key: risks_pain_points.ai_pain_points.takeaway.ai2026
+    t: |
+      En ce qui concerne les problèmes liés à l'utilisation concrète de l'IA, les **hallucinations** occupent la première place.
+
+      Ce qui rend ce problème particulièrement frustrant, ce n'est pas seulement de devoir composer avec des résultats erronés, mais le fait que ces résultats soient présentés avec assurance comme *corrects*, le modèle n'ayant aucune conscience de son propre potentiel d'erreur.
+
+  - key: risks_pain_points.ai_missing_features.takeaway.ai2026
+    t: |
+      Confirmant les résultats de la question précédente, la **sincérité** est la caractéristique qui fait le plus défaut. À une époque où nous sommes de plus en plus sceptiques quant à la capacité de nos semblables à distinguer la réalité de la fiction, il serait souhaitable que notre IA, elle au moins, ne vienne pas s’ajouter à cette confusion.
+
+  - key: risks_pain_points.ai_happiness.takeaway.ai2026
+    t: |
+      Le niveau global de satisfaction vis-à-vis de l'IA n'a pas beaucoup évolué depuis l'année dernière, ce qui constitue un signe supplémentaire que les développeurs pourraient encore se trouver dans une phase d'attente.
+
+  # opinions
+
+  - key: sections.opinions.description.ai2026
+    t: Poser des questions plus approfondies
+
+  - key: opinions.integral_workflow.takeaway.ai2026
+    t: |
+      Nous avons largement dépassé le stade où les outils d'IA n'étaient qu'un complément facultatif, une option « à prendre ou à laisser », dans nos processus de travail quotidiens : aujourd'hui, la majorité des personnes interrogées s'appuient tout simplement sur l'IA.
+
+  - key: opinions.more_productive.takeaway.ai2026
+    t: |
+      Plus encore que l'année dernière, une majorité des personnes interrogées s'accordent à dire que les outils d'IA leur ont permis d'augmenter considérablement leur productivité.
+
+  - key: opinions.ai_reliance_worse_developers.takeaway.ai2026
+    t: |
+      Paradoxalement, les personnes interrogées sont également bien conscientes que le recours à l'IA entraînera une baisse générale du niveau de compétence des développeurs. Mais, comme l'ont souligné certains commentateurs, l'IA elle-même pourrait compenser cette perte : « Moins compétents, oui. Mais en moyenne plus performants, oui aussi ».
+
+  - key: opinions.job_security_threat.takeaway.ai2026
+    t: |
+      Comme l’ont judicieusement souligné les personnes interrogées, l’IA n’a pas besoin de pouvoir vous remplacer pour constituer une menace pour votre emploi : il suffit que votre patron pense qu’elle en est capable. Le problème, c’est que « les entreprises spécialisées dans l’IA peuvent convaincre les employeurs que l’IA peut me prendre ma place, même si ce n’est pas le cas ».
+
+  - key: opinions.existential_risk.takeaway.ai2026
+    t: |
+      En analysant les commentaires, on se rend compte que la question du risque existentiel lié à l'IA présente de nombreuses nuances ; le consensus est que le principal problème ne réside pas vraiment dans l'IA elle-même, mais plutôt dans la manière dont nous l'utilisons.
+
+  - key: opinions.ai_bubble_currently.takeaway.ai2026
+    t: |
+      De nombreux participants à l'enquête estiment que nous sommes actuellement dans une bulle de l'IA. Mais ils sont également conscients que l'IA est là pour rester, même après l'éclatement éventuel de cette bulle.
+
+  - key: opinions.ai_quality_improving.takeaway.ai2026
+    t: |
+      Même si l'on entend souvent des plaintes selon lesquelles tel ou tel modèle aurait été *complètement gâché* par une mise à jour récente, il semble que les personnes interrogées s'accordent globalement à dire que la qualité des outils d'IA ne cesse de s'améliorer.
+
+  - key: opinions.reach_agi.takeaway.ai2026
+    t: |
+      Selon les personnes interrogées, soit nous sommes à six mois de l’IA générale, soit nous n’y parviendrons jamais (comme le disait un commentaire : « Les modèles de langage grand public ne mènent pas à l’IA générale. Ils ne l’ont jamais fait. »)
+
+      Dans l’ensemble, on a toutefois l’impression que, malgré l’obsession des chercheurs en IA pour cet objectif insaisissable, le reste d’entre nous se contenterait volontiers de continuer à utiliser notre IA « stupide » actuelle pendant encore un certain temps, si cela permettait de détruire un peu moins de forêts tropicales au passage.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.ai2026.the_primeagen.bio
+    t: PDG de la start-up
+
+  - key: conclusion.ai2026.the_primeagen
+    t: |
+      C'est la meilleure des époques, c'est la pire des époques.
+
+      Jamais les logiciels n'ont été aussi accessibles qu'aujourd'hui. Par exemple, si vous découvrez une nouvelle bibliothèque, vous pouvez la « git clone » et demander des tutoriels personnalisés basés sur ce dépôt. C'est tout simplement magique. Si j'avais eu cela à ma disposition quand j'apprenais à coder, je n'ose imaginer où j'en serais aujourd'hui.
+
+      Mais tout ce qui brille n’est pas or, et notre avenir professionnel dans le domaine du logiciel n’a jamais été aussi incertain. Des licenciements dans de nombreuses grandes entreprises, [Dario](https://en.wikipedia.org/wiki/Dario_Amodei) proclamant régulièrement que le logiciel est fini, et un sentiment général de travailler plus que jamais tout en étant moins satisfait que jamais.
+
+      Pour rendre le tout encore plus déroutant, la qualité des logiciels semble avoir atteint son niveau le plus bas de tous les temps. Je ne peux pas utiliser un site majeur sans tomber sur un bug, et la promesse d’un logiciel de haute qualité à volonté, vantée dans les gros titres et sur les réseaux sociaux, semble toujours loin d’être tenue.
+
+      C’est ce qui rend l’année 2026 si intéressante. La poussière n’est pas encore retombée. Les dés ne sont pas encore jetés. Il n’y a pas encore de conclusion définitive. Les deux prochaines années pourraient constituer l’une des périodes les plus marquantes de toute l’histoire du génie logiciel, et nous avons tous notre rôle à jouer dans cette évolution.
+
+      Sur le plan personnel, ce qui me fascine le plus dans cette révolution, c’est le rôle de la discipline personnelle. Certains d’entre nous cèdent à la facilité plus vite qu’ils ne le devraient, et j’en suis moi-même coupable, car c’est tout simplement trop tentant. Je n’ai jamais eu entre les mains quelque chose d’aussi utile et d’aussi dangereux à la fois.
+
+      Et, pour être encore plus personnel, une partie de moi est triste. Le métier dont je suis tombé amoureux est en train de changer, que je le veuille ou non – et surtout, je dois changer avec lui. Ne confondez pas cela avec un simple « utilise les prompts, mec » : je ne suis pas en train de déclarer que le génie logiciel est mort, loin de là. J’ai simplement l’impression que les moments où l’on met ses écouteurs, où l’on écoute [Miss Monique](https://www.youtube.com/channel/UClIIy-aQBXRi1OHupBcrjJw) à fond et où l’on code sans interruption pendant 6 heures sont tout simplement moins fréquents, et qu’ils sont peut-être moins nécessaires.
+
+      Je ne peux pas prédire l’avenir ni savoir ce qui nous attend, mais je peux faire une promesse qui semble toujours vraie en matière de logiciels : être compétent, c’est un plaisir.
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.google_chrome.description
+    t: Nous remercions l'équipe de Google Chrome pour son soutien à notre travail.
+
+  - key: sponsors.tokyodev.description
+    t: Trouvez dès aujourd'hui l'emploi de développeur de vos rêves au Japon.
+
+  - key: sponsors.neon.description
+    t: Exploitez des applications d'IA de pointe avec Postgres.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.ai2026
+    t: |
+      L'enquête « State of Web Dev AI » 2026 s'est déroulée du 8 avril au 8 mai 2026 et a recueilli 7 258 réponses. Les résultats ont été publiés le 1er mai 2026. Cette enquête est menée par [Devographics](https://devographics.com/), avec le concours d'experts du domaine et de contributeurs open source invités.
+
+      ### Objectifs de l'enquête
+
+      Cette enquête a été conçue pour identifier les tendances à venir en matière d’utilisation de l’IA dans le développement web, afin d’aider les développeurs à faire de meilleurs choix technologiques.
+
+      ### Conception de l’enquête
+
+      L’enquête a été conçue en collaboration avec la communauté, avec une période de consultation ouverte au cours de laquelle le plan de l’enquête a été discuté [sur GitHub](https://github.com/Devographics/surveys/issues/285).
+
+      Toutes les questions de l’enquête étaient facultatives.
+
+      ### Public cible de l’enquête
+
+      L’enquête était librement accessible en ligne et les participants n’ont fait l’objet d’aucun filtrage ni d’aucune sélection. Le public était principalement composé d’un mélange de participants aux précédentes enquêtes Devographics, telles que [State of JS](https://stateofjs.com/), [State of CSS](https://stateofcss.com/), etc. (informés via une liste de diffusion dédiée) et de personnes provenant des réseaux sociaux.
+
+      Bien que l’enquête ait été ouverte à tous les développeurs, qu’ils utilisent ou non l’IA, le thème de l’enquête en lui-même a probablement orienté l’échantillon des répondants vers des développeurs qui s’intéressent à l’IA.
+
+      Elle doit également être considérée comme un **instantané d’un sous-ensemble spécifique de développeurs** et ne prétend pas représenter l’ensemble de l’écosystème.
+
+      ### Financement du projet
+
+      Le financement de ce projet provient des parrainages de nos partenaires.
+
+      Toute contribution ou tout parrainage est vivement apprécié. Nous souhaiterions tout particulièrement collaborer étroitement avec davantage de fournisseurs de navigateurs, car ils jouent un rôle central dans l'écosystème du Web.
+
+      ### Présentation technique
+
+      Vous trouverez une présentation technique plus détaillée du fonctionnement des enquêtes [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a).

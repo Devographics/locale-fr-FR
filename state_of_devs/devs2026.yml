@@ -1,0 +1,723 @@
+locale: fr-FR
+translations:
+  - key: general.devs2026.survey_intro
+    t: |
+
+      L'an dernier, la toute première enquête State of Devs abordait la carrière, le travail, la santé et même la vision du monde, des sujets souvent négligés dans la communauté des développeurs.
+
+      Il était donc tout naturel de poursuivre avec cette deuxième édition consacrée à tous les aspects de la vie des développeurs qui ne relèvent *pas* du code, surtout à une époque où l'IA commence à bouleverser la nature même de nos métiers.
+
+      Tant qu'un humain reste dans la boucle, laissons de côté les bibliothèques et les frameworks et prenons simplement de vos nouvelles : comment allez-vous, *vraiment* ?
+
+      Comme toujours, toutes les questions sont facultatives. N'hésitez pas à passer celles auxquelles vous ne souhaitez pas répondre.
+
+  - key: introduction.devs2026.not_used
+    t: |
+
+      On se souviendra peut-être de cette année comme de celle où l'IA est devenue impossible à ignorer. Il est de plus en plus difficile de la réduire à un « correcteur automatique intelligent » ou de se moquer du code spaghetti qu'elle génère. Son influence se fait sentir à tous les niveaux de la société.
+
+
+      C'est pourquoi j'ai décidé de consacrer une section entière à demander aux développeurs non seulement s'ils utilisent l'IA, mais aussi ce qu'ils *ressentent* à l'idée de l'utiliser, ce qui est une toute autre question.
+
+
+      J'ai également ajouté une toute nouvelle fonctionnalité : les **corrélations**, accessibles grâce aux petites icônes de grille rouges et jaunes présentes dans l'enquête. Elles signalent des pistes intéressantes à explorer dans les données, que vous pourrez ensuite approfondir avec le **générateur de requêtes**.
+
+
+      Mais, comme toujours, rappelons qu'une corrélation n'implique absolument pas une causalité et que les répondants à cette enquête ne représentent pas nécessairement l'ensemble des développeurs.
+
+
+      Ces précautions étant prises, découvrez les résultats de l'enquête State of Devs 2026 !
+
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  - key: general.devs2026.html2026_banner
+    t: |
+      Répondez dès maintenant à l'enquête State of HTML pour suivre l'évolution des technologies du Web ! →
+
+  # FAQ
+
+  - key: faq.how_long_will_survey_take_devs2026
+    t: Combien de temps faut-il pour répondre à cette enquête ?
+  - key: faq.how_long_will_survey_take_devs2026.description
+    t: >
+      Il faut environ 15 minutes pour répondre à cette enquête. Toutes les questions sont facultatives.
+
+  - key: faq.results_released_devs2026
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_devs2026.description
+    t: L'enquête se déroulera du 5 juillet au 5 septembre 2026, et ses résultats seront publiés peu après.
+
+  - key: faq.survey_design_devs2026
+    t: Comment cette enquête a-t-elle été conçue ?
+  - key: faq.survey_design_devs2026.description
+    t: >
+      Cette enquête a été conçue à l'issue d'un [processus de conception ouvert](https://github.com/Devographics/surveys/issues/288) auquel la communauté du développement web a participé.
+
+  ###########################################################################
+  # Overview
+  ###########################################################################
+
+  - key: overview.devs2026.0
+    t: |
+      *L'aperçu de cette année a été rédigé par [Miranda Heath](https://mirandaheath.website/), directrice fondatrice et chercheuse au [Software Stewardship Lab](https://stewardshiplab.org/).*
+  - key: overview.devs2026.1
+    t: >
+      La période est incertaine pour les développeurs.
+
+
+      Près de la moitié des répondants de cette année ont connu l'insécurité de l'emploi et une rémunération insuffisante. Un quart a déjà été licencié au cours de sa carrière, et près d'un sur dix l'a été au cours des neuf derniers mois. Plus d'un quart pense devoir changer complètement de carrière dans les cinq prochaines années.
+
+  - key: overview.devs2026.2
+    t: >
+
+      ## Gérer son état (psychologique)
+
+
+      C'est la première enquête Devographics à s'intéresser à l'état psychologique des développeurs, et les résultats suggèrent également des évolutions préoccupantes dans le _ressenti_ du métier de développeur logiciel. Environ deux tiers des répondants se sont sentis récemment moins motivés et plus cyniques. Près de la moitié ont eu du mal à se concentrer, davantage procrastiné, ressenti une fatigue inhabituelle et eu l'impression d'être moins efficaces et d'accomplir moins de choses au travail.
+
+  - key: overview.devs2026.3
+    t: >
+      Ces changements sont caractéristiques de l'épuisement professionnel : un état d'épuisement qui survient lorsque le travail puise davantage d'énergie qu'il n'en apporte. 62 % des développeurs déclarent avoir connu un épuisement professionnel au cours de leur carrière, soit la même proportion que dans l'enquête de l'an dernier.
+
+  - key: overview.devs2026.4
+    t: >
+      Cependant, la fréquence persistante de l'épuisement professionnel dans le développement logiciel ne justifie pas qu'on le banalise. Il peut gravement nuire à la santé et au bien-être. Les données le confirment : les développeurs qui en ont souffert sont généralement moins heureux et plus susceptibles de connaître des problèmes de santé physique ou mentale persistants.
+
+  - key: overview.devs2026.5
+    t: >
+
+      ## Il faut parler de l'IA
+
+
+      Un sujet incontournable alimente aussi discrètement cette incertitude. Pour la première fois cette année, Devographics a demandé aux développeurs de partager leur opinion à ce sujet. Je parle bien sûr de l'IA.
+
+
+      Si l'utilisation de l'IA était très répandue, les opinions à son égard étaient fortement polarisées : 49 % des répondants y étaient favorables et 42 % défavorables.
+
+  - key: overview.devs2026.6
+    t: >
+      Notre compréhension de l'impact psychologique du développement assisté par l'IA est encore en construction, mais les premiers éléments suggèrent que le prompting peut [devenir addictif](https://www.youtube.com/watch?v=iPUn1Fnfn0k&t=407s), qu'une dépendance excessive à l'IA peut [nuire à l'apprentissage](https://www.youtube.com/watch?v=DkhhE97Swmo&list=WL&index=3) et que l'exécution simultanée d'agents peut provoquer une surcharge cognitive appelée « brouillard mental lié à l'IA ». Près de la moitié des répondants estimaient d'ailleurs que l'IA n'avait pas d'effet positif sur leur état psychologique.
+
+  - key: overview.devs2026.7
+    t: >
+      Surtout, les développeurs voulaient clairement parler de l'impact de l'IA sur leur métier. Plus de 1 500 répondants ont choisi de partager leur point de vue sur l'IA. Les thèmes récurrents incluaient la nécessité d'apprendre à utiliser l'IA de manière sûre et réfléchie, le fait qu'elle rend le travail moins gratifiant et qu'elle pousse les directions à imposer des attentes de productivité intenables.
+
+  - key: overview.devs2026.8
+    t: >
+
+      ## Des problèmes persistants
+
+
+      Alors que l'IA semble tout bouleverser trop vite, certains aspects du développement logiciel évoluent avec une lenteur exaspérante.
+
+
+      Les personnes qui s'identifient comme femmes sont toujours bien plus susceptibles de subir des discriminations que leurs collègues masculins. Plus inquiétant encore, elles évitent plus souvent leurs collègues, modifient leur comportement ou leur apparence, voire changent de carrière en réaction aux problèmes rencontrés au travail. Cela laisse penser que, pour les femmes, la solution la plus simple reste de se conformer, de se transformer ou de s'effacer pour s'adapter à une culture professionnelle qui les défavorise, plutôt que d'attendre que le secteur change.
+
+
+      De même, les répondants LGBT+ ainsi que ceux ayant un TDAH ou de l'autisme ont décrit la pression ressentie pour cacher leur identité au travail. Les traitements injustes et la pression à masquer leur identité exposent davantage ces groupes à l'épuisement professionnel et à ses conséquences.
+
+  - key: overview.devs2026.9
+    t: >
+
+      ## Des vents étranges
+
+
+      Être développeur aujourd'hui peut donner l'impression d'être au milieu d'une tempête de sable. Des vents étranges soufflent et il est difficile de voir la route devant soi. Mais si nous continuons à dialoguer, à parler de l'impact de l'IA, des aspects de notre travail qui nous apportent joie et sens, et de la manière de les défendre, le paysage sera peut-être d'autant plus beau lorsque la poussière sera retombée.
+
+  - key: overview.devs2026.10
+    t: >
+      Cela se ressent particulièrement dans l'attitude des développeurs à l'égard du secteur technologique. Travailler dans un secteur en perpétuelle évolution et incertain peut être épuisant, et susciter désillusion, anxiété, colère et sentiment d'être dépassé. Mais le changement ouvre aussi des possibilités ; et avec elles viennent la curiosité, l'espoir et l'enthousiasme !
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  # user_info
+
+  - key: sections.user_info.description.devs2026
+    t: 5 463 développeurs ont participé à cette deuxième édition de l'enquête State of Devs.
+
+  - key: user_info.country.takeaway.devs2026
+    t: |
+      Ce n'est un secret pour personne : les développeurs des **États-Unis** gagnent généralement davantage, et les données confirment une nouvelle fois cette tendance.
+
+      Mais si les répondants américains gagnent beaucoup, ils travaillent aussi beaucoup. À l'inverse, le **Royaume-Uni**, la **Norvège** et le **Danemark** figurent parmi les dix premiers pays, à la fois pour les revenus les plus élevés et pour le moins grand nombre d'heures travaillées.
+
+      Cette année, nous avons également demandé aux répondants leur pays d'*origine*, sans observer de grandes différences.
+
+  - key: user_info.country_of_origin.takeaway.devs2026
+    t: |
+      Le pays d'origine des répondants correspond généralement assez étroitement à leur pays de résidence.
+
+  - key: user_info.migration_experience.takeaway.devs2026
+    t: |
+      L'étude de l'expérience migratoire révèle que les répondants immigrés ou dont les parents ont immigré ont tendance à gagner beaucoup plus (sans que cette enquête puisse spéculer sur les causes de cette corrélation).
+
+      Si le **Japon** présente la plus forte proportion de répondants immigrés, cela tient presque certainement davantage au fait que l'enquête a peu touché la population japonaise native qu'à une véritable tendance démographique.
+
+      À l'inverse, bien que les **États-Unis** soient réputés être « une nation d'immigrés », seuls 17 % des répondants américains ont des origines immigrées, contre 22 % pour l'ensemble des répondants.
+
+  - key: user_info.native_languages.takeaway.devs2026
+    t: |
+      En comparant les langues maternelles (onglet 1) et les langues apprises par la suite (onglet 2), un cas ressort : seuls 20 répondants parlent japonais comme langue maternelle, mais 140 l'ont appris, signe du fort attrait culturel du pays.
+
+  # - key: user_info.other_languages.takeaway.devs2026
+  #   t: |
+  #     TODO
+
+  - key: user_info.gender.takeaway.devs2026
+    t: |
+      Les données montrent que la plupart des facteurs ne sont pas fortement corrélés au genre, mais que quelques domaines clés le sont bel et bien.
+
+      Par exemple, les hommes sont moins souvent victimes de discrimination au travail et se déclarent bien plus souvent hétérosexuels.
+
+  - key: user_info.sexual_orientation.takeaway.devs2026
+    t: |
+      L'orientation sexuelle est un sujet pour lequel les données et la représentation font défaut dans la communauté des développeurs. C'est pourquoi nous avons décidé de l'inclure dans l'enquête cette année.
+
+      Les répondants hétérosexuels sont plus susceptibles de se situer à **droite** et moins susceptibles de signaler une **neurodivergence**. Les répondants gays, lesbiennes et bisexuels sont, eux, davantage préoccupés par la **montée de l'intolérance** dans le monde.
+
+  - key: user_info.race_ethnicity.takeaway.devs2026
+    t: |
+      Comme on pouvait s'y attendre, l'origine raciale est fortement corrélée à la langue maternelle (les variables pays et pays d'origine sont automatiquement exclues ici).
+
+      Autre corrélation à noter : les répondants **blancs** sont plus souvent âgés et ont davantage d'années d'expérience en programmation. Cette observation revient depuis que nous suivons cette donnée.
+
+  - key: user_info.relationship_status.takeaway.devs2026
+    t: |
+      Comme on pouvait s'y attendre, les répondants mariés ont plus d'enfants, mais l'écart reste faible. Avec une moyenne de seulement **0,9** enfant, même les couples mariés sont bien en dessous du taux de renouvellement des générations souvent estimé à 2,1 enfants.
+
+  - key: user_info.number_of_kids.takeaway.devs2026
+    t: |
+      Les données illustrent nettement la chute de la natalité mondiale : les familles comptant au moins 4 enfants représentent moins de 2 % des répondants.
+
+      Cela s'explique notamment par le fait que les répondants attendent plus longtemps avant d'avoir des enfants (la moyenne n'est que de **0,07** enfant chez les 20-29 ans), ce qui réduit considérablement la période pendant laquelle ils peuvent en avoir biologiquement.
+
+  # career
+
+  - key: sections.career.description.devs2026
+    t: Votre carrière et votre expérience professionnelle jusqu'à présent.
+
+  - key: career.years_of_experience.takeaway.devs2026
+    t: |
+      Les développeurs juniors ont moins participé à l'enquête cette année : seuls 9 % des répondants ont 4 ans d'expérience professionnelle ou moins.
+
+      Il sera intéressant de voir comment évoluera cette génération de développeurs ayant grandi avec l'IA. Pour l'instant, la grande majorité des répondants a toutefois commencé sa carrière avant l'ère de l'IA.
+
+  - key: career.how_many_jobs.takeaway.devs2026
+    t: |
+      L'étude des corrélations pour cette question révèle un lien fort entre le nombre d'employeurs pour lesquels on a travaillé et le nombre de problèmes signalés au travail.
+
+      Cela peut simplement s'expliquer par une accumulation des problèmes au fil du temps ; un autre facteur pourrait être que les nouvelles recrues juniors manquent de recul pour repérer les comportements problématiques.
+
+  - key: career.employment_status.takeaway.devs2026
+    t: |
+      Alors que 53 % des salariés d'entreprise ont vu leurs revenus augmenter au cours de l'année écoulée, les freelances ont eu moins de chance : seuls 32 % d'entre eux ont connu une évolution positive.
+
+  - key: career.career_issues.takeaway.devs2026
+    t: |
+      Hormis l'**insécurité de l'emploi** elle-même, la **discrimination** est le problème qui incite le plus les répondants à envisager de changer d'emploi prochainement.
+
+      Il est également intéressant de voir l'influence de facteurs comme le **genre** sur les problèmes au travail. Les hommes en ont signalé **4,2** en moyenne, contre **4,8** pour les femmes et les personnes non binaires.
+
+  - key: career.discrimination_issues.takeaway.devs2026
+    t: |
+      L'**âge** est le motif de discrimination le plus souvent signalé. Toutefois, les commentaires montrent que cela fonctionne dans les deux sens : certains répondants disent avoir été écartés parce qu'ils paraissaient trop jeunes, d'autres dévalorisés parce qu'ils étaient trop âgés.
+
+      Il faut également rappeler que la discrimination peut prendre de nombreuses formes et que même les initiatives en faveur de la diversité peuvent parfois nuire aux personnes qu'elles sont censées aider. Comme l'a souligné une répondante : « Être la femme alibi est épuisant. On attend de moi que je figure dans les supports marketing de mon employeur et que je donne mon avis sur tous les sujets liés à la diversité, à l'équité et à l'inclusion, sans rémunération. »
+
+      Enfin, sélectionner davantage de réponses à cette question est corrélé à un plus grand nombre de **problèmes de santé persistants**, ce qui rappelle que les difficultés au travail ne surviennent pas isolément.
+
+  - key: career.negative_impacts.takeaway.devs2026
+    t: |
+
+      33 % des hommes déclarent n'avoir jamais eu à réagir à des problèmes au travail ; cette proportion tombe à 18 % chez les personnes qui ne sont pas des hommes.
+
+      Les réactions les plus courantes sont **éviter ses collègues**, **modifier son propre comportement** ou tout simplement **démissionner**. Quelle que soit la stratégie adoptée, elle est plus souvent signalée par les personnes qui ne sont pas des hommes.
+
+  - key: career.laid_off.takeaway.devs2026
+    t: |
+
+      La majorité des répondants n'a jamais été licenciée, mais les réponses positives progressent lentement par rapport à l'an dernier (avec la réserve habituelle : la composition de l'échantillon peut aussi varier d'une année à l'autre).
+
+  - key: career.job_security.takeaway.devs2026
+    t: |
+
+      L'anxiété liée à l'IA et l'épuisement dans le secteur jouent un rôle, mais pour l'instant les problèmes professionnels traditionnels restent les principales causes d'inquiétude quant à l'emploi.
+
+  - key: career.career_security.takeaway.devs2026
+    t: |
+
+      La plupart des répondants jugent toujours improbable de devoir changer de carrière contre leur gré. Les développeurs ne croient donc pas vraiment au récit selon lequel l'IA les remplacera bientôt et les obligera à cultiver la terre pour subsister, du moins pas encore.
+
+  # workplace
+
+  - key: sections.workplace.description.devs2026
+    t: Votre environnement de travail actuel.
+
+  - key: workplace.company_size.takeaway.devs2026
+    t: |
+
+      Travailler pour une grande entreprise reste corrélé à des revenus plus élevés et à une hausse de ceux-ci. Il est également intéressant d'observer ce qui se passe lorsqu'on ne travaille pas pour une entreprise.
+
+      En plus de travailler moins d'heures par semaine, les freelances déclarent utiliser moins l'IA et avoir une opinion plus négative de celle-ci en général. Cela pourrait constituer une autre voie pour celles et ceux qui cherchent une alternative, au prix de revenus plus faibles.
+
+  - key: workplace.job_title.takeaway.devs2026
+    t: |
+
+      Le titre d'« ingénieur » reste associé à des revenus supérieurs à celui de simple développeur.
+
+      Le développement front-end représente toujours l'essentiel du travail, ce qui est logique compte tenu de l'orientation Web du public de l'enquête.
+
+  - key: workplace.work_areas.takeaway.devs2026
+    t: |
+
+      La comparaison des domaines de travail avec le revenu annuel moyen et le nombre moyen d'années d'expérience révèle une corrélation assez forte entre ces deux facteurs.
+
+      Quelques domaines (comme l'ingénierie **IA** et **plateforme**, ainsi que le **recrutement et les entretiens**) se situent toutefois au-dessus de la tendance, ce qui signifie qu'ils sont associés à des revenus supérieurs aux prévisions.
+
+  - key: workplace.yearly_salary.takeaway.devs2026
+    t: |
+
+      Les trois principaux facteurs associés à un revenu élevé restent une **plus grande expérience**, le fait de travailler pour une **entreprise plus grande** et de résider aux **États-Unis**.
+
+  - key: workplace.income_evolution.takeaway.devs2026
+    t: |
+
+      Si les États-Unis offrent les salaires les plus élevés, ils n'arrivent qu'en 11e position parmi les pays comptant la plus forte proportion de revenus *en hausse*. Les dix premières places sont plutôt occupées par les pays nordiques et leurs voisins, ce qui pourrait annoncer un remaniement du classement des salaires dans les années à venir.
+
+  - key: workplace.job_finding_application_count.takeaway.devs2026
+    t: |
+
+      Trouver un nouvel emploi reste difficile, mais cela devient heureusement plus facile avec les années : les développeurs les plus expérimentés ont eu besoin de moins de tentatives en moyenne pour être embauchés.
+
+  - key: workplace.job_finding_methods.takeaway.devs2026
+    t: |
+
+      Fait intéressant, les données montrent que trouver un emploi grâce à l'open source ou à une activité communautaire est associé à un revenu supérieur de 39 % à la médiane générale.
+
+      En matière d'efficacité, les méthodes classiques de recherche d'emploi, comme LinkedIn ou les sites d'offres, nécessitent davantage de candidatures que le recours à son réseau personnel ou la candidature directe auprès d'une entreprise.
+
+  - key: workplace.remote_work_policy.takeaway.devs2026
+    t: |
+      L'absence de télétravail est corrélée à un revenu médian et à une satisfaction professionnelle plus faibles. Les grandes organisations semblent aussi avoir plus de mal à passer au télétravail : les entreprises entièrement à distance comptent seulement **35** employés en médiane.
+
+  - key: workplace.work_hours_per_week.takeaway.devs2026
+    t: |
+
+      Si l'on pourrait croire que travailler davantage signifie gagner davantage, les revenus varient bien plus selon d'autres facteurs de confusion (années d'expérience, taille de l'entreprise, etc.) qu'en fonction du seul temps passé au travail.
+
+      En effet, si l'on isole les développeurs américains ayant de 10 à 14 ans d'expérience afin d'éliminer l'influence de ces facteurs, la corrélation entre heures travaillées et salaire disparaît presque complètement.
+
+  - key: workplace.job_happiness.takeaway.devs2026
+    t: |
+
+      La majorité des développeurs restent satisfaits de leur travail, mais les données montrent une légère hausse du nombre de répondants insatisfaits par rapport à l'an dernier (barres rayées en blanc).
+
+  - key: workplace.workplace_perks.takeaway.devs2026
+    t: |
+
+      Une nouvelle fois, les **relations avec les collègues**, l'**équilibre entre vie professionnelle et vie personnelle** et les **conditions de travail** arrivent largement devant la **rémunération** seule.
+
+  - key: workplace.workplace_difficulties.takeaway.devs2026
+    t: |
+      Le **mauvais management** avait été cité dans les réponses libres l'an dernier. Son ajout aux choix officiels de cette édition l'a propulsé directement en tête des difficultés rencontrées au travail.
+
+  - key: workplace.workplace_burnout.takeaway.devs2026
+    t: |
+      Les réponses proposées pour cette question s'inspiraient des [signes courants de l'épuisement professionnel](https://www.mayoclinic.org/healthy-lifestyle/adult-health/in-depth/burnout/art-20046642). Avec **4,5** choix sélectionnés en moyenne, on peut dire que ce problème touche beaucoup d'entre nous.
+
+  - key: workplace.keyboard.takeaway.devs2026
+    t: |
+
+      Les claviers mécaniques ont le vent en poupe, mais beaucoup de développeurs se satisfont toujours du clavier intégré à leur ordinateur portable.
+
+  - key: workplace.monitors.takeaway.devs2026
+    t: |
+
+      Deux écrans sont peut-être la norme, mais une minorité importante se débrouille encore avec un seul.
+
+  # ai
+  - key: sections.ai_usage.description.devs2026
+    t: Opinions sur l'IA
+
+  - key: ai_usage.ai_generated_code_balance.takeaway.devs2026
+    t: |
+      Il existe peut-être quelques poches de résistance à l'IA (voir les données de l'enquête [State of CSS](https://2026.stateofcss.com/en-US/usage/#css_ai_generated_code_balance) de cette année), mais en 2026, le développeur médian est pleinement entré dans l'ère de l'IA. Les développeurs qui écrivent presque tout leur code avec l'IA constituent le groupe le plus important.
+
+  - key: ai_usage.ai_sentiment.takeaway.devs2026
+    t: |
+
+      Réduire les opinions sur l'IA à un axe pour/contre peut sembler simpliste, mais les données obtenues révèlent tout de même des tendances intéressantes.
+
+      Par exemple, votre opinion sur l'IA prédit non seulement votre ressenti général à l'égard des technologies, mais elle est aussi fortement corrélée à d'autres facteurs, comme votre position sur l'**échiquier politique** : les personnes favorables à l'IA penchent davantage **à droite**.
+
+  - key: ai_usage.ai_risks.takeaway.devs2026
+    t: |
+
+      L'**impact environnemental** arrive en tête des préoccupations liées à l'IA. Comme d'autres enjeux environnementaux, il semble politisé et fortement corrélé à une orientation plus à gauche.
+
+  - key: ai_usage.ai_management_pressure.takeaway.devs2026
+    t: |
+
+      Au-delà de l'utilité réelle de l'IA pour les développeurs, les entreprises contribuent fortement à encourager son utilisation.
+
+      Cet enthousiasme pour l'IA n'est toutefois pas sans inconvénients : des mesures trop contraignantes, comme des quotas ou des classements, peuvent nuire à la **satisfaction au travail** et à l'**état psychologique** des employés.
+
+  - key: ai_usage.ai_mental_state.takeaway.devs2026
+    t: |
+
+      Les outils d'IA peuvent nous rendre plus productifs, mais ils ne semblent pas nous rendre plus heureux. Si beaucoup restent neutres, une part importante des répondants déplore un effet négatif sur leur état psychologique, corrélé à un sentiment d'**épuisement** et de **désillusion** à l'égard du secteur technologique.
+
+      Chez les personnes qui signalent un effet positif sur leur état psychologique, le sentiment le plus répandu est la **curiosité**. Même dans ce groupe, le sentiment d'être **débordé** reste toutefois assez courant.
+
+  - key: ai_usage.ai_outlook.takeaway.devs2026
+    t: |
+
+      Les réponses libres à cette question se répartissaient en cinq grandes catégories : risques et impacts de l'IA, usages de l'IA, opinions positives, opinions négatives et opinions neutres.
+
+      De loin, le thème le plus fréquent concernait les **conséquences de l'IA pour les développeurs**, c'est-à-dire la manière dont ils vivent personnellement ses effets.
+
+      Venaient ensuite l'**opposition générale à l'IA**, notamment la crainte d'une bulle et les appels à davantage de réglementation, puis les inquiétudes concernant l'**impact sur le secteur**, notamment les transformations de l'écosystème technologique sous l'influence de l'IA.
+
+  # health
+  - key: sections.health.description.devs2026
+    t: Santé et forme physique.
+
+  - key: health.age.takeaway.devs2026
+    t: |
+      L'âge est l'un des principaux *facteurs de confusion* de ce jeu de données. Autrement dit, il peut donner l'impression que deux variables (comme le « nombre d'enfants » et le « revenu annuel ») sont plus étroitement liées qu'elles ne le sont, alors qu'elles découlent toutes deux d'une même cause.
+
+      Un résultat inattendu : les répondants plus âgés ont tendance à générer une part moindre de leur code avec l'IA, mais aussi à avoir une opinion plus favorable de cette technologie.
+
+  - key: health.disability_status.takeaway.devs2026
+    t: |
+
+      Le genre et l'âge influent fortement sur les handicaps rencontrés par les répondants ; les **troubles de l'audition** et les **maladies chroniques** deviennent plus fréquents avec l'âge.
+
+      Comme le confirment [d'autres études](https://www.bmj.com/content/385/bmj.q999), les maladies chroniques sont plus fréquentes chez les femmes, tandis que les **troubles neurodivergents** et les **problèmes de santé mentale** sont surreprésentés chez les personnes non binaires.
+
+  - key: health.health_issues.takeaway.devs2026
+    t: |
+
+      Le mauvais sommeil reste le problème de santé le plus fréquemment signalé par les répondants.
+
+      Si l'on compare les problèmes de santé selon les pays, les pays « les plus en forme » (selon la proportion de répondants ne signalant aucun problème de santé) sont l'Italie, la Norvège et la Suisse.
+
+      Bien sûr, la manière de déclarer ou non un problème de santé dépend aussi en partie de la culture. Par exemple, seuls **8 %** des répondants vivant en Russie signalent des problèmes de santé mentale, une proportion nettement inférieure aux 12 % observés pour l'ensemble des répondants.
+
+  - key: health.sleep_quantity.takeaway.devs2026
+    t: |
+
+      Bien que le manque de sommeil soit un problème fréquent, le nombre d'heures réellement dormies est remarquablement homogène dans l'ensemble des données : **91 %** des répondants dorment entre 6 et 8 heures par nuit, avec une légère diminution liée à l'âge.
+
+  # worldview
+
+  - key: sections.worldview.description.devs2026
+    t: Vision du monde, politique et actualité.
+
+  - key: worldview.global_issues.takeaway.devs2026
+    t: |
+
+      Sans surprise, les pays européens qui viennent de connaître l'une des vagues de chaleur les plus violentes jamais enregistrées dans la région ont tous cité le **changement climatique** parmi leurs principales préoccupations.
+
+      La **montée de l'autoritarisme** constitue une autre préoccupation majeure, notamment en Suède, aux États-Unis, en France et en Allemagne, où des partis d'extrême droite sont proches du pouvoir ou y participent.
+
+      L'âge joue également un rôle : les répondants plus jeunes sont davantage préoccupés par les **tensions géopolitiques**.
+
+      Comme prévu, nombre de ces sujets reflètent une forte polarisation politique : la préoccupation liée au **changement climatique** chute nettement à droite du centre de l'échiquier politique, laissant place aux **tensions géopolitiques**, à l'**érosion des valeurs traditionnelles** et aux **atteintes à la liberté d'expression**.
+
+  - key: worldview.political_expression_at_work.takeaway.devs2026
+    t: |
+
+      La liberté d'expression est protégée dans la plupart des pays, mais cela ne signifie pas toujours que l'on se sente libre d'exprimer ses opinions. Les **États-Unis** n'arrivent ainsi qu'en 17e position.
+
+      Autre constat intéressant : les répondants de droite sont globalement moins à l'aise pour exprimer leurs opinions politiques au travail.
+
+  - key: worldview.workers_union.takeaway.devs2026
+    t: |
+
+      Alors que l'IA menace la sécurité de l'emploi dans le secteur technologique, les syndicats pourraient contribuer à redonner du pouvoir aux salariés. Cette idée semble toutefois bien plus populaire à gauche qu'à droite.
+
+      Parmi les pays, la **Suède** est le seul où la majorité des répondants sont déjà syndiqués. Les **États-Unis** arrivent en tête pour la proportion de répondants non syndiqués qui souhaiteraient rejoindre un syndicat.
+
+  - key: worldview.political_spectrum.takeaway.devs2026
+    t: |
+
+      Réduire les opinions politiques d'une personne à un axe gauche-droite est certes un peu simpliste. De plus, une même opinion peut être considérée comme de droite dans un pays et de gauche dans un autre.
+
+      Il reste intéressant d'observer comment les répondants se situent et quels facteurs sont associés à une orientation plus à gauche (préoccupation face à la montée de l'intolérance et au changement climatique) ou plus à droite (inquiétude concernant l'érosion des valeurs traditionnelles et soutien à l'IA).
+
+  - key: worldview.tech_industry_emotion.takeaway.devs2026
+    t: |
+
+      En 2026, les répondants ne sont pas très optimistes à l'égard du secteur technologique : les émotions négatives dominent, notamment l'**épuisement** et la **désillusion**.
+
+      La **curiosité** arrive tout de même en troisième position et est corrélée à d'autres aspects de la vision du monde des répondants, comme une opinion plus favorable à l'IA ou une orientation politique plus à droite.
+
+  - key: worldview.happiness_factors.takeaway.devs2026
+    t: |
+      La **bonne santé** reste la principale source de bonheur dans le monde. L'âge révèle une autre tendance : en vieillissant, les **amitiés** et les **loisirs** cèdent progressivement la place à la **famille** parmi les sources de bonheur.
+
+  - key: worldview.relocation.takeaway.devs2026
+    t: |
+
+      Le **Japon** et le **Canada** restent les destinations où les répondants aimeraient le plus s'installer s'ils en avaient la possibilité.
+
+      Les **États-Unis**, longtemps considérés comme la destination la plus attrayante pour les travailleurs de la tech, n'arrivent qu'en 5e position (en excluant les répondants qui y vivent déjà). Des facteurs politiques pourraient jouer un rôle, comme le suggèrent les corrélations avec une orientation **à droite** et une opinion **favorable à l'IA**.
+
+  - key: worldview.overall_happiness.takeaway.devs2026
+    t: |
+
+      En définitive, notre bonheur dépend beaucoup d'un emploi satisfaisant et stable, ainsi que d'une bonne santé physique et mentale.
+
+      Or, l'IA menace les développeurs sur ces deux fronts : elle contribue au stress et à l'épuisement tout en mettant en péril la sécurité de l'emploi. En conséquence, les répondants sont plus nombreux à se dire malheureux qu'en 2025.
+
+    aliases:
+      - happiness.overall_happiness.takeaway.devs2026
+
+  # hobbies
+
+  - key: sections.worldview.description.devs2026
+    t: Vision du monde, politique et actualité.
+
+  - key: hobbies.hobbies.takeaway.devs2026
+    t: |
+
+      On dit tous qu'on devrait lire davantage, mais la lecture arrive réellement en tête des loisirs chez les **femmes** et les répondants de **plus de 60 ans**.
+
+      Les **jeux vidéo** dominent le classement, suivis des **films et de la télévision**.
+
+  - key: hobbies.physical_activity.takeaway.devs2026
+    t: |
+
+      En matière d'activité physique, les préférences varient fortement d'un pays à l'autre.
+
+      Si 30 % des répondants **israéliens** pratiquent la **musculation**, cette proportion tombe à 12 % en **France**. Les **Pays-Bas**, au relief relativement plat, restent pourtant en tête pour l'**escalade**.
+
+  - key: hobbies.favorite_beverages.takeaway.devs2026
+    t: |
+
+      L'un des langages de programmation les plus populaires au monde portant le nom d'un type de café, il n'est pas surprenant que cette boisson arrive en tête.
+
+  - key: hobbies.favorite_books.takeaway.devs2026
+    t: |
+
+      **Dungeon Crawler Carl** est sans conteste le titre phare du classement de cette année, mais toute la liste mérite le détour pour trouver votre prochaine lecture !
+
+  - key: hobbies.favorite_video_games.takeaway.devs2026
+    t: |
+
+      **Clair Obscur: Expedition 33** mérite sa première place et détrône **Baldur's Gate 3** comme jeu le plus populaire de l'année.
+
+  - key: hobbies.video_game_platforms.takeaway.devs2026
+    t: |
+
+      Si le **jeu sur PC** reste en tête, la **Switch** (versions 1 et 2) continue de faire preuve d'une remarquable longévité.
+
+  # metadata
+
+  - key: _user.metadata.source.takeaway.devs2026
+    t: |
+
+      À compléter.
+
+      Si la majorité des répondants provenaient de notre public habituel et de notre liste de diffusion, la mention de l'enquête par **Josh Comeau** dans sa newsletter lui a également donné un bel élan.
+
+      En étudiant la répartition par genre selon chaque source, la [méthode boule de neige](https://github.com/Devographics/surveys/issues/258) s'est révélée efficace pour encourager davantage de femmes à participer. Le parrainage de créateurs comme [Cassidy Williams](https://cassidoo.co/), qui a présenté l'enquête dans sa newsletter hebdomadaire, a également contribué à cette participation.
+    aliases:
+      - user.metadata.source.takeaway.devs2026
+
+  # figures
+
+  - key: figure.figure_gender.devs2026
+    t: Pourcentage de femmes et de personnes non binaires parmi les répondants ayant indiqué leur genre.
+
+  - key: figure.figure_career_issues_discrimination.devs2026
+    t: Écart entre la proportion d'hommes et celle de femmes ou de personnes non binaires ayant déclaré avoir subi des discriminations au cours de leur carrière.
+
+  - key: figure.figure_discrimination_therapy.devs2026
+    t: Écart entre la proportion d'hommes et celle de femmes ou de personnes non binaires ayant déclaré avoir suivi une thérapie à cause de problèmes au travail.
+
+  - key: figure.figure_company_size_income_evolution.devs2026
+    t: Pourcentage de répondants travaillant dans une grande entreprise (plus de 1 000 employés) dont les revenus ont augmenté au cours de l'année écoulée.
+
+  - key: figure.figure_job_title_income.devs2026
+    t: Écart de salaire médian entre les intitulés de poste contenant « ingénieur » et ceux contenant « développeur ».
+
+  - key: figure.figure_yearly_salary_usa_world.devs2026
+    t: Écart de salaire médian entre les États-Unis et le reste du monde.
+
+  - key: figure.figure_job_finding_application_count.devs2026
+    t: Nombre médian de candidatures envoyées par les répondants pour trouver leur emploi actuel.
+
+  - key: figure.figure_remote_work_policy_happiness.devs2026
+    t: Écart de satisfaction professionnelle moyenne des répondants (sur une échelle de 5 points) entre les entreprises qui autorisent le télétravail et celles qui ne l'autorisent pas.
+
+  - key: figure.figure_community_involvement.devs2026
+    t: Âge médian des utilisateurs de flux RSS (contre 35 ans pour l'ensemble des répondants).
+
+  - key: figure.figure_open_source_involvement.devs2026
+    t: Écart entre la proportion d'hommes et celle de femmes ou de personnes non binaires contribuant à du code open source.
+
+  - key: figure.figure_sleep_quantity.devs2026
+    t: Nombre moyen d'heures de sommeil par nuit des répondants.
+
+  - key: figure.figure_global_issues.devs2026
+    t: Pourcentage de répondants américains ayant cité la montée de l'autoritarisme parmi leurs préoccupations.
+
+  - key: figure.figure_relocation_japan.devs2026
+    t: Nombre de répondants ayant cité le Japon comme destination potentielle pour s'installer.
+
+  - key: figure.figure_favorite_musical_artists_pink_floyd.devs2026
+    t: Âge médian des répondants qui écoutent Pink Floyd.
+
+  - key: figure.xxx.devs2026
+    t:
+
+  - key: figure.xxx.devs2026
+    t:
+
+  # midpage sponsors blocks
+
+  - key: tokyodev.relocation
+    t: |
+      Trouver un emploi au Japon
+
+  - key: tokyodev.relocation.description
+    t: |
+      S'installer au Japon n'est pas forcément un rêve inaccessible. Le guide pratique de TokyoDev pour les développeurs souhaitant venir au Japon aborde le travail dans une entreprise japonaise, les salaires auxquels s'attendre, les visas disponibles et les démarches pour les obtenir.
+
+  - key: frontendmasters.learning_path
+    t: |
+      Votre parcours pour devenir développeur web senior
+
+  - key: frontendmasters.learning_path.description
+    t: |
+      Envie de faire évoluer votre carrière ? Approfondissez JavaScript, React, les performances Web, CSS, le déploiement de sites, TypeScript et la programmation fonctionnelle pour passer dès aujourd'hui de junior à senior.
+
+  - key: storyblok.technologies
+    t: React ? Vue ? Astro ? JS ?
+
+  - key: storyblok.technologies.description
+    t: |
+      Peu importe, nous parlons JSON. Storyblok est un CMS headless compatible avec tous les frameworks et plateformes modernes : vous êtes libre de choisir la solution qui convient le mieux à votre projet. Lancez-vous en quelques minutes !
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.devs2026.sacha_greif.bio
+    t: Fondateur de Devographics
+
+  - key: conclusion.devs2026.sacha_greif
+    t: |
+
+      J'entame maintenant ma 11e année consécutive à organiser des enquêtes auprès des développeurs. Avec le recul, il semble presque amusant de penser qu'autrefois, les grandes questions qui nous empêchaient de dormir étaient de savoir s'il fallait utiliser React ou Angular.
+
+
+      Mais les choses ont changé, et 2026 restera peut-être dans les mémoires comme l'année où l'IA est devenue impossible à ignorer. Il est de plus en plus difficile de la réduire à un « correcteur automatique intelligent », et son influence commence à se faire sentir à tous les niveaux de la société. Cette enquête cherchait, en quelque sorte, à saisir un instantané de cette année singulière.
+
+
+      Certaines questions restent toutefois sans réponse dans une enquête. Les programmeurs écriront-ils encore du code à la main dans cinq ans ? Le génie logiciel existera-t-il toujours comme profession ? Et les développeurs continueront-ils à répondre à ces enquêtes année après année ?
+
+
+      Pour l'instant, le mieux que nous puissions espérer est de continuer à trouver de la joie dans ce que nous faisons, jour après jour. Sur ce, j'espère vous retrouver en 2027 !
+
+  - key: conclusion.devs2026.miranda_heath.bio
+    t: Directrice fondatrice et chercheuse au [Software Stewardship Lab](https://stewardshiplab.org/)
+
+  - key: conclusion.devs2026.miranda_heath
+    t: |
+      ### « Il faut parler de l'IA »
+
+
+      La période est incertaine pour les développeurs.
+
+
+      Près de la moitié des répondants de cette année ont connu l'[insécurité de l'emploi et une rémunération insuffisante](../career/#career_issues). Un quart a déjà été [licencié](../career/#laid_off) au cours de sa carrière, et près d'un sur dix l'a été au cours des neuf derniers mois. Plus d'un quart pense devoir [changer complètement de carrière](../career/#career_security) dans les cinq prochaines années.
+
+
+      C'est la première enquête Devographics à s'intéresser à l'[état psychologique]() des développeurs, et les résultats suggèrent également des évolutions préoccupantes dans le _ressenti_ du métier de développeur logiciel. Environ deux tiers des répondants se sont sentis récemment moins motivés et plus cyniques. Près de la moitié ont eu du mal à se concentrer, davantage procrastiné, ressenti une fatigue inhabituelle et eu l'impression d'être moins efficaces et d'accomplir moins de choses au travail.
+
+
+      ---
+
+
+      Ces changements sont caractéristiques de l'épuisement professionnel : un état qui survient lorsque le travail puise davantage d'énergie qu'il n'en apporte. 62 % des développeurs déclarent avoir connu un [épuisement professionnel](../career/#career_issues) au cours de leur carrière, soit la même proportion que dans l'enquête de l'an dernier.
+
+
+      Cependant, la fréquence persistante de l'épuisement professionnel dans le développement logiciel ne justifie pas qu'on le banalise. Il peut gravement nuire à la santé et au bien-être. Les données le confirment : les développeurs qui en ont souffert sont généralement moins heureux et plus susceptibles de connaître des problèmes de santé physique ou mentale persistants.
+
+
+      ---
+
+
+      Un sujet incontournable alimente aussi discrètement cette incertitude. Pour la première fois cette année, Devographics a demandé aux développeurs de partager leur opinion à ce sujet. Je parle bien sûr de l'IA.
+
+
+      Si l'utilisation de l'IA était [très répandue](../ai/#ai_generated_code_balance), les opinions à son égard étaient [fortement polarisées](../ai/#ai_sentiment) : 49 % des répondants y étaient favorables et 39 % défavorables.
+
+
+      Notre compréhension de l'impact psychologique du développement assisté par l'IA est encore en construction, mais les premiers éléments suggèrent que le prompting peut [devenir addictif](https://www.youtube.com/watch?v=iPUn1Fnfn0k&t=407s), qu'une dépendance excessive à l'IA peut [nuire à l'apprentissage](https://www.youtube.com/watch?v=DkhhE97Swmo&list=WL&index=3) et que l'exécution simultanée d'agents peut provoquer une surcharge cognitive appelée « brouillard mental lié à l'IA ». Près de la moitié des répondants estimaient d'ailleurs que l'IA avait un effet négatif sur leur [état psychologique](../ai/#ai_mental_state).
+
+
+      Surtout, les développeurs voulaient clairement parler de l'impact de l'IA sur leur métier. Plus de 1 500 répondants ont choisi de partager leur [point de vue sur l'IA](../ai/#ai_outlook). Les thèmes récurrents incluaient la nécessité d'apprendre à utiliser l'IA de manière sûre et réfléchie, le fait qu'elle rend le travail moins gratifiant et qu'elle pousse les directions à imposer des attentes de productivité intenables.
+
+
+      ---
+
+
+      Alors que l'IA semble tout bouleverser trop vite, certains aspects du développement logiciel évoluent avec une lenteur exaspérante.
+
+
+      Les personnes qui s'identifient comme femmes sont toujours bien plus susceptibles de subir des [discriminations](../career/#discrimination_issues) que leurs collègues masculins. Plus inquiétant encore, elles sont aussi plus susceptibles d'[éviter leurs collègues, de modifier leur comportement ou leur apparence, voire de changer de carrière](../career/#negative_impacts) en réaction aux problèmes rencontrés au travail. Cela laisse penser que, pour les femmes, la solution la plus simple reste de se conformer, de se transformer ou de s'effacer pour s'adapter à une culture professionnelle qui les défavorise, plutôt que d'attendre que le secteur change.
+
+
+      De même, les répondants LGBT+ ainsi que ceux ayant un TDAH ou de l'autisme ont décrit la pression ressentie pour cacher leur identité au travail. Les traitements injustes et la pression à masquer leur identité exposent davantage ces groupes à l'épuisement professionnel et à ses conséquences.
+
+
+      ---
+
+
+      Être développeur aujourd'hui peut donner l'impression d'être au milieu d'une tempête de sable. Des vents étranges soufflent et il est difficile de voir la route devant soi. Mais si nous continuons à dialoguer, à parler de l'impact de l'IA, des aspects de notre travail qui nous apportent joie et sens, et de la manière de les défendre, le paysage sera peut-être d'autant plus beau lorsque la poussière sera retombée.
+
+
+      Cela se ressent particulièrement dans l'[attitude des développeurs à l'égard du secteur technologique](../worldview/#tech_industry_emotion). Travailler dans un secteur en perpétuelle évolution et incertain peut être épuisant, et susciter désillusion, anxiété, colère et sentiment d'être dépassé. Mais le changement ouvre aussi des possibilités ; et avec elles viennent la curiosité, l'espoir et l'enthousiasme.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content.devs2026
+    t: |
+      L'enquête State of Devs 2026 s'est déroulée du 5 juillet au 5 septembre 2026 et a recueilli 5 463 réponses. Les résultats ont été publiés le 25 septembre 2025. L'enquête est menée par [Devographics](https://devographics.com/).
+
+      ### Objectifs de l'enquête
+
+      Cette enquête vise à mieux connaître les aspects non techniques de la vie des développeurs.
+
+      ### Conception de l'enquête
+
+      L'enquête a été conçue en collaboration avec la communauté, lors d'une période de consultation ouverte au cours de laquelle son plan a été discuté [sur GitHub](https://github.com/Devographics/surveys/issues/279).
+
+      Toutes les questions de l'enquête étaient facultatives.
+
+      ### Public de l'enquête
+
+      L'enquête était librement accessible en ligne, sans filtrage ni sélection des répondants. Ceux-ci étaient principalement issus d'anciennes enquêtes Devographics comme [State of JS](https://stateofjs.com/) ou [State of CSS](https://stateofcss.com/) (informés par une liste de diffusion dédiée), ainsi que des réseaux sociaux.
+
+      Cette enquête doit également être considérée comme un **instantané d'un sous-ensemble particulier de développeurs** et ne prétend pas représenter l'ensemble de l'écosystème.
+
+      ### Financement du projet
+
+      Le projet est financé par nos partenaires, répertoriés sur la page d'accueil de l'enquête.
+
+      ### Aperçu technique
+
+      Vous trouverez [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) un aperçu technique détaillé du fonctionnement des enquêtes.
+
+      ### Contact
+
+      Le meilleur moyen de nous contacter est de [rejoindre notre serveur Discord public](https://discord.com/invite/zRDb35jfrt). Vous pouvez également [me retrouver sur Bluesky](https://bsky.app/profile/sachagreif.com).

@@ -1,0 +1,259 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: L'édition 2023 de l'enquête annuelle sur les dernières tendances de l'écosystème HTML.
+
+  - key: introduction.html2023
+    t: >
+      Alors que JavaScript prenait le contrôle du web et que CSS gagnait chaque année de nouveaux super-pouvoirs,
+      HTML semblait vouloir rester en sommeil et céder le devant de la scène à ses cadets.
+      Après tout, une fois qu'on connaît les `<div>` et les `<h>` de 1 à 6, que reste-t-il à apprendre ?
+
+
+      Beaucoup de choses, en réalité ! Nous avons de nouveau fait appel à [Lea Verou](https://lea.verou.me/) pour mettre à profit sa connaissance approfondie
+      de la plateforme web et nous aider à concevoir une enquête qui dépasse largement le HTML
+      pour aborder l'accessibilité, les Web Components et bien d'autres sujets.
+
+
+      Cela explique en partie pourquoi ce rapport a mis si longtemps à paraître : il y avait
+      *beaucoup* de nouvelles données à traiter ! Nous espérons que le résultat valait l'attente.
+
+
+      En plus des données présentées ici, nous avons amélioré notre fonctionnalité de **personnalisation des graphiques** pour vous permettre d'adapter
+      encore davantage chaque visualisation. Si vous découvrez des résultats intéressants,
+      n'hésitez pas à nous en faire part !
+
+
+      Pour en savoir plus, consultez [cet article](https://dev.to/sachagreif/discover-the-state-of-html-2023-survey-results-n10) ou regardez cette [courte vidéo YouTube](https://www.youtube.com/watch?v=G-rFwp2zUT4).
+
+
+      Ceci étant dit, bienvenue dans les résultats de la toute première enquête State of HTML.
+      Après ça, vous ne verrez plus jamais le bon vieux HTML de la même manière !
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Soutenez l'enquête avec le T-shirt State of HTML
+
+      Les années 1990 vous manquent-elles, quand HTML était roi et que les jaquettes de cassettes VHS arboraient des illustrations futuristes et colorées ?
+
+      La mauvaise nouvelle, c'est que même avec la technologie de 2024, vous ne pouvez pas encore remonter le temps pour revivre cette époque glorieuse. En revanche, vous pouvez porter ce superbe T-shirt rétro original, conçu par le talentueux Christopher Kirk-Nielsen.
+
+  - key: tshirt.about
+    t: À propos du T-shirt
+
+  - key: tshirt.description
+    t: |
+      Nous utilisons un T-shirt ajusté de grande qualité, très doux et composé d'un mélange de trois fibres, imprimé par nos partenaires de Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Le commander
+
+  - key: tshirt.price
+    t: 32 $ US + frais de port
+
+  - key: tshirt.designer.heading
+    t: À propos du créateur
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originaire de France et désormais installé aux États-Unis, Chris est non seulement un développeur front-end remarquable, mais aussi un illustrateur talentueux spécialisé dans les visuels rétro. N'hésitez pas à découvrir ses [autres créations de T-shirts](https://chriskirknielsen.com/designs) !
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.html2023
+    t: |
+      Bienvenue dans les résultats de l'enquête State of HTML. Cette toute première édition a réuni **20 904** participants du monde entier.
+
+  - key: sections.features.description.html2023
+    t: |
+      Fonctionnalités HTML et autres API de navigateur
+
+  ###########################################################################
+  # Other Content
+  ###########################################################################
+
+  - key: features.all_features
+    t: Toutes les fonctionnalités
+  - key: features.all_features.description
+    t: |
+      Ce graphique récapitule toutes les questions de l'enquête sur les fonctionnalités. Les barres principales représentent l'expérience des répondants, puis sont subdivisées selon leur opinion. Vous pouvez modifier le regroupement pour passer d'une vue à l'autre.
+
+
+      Vous trouverez également une ventilation plus détaillée de ces données dans chaque sous-section consacrée aux fonctionnalités.
+
+  - key: features.forms_features
+    t: Expérience et avis sur les formulaires
+
+  - key: features.interactivity_features
+    t: Expérience et avis sur l'interactivité
+
+  - key: features.content_features
+    t: Expérience et avis sur le contenu
+
+  - key: features.web_components_main_features
+    t: Expérience et avis sur les Web Components
+
+  - key: features.accessibility_features
+    t: Expérience et avis sur l'accessibilité
+
+  - key: features.mobile_web_apps_features
+    t: Expérience et avis sur les applications web mobiles
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Développez vos compétences grâce à des cours approfondis et modernes en ingénierie front-end.
+  - key: sponsors.google_chrome.description
+    t: Merci à l'équipe Google Chrome de soutenir notre travail.
+  - key: sponsors.tokyodev.description
+    t: Trouvez dès aujourd'hui le poste de développeur de vos rêves au Japon.
+  - key: sponsors.renderatl.description
+    t: La conférence tech consacrée à tout ce qui touche au web.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.html2023.lea_verou.bio
+    t: Membre du groupe d'architecture technique du W3C et chercheuse au MIT CSAIL
+  - key: conclusion.html2023.lea_verou
+    t: >
+      *Ouf !* Cette enquête a demandé un effort colossal à des dizaines de personnes réparties sur six continents. Elle a non seulement établi un nouveau record de réponses pour le lancement d'une enquête « State of… », mais son interface de collecte de données a aussi introduit des innovations qui nous ont offert un aperçu sans précédent des opinions des développeurs, avec des retombées bien au-delà de son périmètre.
+
+
+      Certains estiment qu'améliorer HTML est inutile, mais les résultats de l'enquête démontrent clairement le contraire. **Les développeurs réclament davantage d'éléments HTML interactifs** : des éléments comme `<datalist>` ou l'API Popover figurent parmi ceux qui suscitent les avis les plus positifs, et tous les principaux [éléments manquants](https://2023.stateofhtml.com/en-US/usage/#html_missing_elements) sont des composants interactifs.
+
+
+      Cependant, **simplifier les tâches simples** en fournissant des fonctionnalités prêtes à l'emploi ne suffit plus. Il est indispensable de **rendre les tâches complexes possibles** grâce à une personnalisation approfondie : le manque de possibilités de personnalisation, notamment des **styles**, était de loin la difficulté la plus fréquemment citée.
+
+
+      Les éléments de formulaire sont donc aussi ceux qui sont [le plus souvent recréés](https://2023.stateofhtml.com/en-US/usage/#html_functionality_features), une situation perdante pour les développeurs comme pour les utilisateurs. Heureusement, de nombreuses initiatives visent à l'améliorer, ce qui laisse espérer un avenir prometteur.
+
+
+      L'extensibilité est également un besoin majeur. Il n'est pas viable que seuls les organismes de normalisation puissent étendre HTML ; par ailleurs, des éléments génériques ne peuvent pas répondre à une telle diversité de besoins. Malheureusement, les **API des Web Components**, et notamment le Shadow DOM, malgré leur large adoption, semblent ne pas répondre aux besoins des développeurs ni offrir une expérience fluide : elles figurent parmi les expériences les moins satisfaisantes de l'enquête. L'activité actuelle dans ce domaine, à laquelle j'ai en partie contribué, me donne toutefois espoir : malgré un parcours difficile, ces technologies sont en voie d'atteindre leur plein potentiel.
+
+
+      Pour finir, rappelons que cette enquête n'est qu'un instantané du point de vue des développeurs et de l'état de la plateforme web à un moment donné. L'un de ses principaux objectifs est toutefois d'améliorer la situation en donnant une meilleure visibilité aux besoins des développeurs. Combien des difficultés actuelles seront-elles résolues demain grâce à ces résultats ? Retrouvez-nous plus tard cette année pour la deuxième édition et découvrons-le ensemble !
+
+  ###########################################################################
+  # About
+  ###########################################################################
+
+  - key: about.content.html2023
+    t: |
+      L'enquête State of HTML 2023 s'est déroulée du 19 septembre au 19 octobre 2023 et a recueilli 20 904 réponses.
+
+      La conception de l'enquête a été dirigée par [Lea Verou](https://lea.verou.me/) grâce à une bourse de Google. Lea a également supervisé le prototypage, les tests et la mise en œuvre de nouveaux éléments d'interface pour la collecte de données ; elle a contribué au traitement des données et à leur visualisation.
+
+      L'infrastructure de l'enquête est gérée par [Sacha Greif](https://sachagreif.com/) et [Eric Burel](https://www.lbke.fr/), avec l'aide de contributeurs open source et de consultants.
+
+      Le logo et le T-shirt de cette année ont été conçus par [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Objectifs de l'enquête
+
+      Cette enquête vise à identifier les tendances émergentes de l'écosystème du développement web afin d'aider les développeurs à faire leurs choix technologiques.
+
+      Elle cherche donc à anticiper les évolutions des prochaines années plutôt qu'à analyser les tendances actuelles ; c'est pourquoi les fonctionnalités ou technologies les plus répandues ne sont pas toujours incluses.
+
+      Elle doit également être considérée comme un **instantané d'un sous-ensemble précis de développeurs** et ne prétend pas représenter l'ensemble de l'écosystème.
+
+      L'enquête était librement accessible en ligne, sans filtrage ni sélection des répondants.
+
+      ### Financement du projet
+
+      Le projet est financé par plusieurs sources :
+
+      - **Ventes de T-shirts**.
+
+      - **Liens sponsorisés** : les liens vers les ressources recommandées au bas de chaque page sont fournis par notre partenaire [Frontend Masters](https://frontendmasters.com/).
+
+      - **Autres financements** : [Google](https://www.google.com/) et [TokyoDev](https://www.tokyodev.com/) ont également financé l'enquête.
+
+      ### Aperçu technique
+
+      Vous trouverez [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) un aperçu technique plus détaillé du fonctionnement des enquêtes.
+
+  # HTML 2023
+
+  - key: faq.data_used_html2023
+    t: Comment ces données seront-elles utilisées ?
+  - key: faq.data_used_html2023.description
+    t: >
+      Toutes les données recueillies seront publiées librement afin que les développeurs et les entreprises puissent les consulter.
+      Les éditeurs de navigateurs [utilisent également ces données](https://web.dev/interop-2023/) pour définir leurs priorités et orienter leurs feuilles de route.
+
+  - key: faq.survey_goals_html2023
+    t: Quels sont les objectifs de l'enquête ?
+  - key: faq.survey_goals_html2023.description
+    t: >
+      L'enquête vise à mesurer la connaissance des nouvelles fonctionnalités HTML et API de navigateur, et à aider les développeurs à suivre l'évolution de leur utilisation.
+
+  - key: faq.who_should_take_survey_html2023
+    t: Qui peut répondre à cette enquête ?
+  - key: faq.who_should_take_survey_html2023.description
+    t: >
+      Cette enquête est ouverte à toute personne qui crée des sites ou applications web, régulièrement ou occasionnellement, dans le cadre de son travail, de ses études ou simplement pour le plaisir !
+
+  - key: faq.how_long_will_survey_take_html2023
+    t: Combien de temps faut-il pour répondre à l'enquête ?
+  - key: faq.how_long_will_survey_take_html2023.description
+    t: >
+      Selon le nombre de questions auxquelles vous répondez (elles sont toutes facultatives),
+      remplir l'enquête devrait prendre environ 15 à 20 minutes.
+
+  - key: faq.learn_more_html2023
+    t: Où puis-je en savoir plus ?
+  - key: faq.learn_more_html2023.description
+    t: Vous trouverez plus d'informations sur cette enquête dans [notre article d'annonce](https://lea.verou.me/blog/2023/design-state-of-html/).
+
+  - key: faq.survey_design_html2023
+    t: Comment cette enquête a-t-elle été conçue ?
+  - key: faq.survey_design_html2023.description
+    t: >
+      L'enquête a été conçue par [Lea Verou](https://lea.verou.me), avec les contributions d'éditeurs de navigateurs et de groupes tels que le [WebDX Community Group](https://www.w3.org/community/webdx/).
+
+  - key: faq.results_released_html2023
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_html2023.description
+    t: L'enquête se déroulera du 19 septembre au 16 octobre et ses résultats seront publiés peu après.
+
+  # Intro for actual survey page
+  - key: general.html2023.survey_intro
+    t: |
+      Les développeurs web ont tendance à se concentrer sur JavaScript et CSS, mais rien de ce que nous faisons ne serait possible sans HTML, qui en constitue le socle.
+
+      Pendant longtemps, on a pu croire que HTML n'évoluait plus, mais les choses sont peut-être en train de changer.
+      De nouveaux éléments comme `<selectlist>` se profilent, ainsi que des fonctionnalités prometteuses comme les popovers
+      et de nombreuses API de navigateur associées (Web Components, PWA, etc.).
+
+      Cette année, [Lea Verou](https://lea.verou.me/) a relevé le formidable défi de diriger la conception de cette toute nouvelle enquête, du contenu à l'expérience utilisateur.
+
+      Dans la continuité du succès de [State of JS](http://stateofjs.com/) et de [State of CSS](https://stateofcss.com/), nous lançons **State of HTML** ;
+      la dernière pièce manquante de cette trilogie, qui nous permettra de suivre l'évolution de la plateforme web dans son ensemble.
+
+      Ce que vous y gagnez :
+      - Les résultats sont **utilisés par les navigateurs** et les organismes de normalisation **pour établir leurs feuilles de route**.
+      Vos réponses peuvent contribuer à la mise en œuvre des fonctionnalités qui vous intéressent, à la résolution des incompatibilités entre navigateurs et à la correction des lacunes de la plateforme.
+      - Découvrez les fonctionnalités nouvelles ou à venir, ajoutez-en à votre liste de lecture et obtenez une liste de ressources à la fin !
+      - Obtenez un score de connaissances personnalisé et comparez-vous aux autres répondants.
+
+      L'enquête sera ouverte pendant trois semaines, mais les réponses envoyées **durant les neuf premiers jours (jusqu'au 1er octobre)** auront un impact bien plus important sur le Web,
+      car des données préliminaires seront utilisées avant cette date pour certains travaux de priorisation.

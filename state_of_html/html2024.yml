@@ -1,0 +1,526 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: L'édition 2024 de l'enquête annuelle sur les dernières tendances de l'écosystème HTML.
+
+  - key: general.html2024.survey_intro
+    t: |
+
+      HTML est la technologie fondatrice du Web, et il est assez remarquable qu'elle soit plus pertinente que jamais, trois décennies plus tard.
+
+      Malgré son nom, cette enquête dépasse largement le seul HTML pour couvrir l'ensemble de la plateforme web, et il y a *beaucoup* à aborder !
+
+      Comme vous pouvez l'imaginer, concevoir une telle enquête implique toujours des choix difficiles. Cette année, nous avons choisi de nous concentrer sur les fonctionnalités nouvelles ou à venir pour vous aider à rester à jour, ainsi que sur les sujets qui intéressent le plus les éditeurs de navigateurs.
+
+      Vos réponses pourraient donc avoir un impact direct sur la feuille de route du navigateur que vous utilisez actuellement. C'est pourquoi je suis ravi de lancer cette deuxième édition de l'enquête State of HTML !
+
+  - key: features.features_intro_html2024
+    t: |
+      Bienvenue dans l'enquête ! Cette première partie porte sur votre expérience avec différentes fonctionnalités de la plateforme web :
+
+
+      - **Jamais entendu parler** : vous découvrez cette fonctionnalité, ou vous en avez entendu parler sans savoir à quoi elle sert.
+
+      - **J'en ai entendu parler** : vous avez lu des informations à ce sujet, mais vous ne l'avez pas encore utilisée.
+
+      - **Je l'ai utilisée** : vous l'avez utilisée au moins une fois, même simplement pour l'essayer.
+
+
+      Au fait, si vous souhaitez nous en dire plus sur l'une de vos réponses, cliquez simplement sur la petite icône de commentaire !
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.html2024
+    t: |
+      <span class="first-letter">M</span>algré son nom, cette enquête porte sur bien plus que le seul HTML.
+
+      Ne vous méprenez pas : HTML est plus pertinent que jamais, ce qui est remarquable pour une technologie vieille de 30 ans. Nous avons néanmoins encore élargi le périmètre de l'enquête à l'ensemble de la plateforme web.
+
+      Des API de navigateur aux difficultés du développement web, en passant par les stratégies d'accessibilité et les outils d'analyse et de performance, il y a *beaucoup* à couvrir.
+
+      Pour vous aider à vous repérer parmi toutes ces nouveautés, nous indiquons désormais, lorsque c'est possible, le [statut Baseline](https://web-platform-dx.github.io/web-features/) des fonctionnalités. Repérez le petit point bleu ou vert à côté de leur nom.
+
+      Et si ces données brutes vous semblent manquer de contexte, vous pouvez désormais consulter les **commentaires** laissés par les répondants à chaque question.
+
+      Alors, plongeons dans les nouveautés de la plateforme web en 2024 !
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: T-shirt
+
+  - key: sections.tshirt.description
+    t: |
+      ## Soutenez l'enquête avec le T-shirt State of HTML
+
+      Les années 1990 vous manquent-elles, quand HTML était roi et que les jaquettes de cassettes VHS arboraient des illustrations futuristes et colorées ?
+
+      La mauvaise nouvelle, c'est que même avec la technologie de 2024, vous ne pouvez pas encore remonter le temps pour revivre cette époque glorieuse. En revanche, vous pouvez porter ce superbe T-shirt rétro original, conçu par le talentueux Christopher Kirk-Nielsen.
+
+  - key: tshirt.about
+    t: À propos du T-shirt
+
+  - key: tshirt.description
+    t: |
+      Nous utilisons un T-shirt ajusté de grande qualité, très doux et composé d'un mélange de trois fibres, imprimé par nos partenaires de Cotton Bureau.
+
+  - key: tshirt.getit
+    t: Le commander
+
+  - key: tshirt.price
+    t: 32 $ US + frais de port
+
+  - key: tshirt.designer.heading
+    t: À propos du créateur
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Originaire de France et désormais installé aux États-Unis, Chris est non seulement un développeur front-end remarquable, mais aussi un illustrateur talentueux spécialisé dans les visuels rétro. N'hésitez pas à découvrir ses [autres créations de T-shirts](https://chriskirknielsen.com/designs) !
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.html2024
+    t: |
+      Bienvenue dans les résultats de l'enquête State of HTML. Cette édition a réuni **5 402** participants du monde entier.
+
+  - key: sections.features.description.html2024
+    t: |
+      Fonctionnalités HTML et autres API de navigateur
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  # user_info
+
+  - key: user_info.country.takeaway.html2024
+    t: >
+      L'Allemagne a réalisé une belle performance cette année. Sans détrôner les États-Unis à la première place, elle a largement dépassé son poids démographique.
+
+  - key: user_info.locale.takeaway.html2024
+    t: >
+      Un grand merci à nos traducteurs bénévoles, qui rendent les enquêtes accessibles dans tant de langues !
+
+  - key: user_info.completion_stats.takeaway.html2024
+    t: >
+      Malgré la longueur de l'enquête, une très grande majorité des répondants a pris le temps de la remplir jusqu'au bout !
+
+  - key: user_info.age.takeaway.html2024
+    t: >
+      L'âge médian des répondants à State of HTML était de 35 ans, proche des 34 ans de State of CSS et nettement supérieur aux 31 ans de State of JS.
+
+  - key: user_info.years_of_experience.takeaway.html2024
+    t: >
+      L'écart entre les enquêtes se retrouve dans l'expérience en développement web : 12 ans en moyenne ici, contre 9 ans pour les répondants à State of JS.
+
+  - key: user_info.company_size.takeaway.html2024
+    t: >
+      Plus l'entreprise est grande, plus le salaire est élevé. Cela dit, nos données montrent qu'avec les bonnes compétences, il est possible de bien gagner sa vie quelle que soit la taille de l'entreprise.
+
+  - key: user_info.yearly_salary.takeaway.html2024
+    t: >
+      On entend souvent parler des salaires à six chiffres de la Silicon Valley, mais la plupart des développeurs front-end dans le monde gagnent bien moins, comme le montre la comparaison directe entre les États-Unis et le reste du monde.
+
+  - key: user_info.higher_education_degree.takeaway.html2024
+    t: >
+      Un diplôme est associé à un salaire plus élevé, mais il n'a pas nécessairement besoin d'être lié à la programmation. C'est une bonne nouvelle pour celles et ceux qui ont découvert leur passion pour le développement web plus tard dans leur parcours.
+
+  - key: user_info.gender.takeaway.html2024
+    t: >
+      Contrairement aux enquêtes précédentes, nous n'avons pas observé cette fois de différence de revenus significative selon le genre.
+
+      Cela dit, ce résultat isolé ne signifie pas que nous devions ignorer les difficultés rencontrées par les femmes dans notre secteur.
+
+  - key: user_info.race_ethnicity.takeaway.html2024
+    t: >
+      Les répondants non blancs étaient plus souvent jeunes et moins expérimentés, ce qui témoigne peut-être d'une diversification progressive du secteur.
+
+  - key: user_info.disability_status.takeaway.html2024
+    t: >
+      Grâce aux efforts continus des défenseurs de l'accessibilité, il est désormais admis que les handicaps, permanents ou non, doivent être pris en compte lors de la conception et du développement.
+
+  - key: user_info.source.takeaway.html2024
+    t: >
+      La majorité des répondants connaissait l'enquête grâce aux éditions précédentes, mais beaucoup l'ont également découverte via une bannière sur les [résultats de State of CSS 2024](https://2024.stateofcss.com/).
+
+      Pour la première fois, Mastodon a aussi dépassé X comme source de trafic, peut-être parce que ce dernier pénalise désormais les tweets contenant des liens externes.
+
+  # features
+
+  - key: features.all_features
+    t: Fonctionnalités
+
+  - key: features.all_features.takeaway.html2024
+    t: >
+      Sans surprise, les éléments de repère (`<main>`, `<nav>`, etc.) sont les plus utilisés, tandis que les applications web isolées sont les moins utilisées.
+
+      `<datalist>` a recueilli la plus forte proportion d'avis positifs (47 %), tandis que `<model>` arrive en tête des avis négatifs avec 9 %.
+
+  - key: features.reading_list.takeaway.html2024
+    t: >
+      La liste de lecture permet d'enregistrer les sujets à approfondir après l'enquête. La fonctionnalité la plus ajoutée est le nouveau Select personnalisable.
+
+  # forms
+
+  - key: features.forms_features.takeaway.html2024
+    t: >
+      Les formulaires étant l'un des principaux moyens d'interagir avec le web, il n'est pas surprenant qu'ils posent certaines difficultés.
+
+      Le Select personnalisable mérite d'être suivi : tout nouveau, il fait partie des fonctionnalités de formulaire les moins utilisées, mais arrive deuxième pour les avis positifs.
+
+  - key: features.forms_pain_points.takeaway.html2024
+    t: >
+      Le style des champs de formulaire reste la principale difficulté des développeurs, en particulier pour les éléments `<select>`.
+
+      Toujours au sujet de `<select>`, l'absence de comportement de zone de liste modifiable (recherche, remplissage automatique, etc.) se fait aussi fortement sentir, car elle oblige souvent les applications à recourir à des contournements en JavaScript.
+
+  # interactivity
+
+  - key: features.interactivity_features.takeaway.html2024
+    t: >
+      Malgré une faible utilisation et un statut Baseline « Disponibilité limitée », la nouvelle API Popover arrive en tête des avis positifs, ce qui se comprend au vu de son utilité.
+
+  - key: features.interactivity_pain_points.takeaway.html2024
+    t: >
+      Le style des champs de formulaire reste la principale difficulté des développeurs, en particulier pour les éléments `<select>`.
+
+      Toujours au sujet de `<select>`, l'absence de comportement de zone de liste modifiable (recherche, remplissage automatique, etc.) se fait aussi fortement sentir, car elle oblige souvent les applications à recourir à des contournements en JavaScript.
+
+  # content
+
+  - key: features.content_features.takeaway.html2024
+    t: >
+      Les attributs `srcset` et `sizes` ont recueilli 81 commentaires libres, dont 58 % exprimaient un avis négatif. Comme l'a résumé un répondant : « il faut rechercher la syntaxe chaque fois qu'on les utilise ».
+
+  - key: features.content_pain_points.takeaway.html2024
+    t: >
+      SVG, notamment leur stylisation avec CSS, et la gestion des images sont les deux principales difficultés liées au contenu.
+
+  # web_components
+
+  - key: features.web_components_features.takeaway.html2024
+    t: >
+      Les Web Components ont leurs adeptes, mais restent controversés. Ils recueillent en moyenne 7 % d'avis négatifs, contre 4 % pour l'ensemble des autres fonctionnalités.
+
+  - key: features.web_components_libraries.takeaway.html2024
+    t: >
+      Svelte n'est peut-être pas connu comme une bibliothèque de Web Components, mais il s'avère qu'il fonctionne très bien avec eux, contrairement à React, bien plus bas dans le classement.
+
+  - key: features.using_web_components_pain_points.takeaway.html2024
+    t: >
+      La difficulté à styliser et personnaliser les Web Components reste le principal obstacle à leur adoption. Leur intégration aux bibliothèques JavaScript front-end constitue un autre frein.
+
+  - key: features.making_web_components_pain_points.takeaway.html2024
+    t: >
+      Malgré son nom évocateur, le Shadow DOM continue de frustrer les créateurs de Web Components, qui jugent souvent l'ensemble du processus excessivement complexe.
+
+  # accessibility
+
+  - key: features.accessibility_features.takeaway.html2024
+    t: >
+      Les fonctionnalités d'accessibilité évoquées dans l'enquête de cette année se sont révélées assez simples à utiliser, d'où une très faible proportion d'avis négatifs.
+
+  - key: features.accessibility_disabilities.takeaway.html2024
+    t: >
+      Il est encourageant de constater que les développeurs prennent en compte de nombreux handicaps lors de la création de sites web, les déficiences visuelles arrivant en tête.
+    aliases:
+      - accessibility.accessibility_disabilities.takeaway.html2024
+
+  - key: features.accessibility_techniques.takeaway.html2024
+    t: >
+      Il est réjouissant de voir que les textes alternatifs sont largement utilisés. À défaut, ce graphique constitue une liste pratique de pratiques d'accessibilité à intégrer à vos projets.
+    aliases:
+      - accessibility.accessibility_techniques.takeaway.html2024
+
+  - key: features.accessibility_screenreaders.takeaway.html2024
+    t: >
+      Il n'est pas surprenant que les développeurs utilisent plus volontiers les lecteurs d'écran lorsqu'ils sont intégrés à leur navigateur ou à leur système d'exploitation.
+    aliases:
+      - accessibility.accessibility_screenreaders.takeaway.html2024
+
+  - key: features.accessibility_tools.takeaway.html2024
+    t: >
+      Lighthouse et les outils de développement des navigateurs arrivent en tête, devant des outils plus spécialisés comme Axe ou WAVE.
+    aliases:
+      - accessibility.accessibility_tools.takeaway.html2024
+
+  - key: features.accessibility_pain_points.takeaway.html2024
+    t: >
+      Accessibility presents a unique challenge in that developers must not only overcome technical issues such as testing difficulties, but also organizational obstacles such as low prioritization or lack of client demand.
+    aliases:
+      - accessibility.accessibility_pain_points.takeaway.html2024
+
+  # mobile_web_apps_features
+
+  - key: features.mobile_web_apps_features.takeaway.html2024
+    t: >
+      L'utilisation des fonctionnalités d'applications web mobiles et de bureau reste globalement faible : seuls 6 % des répondants les ont utilisées, contre 30 % pour les autres fonctionnalités réunies.
+
+  - key: features.native_apps_tools.takeaway.html2024
+    t: >
+      Malgré les difficultés et limites liées à la création d'applications natives avec des technologies web, cette méthode reste la plus populaire parmi les répondants.
+    aliases:
+      - mobile_web_apps.native_apps_tools.takeaway.html2024
+
+  - key: features.mobile_web_apps_pain_points.takeaway.html2024
+    t: >
+      La part de marché dominante d'iOS et son écosystème fermé laissent peu de solutions lorsque des problèmes liés à la plateforme web surviennent.
+
+  # other_tools
+
+  - key: other_tools.site_generators.takeaway.html2024
+    t: >
+      Next.js n'est pas un générateur de sites statiques traditionnel, mais la prise en charge de méthodes de rendu plus dynamiques, en plus du rendu à la compilation, en fait un choix très polyvalent. Astro offre des possibilités similaires.
+
+  - key: other_tools.validation_tools.takeaway.html2024
+    t: >
+      Les outils de validation sont peut-être moins populaires qu'autrefois, mais ils restent indispensables dans la boîte à outils des développeurs web.
+
+  - key: other_tools.performance_tools.takeaway.html2024
+    t: >
+      Comme pour les outils d'accessibilité, Lighthouse et les outils de développement des navigateurs dominent le classement, preuve que les outils polyvalents sont souvent plus populaires que leurs équivalents spécialisés.
+
+  - key: other_tools.analytics_tools.takeaway.html2024
+    t: >
+      Google Analytics domine peut-être encore, mais des solutions plus respectueuses de la vie privée, comme Plausible ou Fathom, gagnent du terrain.
+
+  - key: other_tools.browsers.takeaway.html2024
+    t: >
+      Au-delà des quatre principaux navigateurs, l'offre est étonnamment variée, avec de nouveaux venus comme Arc, Brave et Zen, ainsi que des options pensées pour les développeurs comme Polypane.
+
+  - key: other_tools.web_platform_resources.takeaway.html2024
+    t: >
+      MDN et Can I Use se sont imposés comme des ressources essentielles pour la communauté du développement web. Gardez aussi un œil sur les travaux du groupe WebDX autour des [Web Features](https://web-platform-dx.github.io/web-features-explorer/), une initiative prometteuse.
+
+  # usage
+
+  - key: usage.html_interoperability_features.takeaway.html2024
+    t: >
+      Peu de choses sont plus frustrantes que de savoir qu'une nouvelle API de navigateur résoudrait parfaitement un problème, sans pouvoir l'utiliser faute d'une prise en charge suffisante.
+
+
+      Heureusement, grâce à des initiatives comme [Interop](https://web.dev/blog/interop-2024), on peut espérer que l'API Popover et le positionnement par ancre rejoignent bientôt les fonctionnalités que tout le monde utilise naturellement.
+
+  - key: usage.html_functionality_features.takeaway.html2024
+    t: >
+      Une prise en charge insuffisante par les navigateurs est évidemment problématique, mais même les fonctionnalités bien prises en charge peuvent être peu utilisées si elles sont difficiles à adapter aux besoins des développeurs ou simplement à maîtriser.
+
+  - key: usage.html_missing_elements.takeaway.html2024
+    t: >
+      Il peut sembler étonnant que des composants d'interface omniprésents, comme les onglets ou les tableaux de données, ne disposent toujours pas d'un élément HTML natif correspondant.
+
+
+      Mais gérer correctement ces comportements complexes et tous leurs cas particuliers prend du temps. Pour l'instant, il ne reste qu'à espérer que ces éléments finiront un jour par arriver dans les navigateurs.
+
+  - key: usage.html_css_js_balance.takeaway.html2024
+    t: >
+      Nous consacrons toujours bien plus de temps à écrire du JavaScript (ou du TypeScript) qu'autre chose. Ce n'est pas un problème en soi, mais les progrès continus de la plateforme web pourraient rééquilibrer un peu les choses prochainement.
+
+  - key: usage.what_do_you_use_html_for.takeaway.html2024
+    t: >
+      Les cas d'usage « classiques », comme les blogs ou les pages d'accueil, représentent encore une part importante du travail des développeurs web, mais les applications web en constituent désormais la plus grande partie. Cela explique l'adaptation de la plateforme web à cette nouvelle réalité.
+
+  - key: usage.industry_sector.takeaway.html2024
+    t: >
+      La programmation et les outils techniques arrivent en tête, ce qui est logique pour une enquête destinée aux développeurs.
+
+
+      Le commerce en ligne arrive en troisième position. Ce secteur doit relever le double défi de créer des sites très performants et de proposer des interactions utilisateur complexes.
+
+  # opinions
+
+  - key: opinions.accessibility_is_valued.takeaway.html2024
+    t: >
+      Il est réjouissant de voir que l'accessibilité est valorisée au travail, du moins parmi les répondants à l'enquête.
+
+
+      Même si un biais d'auto-sélection est probablement à l'œuvre, les efforts des défenseurs de l'accessibilité ont également contribué à cette évolution.
+
+  - key: opinions.keeping_informed_is_challenging.takeaway.html2024
+    t: >
+      Les nouvelles fonctionnalités sont utiles, encore faut-il savoir qu'elles existent et comment les utiliser.
+
+
+      Comme le montrent les données, la majorité des répondants rencontre ce défi au quotidien.
+
+  - key: opinions.browser_interoperability_is_obstacle.takeaway.html2024
+    t: >
+      L'interopérabilité des navigateurs a longtemps été une difficulté majeure du développement web, mais la situation semble enfin s'améliorer. Il sera intéressant de voir comment ce graphique évoluera.
+
+  - key: opinions.web_platform_right_direction.takeaway.html2024
+    t: >
+      Il y a des raisons d'espérer pour la plateforme web, et les données de cette année reflètent cet optimisme.
+
+  ###########################################################################
+  # Other Content
+  ###########################################################################
+
+  - key: features.all_features.description
+    t: |
+      Ce graphique récapitule toutes les questions de l'enquête sur les fonctionnalités. Les barres principales représentent l'expérience des répondants, puis sont subdivisées selon leur opinion. Vous pouvez modifier le regroupement pour passer d'une vue à l'autre.
+
+
+      Vous trouverez également une ventilation plus détaillée de ces données dans chaque sous-section consacrée aux fonctionnalités.
+
+  - key: features.forms_features
+    t: Expérience et avis sur les formulaires
+
+  - key: features.interactivity_features
+    t: Expérience et avis sur l'interactivité
+
+  - key: features.content_features
+    t: Expérience et avis sur le contenu
+
+  - key: features.web_components_features
+    t: Expérience et avis sur les Web Components
+    aliases:
+      - web_components_main_features
+
+  - key: features.accessibility_features
+    t: Expérience et avis sur l'accessibilité
+
+  - key: features.mobile_web_apps_features
+    t: Expérience et avis sur les applications web natives
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Développez vos compétences grâce à des cours approfondis et modernes en ingénierie front-end.
+  - key: sponsors.google_chrome.description
+    t: Merci à l'équipe Google Chrome de soutenir notre travail.
+  - key: sponsors.tokyodev.description
+    t: Trouvez dès aujourd'hui le poste de développeur de vos rêves au Japon.
+  - key: sponsors.renderatl.description
+    t: La conférence tech consacrée à tout ce qui touche au web.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.html2024.patrick_brosset.bio
+    t: Chef de produit dans l'équipe Edge chez Microsoft
+  - key: conclusion.html2024.patrick_brosset
+    t: >
+      Nous avons tendance à tenir HTML pour acquis et à le considérer comme presque achevé. Pourtant, ses éléments et fonctionnalités de navigateur ont énormément évolué au fil des ans et continuent de le faire. Les architectures privilégiant HTML gagnent du terrain, et nous disposons désormais des capacités nécessaires pour les construire correctement. Le moment n'a jamais été aussi propice pour être développeur HTML.
+
+      Il reste toutefois beaucoup à faire. De nouveaux problèmes apparaissent sans cesse et la plateforme doit répondre à de nouveaux besoins.
+
+      ### Ajouter de nouvelles fonctionnalités…
+
+      De nouveaux éléments HTML, comme les tableaux de données, les onglets ou les interrupteurs, sont vivement souhaités. Il faut toutefois trouver le juste équilibre entre des composants complexes qui font tout et des primitives plus simples, mais robustes et faciles à styliser, sur lesquelles construire.
+
+      ### …tout en améliorant ceux qui existent déjà
+
+      Il est également important de continuer à améliorer l'existant. Des fonctionnalités comme `<select>`, les champs de date et d'heure `<input>` ou `<details>` ne sont pas toujours assez faciles à styliser et à personnaliser, tandis que d'autres, comme CSP ou le Shadow DOM, sont trop complexes à utiliser.
+
+      L'accessibilité est désormais mieux reconnue comme une responsabilité des développeurs et des organisations, mais elle reste difficile à tester et complexe à améliorer.
+
+      ### Compatibilité des navigateurs
+
+      À cela s'ajoute la compatibilité et l'interopérabilité des fonctionnalités HTML, qui restent un obstacle majeur pour les développeurs web. La prise en charge d'anciennes versions de navigateurs est pénible. Cette année, les résultats montrent que le problème concerne particulièrement les nouvelles fonctionnalités comme Popover, le positionnement par ancre et les transitions de vue multipage, mais aussi `<dialog>` et les PWA. Ces fonctionnalités sont adoptées et les développeurs ont besoin qu'elles fonctionnent partout.
+
+      ### Le défi de rester à jour
+
+      Oui, il reste du travail, mais les choses _avancent_. Elles avancent même si vite qu'il peut être difficile de rester informé. Des ressources comme MDN, Caniuse.com, Web.dev ou le site du W3C sont d'une aide précieuse, mais il y a encore de la place pour davantage d'outils permettant de suivre le rythme.
+
+      D'un autre côté, parler trop tôt de nouvelles fonctionnalités peut frustrer les développeurs qui ne peuvent pas encore les utiliser. Il est donc important de maintenir des données de qualité sur la plateforme, comme [browser-compat-data](https://github.com/mdn/browser-compat-data/) et [web-features](https://github.com/web-platform-dx/web-features/), qui permettent de présenter les fonctionnalités de manière plus utile aux développeurs.
+
+      ### Un avenir prometteur pour HTML
+
+      Pour conclure, il est réconfortant de constater que la plupart des répondants estiment que l'interopérabilité pose aujourd'hui beaucoup moins de problèmes qu'auparavant, avec des progrès nets ces dernières années. Grâce aux nouvelles capacités disponibles, il devient de plus en plus facile de créer des interfaces privilégiant HTML, performantes, accessibles et interactives. On peut ainsi limiter JavaScript aux cas où il est vraiment nécessaire et laisser les serveurs web et les navigateurs communiquer comme prévu : avec HTML !
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: faq.how_long_will_survey_take_html2024
+    t: Combien de temps faut-il pour répondre à l'enquête ?
+  - key: faq.how_long_will_survey_take_html2024.description
+    t: >
+      Selon le nombre de questions auxquelles vous répondez (elles peuvent toutes être ignorées),
+      remplir l'enquête devrait prendre environ 10 à 15 minutes.
+
+  - key: faq.learn_more_html2024
+    t: Où puis-je en savoir plus ?
+  - key: faq.learn_more_html2024.description
+    t: Vous trouverez plus d'informations sur cette enquête dans [notre article d'annonce](https://dev.to/sachagreif/the-state-of-html-2024-survey-is-now-open-3i4j).
+
+  - key: faq.survey_design_html2024
+    t: Comment cette enquête a-t-elle été conçue ?
+  - key: faq.survey_design_html2024.description
+    t: >
+      Cette enquête a été conçue à l'issue d'un [processus de conception ouvert](https://github.com/Devographics/surveys/issues/246), auquel ont participé des éditeurs de navigateurs et la communauté du développement web.
+
+  - key: faq.results_released_html2024
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released_html2024.description
+    t: L'enquête se déroulera du 12 septembre au 1er octobre 2024 et ses résultats seront publiés peu après.
+
+  - key: faq.who_should_take_survey_html2024
+    t: Qui peut répondre à cette enquête ?
+  - key: faq.who_should_take_survey_html2024.description
+    t: >
+      Cette enquête est ouverte à toute personne qui crée des sites ou applications web, régulièrement ou occasionnellement, dans le cadre de son travail, de ses études ou simplement pour le plaisir !
+
+  - key: faq.data_used_html2024
+    t: Comment ces données seront-elles utilisées ?
+  - key: faq.data_used_html2024.description
+    t: >
+      Toutes les données recueillies seront publiées librement afin que les développeurs et les entreprises puissent les consulter.
+      Les éditeurs de navigateurs [utilisent également ces données](https://web.dev/blog/interop-2024) pour définir leurs priorités et orienter leurs feuilles de route.
+
+  - key: faq.survey_goals_html2024
+    t: Quels sont les objectifs de l'enquête ?
+  - key: faq.survey_goals_html2024.description
+    t: >
+      L'enquête vise à mesurer la connaissance des nouvelles fonctionnalités HTML et API de navigateur, et à aider les développeurs à suivre l'évolution de leur utilisation.
+
+  - key: about.content.html2024
+    t: |
+      L'enquête State of HTML 2024 s'est déroulée du 12 septembre au 5 novembre 2024 et a recueilli 5 402 réponses.
+
+      L'enquête a été conçue de manière collaborative dans le cadre d'[une discussion publique sur GitHub](https://github.com/Devographics/surveys/issues/246) et des réunions du [WebDX Community Group](https://www.w3.org/groups/cg/webdx/).
+
+      L'infrastructure de l'enquête est gérée par [Sacha Greif](https://sachagreif.com/) et [Eric Burel](https://www.lbke.fr/), avec l'aide de contributeurs open source et de consultants.
+
+      Le logo et le T-shirt de cette année ont été conçus par [Christopher Kirk-Nielsen](http://chriskirknielsen.com/).
+
+      ### Objectifs de l'enquête
+
+      Cette enquête vise à identifier les tendances émergentes de l'écosystème du développement web afin d'aider les développeurs à faire leurs choix technologiques.
+
+      Elle cherche donc à anticiper les évolutions des prochaines années plutôt qu'à analyser les tendances actuelles ; c'est pourquoi les fonctionnalités ou technologies les plus répandues ne sont pas toujours incluses.
+
+      Elle doit également être considérée comme un **instantané d'un sous-ensemble précis de développeurs** et ne prétend pas représenter l'ensemble de l'écosystème.
+
+      L'enquête était librement accessible en ligne, sans filtrage ni sélection des répondants.
+
+      ### Financement du projet
+
+      Le projet est financé par plusieurs sources :
+
+      - **Ventes de T-shirts**.
+
+      - **Liens sponsorisés** : les liens vers les ressources recommandées au bas de chaque page sont fournis par notre partenaire [Frontend Masters](https://frontendmasters.com/).
+
+      - **Autres financements** : [Google](https://www.google.com/) et [TokyoDev](https://www.tokyodev.com/) ont également financé l'enquête.
+
+      ### Aperçu technique
+
+      Vous trouverez [ici](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) un aperçu technique plus détaillé du fonctionnement des enquêtes.

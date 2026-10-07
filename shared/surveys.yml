@@ -1,0 +1,384 @@
+locale: fr-FR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.title
+    t: Sondages Devographics
+  - key: general.description
+    t: Les sondages State of JavaScript, State of CSS, State of HTML et autres sondages destinés aux développeurs.
+
+  - key: general.no_preview_surveys
+    t: Aucun sondage à prévisualiser
+  - key: general.global_nav
+    t: Général
+  - key: general.survey_status_preview
+    t: Aperçu
+  - key: general.survey_status_open
+    t: Ouvert
+  - key: general.survey_status_closed
+    t: Fermé
+  - key: general.survey_status_hidden
+    t: Masqué
+
+  - key: general.pick_up_to
+    t: Sélectionnez jusqu'à {limit} éléments.
+
+  - key: general.privacy_policy
+    t: Politique de confidentialité
+  - key: general.privacy_policy.description
+    t: >
+      ### 1. Collecte des données
+
+      En plus des données recueillies par les questions du sondage, nous collectons des informations sur votre appareil, votre navigateur, votre système d'exploitation, la version de votre navigateur et le site référent.
+
+      Toutes les questions sont entièrement facultatives et nous ne lions jamais d'informations identifiantes, comme les adresses email, à vos réponses au sondage.
+
+      ### 2. Collecte des emails
+
+      Nous pouvons éventuellement collecter votre email pour :
+
+
+      1. Générer un lien magique de connexion, après quoi nous supprimons votre email et conservons uniquement un hash à sens unique dans notre base utilisateurs.
+
+      2. Vous contacter lorsque les résultats du sondage sont disponibles, lors du lancement de futures éditions et pour des annonces occasionnelles. Vous pouvez vous désabonner de notre liste à tout moment et votre email est supprimé de nos archives après son envoi à notre prestataire de newsletter.
+
+      3. Vous envoyer une liste récapitulative des fonctionnalités ou outils que vous souhaitez découvrir. Nous supprimons votre adresse après l'envoi de l'email par notre prestataire d'emails transactionnels.
+
+
+      Lorsque nous collectons votre adresse email à ces fins, elle n'est jamais liée à vos réponses ou à votre compte utilisateur et n'est jamais stockée sur nos propres serveurs ou bases de données.
+
+      ### 3. Cookies
+
+      Nous installons un cookie de connexion et notre hébergeur (Vercel) peut également installer son propre cookie. Nous n'installons aucun autre cookie et n'utilisons ni outil d'analyse côté client ni publicité.
+
+      ### 4. Utilisation des données
+
+      Nous traitons les données puis les utilisons pour publier des rapports. Nous mettons également l'intégralité du jeu de données à disposition du public.
+
+      ### 5. Suppression des données et du compte
+
+      Vous pouvez nous écrire à [hello@stateofjs.com](mailto:hello@stateofjs.com) si vous souhaitez que nous supprimions tout ou partie de vos données.
+
+  ###########################################################################
+  # Other UI Strings
+  ###########################################################################
+
+  - key: textlist.placeholder
+    t: Élément {index}…
+
+  - key: feature.unimplemented
+    t: Aucune implémentation navigateur pour le moment
+
+  - key: general.skip_question
+    t: Ignorer
+
+  - key: general.unskip_question
+    t: Répondre à la question
+
+  - key: general.skip_question.description
+    t: Ignorer la question et la marquer comme terminée
+
+  - key: general.unskip_question.description
+    t: Ne plus ignorer la question et y répondre
+
+  - key: years.less_than_one_year
+    t: Moins d'un an
+
+  - key: years.years
+    t: ans
+
+  - key: likert.happiness.option.0
+    t: Très mécontent
+  - key: likert.happiness.option.1
+    t: Mécontent
+  - key: likert.happiness.option.2
+    t: Neutral
+  - key: likert.happiness.option.3
+    t: Content
+  - key: likert.happiness.option.4
+    t: Très content
+
+  - key: likert.agreement.option.0
+    t: Pas du tout d'accord
+    aliases:
+      - likert.option.0
+  - key: likert.agreement.option.1
+    t: Pas d'accord
+    aliases:
+      - likert.option.1
+  - key: likert.agreement.option.2
+    t: Neutral
+    aliases:
+      - likert.option.2
+  - key: likert.agreement.option.3
+    t: D'accord
+    aliases:
+      - likert.option.3
+  - key: likert.agreement.option.4
+    t: Tout à fait d'accord
+    aliases:
+      - likert.option.4
+
+  - key: general.numeric_input.invalid_input
+    t: Veuillez saisir un nombre valide.
+
+  - key: general.numeric_input.unit.years
+    t: years
+  - key: general.numeric_input.unit.years_old
+    t: ans
+  - key: general.numeric_input.unit.hours
+    t: heures
+
+  - key: general.check_all
+    t: >
+      Sélectionnez toutes les réponses pertinentes.
+
+  ###########################################################################
+  # Errors & Messages
+  ###########################################################################
+
+  - key: error.duplicate_response
+    t: Désolé, vous avez déjà une session en cours pour ce sondage.
+
+  - key: error.report_issue
+    t: Signaler un problème
+
+  - key: success.data_saved
+    t: Données enregistrées
+  - key: success.data_saved.description
+    t: Vos données ont été enregistrées.
+
+  ###########################################################################
+  # Accounts
+  ###########################################################################
+
+  - key: accounts.create_account
+    t: Continuer avec un compte
+  - key: accounts.create_account.description
+    t: Un compte vous permet d'**accéder à vos propres données ultérieurement**.
+  - key: accounts.create_account.note
+    t: Si vous avez **déjà un compte**, nous vous enverrons un lien magique de connexion par email.
+  - key: accounts.create_account.action
+    t: Continuer avec un compte
+  - key: accounts.your_email
+    t: Votre email
+
+  - key: accounts.upgrade_account.action
+    t: Mettre à niveau votre compte
+  - key: accounts.upgrade_account.description
+    t: Associer une adresse email à votre compte vous permettra d'accéder à vos réponses après la fin de votre session.
+
+  - key: accounts.continue_as_guest
+    t: Continuer en tant qu'invité
+  - key: accounts.continue_as_guest.description
+    t: Répondre anonymement signifie que vous **ne pourrez plus accéder à vos données** après la fin de votre session.
+  - key: accounts.continue_as_guest.action
+    t: Continuer en tant qu'invité
+
+  - key: accounts.magic_link.no_email
+    t: Veuillez saisir votre email
+  - key: accounts.magic_link.success
+    t: "Consultez votre boîte de réception ! Nous vous avons envoyé un lien magique : cliquez dessus pour confirmer votre compte et vous connecter."
+    # Open known mail provider directly in browser with the right search params
+  - key: accounts.magic_link.browser
+    t: <a href="{link}">Cliquez pour ouvrir votre boîte de réception.</a>
+
+  ###########################################################################
+  # FAQ
+  ###########################################################################
+
+  - key: general.faq
+    t: FAQ
+  - key: faq.create_account
+    t: Pourquoi dois-je créer un compte ?
+  - key: faq.create_account.description
+    t: Nous vous demandons de créer un compte afin d'éviter les réponses en double, de sauvegarder vos données et de vous prévenir lorsque les résultats sont publiés.
+  - key: faq.anonymous_survey
+    t: Puis-je répondre anonymement au sondage ?
+  - key: faq.anonymous_survey.description
+    t: Oui, vous pouvez utiliser une adresse fictive (something@example.com) ou non identifiante, à condition de la conserver pour accéder à vos réponses ultérieurement.
+  - key: faq.questions_required
+    t: Dois-je répondre à toutes les questions ?
+  - key: faq.questions_required.description
+    t: Non, toutes les questions sont facultatives et peuvent être ignorées librement.
+  - key: faq.data_published
+    t: Mes données seront-elles rendues publiques ?
+  - key: faq.data_published.description
+    t: Oui, toutes les données seront publiées, mais uniquement après suppression de toute information identifiante (emails, noms d'utilisateur, identifiants, etc.).
+  - key: faq.survey_design
+    t: Comment les sondages sont-ils conçus ?
+  - key: faq.survey_design.description
+    t: Les sondages sont conçus à partir des retours de la communauté et relus par des experts. Vous pouvez [en apprendre davantage ici](https://dev.to/sachagreif/how-the-state-of-js-css-surveys-are-run-4lnb).
+  - key: faq.results_released
+    t: Quand les résultats seront-ils publiés ?
+  - key: faq.results_released.description
+    t: Les résultats sont généralement publiés quelques semaines après la clôture du sondage.
+  - key: faq.survey_deadline
+    t: Quand le sondage prendra-t-il fin ?
+  - key: faq.survey_deadline.description
+    t: Ce sondage est prévu jusqu'au {date}
+  - key: faq.team
+    t: Qui organise ce sondage ?
+  - key: faq.team.description
+    t: Ce sondage est organisé par [Devographics](http://devographics.com), avec l'aide d'un collectif de contributeurs, traducteurs et bénévoles.
+
+  ###########################################################################
+  # Form Controls
+  ###########################################################################
+
+  - key: bracket.vs
+    t: VS
+  - key: bracket.start_over
+    t: Recommencer
+  - key: bracket.winner
+    t: >
+      Gagnant :
+  - key: bracket.round
+    t: Manche
+  - key: bracket.empty_bracket
+    t: Résultat en attente (terminez d'abord la manche précédente)
+  - key: bracket.result
+    t: Résultat
+  - key: bracket.cancel
+    t: Annuler
+
+  - key: experience.leave_comment
+    t: Laisser un commentaire (facultatif)
+  - key: experience.leave_comment_short
+    t: Laisser un commentaire
+  - key: experience.tell_us_more
+    t: "Vous avez répondu « {response} ». Dites-nous en davantage sur votre choix :"
+  - key: experience.tell_us_more_generic
+    t: "Dites-nous en davantage sur votre réponse :"
+  - key: experience.tell_us_more_no_value
+    t: "Vous n'avez choisi aucune réponse. Dites-nous pourquoi :"
+
+  - key: user_info.gender.snowball_sampling
+    t: >
+      ### Aidez-nous à partager ce sondage avec davantage de femmes !
+
+
+      Nous souhaitons augmenter la participation des femmes au sondage. Une approche que nous expérimentons, appelée « [échantillonnage boule de neige](https://github.com/Devographics/surveys/issues/258) », consiste à demander aux répondantes comme vous de partager le lien de ce sondage avec d'autres femmes développeuses.
+
+
+      Si vous pouvez nous aider, voici un lien de partage spécial que vous pouvez utiliser afin que nous puissions mesurer le succès de cette initiative :
+
+  # survey finish page
+
+  - key: finish.copy
+    t: Copier
+  - key: finish.copied
+    t: Copié !
+
+  - key: finish.goal_heading
+    t: Merci d'avoir répondu au sondage ! Mais nous avons encore besoin de votre aide…
+
+  - key: finish.goal_heading.description
+    t: Cette année, nous aimerions obtenir au moins **{count} réponses au sondage** afin de rendre nos données encore plus représentatives et de faire émerger de nouvelles informations.
+
+  - key: finish.goal_currently
+    t: >
+      Actuellement :
+
+  - key: finish.goal_goal
+    t: >
+      Objectif :
+
+  - key: finish.goal_responses
+    t: réponses
+
+  - key: finish.share_colleagues
+    t: Partager avec vos amis et collègues
+
+  - key: finish.share_colleagues.description
+    t: Publiez-le sur Slack, Discord, Teams ou partout où se retrouvent vos amis développeurs.
+
+  - key: finish.share_social
+    t: Partager sur les réseaux sociaux
+
+  - key: finish.review_reading_list
+    t: Consulter votre liste de lecture
+
+  ###########################################################################
+  # Response
+  ###########################################################################
+
+  - key: response.completion
+    t: "{completion}% terminé"
+
+  - key: response.details
+    t: Commencé le {startedAt}, {completion}% terminé.
+
+  ###########################################################################
+  # Reading List
+  ###########################################################################
+
+  - key: readinglist.prompt
+    t: >
+      Vous avez choisi « {option} ». Si vous souhaitez en savoir plus sur cette fonctionnalité à la fin du sondage, cliquez sur l'icône « + » dans le coin supérieur pour l'ajouter à votre **liste de lecture**.
+
+  - key: readinglist.add_to_list
+    t: Ajouter à votre liste de lecture
+
+  - key: readinglist.remove_from_list
+    t: Retirer de la liste de lecture
+
+  - key: readinglist.added_to_list
+    t: « {label} » a été ajouté à votre liste de lecture.
+
+  - key: readinglist.title
+    t: Liste de lecture
+
+  - key: readinglist.description
+    t: >
+      Enregistrez ici des éléments avec le bouton « + » et vous obtiendrez à la fin du sondage une liste de liens pour en savoir plus.
+
+  - key: readinglist.description2
+    t: >
+      Les éléments qui vous intéressent sont enregistrés ici et vous obtiendrez à la fin du sondage une liste de liens pour en savoir plus.
+
+  - key: readinglist.empty
+    t: >
+      Votre liste de lecture est vide.
+      Retournez au sondage et ajoutez, avec le bouton « + », les fonctionnalités ou bibliothèques
+      que vous souhaitez découvrir.
+
+  - key: readinglist.autogenerated
+    t: >
+      Vous n'avez ajouté aucun élément à votre liste de lecture avec le bouton « + ». Voici donc une liste de ressources générée automatiquement à partir de vos réponses au sondage.
+
+  - key: readinglist.results
+    t: >
+      Voici quelques ressources pour en savoir plus sur les éléments de votre liste de lecture.
+
+  - key: readinglist.homepage_link
+    t: Accueil
+
+  - key: readinglist.receive_copy
+    t: >
+      Saisissez votre email pour recevoir une copie de votre liste de lecture directement dans votre boîte de réception :
+  - key: readinglist.send_by_email
+    t: Envoyer
+  - key: readinglist.email_sent
+    t: Merci ! Votre liste de lecture est en route vers votre boîte de réception.
+
+  ###########################################################################
+  # Score & Knowledge Ranks
+  ###########################################################################
+
+  - key: knowledge_rank.your_rank
+    t: "Votre rang :"
+  - key: knowledge_rank.rank1
+    t: Débutant
+  - key: knowledge_rank.rank2
+    t: Apprenti
+  - key: knowledge_rank.rank3
+    t: Intermédiaire
+  - key: knowledge_rank.rank4
+    t: Expert
+  - key: knowledge_rank.rank5
+    t: Érudit
+  - key: knowledge_rank.rank6
+    t: Élite
